@@ -1,4 +1,88 @@
-$(function () {
+const createYearGroupElem = year => {
+  const yearEl = document.createElement('div');
+  yearEl.classList.add('year-group');
+  yearEl.innerHTML = `<h2 class="timeline-year" data-year="${year}">${year}</h2><div class="events-list"></div>`;
+  return yearEl;
+};
+
+const createEventElem = event => {
+  const slug = event.slug || event.title?.toLowerCase().replace(/\W+/g, '-');
+  const tags = event.tags?.map(tag => {
+    const { text, url, isMse } = tag;
+    return `<a href="${url ?? '#'}" class="tag ${isMse ? 'meta-se-tag' : ''}" title="${url ?? ''}">${text}</a>`;
+  }).join('');
+  const buttons = event.links?.map(link => {
+    const { text, url } = link;
+    return `<a href="${url ?? '#'}" class="button event-button" title="${url ?? ''}">${text}</a>`;
+  }).join('');
+  const linkedEventLink = !event.linkedEvent ? '' :
+    `<a href="${event.linkedEvent}" class="linked-event" title="${event.linkedEvent}">linked event</a>`;
+  
+  const eventEl = document.createElement('div');
+  eventEl.classList.add('event', ...event.classes);
+  eventEl.id = slug;
+  eventEl.innerHTML = `
+<div class="event-tags less-important">
+  <div class="inline">${event.type}</div>
+</div>
+<div class="connector">
+  <div class="connector-dot">
+    <div class="featured-connector-dot"></div>
+  </div>
+  <div class="connector-dot dot-right">
+    <div class="featured-connector-dot"></div>
+  </div>
+  <div class="featured-connector"></div>
+</div>
+<div class="box">
+  <div class="featured-box"></div>
+  <div class="event-date">
+    <div class="date date-from">${event.date_str}</div>
+  </div>
+  <h4 class="event-name">${event.title}</h4>
+  <div class="event-summary">${event.summary ?? ''}</div>
+  <div class="event-description w-richtext">
+    ${event.body ?? ''}
+  </div>
+  <div class="event-tags">${tags}<div>
+  <a href="${event.linkedEvent}" class="button event-button" title="https:">farewell post</a>
+  ${buttons}
+  ${linkedEventLink}
+</div>`;
+  
+  return eventEl;
+};
+
+$(async function () {
+  
+  // Build timeline from json
+  let currentYear = 0, currentYearEventsElem;
+  const timelineEl = document.querySelector('#timeline > .events-container');
+  timelineEl.querySelectorAll('.year-group').forEach(v => v.remove());
+  
+  const { items } = await $.getJSON('./timeline_data.json');
+  items.forEach(event => {
+    
+    // Assumes items are already sorted by year
+    const year = event.date_str?.slice(0, 4);
+    if(!year) return;
+    
+    // New year
+    if (currentYear !== year) {
+      currentYear = year;
+      const currentYearElem = createYearGroupElem(year);
+      currentYearEventsElem = currentYearElem.querySelector('.events-list');
+      timelineEl.append(currentYearElem);
+    }
+    
+    // Create element html
+    const eventEl = createEventElem(event);
+    currentYearEventsElem.append(eventEl);
+  });
+  
+  // Move "beginning" to end
+  const beginning = [...timelineEl.querySelectorAll('.static-year')].pop();
+  timelineEl.append(beginning);
 
   // Helper: remove highlight
   const removeHighlight = function () {
@@ -96,7 +180,7 @@ $(function () {
   // Recalculate on page scroll
   const reversedYears = years.get().reverse();
   const sidenavLinks = sidenav.children('a');
-  scrollUpdateCurrentYear = function () {
+  const scrollUpdateCurrentYear = function () {
     const scrTop = $(document).scrollTop();
     const prev = reversedYears.filter(function (el, i) {
       return $(el).offset().top - 80 <= scrTop;
