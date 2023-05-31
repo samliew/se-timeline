@@ -1948,6 +1948,17 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf76f90346b3e36333_es.stackoverflow.png"
     },
     {
+      "classes": ["tag-staff", "tag-resignation"],
+      "slug": "marco-cecconi-resigns",
+      "type": "staff resignation",
+      "date_str": "2017-02-16",
+      "title": "Marco Cecconi resigns",
+      "summary": "Software Engineer",
+      "body": "<blockquote>I'm leaving Stack Overflow tomorrow, it's been an amazing fun ride! Onwards and upwards!<br>-- <a href=\"https://twitter.com/sklivvz/status/832236760583258112\" title=\"https://twitter.com/sklivvz/status/832236760583258112\">Marco</a></blockquote><p><a href=\"https://meta.stackexchange.com/q/291152\" title=\"https://meta.stackexchange.com/q/291152\">So long, Sklivvz</a></p><p><a href=\"https://twitter.com/sklivvz\" title=\"https://twitter.com/sklivvz\">Follow @sklivvz on Twitter</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
       "classes": ["featured-event", "tag-meta"],
       "slug": "time-to-take-a-stand",
       "type": "meta",
@@ -1955,17 +1966,6 @@
       "title": "Time to take a stand",
       "summary": "meta watershed moment",
       "body": "<p>after United States President Trump’s executive order on immigration, Joel Spolsky, CEO and co-founder, posted his thoughts on Meta Stack Overflow.</p><p><a href=\"https://meta.stackoverflow.com/q/342440\" title=\"https://meta.stackoverflow.com/q/342440\">Time to take a stand</a></p>",
-      "links": [],
-      "tags": []
-    },
-    {
-      "classes": ["tag-staff", "tag-resignation"],
-      "slug": "marco-cecconi-resigns",
-      "type": "staff resignation",
-      "date_str": "2018-11-18",
-      "title": "Marco Cecconi resigns",
-      "summary": "Software Engineer",
-      "body": "<blockquote>I'm leaving Stack Overflow tomorrow, it's been an amazing fun ride! Onwards and upwards!<br>-- <a href=\"https://twitter.com/sklivvz/status/832236760583258112\" title=\"https://twitter.com/sklivvz/status/832236760583258112\">Marco</a></blockquote><p><a href=\"https://meta.stackexchange.com/q/291152\" title=\"https://meta.stackexchange.com/q/291152\">So long, Sklivvz</a></p><p><a href=\"https://twitter.com/sklivvz\" title=\"https://twitter.com/sklivvz\">Follow @sklivvz on Twitter</a></p>",
       "links": [],
       "tags": []
     },
