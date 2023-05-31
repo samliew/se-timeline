@@ -1,0 +1,3375 @@
+{
+  "items": [
+    {
+      "classes": ["event-large", "tag-staff", "tag-resignation"],
+      "slug": "nick-craver-resigns",
+      "type": "staff resignation",
+      "date_str": "2021-08-16",
+      "title": "Nick Craver resigns",
+      "summary": "Architecture Lead, Developer, Site Reliability Engineer, DBA",
+      "body": "<blockquote>I am leaving for me, for the next part of my journey and learning and growth. Working with the best, most talented people I have ever known has been the greatest privilege of my life. I cannot possible thank all the friends there enough and will miss them immensely.<br><br>Knowing that the thing I helped build is in great hands from leadership down to every engineer is why I can step away without worry. Stack's in a very good place, and for engineers it's a great learning and growth opportunity. If you like helping people, scale, etc. ask me.<br><br>I wanted to say thank you all for so many kind words in so many forms today. My mission is helping people, and I was lucky enough to find early in my life that tech could allow me do that. Hearing that I have helped some of you means I have succeeded some and means the world <3<br>‍<br>-- <a href=\"https://twitter.com/Nick_Craver/status/1427323097380794371\" title=\"https://twitter.com/Nick_Craver/status/1427323097380794371\">Nick</a></blockquote><p><a href=\"https://twitter.com/Nick_Craver\" title=\"https://twitter.com/Nick_Craver\">Follow @Nick_Craver on Twitter</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-company"],
+      "slug": "prosus-acquires-stack-overflow",
+      "type": "company acquisition",
+      "date_str": "2021-06-02",
+      "title": "Prosus Acquires Stack Overflow",
+      "summary": "Prosus NV said it struck a $1.8 billion deal to acquire Stack Overflow",
+      "body": "<blockquote>Prosus N.V. (\"Prosus\"), a global consumer internet group and one of the largest technology investors in the world, announced today that it has entered into a definitive agreement to acquire Stack Overflow, a leading knowledge-sharing platform for the global community of developers and technologists, for approximately US$1.8 billion.<br>-- <a href=\"https://www.prosus.com/news/prosus-to-acquire-stack-overflow-for-us18-billion/\" title=\"https://www.prosus.com/news/prosus-to-acquire-stack-overflow-for-us18-billion/\">Prosus</a></blockquote><p>Also mentioned on:</p><ul role=\"list\"><li>‍<a href=\"https://www.joelonsoftware.com/2021/06/02/kinda-a-big-announcement/\" title=\"https://www.joelonsoftware.com/2021/06/02/kinda-a-big-announcement/\">Joel Spolsky's blog: Kinda a big announcement</a></li><li>‍<a href=\"https://www.wsj.com/articles/software-developer-community-stack-overflow-sold-to-tech-giant-prosus-for-1-8-billion-11622648400\" title=\"https://www.wsj.com/articles/software-developer-community-stack-overflow-sold-to-tech-giant-prosus-for-1-8-billion-11622648400\">WSJ: Stack Overflow Sold to Tech Giant Prosus for $1.8 Billion‍</a></li><li>‍<a href=\"https://techcrunch.com/2021/06/02/stack-overflow-acquired-by-prosus-for-a-reported-1-8-billion/\" title=\"https://techcrunch.com/2021/06/02/stack-overflow-acquired-by-prosus-for-a-reported-1-8-billion/\">Techcrunch: Stack Overflow acquired by Prosus for $1.8 billion</a></li></ul>",
+      "links": [
+        {
+          "text": "blog post",
+          "url": "https://stackoverflow.blog/2021/06/02/prosus-acquires-stack-overflow/"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-large", "tag-staff", "tag-resignation"],
+      "slug": "geoff-dalgas-resigns",
+      "type": "staff resignation",
+      "date_str": "2020-08-14",
+      "title": "Geoff Dalgas resigns",
+      "summary": "Developer",
+      "body": "<blockquote>The sun is setting on my last day at Stack Overflow after an amazing 12+ years. To say it was an honor would be an understatement. I feel blessed to be able to share a dream of building a thing with an amazing team that helps fellow developers. Thank you!<br>-- <a href=\"https://twitter.com/SuperDalgas/status/1294348068054335489\" title=\"https://twitter.com/SuperDalgas/status/1294348068054335489\">Geoff</a></blockquote><p><a href=\"https://twitter.com/SuperDalgas\" title=\"https://twitter.com/SuperDalgas\">Follow @SuperDalgas on Twitter</a><br></p>",
+      "links": [
+        {
+          "text": "farewell post",
+          "url": "https://meta.stackexchange.com/questions/353047/thank-you-geoff"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-staff", "tag-fired"],
+      "slug": "2020-stack-exchange-staff-layoffs",
+      "type": "staff fired",
+      "date_str": "2020-05-07",
+      "title": "2020 Stack Exchange staff layoffs",
+      "summary": "approximately 15% of its staff were laid-off",
+      "body": "<p><a href=\"https://stackoverflow.blog/2020/05/07/the-way-forward\" title=\"https://stackoverflow.blog/2020/05/07/the-way-forward\">A message from our CEO: The Way Forward</a></p><blockquote>This is a key moment in our company’s history, as the whole world is dealing with significant uncertainty. Know that you are not alone. We are facing this situation together. Our goal is to stay focused on living our core values and actively connect with teammates, our community, and our customers.</blockquote><ul role=\"list\"><li>reddit - <a href=\"https://www.reddit.com/r/programming/comments/gfndoq/stack_overflow_lays_off_15\" title=\"https://www.reddit.com/r/programming/comments/gfndoq/stack_overflow_lays_off_15\">Stack Overflow lays off 15%</a></li><li>ycombinator - <a href=\"https://news.ycombinator.com/item?id=23111523\" title=\"https://news.ycombinator.com/item?id=23111523\">Stack Overflow reduces global workforce by approximately 15%</a></li></ul>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/questions/347549/ceo-blog-the-way-forward"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-large", "tag-meta", "tag-moderators"],
+      "slug": "moderator-council-formed",
+      "type": "meta moderators",
+      "date_str": "2020-04-28",
+      "title": "Moderator Council formed",
+      "summary": "a group of 11 moderators was elected into the council from across the network",
+      "body": "<blockquote>Starting today we have convened the first iteration of the Moderator Council - and I’m both nervous and excited. This is a group of 11 moderators from around the network who will act as a pro-tem council over the next six months with the task of working to define the scope and structure of the council. I will be facilitating and supporting them and have done a lot of planning to get this moving quickly. As I and my team were working on this basic structure, we realized that, while we could create a framework, we needed to let the moderators themselves polish it so that it would meet their needs in addition to the needs of Stack Exchange, Inc.<br><br>This polishing is the first order of business for the Pro-tem Council. It includes everything from how council members are elected and how long they are in the role, to what to do if a member steps down out of cycle. There are many questions that need to be answered, like - should the council be one of equals or should there be leadership positions or designated seats for different positions?<br><br>-- Catija</blockquote><p><a href=\"https://meta.stackexchange.com/q/347104\" title=\"https://meta.stackexchange.com/q/347104\">Introducing the Moderator Council - and its first, Pro-tempore, representatives</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-reinstatement"],
+      "slug": "jon-clements-reinstated",
+      "type": "moderator reinstatement",
+      "date_str": "2020-04-09",
+      "title": "Jon Clements reinstated",
+      "summary": "moderator on Stack Overflow",
+      "body": "",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "henders-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-04-03",
+      "title": "Henders resigns",
+      "summary": "moderator on Pets",
+      "body": "<p><a href=\"https://pets.meta.stackexchange.com/q/2303\" title=\"https://pets.meta.stackexchange.com/q/2303\">Time to Say Goodbye - Henders</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-staff", "tag-resignation"],
+      "slug": "david-fullerton-resigns",
+      "type": "staff resignation",
+      "date_str": "2020-03-31",
+      "title": "David Fullerton resigns",
+      "summary": "Chief Technical Officer",
+      "body": "<blockquote>So this ended up being interesting timing, but after ten years at Stack Overflow I’ve decided it's finally time to move on. I'll be taking a few months off to take care of my family and then looking for something new.<br>-- <a href=\"https://twitter.com/df07/status/1244642433771671553\" title=\"https://twitter.com/df07/status/1244642433771671553\">David</a></blockquote>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-feature"],
+      "slug": "new-feature-dark-mode",
+      "type": "feature",
+      "date_str": "2020-03-31",
+      "title": "New feature: Dark Mode",
+      "summary": "launches in beta on Stack Overflow",
+      "body": "",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackoverflow.com/q/395949"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-company",
+        "tag-statement"
+      ],
+      "slug": "stack-exchange-commits-to-communicate-and-engage-with-meta-and-moderators",
+      "type": "company statement",
+      "date_str": "2020-03-04",
+      "title": "Stack Exchange commits to communicate and engage with Meta and moderators",
+      "summary": "",
+      "body": "<blockquote>We are working on establishing our commitment to responding on our Meta sites and to our moderators, by setting up a new Meta engagement policy. The goal is to increase staff participation on the various Meta sites, particularly Meta Stack Overflow and Meta Stack Exchange.<br><br>One major area we need to work on is being able to respond to and manage community feedback that needs staff response or action. This post defines a process for doing that. We also need to find out how many of your questions we can realistically respond to so that we can make a reasonable commitment (both internally and externally). Below is a timeline for testing and formulating these goals.<br><br>-- JNat</blockquote><p><a href=\"https://meta.stackexchange.com/q/344586\" title=\"https://meta.stackexchange.com/q/344586\">Our Commitment to Responding to Meta and Moderators</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "slug": "mark-henderson-resigns",
+      "type": "staff resignation",
+      "date_str": "2020-03-05",
+      "title": "Mark Henderson resigns",
+      "summary": "Site Reliability Engineer",
+      "body": "",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-official",
+        "tag-policy",
+        "tag-licensing",
+        "tag-licensinglicensing"
+      ],
+      "slug": "stack-exchange-changes-to-a-split-cc-license",
+      "type": "official policy licensing",
+      "date_str": "2020-03-04",
+      "title": "Stack Exchange changes to a split Creative Commons license",
+      "summary": "",
+      "body": "<blockquote>We’d like to provide you with an update to our transition to version 4.0 of the CC BY-SA license. We realize that this is something that you care deeply about, and that our response to your concerns is long overdue. We’d like to thank all of you for your patience while we worked on a plan forward that would address your concerns.<br><br>The change to CC BY-SA 4.0 occurred on 2018-05-02 (May 2, 2018) as part of our ToS update. It was updated as part of a process that was not led by the community team and there was an internal disconnect at the time of the release.<br><br>Our move forward plan is to switch to a licensing scheme where:<br>- Content contributed before 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 3.0<br>- Content contributed on or after 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 4.0<br><br>This will correct any inconsistencies with the prevailing and advertised licenses.</blockquote><p><a href=\"https://meta.stackexchange.com/q/344491\" title=\"https://meta.stackexchange.com/q/344491\">An Update On Creative Commons Licensing</a><br><br><a href=\"https://meta.stackexchange.com/q/347758\" title=\"https://meta.stackexchange.com/q/347758\">Creative Commons Licensing UI and Data Updates</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "licensing",
+          "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "licensing",
+          "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-company",
+        "tag-statement"
+      ],
+      "slug": "stack-exchange-renews-its-commitment-to-rebuilding-the-relationship-with-the-community",
+      "type": "company statement",
+      "date_str": "2020-02-19",
+      "title": "Stack Exchange renews its commitment to rebuilding the relationship with the community",
+      "summary": "After internal restructuring, Teresa Dietrich, Head of Product and Community releases a statement",
+      "body": "<blockquote>I want to personally apologize for our actions or inactions, as the case may be, in the past that had a negative impact on our relationship. While specific recent events may have individually caused harm, years of neglect and a growing distance from our community led to those events and it will take conscious effort to repair the damage.<br><br>I want to start by establishing transparency with the community, and I know that transparency is an easy word to say but harder to define and put into action. I believe that transparency comes down to two core actions: expectation management and context setting. We (the Community, Product and Engineering teams) will endeavor to clarify and reset when necessary what you can expect from the company. We will also provide as much context as we can for policy, decisions, and actions that we take within legal and regulatory constraints - we want you to understand why we’re making changes, not just that we’re making them.<br><br>-- Teresa Dietrich</blockquote><p><a href=\"https://meta.stackexchange.com/q/343890\" title=\"https://meta.stackexchange.com/q/343890\">The company’s commitment to rebuilding the relationship with you, our community</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "aaron-hall-meets-ceo",
+      "type": "moderator resignation",
+      "date_str": "2020-02-04",
+      "title": "Stack Overflow moderator Aaron Hall met with Stack Exchange CEO",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/393552\" title=\"https://meta.stackoverflow.com/q/393552\">An account of my meeting with the Stack Overflow management team</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "sam-i-am-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-31",
+      "title": "Sam I Am resigns",
+      "summary": "moderator on Politics",
+      "body": "<p><a href=\"https://politics.meta.stackexchange.com/q/4271\" title=\"https://politics.meta.stackexchange.com/q/4271\">I'm stepping down as a moderator of Politics.SE</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "tim-b-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-29",
+      "title": "Tim B resigns",
+      "summary": "moderator on Worldbuilding",
+      "body": "<p><a href=\"https://worldbuilding.meta.stackexchange.com/q/7731\" title=\"https://worldbuilding.meta.stackexchange.com/q/7731\">So long, and thanks for all the fish</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "james-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-28",
+      "title": "James resigns",
+      "summary": "moderator on Worldbuilding",
+      "body": "<p><a href=\"https://worldbuilding.meta.stackexchange.com/q/7729\" title=\"https://worldbuilding.meta.stackexchange.com/q/7729\">Love you Worldbuilding, but I am hanging up my diamond</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-meta"],
+      "slug": "monica-leaves-the-stack-exchange-network",
+      "type": "meta",
+      "date_str": "2020-01-27",
+      "title": "Monica leaves the Stack Exchange network",
+      "summary": "Monica was a moderator on Judaism, The Workplace, Worldbuilding, Writing, Beer Wine & Spirits, and Meta Stack Exchange",
+      "body": "<blockquote>As a dedicated user, I stayed in an abusive relationship for the sake of the kids. I told myself that it would be ok in the end, that it didn't hurt <em>that</em> much, that it was only a bruise.<br><br>Sometimes it takes a powerful blow to finally wake up. For me that blow came two weeks ago today.<br><br>On January 13, <a href=\"https://meta.stackexchange.com/q/342031\" title=\"https://meta.stackexchange.com/q/342031\">SE abruptly fired Shog9</a> and <a href=\"https://meta.stackexchange.com/q/342079\" title=\"https://meta.stackexchange.com/q/342079\">Robert Cartaino</a>. Shog9 and Robert, along with Jon Ericson who <a href=\"https://jlericson.com/2020/01/17/leaving_stack.html\" title=\"https://jlericson.com/2020/01/17/leaving_stack.html\">left a few days later</a>, were long-serving community managers who really <em>get</em> the communities. They were our champions. What we didn't know until recently is that they were being hobbled, forbidden to do what they do so well, forbidden to help us. They, too, were helpless, and Shog and Robert paid a dear price.<br><br>We can only expect the rate of damage to accelerate. As a long-time user, I remember what was and know what could have been. Today, our communities are being deeply harmed instead of being helped and supported. It's worse than just being abandoned; we are not allowed to govern ourselves and not allowed to be helped by the dwindling community team.<br><br>The company has chosen to go down a very different path from the one I thought we were on. I have lost any hope that this will change. I've passed through denial, hurt, anger, and bargaining, and have now arrived at tearful acceptance. I can't change this. It's painful to keep trying. I give up.<br><br>I dearly love my communities here, but, sadly, I can't bear to stay on Stack Exchange any longer.</blockquote><p><a href=\"https://judaism.meta.stackexchange.com/q/5277\" title=\"https://judaism.meta.stackexchange.com/q/5277\">In sadness, it is time for me to go</a></p><p><em>previously:</em> <a href=\"/#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites\" title=\"https://stackexchange-timeline.webflow.io/#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites\" class=\"\">Monica Cellio unceremoniously fired as moderator from six network sites</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-staff", "tag-resignation"],
+      "slug": "dan-oboyle-resigns",
+      "type": "staff resignation",
+      "date_str": "2020-01-25",
+      "title": "Dan O'Boyle resigns",
+      "summary": "Internal Support Engineer",
+      "body": "<blockquote>Today was my last day at Stack Overflow.  I am so humbled that @spolsky took a chance on me nearly 6 years ago, and greatfull for the opportunity to work with so many smart people.<br>-- <a href=\"https://twitter.com/selfcommit/status/1220926558472409091\" title=\"https://twitter.com/selfcommit/status/1220926558472409091\">Dan</a></blockquote><p><a href=\"https://twitter.com/selfcommit\" title=\"https://twitter.com/selfcommit\">Follow @selfcommit on Twitter</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "djmcmayhem-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-24",
+      "title": "DJMcMayhem resigns",
+      "summary": "moderator on Code Golf",
+      "body": "<p><a href=\"https://codegolf.meta.stackexchange.com/q/18476\" title=\"https://codegolf.meta.stackexchange.com/q/18476\">Hanging up my diamond</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "anongoodnurse-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-24",
+      "title": "anongoodnurse resigns",
+      "summary": "moderator on Parenting",
+      "body": "<p><a href=\"https://parenting.meta.stackexchange.com/q/1371\" title=\"https://parenting.meta.stackexchange.com/q/1371\">The time has come for me to resign</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "lois6b-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-23",
+      "title": "lois6b resigns",
+      "summary": "moderator on Stack Overflow en español",
+      "body": "<p><a href=\"https://es.meta.stackoverflow.com/q/4549\" title=\"https://es.meta.stackoverflow.com/q/4549\">Dejo mi puesto de moderador diamantado</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-large", "tag-ceo", "tag-blog"],
+      "slug": "ceo-posted-on-the-blog-on-the-future-of-stack-overflow",
+      "type": "ceo blog",
+      "date_str": "2020-01-22",
+      "title": "CEO posted on the blog on the future of Stack Overflow",
+      "summary": "",
+      "body": "<blockquote>What I ask of you—anyone reading this post—is to continue to grow with us, to give us feedback through our new feedback loops, and to continue to rely on Stack Overflow and the Stack Exchange network as the essential resource for exchanging ideas and information on technical topics.</blockquote><p><a href=\"https://stackoverflow.blog/2020/01/21/scripting-the-future-of-stack-2020-plans-vision\" title=\"https://stackoverflow.blog/2020/01/21/scripting-the-future-of-stack-2020-plans-vision\">Scripting the Future of Stack Overflow</a></p>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackoverflow.com/q/393155"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "iklsr-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-21",
+      "title": "iKlsR resigns",
+      "summary": "moderator on Blender",
+      "body": "<p><a href=\"https://blender.meta.stackexchange.com/q/2691\" title=\"https://blender.meta.stackexchange.com/q/2691\">A goodbye to the community</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "david-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-21",
+      "title": "David resigns",
+      "summary": "moderator on Blender",
+      "body": "<p><a href=\"https://blender.meta.stackexchange.com/q/2690\" title=\"https://blender.meta.stackexchange.com/q/2690\">David♦ Moderator resignation</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-staff",
+        "tag-resignation"
+      ],
+      "slug": "jon-ericson-resigns",
+      "type": "staff resignation",
+      "date_str": "2020-01-17",
+      "title": "Jon Ericson resigns",
+      "summary": "Community Manager",
+      "body": "<p><a href=\"https://meta.stackexchange.com/q/342424\" title=\"https://meta.stackexchange.com/q/342424\">Change in roles for Jon Ericson (leaving SE)</a></p><p>Jon mentions in a <a href=\"https://jlericson.com/2020/01/17/leaving_stack.html\" title=\"https://jlericson.com/2020/01/17/leaving_stack.html\">blog post</a> that \"<strong><em>leadership within the company neither understood community management nor was willing to learn</em></strong>\", and that his decision to leave was connected to the incident with firing Monica.</p><p><a href=\"https://twitter.com/jlericson\" title=\"https://twitter.com/jlericson\">Follow @jlericson on Twitter</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "mad-scientist-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-16",
+      "title": "Mad Scientist resigns",
+      "summary": "moderator on Skeptics, did not announce resignation",
+      "body": "",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "strongbad-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-16",
+      "title": "StrongBad resigns",
+      "summary": "moderator on Academia and Expatriates",
+      "body": "<p><a href=\"https://academia.meta.stackexchange.com/q/4645\" title=\"https://academia.meta.stackexchange.com/q/4645\">Resigning and leaving SE</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "dmckee-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-16",
+      "title": "dmckee resigns",
+      "summary": "moderator on Physics",
+      "body": "<p><a href=\"https://physics.meta.stackexchange.com/q/12654\" title=\"https://physics.meta.stackexchange.com/q/12654\">Stepping down and taking a break</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "web-head-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-16",
+      "title": "Web Head resigns",
+      "summary": "moderator on Arts & Crafts, deleting accounts as well",
+      "body": "<p><a href=\"https://chat.stackexchange.com/transcript/message/53240057#53240057\" title=\"https://chat.stackexchange.com/transcript/message/53240057#53240057\">chat transcript</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-official",
+        "tag-policy"
+      ],
+      "slug": "stack-exchange-attempts-to-limit-featured-moderator-resignation-notices-to-a-maximum-of-24-hours",
+      "type": "official policy",
+      "date_str": "2020-01-16",
+      "title": "Stack Exchange attempts to limit featured moderator resignation notices to a maximum of 24 hours",
+      "summary": "Unhappiness is permitted only for 24 hours at a time",
+      "body": "<p><a href=\"https://meta.stackexchange.com/a/342363\" title=\"https://meta.stackexchange.com/a/342363\">Moderator resignation posts will be featured for around 24 hours moving forward</a></p><p><strong>This reverses the previous policy for Meta Stack Overflow</strong>: <a href=\"https://meta.stackoverflow.com/q/387546\" title=\"https://meta.stackoverflow.com/q/387546\">We’re removing “Hot Meta Posts” from Stack Overflow's sidebar for now; moderators now fully control [featured]</a></p>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackoverflow.com/q/392991"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "madara-uchiha-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-14",
+      "title": "Madara Uchiha resigns",
+      "summary": "moderator on Stack Overflow",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/392889\" title=\"https://meta.stackoverflow.com/q/392889\">I am resigning as moderator on Stack Overflow</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "hatchet-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-14",
+      "title": "Hatchet resigns",
+      "summary": "moderator on Language Learning",
+      "body": "<p><a href=\"https://languagelearning.meta.stackexchange.com/q/669\" title=\"https://languagelearning.meta.stackexchange.com/q/669\">Goodbye, friends</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "elendia-starman-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-14",
+      "title": "El'endia Starman resigns",
+      "summary": "moderator on Christianity",
+      "body": "<p><a href=\"https://christianity.meta.stackexchange.com/q/6815\" title=\"https://christianity.meta.stackexchange.com/q/6815\">I am stepping down as moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "nhinkle-resigns",
+      "type": "moderator resignation",
+      "date_str": "2020-01-14",
+      "title": "nhinkle resigns",
+      "summary": "moderator on Super User",
+      "body": "<p><a href=\"https://meta.superuser.com/q/13946\" title=\"https://meta.superuser.com/q/13946\">Ending my tenure as a superuser moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-staff", "tag-fired"],
+      "slug": "community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc",
+      "type": "staff fired",
+      "date_str": "2020-01-13",
+      "title": "Community Managers Shog9 and Robert Cartaino fired from Stack Exchange Inc",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/questions/392867/in-case-you-missed-it-shog9-and-robert-cartaino-are-no-longer-staff-members-at\" title=\"https://meta.stackoverflow.com/questions/392867/in-case-you-missed-it-shog9-and-robert-cartaino-are-no-longer-staff-members-at\">Shog9 and Robert Cartaino are no longer staff members at Stack Exchange</a></p><blockquote>\"We’re seeking to align the company so that it can continue growing in 2020 and we continue to be committed in investing in the community and ensuring that it has a seat at the table as we keep moving forward. These changes are a part of that process.\" -- <a href=\"https://meta.stackexchange.com/a/342045\" title=\"https://meta.stackexchange.com/a/342045\"><em>Juan M</em></a></blockquote><ul role=\"list\"><li><a href=\"https://twitter.com/shog9/status/1216752358933184512\" title=\"https://twitter.com/shog9/status/1216752358933184512\">Shog9 tweeted</a> about <strong>suddenly being in need of new job</strong></li><li><a href=\"https://meta.stackexchange.com/users/98786/robert-cartaino?tab=profile\" title=\"https://meta.stackexchange.com/users/98786/robert-cartaino?tab=profile\">Robert updated his profile</a> indicating he is <strong>no longer with the company</strong></li><li><a href=\"https://meta.stackexchange.com/q/342079\" title=\"https://meta.stackexchange.com/q/342079\">Thank you, Robert Cartaino</a> and <a href=\"https://meta.stackexchange.com/q/342031\" title=\"https://meta.stackexchange.com/q/342031\">Thank you, Shog9!</a> – meta posts <strong>from the community</strong></li><li>George Stocker starts a <a href=\"https://www.gofundme.com/f/thanking-josh-heyer-for-shaping-stack-overflow\" title=\"https://www.gofundme.com/f/thanking-josh-heyer-for-shaping-stack-overflow\">GoFundMe campaign</a> to <em>thank Shog9 for cultivating Stack Overflow</em>‍</li><li><strong>More moderators on the network continue to resign in protest</strong><br></li></ul>",
+      "links": [
+        {
+          "text": "event overview",
+          "url": "https://meta.stackexchange.com/q/342039"
+        },
+        {
+          "text": "GoFundMe",
+          "url": "https://www.gofundme.com/f/thanking-josh-heyer-for-shaping-stack-overflow"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "tag-official", "tag-statement"],
+      "slug": "stack-exchange-posts-update-on-a-private-agreement-with-monica-cellio",
+      "type": "official statement",
+      "date_str": "2019-12-23",
+      "title": "Stack Exchange posts update on a private agreement with Monica Cellio",
+      "summary": "Stack Exchange Inc and Monica Cellio have come to an agreement",
+      "body": "<p><a href=\"https://meta.stackexchange.com/q/340906\" target=\"_blank\" title=\"https://meta.stackexchange.com/q/340906\">Update: an agreement with Monica Cellio</a></p><p>Also reported on The Register: \"<a href=\"https://www.theregister.co.uk/2020/01/02/stack_overflow_settles/\" target=\"_blank\" title=\"https://www.theregister.co.uk/2020/01/02/stack_overflow_settles/\">Stack Overflow makes peace with ousted moderator, wants to start New Year with 2020 vision on codes of conduct</a>\"</p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-staff", "tag-resignation"],
+      "slug": "julia-silge-resigns",
+      "type": "staff resignation",
+      "date_str": "2019-12-14",
+      "title": "Julia Silge resigns",
+      "summary": "Data Scientist",
+      "body": "<blockquote>Today is my last day working at Stack Overflow. Deciding to resign has been a difficult decision, when I have cared so deeply about this corner of the web and how to make it better.<br>-- <a href=\"https://twitter.com/juliasilge/status/1205518305873866752\" title=\"https://twitter.com/juliasilge/status/1205518305873866752\">Julia</a></blockquote><p><a href=\"https://twitter.com/juliasilge\" title=\"https://twitter.com/juliasilge\">Follow @juliasilge on Twitter</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-staff", "tag-resignation"],
+      "slug": "megan-risdal-resigns",
+      "type": "staff resignation",
+      "date_str": "2019-12-07",
+      "title": "Megan Risdal resigns",
+      "summary": "Product Manager",
+      "body": "<blockquote>News! Today is my last day at Stack Overflow. It's been an incredible, rewarding 2019 working with so many talented people where I learned so much every day.<br>-- <a href=\"https://twitter.com/MeganRisdal/status/1203000382806319104\" title=\"https://twitter.com/MeganRisdal/status/1203000382806319104\">Megan</a></blockquote><p><a href=\"https://twitter.com/MeganRisdal\" title=\"https://twitter.com/MeganRisdal\">Follow @MeganRisdal on Twitter</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-blog", "tag-feature", "tag-design"],
+      "slug": "rollout-of-new-post-notices-with-updated-design-to-entire-network",
+      "type": "blog feature design",
+      "date_str": "2019-12-05",
+      "title": "Rollout of new post notices with updated design to entire network",
+      "summary": "previously was beta tested on Stack Overflow",
+      "body": "<p><a href=\"https://stackoverflow.blog/2019/12/05/new-post-notices-improving-feedback-on-stack-overflow-questions\" title=\"https://stackoverflow.blog/2019/12/05/new-post-notices-improving-feedback-on-stack-overflow-questions\">New post notices: Improving feedback on Stack Overflow questions</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "terdon-resigns-from-ask-ubuntu-and-bioinformatics",
+      "type": "moderator resignation",
+      "date_str": "2019-12-03",
+      "title": "terdon resigns from Ask Ubuntu and Bioinformatics",
+      "summary": "moderator on Ask Ubuntu, and Bioinformatics, remains moderator on Unix & Linux",
+      "body": "<p><a href=\"https://meta.stackexchange.com/a/334100\" title=\"https://meta.stackexchange.com/a/334100\">view resignation post</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "stphane-gimenez-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-11-27",
+      "title": "Stéphane Gimenez resigns",
+      "summary": "moderator on French Language",
+      "body": "<p><a href=\"https://french.meta.stackexchange.com/q/759\" title=\"https://french.meta.stackexchange.com/q/759\">Une autre démission</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "colleenv-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-11-26",
+      "title": "ColleenV resigns",
+      "summary": "moderator on English Language Learners",
+      "body": "<p><a href=\"https://ell.meta.stackexchange.com/q/5099\" title=\"https://ell.meta.stackexchange.com/q/5099\">I am resigning as moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "tag-official",
+        "tag-loop",
+        "tag-blog",
+        "tag-the-loopthe-loop"
+      ],
+      "slug": "stack-exchange-launches-the-loop",
+      "type": "official loop blog",
+      "date_str": "2019-11-25",
+      "title": "Stack Exchange launches \"The Loop\"",
+      "summary": "Introduced by Sara Chipps and Juan Garza, The Loop is a new way of obtaining user feedback and a moderator advisor group",
+      "body": "<p><a href=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\" title=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\">Introducing “The Loop”: A Foundation in Listening</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "the-loop",
+          "url": "https://meta.stackexchange.com/questions/tagged/the-loop?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "the-loop",
+          "url": "https://meta.stackoverflow.com/questions/tagged/the-loop?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "fedorqui-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-11-15",
+      "title": "fedorqui resigns",
+      "summary": "moderator on Spanish Language",
+      "body": "<p><a href=\"https://spanish.meta.stackexchange.com/q/3241\" title=\"https://spanish.meta.stackexchange.com/q/3241\">This is it! Gracias por todo. Renuncio al cargo de moderador (fedorqui)</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "snow-resigns-again",
+      "type": "moderator resignation",
+      "date_str": "2019-11-15",
+      "title": "Snow resigns again",
+      "summary": "moderator on The Workplace, also deletes accounts afterwards",
+      "body": "<p><a href=\"https://meta.stackexchange.com/a/333968\" title=\"https://meta.stackexchange.com/a/333968\">view resignation post</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "tag-reputation", "tag-blog"],
+      "slug": "all-upvotes-to-retroactively-grant-10-rep",
+      "type": "reputation blog",
+      "date_str": "2019-11-13",
+      "title": "All upvotes to retroactively grant 10 rep",
+      "summary": "previously upvotes on questions were worth 5 rep",
+      "body": "<p><a href=\"https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/\" title=\"https://stackoverflow.blog/2019/11/13/were-rewarding-the-question-askers/\">We’re Rewarding the Question Askers</a></p>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackoverflow.com/questions/391250/upvotes-on-questions-will-now-be-worth-the-same-as-upvotes-on-answers"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "slug": "will-cole-resigns",
+      "type": "staff resignation",
+      "date_str": "2019-11-11",
+      "title": "Will Cole resigns",
+      "summary": "VP of Product",
+      "body": "<p>‍<a href=\"https://twitter.com/willcole\" title=\"https://twitter.com/willcole\">Follow @willcole on Twitter</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "mego-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-11-02",
+      "title": "Mego resigns",
+      "summary": "moderator on Code Golf",
+      "body": "<p><a href=\"https://codegolf.meta.stackexchange.com/q/18240\" title=\"https://codegolf.meta.stackexchange.com/q/18240\">It's time for me to leave</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "hohmannfan-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-31",
+      "title": "Hohmannfan resigns",
+      "summary": "moderator on Space Exploration",
+      "body": "<p><a href=\"https://space.meta.stackexchange.com/q/1390\" title=\"https://space.meta.stackexchange.com/q/1390\">Space.SE moderator resignation</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-large", "tag-user", "tag-statement"],
+      "slug": "letter-from-user-belovedfool-to-se",
+      "type": "user statement",
+      "date_str": "2019-10-30",
+      "title": "Letter from user BelovedFool to SE",
+      "summary": "A letter to SE Inc. - please protect our moderators",
+      "body": "<blockquote>I'm not a moderator, and I shouldn't be the one saying that. But, with the recent event, I have been made aware of an issue and I can't close my eyes to it. Because I care about moderators. Because I want them to be well and happy.<br><br>I hope SE Inc. is already aware that there is an issue here and I hope they are already working on fixing it.<br><br>But if not, please SE Inc., do something. Protect our moderators the same way they protect us, regular users.<br><br>Don't expect them to be perfect and don't expect them to keep their calm in every situation. Because they won't, and because they can't.<br><br>Please, remember that moderators are human too and put safety in place for when their humanity will take the best part of them.<br><br>I care for my moderators, please protect them.</blockquote><p><a href=\"https://meta.stackexchange.com/q/337127\" title=\"https://meta.stackexchange.com/q/337127\">A letter to SE Inc. - please protect our moderators</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-reinstatement"],
+      "slug": "journeyman-geek-reinstated-on-mse",
+      "type": "moderator reinstatement",
+      "date_str": "2019-10-29",
+      "title": "Journeyman Geek reinstated on MSE",
+      "summary": "moderator on Meta Stack Exchange and Super User",
+      "body": "<p>went through the new moderator reinstatement process</p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-large", "tag-statement"],
+      "slug": "heather-after-talking-with-monica-urges-se-to-join-in-seeking-dialogue-and-understanding",
+      "type": "statement",
+      "date_str": "2019-10-25",
+      "title": "Heather, after talking with Monica, urges SE to join in seeking dialogue and understanding",
+      "summary": "While there are problems in how this site handles LGBTQ+ issues, these issues do not stem from Monica. SE used Monica as a scapegoat",
+      "body": "<blockquote>I say that Monica and I have come to a resolution, and I say this because we talked. We talked understanding that we come from different backgrounds, with different perspectives. We talked understanding that we each carry different baggage with us. We talked knowing that we were there to understand each other. I post this today in an attempt to reach out a hand, and to ask all of you to do so as well, to ask Stack Exchange to do so as well.</blockquote><p><a href=\"https://meta.stackexchange.com/q/336731\" title=\"https://meta.stackexchange.com/q/336731\">To reach out: on Monica, the Lavender community, and the future of the Stack Exchange network</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-statement"],
+      "slug": "monica-posts-a-response-to-the-situation",
+      "type": "statement",
+      "date_str": "2019-10-24",
+      "title": "Monica posts a response to the situation",
+      "summary": "",
+      "body": "<blockquote>Over the last month, Stack Overflow has violated its own policies and precedents to cause egregious and unnecessary harm to me -- to my reputation (personal and professional), to my health, and to my safety. This harm is significant and ongoing. It is past time for the company to correct its errors, repair what can be repaired, and move toward a spirit of working with rather than against its users and volunteers.</blockquote><p><a href=\"https://meta.stackexchange.com/q/336526\" title=\"https://meta.stackexchange.com/q/336526\">Stack Overflow is doing me ongoing harm; it's time to fix it!</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-staff", "tag-resignation"],
+      "slug": "alex-miller-resigns",
+      "type": "staff resignation",
+      "date_str": "2019-10-23 ??",
+      "title": "Alex Miller resigns",
+      "summary": "GM Teams & Enterprise",
+      "body": "<blockquote>So I've got some personal news: I've wrapped up an incredible 8.5 years at Stack Overflow and am now on my first ever sabbatical<br>-- <a href=\"https://twitter.com/alexlmiller/status/1187090490216370177\" title=\"https://twitter.com/alexlmiller/status/1187090490216370177\">Alex</a></blockquote><p><a href=\"https://twitter.com/alexlmiller\" title=\"https://twitter.com/alexlmiller\">Follow @alexlmiller on Twitter</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "tag-official",
+        "tag-policy",
+        "tag-moderators"
+      ],
+      "slug": "stack-exchange-releases-new-moderator-warning-and-removal-and-reinstatement-processes",
+      "type": "official policy moderators",
+      "date_str": "2019-10-21",
+      "title": "Stack Exchange releases new Moderator Warning and Removal, and Reinstatement processes",
+      "summary": "",
+      "body": "<ul role=\"list\"><li><a href=\"https://meta.stackexchange.com/q/336173\" title=\"https://meta.stackexchange.com/q/336173\">Moderator Warning and Removal process</a></li><li><a href=\"https://meta.stackexchange.com/q/336175\" title=\"https://meta.stackexchange.com/q/336175\">Moderator Reinstatement Process</a></li></ul>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/q/336177"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-small",
+        "tag-official",
+        "tag-policy",
+        "tag-coc"
+      ],
+      "slug": "stack-exchange-releases-faq-on-pronouns",
+      "type": "official policy coc",
+      "date_str": "2019-10-21",
+      "title": "Stack Exchange releases FAQ on pronouns",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackexchange.com/q/336364\" title=\"https://meta.stackexchange.com/q/336364\">What does the Code of Conduct say about pronouns?</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "seth-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-19",
+      "title": "Seth resigns",
+      "summary": "moderator on Ask Ubuntu",
+      "body": "<p><a href=\"https://meta.askubuntu.com/q/18829\" title=\"https://meta.askubuntu.com/q/18829\">It's time for me to go</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-official", "tag-statement"],
+      "slug": "community-management-team-posts-status-update",
+      "type": "official statement",
+      "date_str": "2019-10-18",
+      "title": "Community Management Team posts status update",
+      "summary": "posted by Cesar M",
+      "body": "<blockquote>we wanted to update you on some of what we have been doing and what we have been working towards as an answer to these letters</blockquote><p><a href=\"https://meta.stackexchange.com/a/335868\" title=\"https://meta.stackexchange.com/a/335868\">view post</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "mithical-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-17",
+      "title": "Mithical resigns",
+      "summary": "moderator on Literature",
+      "body": "<p><a href=\"https://literature.meta.stackexchange.com/q/1200\" title=\"https://literature.meta.stackexchange.com/q/1200\">I no longer feel safe moderating this site</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "jon-clements-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-17",
+      "title": "Jon Clements resigns",
+      "summary": "moderator on Stack Overflow",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/390525\" title=\"https://meta.stackoverflow.com/q/390525\">Yet another “step down as moderator” post</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-user", "tag-statement"],
+      "slug": "members-of-the-lgbtq-community-feel-less-safe-due-to-recent-events",
+      "type": "user statement",
+      "date_str": "2019-10-17",
+      "title": "Members of the LGBTQ+ community feel less safe due to recent events",
+      "summary": "",
+      "body": "<blockquote>unfortunately due to the huge turmoil created by the recent CoC changes, several right-wing websites have started reporting and thus directed attention of far-right groups to this network</blockquote><p><a href=\"https://meta.stackexchange.com/q/335785\" title=\"https://meta.stackexchange.com/q/335785\">I am non-binary - recent events have made SE less safe for me (and other members of the LGBTQ community)</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-moderator", "tag-resignation"],
+      "slug": "george-stocker-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-15",
+      "title": "George Stocker resigns",
+      "summary": "moderator on Stack Overflow",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/390427\" title=\"https://meta.stackoverflow.com/q/390427\">I'm resigning as a Stack Overflow community elected moderator</a></p><p><a href=\"https://twitter.com/gortok\" title=\"https://twitter.com/gortok\">Follow @gortok on Twitter</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "diego-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-14",
+      "title": "Diego resigns",
+      "summary": "moderator on Spanish Language",
+      "body": "<p><a href=\"https://spanish.meta.stackexchange.com/q/3221\" title=\"https://spanish.meta.stackexchange.com/q/3221\">Stepping down as moderator - Renunciando como moderador (Diego)</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "sklivvz-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-10",
+      "title": "Sklivvz resigns",
+      "summary": "moderator on Skeptics",
+      "body": "<p><a href=\"https://meta.stackexchange.com/a/334307\" title=\"https://meta.stackexchange.com/a/334307\">view resignation post</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "jack-douglas-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-10",
+      "title": "Jack Douglas resigns",
+      "summary": "moderator on Database Administrators",
+      "body": "<p><a href=\"https://dba.meta.stackexchange.com/questions/3263/it-has-been-a-great-privilege-to-serve-this-amazing-community-as-moderator-than\" target=\"_blank\" title=\"https://dba.meta.stackexchange.com/questions/3263/it-has-been-a-great-privilege-to-serve-this-amazing-community-as-moderator-than\">It has been a great privilege to serve this amazing community as moderator. Thank you</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "tag-moderator", "tag-statement"],
+      "slug": "open-letters-from-moderators",
+      "type": "moderator statement",
+      "date_str": "2019-10-06",
+      "title": "Open letters from moderators",
+      "summary": "https://dearstackexchange.com",
+      "body": "<ul role=\"list\"><li><a href=\"https://meta.stackexchange.com/q/334575\" title=\"https://meta.stackexchange.com/q/334575\">Dear Stack Exchange: a statement and a letter from your moderators</a>, and</li><li>‍<a href=\"https://meta.stackexchange.com/a/334577\" title=\"https://meta.stackexchange.com/a/334577\">The second letter addressing more specifically the issues the LGBT+ community feels it is necessary to address</a></li></ul>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-official",
+        "tag-statement"
+      ],
+      "slug": "third-official-response-by-david-fullerton-stack-exchange-cto",
+      "type": "official statement",
+      "date_str": "2019-10-06",
+      "title": "Third official response by David Fullerton, Stack Exchange CTO",
+      "summary": "",
+      "body": "<blockquote>In the last few weeks, we made a series of mistakes, both in our actions and in the ways that we communicated those actions. In doing so, we hurt people who believe in that mission and who want to help us make the community welcoming and open to all.</blockquote><blockquote>Looking forward, Stack Overflow is just beginning this new stage in its growth as a company. One of our top priorities across the entire team is to continue to make the community more inclusive and welcoming. We recognize that the community is the heartbeat of Stack Overflow, and we deeply appreciate all that you do. We know that our moderators care deeply about the future of our community, and we’re committed to involving you more as we evolve. We have an incredible opportunity to impact the world, and we hope that you will continue to join us on that mission.</blockquote><p><a href=\"https://meta.stackexchange.com/q/334551\" title=\"https://meta.stackexchange.com/q/334551\">An apology to our community, and next steps</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-reinstatement"],
+      "slug": "misterpositive-snow-reinstated",
+      "type": "moderator reinstatement",
+      "date_str": "2019-10-04",
+      "title": "MisterPositive & Snow reinstated",
+      "summary": "moderators on The Workplace",
+      "body": "",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "glen_b-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-04",
+      "title": "Glen_b resigns",
+      "summary": "moderator on Cross Validated",
+      "body": "<p><a href=\"https://stats.meta.stackexchange.com/questions/5765/moderator-resignation\" target=\"_blank\" title=\"https://stats.meta.stackexchange.com/questions/5765/moderator-resignation\">Moderator resignation</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "rolfl-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-03",
+      "title": "rolfl resigns",
+      "summary": "moderator on Code Review",
+      "body": "<p><a href=\"https://codereview.meta.stackexchange.com/questions/9355/it-is-with-disappointment-that-i-hereby-resign-as-a-moderator\" target=\"_blank\" title=\"https://codereview.meta.stackexchange.com/questions/9355/it-is-with-disappointment-that-i-hereby-resign-as-a-moderator\">It is with disappointment that I hereby resign as a moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "pashapash-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-03",
+      "title": "PashaPash resigns",
+      "summary": "moderator on Stack Overflow на русском",
+      "body": "<p><a href=\"https://ru.meta.stackoverflow.com/questions/9559/%d0%94%d0%be%d0%b1%d1%80%d0%be%d0%b2%d0%be%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%be%d1%82%d1%81%d1%82%d0%b0%d0%b2%d0%ba%d0%b0-%d0%bc%d0%be%d0%b4%d0%b5%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%b0-pashapash\" target=\"_blank\" title=\"https://ru.meta.stackoverflow.com/questions/9559/%d0%94%d0%be%d0%b1%d1%80%d0%be%d0%b2%d0%be%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%be%d1%82%d1%81%d1%82%d0%b0%d0%b2%d0%ba%d0%b0-%d0%bc%d0%be%d0%b4%d0%b5%d1%80%d0%b0%d1%82%d0%be%d1%80%d0%b0-pashapash\">Добровольная отставка модератора PashaPash</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-official",
+        "tag-statement"
+      ],
+      "slug": "second-official-statement-by-sara-chipps",
+      "type": "official statement",
+      "date_str": "2019-10-03",
+      "title": "Second official statement by Sara Chipps",
+      "summary": "reached a post score of -2k, self-deleted on 23 Dec 2019",
+      "body": "<blockquote>Last week we made an important decision for our community. We removed a moderator for repeatedly violating our existing Code of Conduct and being unwilling to accept our CM’s repeated requests to change that behavior. We recognize it has caused concern in the community as a whole. We made a hard decision, and we stand by that decision. But we must also acknowledge the way in which we implemented it and our communications surrounding the decision could have been much better.</blockquote><p><a href=\"https://meta.stackexchange.com/q/334248\" target=\"_blank\" title=\"https://meta.stackexchange.com/q/334248\">An Update to our Community and an Apology [deleted]</a><br></p>",
+      "links": [
+        {
+          "text": "archive.org",
+          "url": "https://web.archive.org/web/20191223172246/https://meta.stackexchange.com/questions/334248/an-update-to-our-community-and-an-apology"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "neil-fein-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-01",
+      "title": "Neil Fein resigns",
+      "summary": "moderator on Writing",
+      "body": "<p><a href=\"https://writing.meta.stackexchange.com/questions/2230/resigning-as-a-mod-effective-immediately\" target=\"_blank\" title=\"https://writing.meta.stackexchange.com/questions/2230/resigning-as-a-mod-effective-immediately\">Resigning as a mod, effective immediately</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "a-cvn-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-01",
+      "title": "a CVn resigns",
+      "summary": "moderator on Worldbuilding and Writing",
+      "body": "<p><a href=\"https://worldbuilding.meta.stackexchange.com/questions/7515/moderator-resignation\" target=\"_blank\" title=\"https://worldbuilding.meta.stackexchange.com/questions/7515/moderator-resignation\">Moderator resignation</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "dominela10-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-01",
+      "title": "DoMiNeLa10 resigns",
+      "summary": "moderator on Emacs",
+      "body": "<p><a href=\"https://emacs.meta.stackexchange.com/questions/556/im-resigning-from-moderating-on-stack-exchange\" target=\"_blank\" title=\"https://emacs.meta.stackexchange.com/questions/556/im-resigning-from-moderating-on-stack-exchange\">I'm resigning from moderating on Stack Exchange</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "keelan-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-01",
+      "title": "Keelan resigns",
+      "summary": "moderator on Philosophy",
+      "body": "<p><a href=\"https://philosophy.meta.stackexchange.com/questions/5067/i-will-be-leaving-as-a-moderator\" target=\"_blank\" title=\"https://philosophy.meta.stackexchange.com/questions/5067/i-will-be-leaving-as-a-moderator\">I will be leaving as a moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "mister-positive-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-01",
+      "title": "Mister Positive resigns",
+      "summary": "moderator on The Workplace",
+      "body": "<p><a href=\"https://workplace.meta.stackexchange.com/questions/6331/resigning-as-moderator-from-twp\" target=\"_blank\" title=\"https://workplace.meta.stackexchange.com/questions/6331/resigning-as-moderator-from-twp\">Resigning as Moderator from TWP</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "ed-cottrell-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-10-01",
+      "title": "Ed Cottrell resigns",
+      "summary": "moderator on Stack Overflow and Ebooks",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/questions/389991/why-i-resigned-as-a-moderator\" target=\"_blank\" title=\"https://meta.stackoverflow.com/questions/389991/why-i-resigned-as-a-moderator\">Why I Resigned as a Moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "tag-ceo", "tag-hired"],
+      "slug": "prashanth-chandrasekar-takes-over-as-ceo-of-stack-overflow",
+      "type": "ceo hired",
+      "date_str": "2019-10-01",
+      "title": "Prashanth Chandrasekar takes over as CEO of Stack Overflow",
+      "summary": "Joel Spolsky remains CEO of Stack Exchange Network",
+      "body": "<p><a href=\"https://stackoverflow.blog/2019/09/24/announcing-stack-overflows-new-ceo-prashanth-chandrasekar\" title=\"https://stackoverflow.blog/2019/09/24/announcing-stack-overflows-new-ceo-prashanth-chandrasekar\">Announcing Stack Overflow’s New CEO, Prashanth Chandrasekar!</a></p><p><a href=\"https://stackoverflow.blog/2019/10/21/interview-stack-overflow-ceo-prashanth-chandrasekar\" title=\"https://stackoverflow.blog/2019/10/21/interview-stack-overflow-ceo-prashanth-chandrasekar\">An Interview with Stack Overflow CEO Prashanth Chandrasekar</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "anonymous2-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-30",
+      "title": "anonymous2 resigns",
+      "summary": "moderator on Internet of Things",
+      "body": "<p><a href=\"https://iot.meta.stackexchange.com/questions/390/goodbye-world-resignation-notice\" target=\"_blank\" title=\"https://iot.meta.stackexchange.com/questions/390/goodbye-world-resignation-notice\">Goodbye, world (resignation notice)</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "caleb-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-30",
+      "title": "Caleb resigns",
+      "summary": "moderator on Christianity and Biblical Hermeneutics",
+      "body": "<p><a href=\"https://christianity.meta.stackexchange.com/questions/6718/brothers-i-must-go\" target=\"_blank\" title=\"https://christianity.meta.stackexchange.com/questions/6718/brothers-i-must-go\">Brothers, I must go…</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "nathaniel-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-30",
+      "title": "Nathaniel resigns",
+      "summary": "moderator on Christianity and Latin Language",
+      "body": "<p><a href=\"https://christianity.meta.stackexchange.com/questions/6717/resigning-as-moderator\" target=\"_blank\" title=\"https://christianity.meta.stackexchange.com/questions/6717/resigning-as-moderator\">Resigning as moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "journeyman-geek-resigns-from-mse",
+      "type": "moderator resignation",
+      "date_str": "2019-09-29",
+      "title": "Journeyman Geek resigns from MSE",
+      "summary": "moderator on Meta Stack Exchange, remains moderator on Super User",
+      "body": "<p><a href=\"https://meta.stackexchange.com/a/333975\" target=\"_blank\" title=\"https://meta.stackexchange.com/a/333975\">view resignation post</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-official",
+        "tag-statement"
+      ],
+      "slug": "official-statement-by-sara-chipps",
+      "type": "official statement",
+      "date_str": "2019-09-29",
+      "title": "Official statement by Sara Chipps",
+      "summary": "self-deleted on 23 Dec 2019",
+      "body": "<p>Content from now deleted posts originally posted at <a href=\"https://judaism.meta.stackexchange.com/a/5197\" title=\"https://judaism.meta.stackexchange.com/a/5197\">Meta Judaism</a> and <a href=\"https://meta.stackoverflow.com/a/389908\" title=\"https://meta.stackoverflow.com/a/389908\">Meta Stack Overflow</a>:</p><blockquote>We’re sorry to see you go.<br><br>We understand there are some folks upset about the decision made this week. We aren’t going to share specifics out of respect for all individuals involved but this is a site reaching millions of people and we have to do what we believe fosters a spirit of inclusion and respect. When a moderator violates that, we will always do our best to resolve it with them privately. When we can’t we must take action. This is always done based on what we believe is best for all SE users.</blockquote>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "glenh7-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-29",
+      "title": "GlenH7 resigns",
+      "summary": "moderator on Software Engineering and Engineering, deleted accounts afterwards",
+      "body": "<p><a href=\"https://softwareengineering.meta.stackexchange.com/questions/9000/im-resigning-as-a-moderator-from-all-stack-exchange-sites\" target=\"_blank\" title=\"https://softwareengineering.meta.stackexchange.com/questions/9000/im-resigning-as-a-moderator-from-all-stack-exchange-sites\">I'm resigning as a moderator from all Stack Exchange sites</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "brock-adams-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-29",
+      "title": "Brock Adams resigns",
+      "summary": "moderator on Stack Apps",
+      "body": "<p><a href=\"https://meta.stackexchange.com/a/333972\" target=\"_blank\" title=\"https://meta.stackexchange.com/a/333972\">view resignation post</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "robert-harvey-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-29",
+      "title": "Robert Harvey resigns",
+      "summary": "moderator on Stack Overflow and Software Engineering",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/questions/389906/im-resigning-as-a-moderator-from-all-stack-exchange-sites\" target=\"_blank\" title=\"https://meta.stackoverflow.com/questions/389906/im-resigning-as-a-moderator-from-all-stack-exchange-sites\">I'm resigning as a moderator from all Stack Exchange sites</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "dennis-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-29",
+      "title": "Dennis resigns",
+      "summary": "moderator on Code Golf",
+      "body": "<p><a href=\"https://codegolf.meta.stackexchange.com/questions/18133/im-stepping-down\" target=\"_blank\" title=\"https://codegolf.meta.stackexchange.com/questions/18133/im-stepping-down\">I'm stepping down</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "jane-s-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-29",
+      "title": "Jane S resigns",
+      "summary": "moderator on The Workplace",
+      "body": "<p><a href=\"https://workplace.meta.stackexchange.com/questions/6316/resigning-as-moderator-from-workplace-se\" target=\"_blank\" title=\"https://workplace.meta.stackexchange.com/questions/6316/resigning-as-moderator-from-workplace-se\">Resigning as moderator from Workplace.SE</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "snow-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-28",
+      "title": "Snow resigns",
+      "summary": "moderator on The Workplace",
+      "body": "<p><a href=\"https://workplace.meta.stackexchange.com/questions/6314/resigning-as-moderator\" target=\"_blank\" title=\"https://workplace.meta.stackexchange.com/questions/6314/resigning-as-moderator\">Resigning as moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "gilles-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-28",
+      "title": "Gilles resigns",
+      "summary": "moderator on Computer Science, French, and Emacs",
+      "body": "<p><a href=\"https://cs.meta.stackexchange.com/questions/1650/i-am-resigning-as-a-moderator\" target=\"_blank\" title=\"https://cs.meta.stackexchange.com/questions/1650/i-am-resigning-as-a-moderator\">I am resigning as a moderator</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-moderator",
+        "tag-fired"
+      ],
+      "slug": "monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites",
+      "type": "moderator fired",
+      "date_str": "2019-09-27",
+      "title": "Monica Cellio unceremoniously fired as moderator from six network sites",
+      "summary": "moderator on Judaism, The Workplace, Worldbuilding, Writing, Beer Wine & Spirits, and Meta Stack Exchange",
+      "body": "<p><a href=\"https://judaism.meta.stackexchange.com/questions/5193/stack-overflow-inc-sinat-chinam-and-the-goat-for-azazel\" target=\"_blank\" title=\"https://judaism.meta.stackexchange.com/questions/5193/stack-overflow-inc-sinat-chinam-and-the-goat-for-azazel\">Stack Overflow Inc., sinat chinam, and the goat for Azazel</a></p><ul role=\"list\"><li>Also reported on The Register: \"<a href=\"https://www.theregister.co.uk/2019/10/01/stack_exchange_controversy/\" target=\"_blank\" title=\"https://www.theregister.co.uk/2019/10/01/stack_exchange_controversy/\">The mod firing squad: Stack Exchange embroiled in 'he said, she said, they said' row</a>\"</li><li>‍<a href=\"https://cellio.dreamwidth.org/2064709.html\" target=\"_blank\" title=\"https://cellio.dreamwidth.org/2064709.html\">Monica's side of the timeline</a><a href=\"https://meta.stackexchange.com/q/336526\" title=\"https://meta.stackexchange.com/q/336526\">‍</a></li><li><a href=\"https://meta.stackexchange.com/q/336526\" title=\"https://meta.stackexchange.com/q/336526\">Monica posts a response to the situation</a> on 2019-10-24</li><li>Monica sets up a <a href=\"https://www.gofundme.com/f/stop-stack-overflow-from-defaming-its-users\" title=\"https://www.gofundme.com/f/stop-stack-overflow-from-defaming-its-users\">GoFundMe page</a> to help pay for combating the issue</li><li><strong>Moderators on the network begin resigning in protest</strong></li></ul>",
+      "links": [
+        {
+          "text": "event overview",
+          "url": "https://meta.stackexchange.com/questions/333965/firing-mods-and-forced-relicensing-is-stack-exchange-still-interested-in-cooper"
+        },
+        {
+          "text": "GoFundMe",
+          "url": "https://www.gofundme.com/f/stop-stack-overflow-from-defaming-its-users"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "yvette-steps-down",
+      "type": "moderator resignation",
+      "date_str": "2019-09-19",
+      "title": "Yvette steps down",
+      "summary": "moderator on Stack Overflow",
+      "body": "<p>stepped down to take a break for personal reasons, but later requested and failed to be reinstated in 2020 due to the new reinstatement process</p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "slug": "aza-resigns",
+      "type": "moderator resignation",
+      "date_str": "2019-09-26",
+      "title": "Aza resigns",
+      "summary": "moderator on Literature",
+      "body": "<p><a href=\"https://literature.meta.stackexchange.com/questions/1195/resignation-notice\" target=\"_blank\" title=\"https://literature.meta.stackexchange.com/questions/1195/resignation-notice\">Resignation notice</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-official",
+        "tag-policy",
+        "tag-licensing",
+        "tag-licensinglicensing"
+      ],
+      "slug": "stack-exchange-retroactively-relicenses-all-usercontributed-content-on-the-network",
+      "type": "official policy licensing",
+      "date_str": "2019-09-05",
+      "title": "Stack Exchange retroactively relicenses all user-contributed content on the Network",
+      "summary": "is this even legal?",
+      "body": "<blockquote>Effective today, all Subscriber Content on Stack Overflow and the Stack Exchange network will be available under the terms of version 4.0 of the Creative Commons Attribution-ShareAlike (CC BY-SA) license.</blockquote><p><a href=\"https://meta.stackexchange.com/q/333089\" title=\"https://meta.stackexchange.com/q/333089\">Stack Exchange and Stack Overflow have moved to CC BY-SA 4.0</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "licensing",
+          "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "licensing",
+          "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "slug": "guy-zerega-resigns",
+      "type": "staff resignation",
+      "date_str": "2019-08-31 ??",
+      "title": "Guy Zerega resigns",
+      "summary": "EVP Revenue",
+      "body": "",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Русский язык launches",
+      "summary": "for лингвистов и энтузиастов русского языка",
+      "body": "<p><a href=\"https://rus.stackexchange.com\" target=\"_blank\" title=\"https://rus.stackexchange.com/\">https://rus.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a948547a6a2522b5cc917_rus.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "sound-design-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Sound Design launches",
+      "summary": "for sound engineers, producers, editors, and enthusiasts",
+      "body": "<p><a href=\"https://sound.stackexchange.com\" target=\"_blank\" title=\"https://sound.stackexchange.com/\">https://sound.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9486e8da5a049f21518f_sound.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "islam-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Islam launches",
+      "summary": "for Muslims, experts in Islam, and those interested in learning more about Islam",
+      "body": "<p><a href=\"https://islam.stackexchange.com\" target=\"_blank\" title=\"https://islam.stackexchange.com/\">https://islam.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9485e8da5a8c6121518d_islam.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "russian-language-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Russian Language launches",
+      "summary": "for students, teachers, and linguists wanting to discuss the finer points of the Russian language",
+      "body": "<p><a href=\"https://russian.stackexchange.com\" target=\"_blank\" title=\"https://russian.stackexchange.com/\">https://russian.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9485941c93f3c7b37a04_russian.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "chess-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Chess launches",
+      "summary": "for serious players and enthusiasts of chess",
+      "body": "<p><a href=\"https://chess.stackexchange.com\" target=\"_blank\" title=\"https://chess.stackexchange.com/\">https://chess.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e6313e2a67d8279d2_chess.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "windows-phone-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Windows Phone launches",
+      "summary": "for enthusiasts and power users of Windows Phone OS",
+      "body": "<p><a href=\"https://windowsphone.stackexchange.com\" target=\"_blank\" title=\"https://windowsphone.stackexchange.com/\">https://windowsphone.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e941c933f46b379fb_windowsphone.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "sports-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Sports launches",
+      "summary": "for participants in team and individual sport activities",
+      "body": "<p><a href=\"https://sports.stackexchange.com\" target=\"_blank\" title=\"https://sports.stackexchange.com/\">https://sports.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947ea9923d1ef73199c7_sports.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "martial-arts-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Martial Arts launches",
+      "summary": "for students and teachers of all martial arts",
+      "body": "<p><a href=\"https://martialarts.stackexchange.com\" target=\"_blank\" title=\"https://martialarts.stackexchange.com/\">https://martialarts.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e6313e2fd8c8279d3_martialarts.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "the-great-outdoors-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "The Great Outdoors launches",
+      "summary": "for people who love being outdoors enjoying nature and wilderness, and learning about the required skills and equipment",
+      "body": "<p><a href=\"https://outdoors.stackexchange.com\" target=\"_blank\" title=\"https://outdoors.stackexchange.com/\">https://outdoors.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e47a6a253695cc90e_outdoors.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "psychology-neuroscience-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Psychology & Neuroscience launches",
+      "summary": "for practitioners, researchers, and students in cognitive science, psychology, neuroscience, and psychiatry",
+      "body": "<p><a href=\"https://psychology.stackexchange.com\" target=\"_blank\" title=\"https://psychology.stackexchange.com/\">https://psychology.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9476598c47bfc577ef13_psychology.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "poker-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Poker launches",
+      "summary": "for serious players and enthusiasts of poker",
+      "body": "<p><a href=\"https://poker.stackexchange.com\" target=\"_blank\" title=\"https://poker.stackexchange.com/\">https://poker.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a94766313e20e908279cf_poker.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "chinese-language-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Chinese Language launches",
+      "summary": "for students, teachers, and linguists wanting to discuss the finer points of the Chinese language",
+      "body": "<p><a href=\"https://chinese.stackexchange.com\" target=\"_blank\" title=\"https://chinese.stackexchange.com/\">https://chinese.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9476e8da5a723c21514c_chinese.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "computational-science-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Computational Science launches",
+      "summary": "for scientists using computers to solve scientific problems",
+      "body": "<p><a href=\"https://scicomp.stackexchange.com\" target=\"_blank\" title=\"https://scicomp.stackexchange.com/\">https://scicomp.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9477941c93121db379f9_scicomp.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "spanish-language-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Spanish Language launches",
+      "summary": "for linguists, teachers, students and Spanish language enthusiasts in general wanting to discuss the finer points of the language",
+      "body": "<p><a href=\"https://spanish.stackexchange.com\" target=\"_blank\" title=\"https://spanish.stackexchange.com/\">https://spanish.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9478941c93694bb379fa_spanish.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "bricks-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Bricks launches",
+      "summary": "for LEGO® and building block enthusiasts",
+      "body": "<p><a href=\"https://bricks.stackexchange.com\" target=\"_blank\" title=\"https://bricks.stackexchange.com/\">https://bricks.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941fe8da5a4971214e3f_bricks.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "history-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "History launches",
+      "summary": "for historians and history buffs",
+      "body": "<p><a href=\"https://history.stackexchange.com\" target=\"_blank\" title=\"https://history.stackexchange.com/\">https://history.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941f598c4727ff77ede8_history.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "biblical-hermeneutics-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Biblical Hermeneutics launches",
+      "summary": "for professors, theologians, and those interested in exegetical analysis of biblical texts",
+      "body": "<p><a href=\"https://hermeneutics.stackexchange.com\" target=\"_blank\" title=\"https://hermeneutics.stackexchange.com/\">https://hermeneutics.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941fa9923d85183195b0_hermeneutics.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "linguistics-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Linguistics launches",
+      "summary": "for professional linguists and others with an interest in linguistic research and theory",
+      "body": "<p><a href=\"https://linguistics.stackexchange.com\" target=\"_blank\" title=\"https://linguistics.stackexchange.com/\">https://linguistics.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941f6313e24e02827972_linguistics.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "french-language-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "French Language launches",
+      "summary": "for students, teachers, and linguists wanting to discuss the finer points of the French language",
+      "body": "<p><a href=\"https://french.stackexchange.com\" target=\"_blank\" title=\"https://french.stackexchange.com/\">https://french.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941f47a6a227755cc5e4_french.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "gardening-landscaping-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Gardening & Landscaping launches",
+      "summary": "for gardeners and landscapers",
+      "body": "<p><a href=\"https://gardening.stackexchange.com\" target=\"_blank\" title=\"https://gardening.stackexchange.com/\">https://gardening.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417598c47e05e77eddc_gardening.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "german-language-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "German Language launches",
+      "summary": "for speakers of German wanting to discuss the finer points of the language and translation",
+      "body": "<p><a href=\"https://german.stackexchange.com\" target=\"_blank\" title=\"https://german.stackexchange.com/\">https://german.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941747a6a2a42b5cc5d2_german.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "software-quality-assurance-testing-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Software Quality Assurance & Testing launches",
+      "summary": "for software quality control experts, automation engineers, and software testers",
+      "body": "<p><a href=\"https://sqa.stackexchange.com\" target=\"_blank\" title=\"https://sqa.stackexchange.com/\">https://sqa.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417598c47a45e77eddb_sqa.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "parenting-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Parenting launches",
+      "summary": "for parents, grandparents, nannies and others with a parenting role",
+      "body": "<p><a href=\"https://parenting.stackexchange.com\" target=\"_blank\" title=\"https://parenting.stackexchange.com/\">https://parenting.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417598c47189f77edda_parenting.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "physical-fitness-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Physical Fitness launches",
+      "summary": "for physical fitness professionals, athletes, trainers, and those providing health-related needs",
+      "body": "<p><a href=\"https://fitness.stackexchange.com\" target=\"_blank\" title=\"https://fitness.stackexchange.com/\">https://fitness.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417e8da5a60dd214e3c_fitness.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "project-management-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Project Management launches",
+      "summary": "for project managers",
+      "body": "<p><a href=\"https://pm.stackexchange.com\" target=\"_blank\" title=\"https://pm.stackexchange.com/\">https://pm.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9410941c93c45db3765d_pm.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "video-production-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Video Production launches",
+      "summary": "for engineers, producers, editors, and enthusiasts spanning the fields of video, and media creation",
+      "body": "<p><a href=\"https://video.stackexchange.com\" target=\"_blank\" title=\"https://video.stackexchange.com/\">https://video.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941047a6a270205cc5bf_video.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "writing-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Writing launches",
+      "summary": "for the craft of professional writing, including fiction, non-fiction, technical, scholarly, and commercial writing",
+      "body": "<p><a href=\"https://writing.stackexchange.com\" target=\"_blank\" title=\"https://writing.stackexchange.com/\">https://writing.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941347a6a28e0a5cc5c8_writing.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "homebrewing-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Homebrewing launches",
+      "summary": "for dedicated home brewers and serious enthusiasts",
+      "body": "<p><a href=\"https://homebrew.stackexchange.com\" target=\"_blank\" title=\"https://homebrew.stackexchange.com/\">https://homebrew.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9411a9923d4ddd3195ad_homebrew.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "board-card-games-launches",
+      "type": "site-graduation",
+      "date_str": "2019-08-01",
+      "title": "Board & Card Games launches",
+      "summary": "for people who like playing board games, designing board games or modifying the rules of existing board games",
+      "body": "<p><a href=\"https://boardgames.stackexchange.com\" target=\"_blank\" title=\"https://boardgames.stackexchange.com/\">https://boardgames.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a94136313e26254827798_boardgames.png"
+    },
+    {
+      "classes": ["event-large", "tag-meta"],
+      "slug": "29-beta-sites-mass-graduate",
+      "type": "meta",
+      "date_str": "2019-08-01",
+      "title": "29 beta sites mass graduate",
+      "summary": "",
+      "body": "<blockquote>In the almost four years since that announcement it's become clear on many of your meta sites and even here on MSE that being unable to get rid of the \"beta\" label in your banners is a major concern to your communities - and it's time to address that.</blockquote><blockquote>What does it mean? For now, if a site started private beta before July 2012, that site is no longer \"beta\" - it is a full site by our definition. We've removed the word \"beta\" from the site banners because we believe that these sites aren't really beta sites any more, even if they don't get ten questions per day.</blockquote><p><a href=\"https://meta.stackexchange.com/q/331708\" title=\"https://meta.stackexchange.com/q/331708\">Congratulations to our 29 oldest beta sites - They're now no longer beta!</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "slug": "cassie-montrose-resigns",
+      "type": "staff resignation",
+      "date_str": "2019-07-31 ??",
+      "title": "Cassie Montrose resigns",
+      "summary": "Chief Of Staff",
+      "body": "",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-official",
+        "tag-policy"
+      ],
+      "slug": "hot-meta-posts-removed-from-stack-overflows-sidebar",
+      "type": "official policy",
+      "date_str": "2019-07-23",
+      "title": "Hot Meta Posts removed from Stack Overflow's sidebar",
+      "summary": "Stack Exchange wanted to remove automatic visibility on popular site discussions so that there will be less transparency to avoid possible blowback on controversial topics",
+      "body": "<blockquote>We're removing the \"Hot Meta Posts\" from Stack Overflow's sidebar while we work on looking at how Meta can better meet its goals. To ensure that moderators are able to bring important posts to the community, we'll be giving them exclusive access to the featured tag. \"Featured on Meta\" will remain. This only affects Stack Overflow.</blockquote><p>Unfortunately this didn't work out well because the sidebar is heavily cached. It can take up to six hours before a [featured] post appears in the sidebar.</p><p>Also, the \"exclusive access\" policy was rescinded in early 2020 because they can.</p><p><a href=\"https://meta.stackoverflow.com/q/387546\" title=\"https://meta.stackoverflow.com/q/387546\">We’re removing “Hot Meta Posts” from Stack Overflow's sidebar for now; <strong>moderators now fully control [featured]</strong></a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-large", "tag-staff", "tag-resignation"],
+      "slug": "jay-hanlon-resigns",
+      "type": "staff resignation",
+      "date_str": "2019-03-13",
+      "title": "Jay Hanlon resigns",
+      "summary": "EVP Culture & Experience",
+      "body": "<blockquote>I tried my best, where I could, to leave this place just a little bit better than when I found it. Where I failed at that, I think I mostly learned from it. And where I succeeded, it was in large part thanks to all of you, and all of your efforts to make this crazy experiment keep working. Keep teaching. Keep helping. Be kind to all my friends at the company.<br>-- <a href=\"https://meta.stackexchange.com/a/325544\" title=\"https://meta.stackexchange.com/a/325544\">Jay</a></blockquote><p><a href=\"https://meta.stackexchange.com/q/325178\" title=\"https://meta.stackexchange.com/q/325178\">Goodbye and thank you, Jaydles!</a></p><p><a href=\"https://twitter.com/jayhanlon\" title=\"https://twitter.com/jayhanlon\">Follow @jayhanlon on Twitter</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-moderators",
+        "tag-appointed"
+      ],
+      "slug": "moderators-appointed-on-meta-stack-exchange-for-the-first-time",
+      "type": "moderators appointed",
+      "date_str": "2018-11-21",
+      "title": "Moderators appointed on Meta Stack Exchange for the first time",
+      "summary": "ChrisF, Tinkeringbell, Journeyman Geek, and later Monica Cellio (on 2019-01-30)",
+      "body": "<blockquote>Please welcome ChrisF, Tinkeringbell and Journeyman Geek as they step up to become emissaries of Meta Stack Exchange!<br><br>Monica is an experienced moderator across the Stack Exchange network and we thought it would be presumptuous to ask her to step up yet again; that was a little short-sighted of us because she's been rocking it here and has the cycles to come on board.<br><br>These folks have quite a bit of moderation experience, some since the dawn of time the concept of pro-tem moderation itself. All of these individuals have been leaders on their respective sites, as well as leaders in the broader Stack Exchange moderator community. They're fair, even-keeled and most importantly, they're incredibly great at disagreeing with Stack Exchange!</blockquote><p>‍<a href=\"https://meta.stackexchange.com/q/318630\" title=\"https://meta.stackexchange.com/q/318630\">Please Join Us in Welcoming Our New Meta Stack Exchange Moderators!</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "slug": "joe-friend-resigns",
+      "type": "staff resignation",
+      "date_str": "2018-11-18",
+      "title": "Joe Friend resigns",
+      "summary": "Product Manager, DAG Team",
+      "body": "",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-moderator", "tag-statement"],
+      "slug": "monica-cellio-releases-a-statement-on-medium",
+      "type": "moderator statement",
+      "date_str": "2018-10-21",
+      "title": "Monica Cellio releases a statement on Medium",
+      "summary": "",
+      "body": "<blockquote>\"Your silence in the face of bad behavior is harming your relationship with the volunteers and community members who make your sites work.\"</blockquote><p><a href=\"https://medium.com/@cellio/dear-stack-overflow-we-need-to-talk-13bf3f90204f\" title=\"https://medium.com/@cellio/dear-stack-overflow-we-need-to-talk-13bf3f90204f\">Dear Stack Overflow, we need to talk.</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-meta"],
+      "slug": "interpersonal-skills-was-banned-from-hot-network-questions-over-a-twitter-complaint",
+      "type": "meta",
+      "date_str": "2018-10-17",
+      "title": "Interpersonal Skills was banned from Hot Network Questions over a Twitter complaint",
+      "summary": "",
+      "body": "<p><a href=\"https://interpersonal.meta.stackexchange.com/q/3330\" title=\"https://interpersonal.meta.stackexchange.com/q/3330\">What caused this site to be excluded from Hot Network Questions?</a></p><p>Later reinstated with maximum one entry at any time:</p><ul role=\"list\"><li><a href=\"https://interpersonal.meta.stackexchange.com/q/3599\" title=\"https://interpersonal.meta.stackexchange.com/q/3599\">Revisiting HNQ participation for IPS</a></li><li><a href=\"https://interpersonal.meta.stackexchange.com/q/3642\" title=\"https://interpersonal.meta.stackexchange.com/q/3642\">Let's go back to HNQ!</a></li></ul>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "featured-event",
+        "tag-official",
+        "tag-policy",
+        "tag-coc",
+        "tag-code-of-conductcode-of-conduct"
+      ],
+      "slug": "stack-exchange-launches-the-code-of-conduct",
+      "type": "official policy coc",
+      "date_str": "2018-07-19",
+      "title": "Stack Exchange launches the Code of Conduct",
+      "summary": "https://meta.stackexchange.com/conduct",
+      "body": "<p>Discussions & feedback:</p><ul role=\"list\"><li><a href=\"https://meta.stackexchange.com/q/312038\" title=\"https://meta.stackexchange.com/q/312038\">We'd like your feedback on our new Code of Conduct!</a></li><li><a href=\"https://meta.stackexchange.com/q/312850\" title=\"https://meta.stackexchange.com/q/312850\">The second draft of our Code of Conduct is available for feedback and review</a></li></ul>",
+      "links": [],
+      "tags": [
+        {
+          "text": "code-of-conduct",
+          "url": "https://meta.stackexchange.com/questions/tagged/code-of-conduct?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "code-of-conduct",
+          "url": "https://meta.stackoverflow.com/questions/tagged/code-of-conduct?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-blog",
+        "tag-welcoming",
+        "tag-drama",
+        "tag-welcomingwelcoming"
+      ],
+      "slug": "the-welcoming",
+      "type": "blog welcoming drama",
+      "date_str": "2018-04-26",
+      "title": "The \"Welcoming\"",
+      "summary": "controversial issue blogged about by Jay Hanlon, EVP of Culture and Experience",
+      "body": "<p><a href=\"https://stackoverflow.blog/2018/04/26/stack-overflow-isnt-very-welcoming-its-time-for-that-to-change\" title=\"https://stackoverflow.blog/2018/04/26/stack-overflow-isnt-very-welcoming-its-time-for-that-to-change\"><strong>Stack Overflow Isn’t Very Welcoming. It’s Time for That to Change.</strong></a></p><p>Spawned discussions on Meta Stack Overflow:</p><ul role=\"list\"><li><a href=\"https://meta.stackoverflow.com/q/366665\" title=\"https://meta.stackoverflow.com/q/366665\">Does Stack Exchange really want to conflate newbies with women/people of color?</a></li><li><a href=\"https://meta.stackoverflow.com/q/366692\" title=\"https://meta.stackoverflow.com/q/366692\">How do you know Stack Overflow feels unwelcoming?</a></li><li><a href=\"https://meta.stackoverflow.com/q/366757\" title=\"https://meta.stackoverflow.com/q/366757\">On the false dichotomy between quality and kindness</a></li><li><a href=\"https://meta.stackoverflow.com/q/366858\" title=\"https://meta.stackoverflow.com/q/366858\">When is Stack Overflow going to stop demonizing the quality-concerned users who have made the site a success?</a></li><li><a href=\"https://meta.stackoverflow.com/q/366937\" title=\"https://meta.stackoverflow.com/q/366937\">Is Stack Overflow really racist/sexist?</a></li></ul>",
+      "links": [],
+      "tags": [
+        {
+          "text": "welcoming",
+          "url": "https://meta.stackexchange.com/questions/tagged/welcoming?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "welcoming",
+          "url": "https://meta.stackoverflow.com/questions/tagged/welcoming?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-product", "tag-stack-overflow-for-teams"],
+      "slug": "stack-overflow-for-teams-announced",
+      "type": "product",
+      "date_str": "2018-03-05",
+      "title": "Stack Overflow for Teams announced",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/364145\" title=\"https://meta.stackoverflow.com/q/364145\">Coming Soon: Stack Overflow For Teams!</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "stack-overflow-for-teams",
+          "url": "https://meta.stackoverflow.com/questions/tagged/stack-overflow-for-teams?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-blog", "tag-design"],
+      "slug": "stack-exchange-announces-networkwide-redesign",
+      "type": "blog design",
+      "date_str": "2018-02-08",
+      "title": "Stack Exchange announces network-wide redesign",
+      "summary": "design is codenamed \"Stacks\"",
+      "body": "<p><a href=\"https://stackoverflow.blog/2018/02/08/information-architecture-navigating-stack-overflow-enterprise-stack-exchange-sites\" title=\"https://stackoverflow.blog/2018/02/08/information-architecture-navigating-stack-overflow-enterprise-stack-exchange-sites\">Updating Navigation for Stack Overflow, Enterprise, and Stack Exchange Sites</a></p><p><a href=\"https://meta.stackexchange.com/q/307862\" title=\"https://meta.stackexchange.com/q/307862\">Ch-ch-ch-changes: Left nav, responsive design, & themes</a></p><p><a href=\"https://meta.stackexchange.com/q/309349\" title=\"https://meta.stackexchange.com/q/309349\">Left nav, responsive design, and theming next steps</a></p><p>Official site: <a href=\"https://stackoverflow.design\" title=\"https://stackoverflow.design/\">https://stackoverflow.design</a></p><p>Github: <a href=\"https://github.com/StackExchange/Stacks\" title=\"https://github.com/StackExchange/Stacks\">https://github.com/StackExchange/Stacks</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
+        "event-large",
+        "tag-advertising",
+        "tag-quality",
+        "tag-inappropriate-advertisementsadvertisingadvertising"
+      ],
+      "slug": "implemention-of-affiliate-ads",
+      "type": "advertising quality",
+      "date_str": "2018-02-07",
+      "title": "Implemention of Affiliate Ads",
+      "summary": "this makes it harder to control the quality of ads as they will now be served by third-parties",
+      "body": "<p><a href=\"https://meta.stackexchange.com/q/306737\" title=\"https://meta.stackexchange.com/q/306737\"><strong>Affiliate Ads Are Coming To The Network</strong></a></p><p>Resulting fallout and continuing until today:</p><ul role=\"list\"><li><a href=\"https://meta.stackexchange.com/questions/329547/ads-on-se-sites-are-excessively-animated-irrelevant-dubious-and-resource-inten\" title=\"https://meta.stackexchange.com/questions/329547/ads-on-se-sites-are-excessively-animated-irrelevant-dubious-and-resource-inten\">Ads on SE sites are excessively <strong>animated</strong>, irrelevant, dubious and resource-intensive</a></li><li><a href=\"https://meta.stackexchange.com/questions/331960/why-is-stack-overflow-trying-to-start-audio\" title=\"https://meta.stackexchange.com/questions/331960/why-is-stack-overflow-trying-to-start-audio\">Why is Stack Overflow trying to start <strong>audio</strong>?</a></li><li><a href=\"https://meta.stackexchange.com/questions/332974/is-se-allowing-ads-to-use-fingerprinting-to-track-users\" title=\"https://meta.stackexchange.com/questions/332974/is-se-allowing-ads-to-use-fingerprinting-to-track-users\">Is SE allowing ads to use <strong>fingerprinting </strong>to track users?</a></li><li><a href=\"https://meta.stackexchange.com/questions/333536/inappropriate-weight-loss-ad-on-the-workplace-elu-and-travel\" title=\"https://meta.stackexchange.com/questions/333536/inappropriate-weight-loss-ad-on-the-workplace-elu-and-travel\">Inappropriate <strong>weight loss</strong> ad on The Workplace, ELU, and Travel</a></li><li><a href=\"https://meta.stackexchange.com/questions/333588/are-interstitial-ads-video-ads-and-autoplay-audio-ads-coming-to-se\" title=\"https://meta.stackexchange.com/questions/333588/are-interstitial-ads-video-ads-and-autoplay-audio-ads-coming-to-se\">Are <strong>interstitial </strong>ads, <strong>video </strong>ads and <strong>autoplay </strong>audio ads coming to SE?</a></li><li><a href=\"https://meta.stackexchange.com/questions/333689/inappropriate-ads-by-wgx-ad-on-academia-and-history\" title=\"https://meta.stackexchange.com/questions/333689/inappropriate-ads-by-wgx-ad-on-academia-and-history\">Inappropriate “Ads by WGX” ad on Academia and History</a></li><li><a href=\"https://meta.stackexchange.com/questions/333751/those-ads-carousel-are-try-to-tell-me-something\" title=\"https://meta.stackexchange.com/questions/333751/those-ads-carousel-are-try-to-tell-me-something\">Those ads carousel are try to tell me something</a></li><li><a href=\"https://meta.stackexchange.com/questions/334132/nsfw-video-and-annoying-animated-advertising-on-music-se\" title=\"https://meta.stackexchange.com/questions/334132/nsfw-video-and-annoying-animated-advertising-on-music-se\">NSFW <strong>video </strong>and annoying animated advertising on Music SE</a></li><li><a href=\"https://meta.stackexchange.com/questions/334355/full-page-adverts\" title=\"https://meta.stackexchange.com/questions/334355/full-page-adverts\"><strong>Full page</strong> adverts?</a></li><li><a href=\"https://meta.stackexchange.com/questions/334537/stop-with-the-sex-ads-on-se-sites-especially-sites-like-the-workplace\" title=\"https://meta.stackexchange.com/questions/334537/stop-with-the-sex-ads-on-se-sites-especially-sites-like-the-workplace\">Stop with the <strong>Sex </strong>Ads on SE sites, ESPECIALLY sites like “The Workplace”</a></li><li><a href=\"https://meta.stackexchange.com/questions/334833/inappropriate-dating-ad-on-the-workplace\" title=\"https://meta.stackexchange.com/questions/334833/inappropriate-dating-ad-on-the-workplace\">Inappropriate <strong>dating </strong>ad on The Workplace</a></li><li><a href=\"https://meta.stackexchange.com/questions/335150/todays-inappropriate-ad-health-scam-on-travel\" title=\"https://meta.stackexchange.com/questions/335150/todays-inappropriate-ad-health-scam-on-travel\">Health <strong>scam </strong>on Travel</a></li><li><a href=\"https://meta.stackexchange.com/questions/335402/todays-inappropriate-ad-obesity-antidote-discovered-on-sff\" title=\"https://meta.stackexchange.com/questions/335402/todays-inappropriate-ad-obesity-antidote-discovered-on-sff\">“Obesity <strong>antidote </strong>discovered” on SFF</a></li><li><a href=\"https://meta.stackexchange.com/questions/335497/todays-inappropriate-ad-playboy-model-on-biology\" title=\"https://meta.stackexchange.com/questions/335497/todays-inappropriate-ad-playboy-model-on-biology\"><strong>Playboy </strong>model on Biology</a></li><li><a href=\"https://meta.stackexchange.com/questions/335570/todays-possibly-inappropriate-ad-possible-stem-cell-scam-on-biology\" title=\"https://meta.stackexchange.com/questions/335570/todays-possibly-inappropriate-ad-possible-stem-cell-scam-on-biology\">Possible stem cell <strong>scam </strong>on Biology</a></li><li><a href=\"https://meta.stackexchange.com/questions/335577/yet-another-inappropriate-scammy-and-nsfw-ad\" title=\"https://meta.stackexchange.com/questions/335577/yet-another-inappropriate-scammy-and-nsfw-ad\">Yet another inappropriate, scammy and <strong>NSFW </strong>ad</a></li><li><a href=\"https://meta.stackexchange.com/questions/335628/inappropriate-ad-online-gambling-on-music-se\" title=\"https://meta.stackexchange.com/questions/335628/inappropriate-ad-online-gambling-on-music-se\">Online <strong>gambling </strong>on Music SE</a></li><li><a href=\"https://meta.stackexchange.com/questions/335731/todays-inappropriate-ad-fixing-bunions-without-surgery-and-probably-without-a\" title=\"https://meta.stackexchange.com/questions/335731/todays-inappropriate-ad-fixing-bunions-without-surgery-and-probably-without-a\">Fixing bunions without surgery (and probably without any doctor) on Chemistry</a></li><li><em>(etc. see tags below)</em><br></li></ul>",
+      "links": [],
+      "tags": [
+        {
+          "text": "inappropriate-advertisements",
+          "url": "https://meta.stackexchange.com/questions/tagged/inappropriate-advertisements?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "advertising",
+          "url": "https://meta.stackexchange.com/questions/tagged/advertising?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "advertising",
+          "url": "https://meta.stackoverflow.com/questions/tagged/advertising?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-staff", "tag-fired"],
+      "slug": "2017-stack-exchange-staff-layoffs",
+      "type": "staff fired",
+      "date_str": "2017-11-02",
+      "title": "2017 Stack Exchange staff layoffs",
+      "summary": "approximately 20% of its staff were laid-off, most were developers",
+      "body": "<p><a href=\"https://meta.stackexchange.com/q/303005\" title=\"https://meta.stackexchange.com/q/303005\">What happened with the Stack Overflow layoffs (2017-11-02)?</a></p><blockquote>Learned this morning that today is my -- and many others' -- last day at @StackOverflow. Know anyone wanting to pick up a Stack dev, shout.<br>-- <a href=\"https://twitter.com/AndrewBrobston/status/926130048771469312\" title=\"https://twitter.com/AndrewBrobston/status/926130048771469312\">@AndrewBrobston</a></blockquote><ul role=\"list\"><li>Techcrunch - <a href=\"https://techcrunch.com/2017/11/02/stack-overflow-lays-off-staff\" title=\"https://techcrunch.com/2017/11/02/stack-overflow-lays-off-staff\">Developer community Stack Overflow reportedly lays off 20% as it refocuses business</a></li><li>ycombinator - <a href=\"https://news.ycombinator.com/item?id=15613101\" title=\"https://news.ycombinator.com/item?id=15613101\">Stack Overflow reducing headcount by 20%</a></li></ul>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "bitcoin-launches",
+      "type": "site-graduation",
+      "date_str": "2017-10-09",
+      "title": "Bitcoin launches",
+      "summary": "for Bitcoin crypto-currency enthusiasts",
+      "body": "<p><a href=\"https://bitcoin.stackexchange.com\" target=\"_blank\" title=\"https://bitcoin.stackexchange.com/\">https://bitcoin.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bcbe4a74784220a3d5_bitcoin.png"
+    },
+    {
+      "classes": ["event-small", "tag-experiment"],
+      "slug": "stack-overflow-mentorship-research-project-ends",
+      "type": "experiment",
+      "date_str": "2017-09-28",
+      "title": "Stack Overflow Mentorship Research Project ends",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/357198\" title=\"https://meta.stackoverflow.com/q/357198\">Mentorship Research Project - Results + Wrap-Up</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-feature", "tag-experiment", "tag-documentation"],
+      "slug": "stack-overflow-removes-documentation",
+      "type": "feature experiment",
+      "date_str": "2017-08-01",
+      "title": "Stack Overflow removes Documentation",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/354217\" title=\"https://meta.stackoverflow.com/q/354217\">Sunsetting Documentation</a></p><p><a href=\"https://meta.stackoverflow.com/q/355115\" title=\"https://meta.stackoverflow.com/q/355115\">Documentation is read-only. What’s next?</a></p><p><a href=\"https://meta.stackoverflow.com/q/356294\" title=\"https://meta.stackoverflow.com/q/356294\">Removing Documentation: Reputation, Archive, and Links</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "documentation",
+          "url": "https://meta.stackoverflow.com/questions/tagged/documentation?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-experiment", "tag-mentoring"],
+      "slug": "stack-overflow-mentorship-research-project-begins",
+      "type": "experiment",
+      "date_str": "2017-07-26",
+      "title": "Stack Overflow Mentorship Research Project begins",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/353845\" title=\"https://meta.stackoverflow.com/q/353845\">Stack Overflow Mentorship Research Project</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "mentoring",
+          "url": "https://meta.stackoverflow.com/questions/tagged/mentoring?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "arduino-launches",
+      "type": "site-graduation",
+      "date_str": "2017-07-17",
+      "title": "Arduino launches",
+      "summary": "for developers of open-source hardware and software that is compatible with Arduino",
+      "body": "<p><a href=\"https://arduino.stackexchange.com\" target=\"_blank\" title=\"https://arduino.stackexchange.com/\">https://arduino.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bc3fa1326194e48de9_arduino.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "data-science-launches",
+      "type": "site-graduation",
+      "date_str": "2017-07-10",
+      "title": "Data Science launches",
+      "summary": "for Data science professionals, Machine Learning specialists, and those interested in learning more about the field",
+      "body": "<p><a href=\"https://datascience.stackexchange.com\" target=\"_blank\" title=\"https://datascience.stackexchange.com/\">https://datascience.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bc3fa13245a9e48de8_datascience.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "ethereum-launches",
+      "type": "site-graduation",
+      "date_str": "2017-06-26",
+      "title": "Ethereum launches",
+      "summary": "for users of Ethereum, the decentralized application platform and smart contract enabled blockchain",
+      "body": "<p><a href=\"https://ethereum.stackexchange.com\" target=\"_blank\" title=\"https://ethereum.stackexchange.com/\">https://ethereum.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bcb3437b29b804ffec_ethereum.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "stack-overflow-en-espaol-launches",
+      "type": "site-graduation",
+      "date_str": "2017-05-17",
+      "title": "Stack Overflow en español launches",
+      "summary": "for programadores y profesionales de la informática",
+      "body": "<p><a href=\"https://es.stackoverflow.com\" target=\"_blank\" title=\"https://es.stackoverflow.com/\">https://es.stackoverflow.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf76f90346b3e36333_es.stackoverflow.png"
+    },
+    {
+      "classes": ["featured-event", "tag-meta"],
+      "slug": "time-to-take-a-stand",
+      "type": "meta",
+      "date_str": "2017-01-29",
+      "title": "Time to take a stand",
+      "summary": "meta watershed moment",
+      "body": "<p>after United States President Trump’s executive order on immigration, Joel Spolsky, CEO and co-founder, posted his thoughts on Meta Stack Overflow.</p><p><a href=\"https://meta.stackoverflow.com/q/342440\" title=\"https://meta.stackoverflow.com/q/342440\">Time to take a stand</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-staff", "tag-resignation"],
+      "slug": "marco-cecconi-resigns",
+      "type": "staff resignation",
+      "date_str": "2018-11-18",
+      "title": "Marco Cecconi resigns",
+      "summary": "Software Engineer",
+      "body": "<blockquote>I'm leaving Stack Overflow tomorrow, it's been an amazing fun ride! Onwards and upwards!<br>-- <a href=\"https://twitter.com/sklivvz/status/832236760583258112\" title=\"https://twitter.com/sklivvz/status/832236760583258112\">Marco</a></blockquote><p><a href=\"https://meta.stackexchange.com/q/291152\" title=\"https://meta.stackexchange.com/q/291152\">So long, Sklivvz</a></p><p><a href=\"https://twitter.com/sklivvz\" title=\"https://twitter.com/sklivvz\">Follow @sklivvz on Twitter</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "quantitative-finance-launches",
+      "type": "site-graduation",
+      "date_str": "2016-12-12",
+      "title": "Quantitative Finance launches",
+      "summary": "for finance professionals and academics",
+      "body": "<p><a href=\"https://quant.stackexchange.com\" target=\"_blank\" title=\"https://quant.stackexchange.com/\">https://quant.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bcbe4a7417a820a3d6_quant.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "motor-vehicle-maintenance-repair-launches",
+      "type": "site-graduation",
+      "date_str": "2016-09-13",
+      "title": "Motor Vehicle Maintenance & Repair launches",
+      "summary": "for mechanics and DIY enthusiast owners of cars, trucks, and motorcycles",
+      "body": "<p><a href=\"https://mechanics.stackexchange.com\" target=\"_blank\" title=\"https://mechanics.stackexchange.com/\">https://mechanics.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bd096239c43c3e4791_mechanics.png"
+    },
+    {
+      "classes": ["tag-microsite-launch", "tag-blog"],
+      "slug": "stack-overflow-salary-calculator-launched",
+      "type": "microsite-launch blog",
+      "date_str": "2016-07-27",
+      "title": "Stack Overflow Salary Calculator launched",
+      "summary": "",
+      "body": "<blockquote>We’ve created a salary and skills calculator for Stack Overflow’s engineering, design and product roles. This has been transparent internally for a while; now it’s transparent with you.</blockquote><p><a href=\"https://stackoverflow.blog/2016/07/27/salary-transparency\" title=\"https://stackoverflow.blog/2016/07/27/salary-transparency\">Salary Transparency at Stack Overflow</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bd096239c43c3e4791_mechanics.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "law-launches",
+      "type": "site-graduation",
+      "date_str": "2016-07-06",
+      "title": "Law launches",
+      "summary": "for legal professionals, students, and others with experience or interest in law",
+      "body": "<p><a href=\"https://law.stackexchange.com\" target=\"_blank\" title=\"https://law.stackexchange.com/\">https://law.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf3fa1325b76e48ded_law.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "philosophy-launches",
+      "type": "site-graduation",
+      "date_str": "2016-07-06",
+      "title": "Philosophy launches",
+      "summary": "for those interested in the study of the fundamental nature of knowledge, reality, and existence",
+      "body": "<p><a href=\"https://philosophy.stackexchange.com\" target=\"_blank\" title=\"https://philosophy.stackexchange.com/\">https://philosophy.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf09623916f63e4798_philosophy.png"
+    },
+    {
+      "classes": [
+        "event-large",
+        "tag-stackoverflow",
+        "tag-chat",
+        "tag-group",
+        "tag-blog"
+      ],
+      "slug": "sobotics-founded",
+      "type": "stackoverflow chat group blog",
+      "date_str": "2016-05-08",
+      "title": "SOBotics founded",
+      "summary": "SOBotics creates bots to help with all aspects of community moderation on Stack Overflow on all fronts, be it questions, answers, comments or badges.",
+      "body": "<p><a href=\"https://sobotics.org\" title=\"https://sobotics.org/\">https://sobotics.org</a></p><p><a href=\"https://github.com/SOBotics\" title=\"https://github.com/SOBotics\">https://github.com/SOBotics</a></p><p>see also: <a href=\"https://stackoverflow.blog/2019/09/17/meet-the-bots-that-help-moderate-stack-overflow\" title=\"https://stackoverflow.blog/2019/09/17/meet-the-bots-that-help-moderate-stack-overflow\">Meet the Bots that Help Moderate Stack Overflow</a></p>",
+      "links": [
+        {
+          "text": "chat room",
+          "url": "https://chat.stackoverflow.com/rooms/111347/sobotics"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "puzzling-launches",
+      "type": "site-graduation",
+      "date_str": "2016-05-04",
+      "title": "Puzzling launches",
+      "summary": "for those who create, solve, and study puzzles",
+      "body": "<p><a href=\"https://puzzling.stackexchange.com\" target=\"_blank\" title=\"https://puzzling.stackexchange.com/\">https://puzzling.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf3fa132fe09e48dee_puzzling.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "code-golf-launches",
+      "type": "site-graduation",
+      "date_str": "2016-02-23",
+      "title": "Code Golf launches",
+      "summary": "for programming puzzle enthusiasts and code golfers",
+      "body": "<p><a href=\"https://codegolf.stackexchange.com\" target=\"_blank\" title=\"https://codegolf.stackexchange.com/\">https://codegolf.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bfb3437ba5f504ffef_codegolf.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "stack-overflow-launches",
+      "type": "site-graduation",
+      "date_str": "2015-12-11",
+      "title": "Stack Overflow на русском launches",
+      "summary": "for программистов (for programmers)",
+      "body": "<p><a href=\"https://ru.stackoverflow.com\" target=\"_blank\" title=\"https://ru.stackoverflow.com/\">https://ru.stackoverflow.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fdfbe4a74ecb62059ad_ru.stackoverflow.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "raspberry-pi-launches",
+      "type": "site-graduation",
+      "date_str": "2015-11-17",
+      "title": "Raspberry Pi launches",
+      "summary": "for users and developers of hardware and software for Raspberry Pi",
+      "body": "<p><a href=\"https://raspberrypi.stackexchange.com\" target=\"_blank\" title=\"https://raspberrypi.stackexchange.com/\">https://raspberrypi.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe03fa132e05ae4541a_raspberrypi.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "emacs-launches",
+      "type": "site-graduation",
+      "date_str": "2015-11-16",
+      "title": "Emacs launches",
+      "summary": "for those using, extending or developing Emacs",
+      "body": "<p><a href=\"https://emacs.stackexchange.com\" target=\"_blank\" title=\"https://emacs.stackexchange.com/\">https://emacs.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe0b3437baf6c049e35_emacs.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "worldbuilding-launches",
+      "type": "site-graduation",
+      "date_str": "2015-11-16",
+      "title": "Worldbuilding launches",
+      "summary": "for writers/artists using science, geography and culture to construct imaginary worlds and settings",
+      "body": "<p><a href=\"https://worldbuilding.stackexchange.com\" target=\"_blank\" title=\"https://worldbuilding.stackexchange.com/\">https://worldbuilding.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fdfca7814c1552c837d_worldbuilding.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "aviation-launches",
+      "type": "site-graduation",
+      "date_str": "2015-11-16",
+      "title": "Aviation launches",
+      "summary": "for aircraft pilots, mechanics, and enthusiasts",
+      "body": "<p><a href=\"https://aviation.stackexchange.com\" target=\"_blank\" title=\"https://aviation.stackexchange.com/\">https://aviation.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fddbe4a74548a2059ac_aviation.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "signal-processing-launches",
+      "type": "site-graduation",
+      "date_str": "2015-11-16",
+      "title": "Signal Processing launches",
+      "summary": "for practitioners of the art and science of signal, image and video processing",
+      "body": "<p><a href=\"https://dsp.stackexchange.com\" target=\"_blank\" title=\"https://dsp.stackexchange.com/\">https://dsp.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe0ca7814b2982c837e_dsp.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "software-recommendations-launches",
+      "type": "site-graduation",
+      "date_str": "2015-09-09",
+      "title": "Software Recommendations launches",
+      "summary": "for people seeking specific software recommendations",
+      "body": "<p><a href=\"https://softwarerecs.stackexchange.com\" target=\"_blank\" title=\"https://softwarerecs.stackexchange.com/\">https://softwarerecs.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe0be4a74e7182059ae_softwarerecs.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "japanese-language-launches",
+      "type": "site-graduation",
+      "date_str": "2015-09-09",
+      "title": "Japanese Language launches",
+      "summary": "for students, teachers, and linguists wanting to discuss the finer points of the Japanese language",
+      "body": "<p><a href=\"https://japanese.stackexchange.com\" target=\"_blank\" title=\"https://japanese.stackexchange.com/\">https://japanese.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd93fa1326589e45184_japanese.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "music-practice-theory-launches",
+      "type": "site-graduation",
+      "date_str": "2015-09-09",
+      "title": "Music: Practice & Theory launches",
+      "summary": "for musicians, students, and enthusiasts",
+      "body": "<p><a href=\"https://music.stackexchange.com\" target=\"_blank\" title=\"https://music.stackexchange.com/\">https://music.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd93fa1324793e45183_music.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "english-language-learners-launches",
+      "type": "site-graduation",
+      "date_str": "2015-09-08",
+      "title": "English Language Learners launches",
+      "summary": "for speakers of other languages learning English",
+      "body": "<p><a href=\"https://ell.stackexchange.com\" target=\"_blank\" title=\"https://ell.stackexchange.com/\">https://ell.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd9ca78145aa42c8376_ell.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "magento-launches",
+      "type": "site-graduation",
+      "date_str": "2015-09-01",
+      "title": "Magento launches",
+      "summary": "for users of the Magento e-Commerce platform",
+      "body": "<p><a href=\"https://magento.stackexchange.com\" target=\"_blank\" title=\"https://magento.stackexchange.com/\">https://magento.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd909623918f33dff09_magento.png"
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-small",
+        "tag-feature",
+        "tag-documentation"
+      ],
+      "slug": "stack-overflow-launches-documentation",
+      "type": "feature",
+      "date_str": "2015-08-31",
+      "title": "Stack Overflow launches Documentation",
+      "summary": "",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/303865\" title=\"https://meta.stackoverflow.com/q/303865\">Warlords of Documentation: A Proposed Expansion of Stack Overflow</a><br></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "documentation",
+          "url": "https://meta.stackoverflow.com/questions/tagged/documentation?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "anime-manga-launches",
+      "type": "site-graduation",
+      "date_str": "2015-08-25",
+      "title": "Anime & Manga launches",
+      "summary": "for anime and manga fans",
+      "body": "<p><a href=\"https://anime.stackexchange.com\" target=\"_blank\" title=\"https://anime.stackexchange.com/\">https://anime.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd9ca78141e8c2c8374_anime.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "computer-science-launches",
+      "type": "site-graduation",
+      "date_str": "2015-08-18",
+      "title": "Computer Science launches",
+      "summary": "for students, researchers and practitioners of computer science",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd9ca78145d502c8375_cs.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "code-review-launches",
+      "type": "site-graduation",
+      "date_str": "2015-07-14",
+      "title": "Code Review launches",
+      "summary": "for peer programmer code reviews",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd976f903e21ae2b0be_codereview.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "cryptography-launches",
+      "type": "site-graduation",
+      "date_str": "2015-06-30",
+      "title": "Cryptography launches",
+      "summary": "for software developers, mathematicians and others interested in cryptography",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd8ca78144ca92c8373_crypto.png"
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-meta"],
+      "slug": "can-stack-overflow-and-metas-logos-be-changed-temporarily-to-the-loveoverflows-logo",
+      "type": "meta",
+      "date_str": "2015-06-26",
+      "title": "Can Stack Overflow and Meta's logos be changed temporarily to the “#LoveOverflows” logo?",
+      "summary": "meta watershed moment",
+      "body": "<p>after Stack Exchange tweeted this image following the Supreme Court of the United States ruling in favor of gay marriage, Joel Spolsky, CEO and co-founder, strongly came out in support of this. The rainbow icon was in place for about a week on Stack Overflow.</p><p><a href=\"https://meta.stackoverflow.com/q/297859\" title=\"https://meta.stackoverflow.com/q/297859\">Can Stack Overflow and Meta's logos be changed temporarily to the “#LoveOverflows” logo?</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "network-engineering-launches",
+      "type": "site-graduation",
+      "date_str": "2015-06-23",
+      "title": "Network Engineering launches",
+      "summary": "for network engineers",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd276f903392be2b0b1_networkengineering.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "blender-launches",
+      "type": "site-graduation",
+      "date_str": "2015-06-16",
+      "title": "Blender launches",
+      "summary": "for people who use Blender to create 3D graphics, animations, or games",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd1be4a741d01205992_blender.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "biology-launches",
+      "type": "site-graduation",
+      "date_str": "2015-05-20",
+      "title": "Biology launches",
+      "summary": "for biology researchers, academics, and students",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd3be4a74434020599c_biology.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "stack-overflow-em-portugus-launches",
+      "type": "site-graduation",
+      "date_str": "2015-05-18",
+      "title": "Stack Overflow em Português launches",
+      "summary": "for programadores profissionais e entusiastas",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd3ca781420832c8368_pt.stackoverflow.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "chemistry-launches",
+      "type": "site-graduation",
+      "date_str": "2015-05-13",
+      "title": "Chemistry launches",
+      "summary": "for scientists, academics, teachers, and students in the field of chemistry",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd409623949d43dfef3_chemistry.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "movies-tv-launches",
+      "type": "site-graduation",
+      "date_str": "2015-01-28",
+      "title": "Movies & TV launches",
+      "summary": "for movie and tv enthusiasts",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd4be4a74085920599e_movies.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "expressionengine-answers-launches",
+      "type": "site-graduation",
+      "date_str": "2015-01-14",
+      "title": "ExpressionEngine® Answers launches",
+      "summary": "for administrators, end users, developers and designers for ExpressionEngine® CMS",
+      "body": "",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd3ca781417102c835b_expressionengine.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "salesforce-launches",
+      "type": "site-graduation",
+      "date_str": "2014-09-10",
+      "title": "Salesforce launches",
+      "summary": "for Salesforce administrators, implementation experts, developers and anybody in-between",
+      "body": "<p><a href=\"https://salesforce.stackexchange.com\" target=\"_blank\" title=\"https://salesforce.stackexchange.com/\">https://salesforce.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbb76f903fd40e2af53_salesforce.png"
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-experiment",
+        "tag-se-quality-projectse-quality-project"
+      ],
+      "slug": "stack-exchange-quality-improvement-project-announced",
+      "type": "experiment",
+      "date_str": "2014-04-17",
+      "title": "Stack Exchange Quality Improvement Project announced",
+      "summary": "",
+      "body": "<ul role=\"list\"><li><a href=\"https://meta.stackoverflow.com/q/253351\" title=\"https://meta.stackoverflow.com/q/253351\">Allow users to optionally filter out low-quality questions</a></li><li><a href=\"https://meta.stackoverflow.com/q/261138\" title=\"https://meta.stackoverflow.com/q/261138\">Feedback requested: New “recommended” homepage, phase 1</a></li><li><a href=\"https://meta.stackoverflow.com/q/262077\" title=\"https://meta.stackoverflow.com/q/262077\">What should the system be deleting automatically that it already isn't?</a></li><li><a href=\"https://meta.stackexchange.com/q/236537\" title=\"https://meta.stackexchange.com/q/236537\">Let's have an explicit triage system for questions from new users</a></li><li><a href=\"https://meta.stackexchange.com/q/236568\" title=\"https://meta.stackexchange.com/q/236568\">Breaking down question blocks - let's talk about rate limits</a></li></ul>",
+      "links": [],
+      "tags": [
+        {
+          "text": "se-quality-project",
+          "url": "https://meta.stackexchange.com/questions/tagged/se-quality-project?tab=Newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "se-quality-project",
+          "url": "https://meta.stackoverflow.com/questions/tagged/se-quality-project?tab=Newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "academia-launches",
+      "type": "site-graduation",
+      "date_str": "2014-04-23",
+      "title": "Academia launches",
+      "summary": "for academics and those enrolled in higher education",
+      "body": "<p><a href=\"https://academia.stackexchange.com\" target=\"_blank\" title=\"https://academia.stackexchange.com/\">https://academia.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbabe4a7433d9205816_academia.png"
+    },
+    {
+      "classes": ["featured-event", "tag-site-launch"],
+      "slug": "meta-stack-exchange-launches",
+      "type": "site-launch",
+      "date_str": "2014-04-17",
+      "title": "Meta Stack Exchange launches",
+      "summary": "split from Meta Stack Overflow",
+      "body": "<p><a href=\"https://meta.stackexchange.com\" title=\"https://meta.stackexchange.com/\">https://meta.stackexchange.com</a></p><p><a href=\"https://meta.stackoverflow.com/q/250024\" title=\"https://meta.stackoverflow.com/q/250024\">The Status Of The Split</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9692a9923d655e31ab1c_meta.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "graphic-design-launches",
+      "type": "site-graduation",
+      "date_str": "2014-04-02",
+      "title": "Graphic Design launches",
+      "summary": "for Graphic Design professionals, students, and enthusiasts",
+      "body": "<p><a href=\"https://graphicdesign.stackexchange.com\" target=\"_blank\" title=\"https://graphicdesign.stackexchange.com/\">https://graphicdesign.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fba3fa13211cee45125_graphicdesign.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "personal-finance-money-launches",
+      "type": "site-graduation",
+      "date_str": "2014-02-26",
+      "title": "Personal Finance & Money launches",
+      "summary": "for people who want to be financially literate",
+      "body": "<p><a href=\"https://money.stackexchange.com\" target=\"_blank\" title=\"https://money.stackexchange.com/\">https://money.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbc76f9031e9ae2af54_money.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "the-workplace-launches",
+      "type": "site-graduation",
+      "date_str": "2014-02-20",
+      "title": "The Workplace launches",
+      "summary": "for members of the workforce navigating the professional setting",
+      "body": "<p><a href=\"https://workplace.stackexchange.com\" target=\"_blank\" title=\"https://workplace.stackexchange.com/\">https://workplace.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fba09623959193dfdd4_workplace.png"
+    },
+    {
+      "classes": ["event-small", "tag-design"],
+      "slug": "top-bar-redesign",
+      "type": "design",
+      "date_str": "2013-12-04",
+      "title": "Top bar redesign",
+      "summary": "network-wide black top bar with global inbox, achievements list, and site switcher",
+      "body": "<p><a href=\"https://stackoverflow.blog/2013/12/04/a-new-top-bar-for-stack-exchange\" title=\"https://stackoverflow.blog/2013/12/04/a-new-top-bar-for-stack-exchange\">A New Top Bar for Stack Exchange</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["tag-stackoverflow", "tag-chat", "tag-group"],
+      "slug": "socvr-founded",
+      "type": "stackoverflow chat group",
+      "date_str": "2013-11-20",
+      "title": "SOCVR founded",
+      "summary": "The SO Close Vote Review Chat Room is a group of like-minded people who want to make a difference in the close vote queue, reviewing and clean-up efforts.",
+      "body": "<p><a href=\"https://socvr.org\" title=\"https://socvr.org/\">https://socvr.org</a></p>",
+      "links": [
+        {
+          "text": "chat room",
+          "url": "https://chat.stackoverflow.com/rooms/41570/so-close-vote-reviewers"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-large", "tag-stackexchange", "tag-chat", "tag-group"],
+      "slug": "charcoal-founded",
+      "type": "stackexchange chat group",
+      "date_str": "2013-11-16",
+      "title": "Charcoal founded",
+      "summary": "Charcoal are the people behind SmokeDetector, a community bot to detect spam on the Stack Exchange network.",
+      "body": "<ul role=\"list\"><li>‍<a href=\"https://charcoal-se.org\" title=\"https://charcoal-se.org/\">https://charcoal-se.org</a></li><li>‍<a href=\"https://github.com/Charcoal-SE/SmokeDetector\" title=\"https://github.com/Charcoal-SE/SmokeDetector\">SmokeDetector</a></li><li>‍<a href=\"https://metasmoke.erwaysoftware.com/\" title=\"https://metasmoke.erwaysoftware.com/\">Metasmoke</a> - a dashboard for SmokeDetector</li></ul>",
+      "links": [
+        {
+          "text": "chat room",
+          "url": "https://chat.stackexchange.com/rooms/11540/charcoal-hq"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "christianity-launches",
+      "type": "site-graduation",
+      "date_str": "2013-05-29",
+      "title": "Christianity launches",
+      "summary": "for committed Christians, experts in Christianity and those interested in learning more",
+      "body": "<p><a href=\"https://christianity.stackexchange.com\" target=\"_blank\" title=\"https://christianity.stackexchange.com/\">https://christianity.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbcca78145e162c834b_christianity.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "travel-launches",
+      "type": "site-graduation",
+      "date_str": "2013-01-22",
+      "title": "Travel launches",
+      "summary": "for road warriors and seasoned travelers",
+      "body": "<p><a href=\"https://travel.stackexchange.com\" target=\"_blank\" title=\"https://travel.stackexchange.com/\">https://travel.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fba3fa1324358e45124_travel.png"
+    },
+    {
+      "classes": ["event-small", "tag-community-event"],
+      "slug": "first-networkwide-winter-bash",
+      "type": "community-event",
+      "date_str": "2012-12-19",
+      "title": "First network-wide Winter Bash",
+      "summary": "winter bash was started on Gaming.SE in 2011, extended to the entire network from 2012",
+      "body": "<p><a href=\"https://stackoverflow.blog/2012/12/19/welcome-to-winter-bash-2012\" title=\"https://stackoverflow.blog/2012/12/19/welcome-to-winter-bash-2012\">Welcome to Winter Bash 2012!</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "ask-patents-launches",
+      "type": "site-graduation",
+      "date_str": "2012-09-20",
+      "title": "Ask Patents launches",
+      "summary": "for people interested in improving and participating in the patent system",
+      "body": "<p><a href=\"https://patents.stackexchange.com\" target=\"_blank\" title=\"https://patents.stackexchange.com/\">https://patents.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fadca781411dc2c8333_patents.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "mathematica-launches",
+      "type": "site-graduation",
+      "date_str": "2012-07-17",
+      "title": "Mathematica launches",
+      "summary": "for users of Wolfram Mathematica",
+      "body": "<p><a href=\"https://mathematica.stackexchange.com\" target=\"_blank\" title=\"https://mathematica.stackexchange.com/\">https://mathematica.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fad76f9033213e2af2d_mathematica.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "mi-yodeya-launches",
+      "type": "site-graduation",
+      "date_str": "2012-05-08",
+      "title": "Mi Yodeya launches",
+      "summary": "for those who base their lives on Jewish law and tradition and anyone interested in learning more",
+      "body": "<p><a href=\"https://judaism.stackexchange.com\" target=\"_blank\" title=\"https://judaism.stackexchange.com/\">https://judaism.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fac76f9036d74e2af2a_judaism.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "roleplaying-games-launches",
+      "type": "site-graduation",
+      "date_str": "2012-04-11",
+      "title": "Role-playing Games launches",
+      "summary": "for gamemasters and players of tabletop, paper-and-pencil role-playing games",
+      "body": "<p><a href=\"https://rpg.stackexchange.com\" target=\"_blank\" title=\"https://rpg.stackexchange.com/\">https://rpg.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fac3fa132456ce44fd1_rpg.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "skeptics-launches",
+      "type": "site-graduation",
+      "date_str": "2012-03-21",
+      "title": "Skeptics launches",
+      "summary": "for scientific skepticism",
+      "body": "<p><a href=\"https://skeptics.stackexchange.com\" target=\"_blank\" title=\"https://skeptics.stackexchange.com/\">https://skeptics.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fac096239832e3dfd7a_skeptics.png"
+    },
+    {
+      "classes": ["featured-event", "tag-staff", "tag-resignation"],
+      "slug": "jeff-atwood-resigns",
+      "type": "staff resignation",
+      "date_str": "2012-02-06",
+      "title": "Jeff Atwood resigns",
+      "summary": "Co-founder at Stack Exchange",
+      "body": "<p><a href=\"https://blog.codinghorror.com/farewell-stack-exchange/\" title=\"https://blog.codinghorror.com/farewell-stack-exchange/\">Farewell Stack Exchange</a>‍<br></p>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/q/121595"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "event-small", "tag-feature", "tag-blog"],
+      "slug": "stack-exchange-api-v20-launch",
+      "type": "feature blog",
+      "date_str": "2012-02-03",
+      "title": "Stack Exchange API v2.0 launch",
+      "summary": "",
+      "body": "<p><a href=\"https://stackoverflow.blog/2012/02/03/stack-exchange-api-v2-0-no-longer-beta\" title=\"https://stackoverflow.blog/2012/02/03/stack-exchange-api-v2-0-no-longer-beta\">Stack Exchange API V2.0 No Longer Beta</a><br></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "user-experience-launches",
+      "type": "site-graduation",
+      "date_str": "2012-01-03",
+      "title": "User Experience launches",
+      "summary": "for user experience researchers and experts",
+      "body": "<p><a href=\"https://ux.stackexchange.com\" target=\"_blank\" title=\"https://ux.stackexchange.com/\">https://ux.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fab76f9032708e2af29_ux.png"
+    },
+    {
+      "classes": ["event-small", "tag-community-event"],
+      "slug": "first-winter-bash-on-gamingse",
+      "type": "community-event",
+      "date_str": "2011-12-16",
+      "title": "First Winter Bash on Gaming.SE",
+      "summary": "winter bash was started on Gaming.SE, extended to the entire network in subsequent years",
+      "body": "<p><a href=\"https://blog.gaming.stackexchange.com/2011/12/holiday-2011-hat-dash-the-hattening/\" title=\"https://blog.gaming.stackexchange.com/2011/12/holiday-2011-hat-dash-the-hattening/\">Holiday 2011 Hat Dash: The Hattening</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "science-fiction-fantasy-launches",
+      "type": "site-graduation",
+      "date_str": "2011-12-13",
+      "title": "Science Fiction & Fantasy launches",
+      "summary": "for science fiction and fantasy enthusiasts",
+      "body": "<p><a href=\"https://scifi.stackexchange.com\" target=\"_blank\" title=\"https://scifi.stackexchange.com/\">https://scifi.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f13fa132ebc4e3f87b_scifi.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "sharepoint-launches",
+      "type": "site-graduation",
+      "date_str": "2011-09-13",
+      "title": "SharePoint launches",
+      "summary": "for SharePoint enthusiasts",
+      "body": "<p><a href=\"https://sharepoint.stackexchange.com\" target=\"_blank\" title=\"https://sharepoint.stackexchange.com/\">https://sharepoint.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f1be4a74615c200057_sharepoint.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "drupal-answers-launches",
+      "type": "site-graduation",
+      "date_str": "2011-08-30",
+      "title": "Drupal Answers launches",
+      "summary": "for Drupal developers and administrators",
+      "body": "<p><a href=\"https://drupal.stackexchange.com\" target=\"_blank\" title=\"https://drupal.stackexchange.com/\">https://drupal.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f1ca78140e962c2f4e_drupal.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "database-administrators-launches",
+      "type": "site-graduation",
+      "date_str": "2011-08-16",
+      "title": "Database Administrators launches",
+      "summary": "for database professionals who wish to improve their database skills and learn from others in the community",
+      "body": "<p><a href=\"https://dba.stackexchange.com\" target=\"_blank\" title=\"https://dba.stackexchange.com/\">https://dba.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f13fa13214c5e3f87c_dba.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "bicycles-launches",
+      "type": "site-graduation",
+      "date_str": "2011-08-02",
+      "title": "Bicycles launches",
+      "summary": "for people who build and repair bicycles, people who train cycling, or commute on bicycles",
+      "body": "<p><a href=\"https://bicycles.stackexchange.com\" target=\"_blank\" title=\"https://bicycles.stackexchange.com/\">https://bicycles.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f1be4a740472200058_bicycles.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "information-security-launches",
+      "type": "site-graduation",
+      "date_str": "2011-07-12",
+      "title": "Information Security launches",
+      "summary": "for information security professionals",
+      "body": "<p><a href=\"https://security.stackexchange.com\" target=\"_blank\" title=\"https://security.stackexchange.com/\">https://security.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f23fa1321f35e3f87e_security.png"
+    },
+    {
+      "classes": ["event-small", "tag-feature", "tag-blog"],
+      "slug": "community-promotion-ads-extended-networkwide",
+      "type": "feature blog",
+      "date_str": "2011-05-31",
+      "title": "Community Promotion Ads extended network-wide",
+      "summary": "all sites now can create ads for their favorite open source projects, and the community votes for the projects they’d like to see promoted on the site",
+      "body": "<p><a href=\"https://stackoverflow.blog/2011/05/31/community-promotion-ads\" title=\"https://stackoverflow.blog/2011/05/31/community-promotion-ads\">Community Promotion Ads</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "android-enthusiasts-launches",
+      "type": "site-graduation",
+      "date_str": "2011-03-24",
+      "title": "Android Enthusiasts launches",
+      "summary": "for enthusiasts and power users of the Android operating system",
+      "body": "<p><a href=\"https://android.stackexchange.com\" target=\"_blank\" title=\"https://android.stackexchange.com/\">https://android.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f2b3437b4e89046547_android.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "electrical-engineering-launches",
+      "type": "site-graduation",
+      "date_str": "2011-03-21",
+      "title": "Electrical Engineering launches",
+      "summary": "for electronics and electrical engineering professionals, students, and enthusiasts",
+      "body": "<p><a href=\"https://electronics.stackexchange.com\" target=\"_blank\" title=\"https://electronics.stackexchange.com/\">https://electronics.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f3be4a7479bb20005b_electronics.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "geographic-information-systems-launches",
+      "type": "site-graduation",
+      "date_str": "2011-03-07",
+      "title": "Geographic Information Systems launches",
+      "summary": "for cartographers, geographers and GIS professionals",
+      "body": "<p><a href=\"https://gis.stackexchange.com\" target=\"_blank\" title=\"https://gis.stackexchange.com/\">https://gis.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f33fa1320864e3f88a_gis.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "home-improvement-launches",
+      "type": "site-graduation",
+      "date_str": "2011-03-03",
+      "title": "Home Improvement launches",
+      "summary": "for contractors and serious DIYers",
+      "body": "<p><a href=\"https://diy.stackexchange.com\" target=\"_blank\" title=\"https://diy.stackexchange.com/\">https://diy.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f3b3437b7c54046549_diy.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "physics-launches",
+      "type": "site-graduation",
+      "date_str": "2011-02-24",
+      "title": "Physics launches",
+      "summary": "for active researchers, academics and students of physics",
+      "body": "<p><a href=\"https://physics.stackexchange.com\" target=\"_blank\" title=\"https://physics.stackexchange.com/\">https://physics.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f3be4a745e2920005c_physics.png"
+    },
+    {
+      "classes": ["featured-event", "tag-feature", "tag-jobs"],
+      "slug": "stack-overflow-jobs-launched",
+      "type": "feature",
+      "date_str": "2011-02-23",
+      "title": "Stack Overflow Jobs launched",
+      "summary": "version 2.0 of the original careers launched in 2009-11-05",
+      "body": "<p><a href=\"https://stackoverflow.com/jobs\" title=\"https://stackoverflow.com/jobs\">https://stackoverflow.com/jobs</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "jobs",
+          "url": "https://meta.stackoverflow.com/questions/tagged/jobs?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "wordpress-development-launches",
+      "type": "site-graduation",
+      "date_str": "2011-02-14",
+      "title": "WordPress Development launches",
+      "summary": "for WordPress developers and administrators",
+      "body": "<p><a href=\"https://wordpress.stackexchange.com\" target=\"_blank\" title=\"https://wordpress.stackexchange.com/\">https://wordpress.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f3ca7814e11d2c2f59_wordpress.png"
+    },
+    {
+      "classes": ["event-small", "tag-feature", "tag-blog"],
+      "slug": "new-feature-moderator-private-messages",
+      "type": "feature blog",
+      "date_str": "2011-02-02",
+      "title": "New feature: Moderator Private Messages",
+      "summary": "moderators now have the ability to message users privately",
+      "body": "<p><a href=\"https://stackoverflow.blog/2011/02/02/moderator-messages\" title=\"https://stackoverflow.blog/2011/02/02/moderator-messages\">Moderator Messages</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "ask-different-launches",
+      "type": "site-graduation",
+      "date_str": "2011-01-28",
+      "title": "Ask Different launches",
+      "summary": "for power users of Apple hardware and software",
+      "body": "<p><a href=\"https://apple.stackexchange.com\" target=\"_blank\" title=\"https://apple.stackexchange.com/\">https://apple.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f33fa132a777e3f87f_apple.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "unix-linux-launches",
+      "type": "site-graduation",
+      "date_str": "2011-01-12",
+      "title": "Unix & Linux launches",
+      "summary": "for users of Linux, FreeBSD and other Un*x-like operating systems",
+      "body": "<p><a href=\"https://unix.stackexchange.com\" target=\"_blank\" title=\"https://unix.stackexchange.com/\">https://unix.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f2ca78141a942c2f4f_unix.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "software-engineering-launches",
+      "type": "site-graduation",
+      "date_str": "2010-12-16",
+      "title": "Software Engineering launches",
+      "summary": "for professionals, academics, and students working within the systems development life cycle",
+      "body": "<p><a href=\"https://softwareengineering.stackexchange.com\" target=\"_blank\" title=\"https://softwareengineering.stackexchange.com/\">https://softwareengineering.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b742986a645603c99042_softwareengineering.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "theoretical-computer-science-launches",
+      "type": "site-graduation",
+      "date_str": "2010-11-30",
+      "title": "Theoretical Computer Science launches",
+      "summary": "for theoretical computer scientists and researchers in related fields",
+      "body": "<p><a href=\"https://cstheory.stackexchange.com\" target=\"_blank\" title=\"https://cstheory.stackexchange.com/\">https://cstheory.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b743b7c9a87426731365_cstheory.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "english-language-usage-launches",
+      "type": "site-graduation",
+      "date_str": "2010-11-22",
+      "title": "English Language & Usage launches",
+      "summary": "for linguists, etymologists, and serious English language enthusiasts",
+      "body": "<p><a href=\"https://english.stackexchange.com\" target=\"_blank\" title=\"https://english.stackexchange.com/\">https://english.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b7413ec4082b237285f1_english.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "tex-latex-launches",
+      "type": "site-graduation",
+      "date_str": "2010-11-11",
+      "title": "TeX - LaTeX launches",
+      "summary": "for users of TeX, LaTeX, ConTeXt, and related typesetting systems",
+      "body": "<p><a href=\"https://tex.stackexchange.com\" target=\"_blank\" title=\"https://tex.stackexchange.com/\">https://tex.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b743986a644e9dc99045_tex.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "cross-validated-launches",
+      "type": "site-graduation",
+      "date_str": "2010-11-04",
+      "title": "Cross Validated launches",
+      "summary": "for people interested in statistics, machine learning, data analysis, data mining, and data visualization",
+      "body": "<p><a href=\"https://stats.stackexchange.com\" target=\"_blank\" title=\"https://stats.stackexchange.com/\">https://stats.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b74091110638450476b7_stats.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "photography-launches",
+      "type": "site-graduation",
+      "date_str": "2010-10-28",
+      "title": "Photography launches",
+      "summary": "for professional, enthusiast and amateur photographers",
+      "body": "<p><a href=\"https://photo.stackexchange.com\" target=\"_blank\" title=\"https://photo.stackexchange.com/\">https://photo.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b740b7c9a891de731360_photo.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "mathematics-launches",
+      "type": "site-graduation",
+      "date_str": "2010-10-25",
+      "title": "Mathematics launches",
+      "summary": "for people studying math at any level and professionals in related fields",
+      "body": "<p><a href=\"https://math.stackexchange.com\" target=\"_blank\" title=\"https://math.stackexchange.com/\">https://math.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f9a482e7bfbd01f29_math.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "game-development-launches",
+      "type": "site-graduation",
+      "date_str": "2010-10-21",
+      "title": "Game Development launches",
+      "summary": "for professional and independent game developers",
+      "body": "<p><a href=\"https://gamedev.stackexchange.com\" target=\"_blank\" title=\"https://gamedev.stackexchange.com/\">https://gamedev.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f0f2d35e7f36c855b_gamedev.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "seasoned-advice-launches",
+      "type": "site-graduation",
+      "date_str": "2010-10-14",
+      "title": "Seasoned Advice launches",
+      "summary": "for professional and amateur chefs",
+      "body": "<p><a href=\"https://cooking.stackexchange.com\" target=\"_blank\" title=\"https://cooking.stackexchange.com/\">https://cooking.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73fbbdced6504e1b257_cooking.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "webmasters-launches",
+      "type": "site-graduation",
+      "date_str": "2010-10-13",
+      "title": "Webmasters launches",
+      "summary": "for pro webmasters",
+      "body": "<p><a href=\"https://webmasters.stackexchange.com\" target=\"_blank\" title=\"https://webmasters.stackexchange.com/\">https://webmasters.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b740986a64b384c99041_webmasters.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "ask-ubuntu-launches",
+      "type": "site-graduation",
+      "date_str": "2010-10-10",
+      "title": "Ask Ubuntu launches",
+      "summary": "for Ubuntu users and developers",
+      "body": "<p><a href=\"https://askubuntu.com\" target=\"_blank\" title=\"https://askubuntu.com/\">https://askubuntu.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f9111064d170476b6_askubuntu.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "arqade-launches",
+      "type": "site-graduation",
+      "date_str": "2010-10-06",
+      "title": "Arqade launches",
+      "summary": "for passionate videogamers on all platforms",
+      "body": "<p><a href=\"https://gaming.stackexchange.com\" target=\"_blank\" title=\"https://gaming.stackexchange.com/\">https://gaming.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73e9f25ef12fb54b6c7_gaming.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-graduation"],
+      "slug": "web-applications-launches",
+      "type": "site-graduation",
+      "date_str": "2010-09-30",
+      "title": "Web Applications launches",
+      "summary": "for power users of web applications",
+      "body": "<p><a href=\"https://webapps.stackexchange.com\" target=\"_blank\" title=\"https://webapps.stackexchange.com/\">https://webapps.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f591547f1460177fe_webapps.png"
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-site-launch",
+        "tag-area51"
+      ],
+      "slug": "area-51-launches-in-beta",
+      "type": "site-launch",
+      "date_str": "2010-06-22",
+      "title": "Area 51 launches in beta",
+      "summary": "",
+      "body": "<p><a href=\"https://area51.stackexchange.com\" title=\"https://area51.stackexchange.com/\">https://area51.stackexchange.com</a></p><blockquote>Area 51 is the Stack Exchange Network staging zone. It's where groups of experts come together to build new Q&A sites that work just like Stack Overflow.<br>- <a href=\"https://area51.stackexchange.com/faq\" title=\"https://area51.stackexchange.com/faq\">Area 51 FAQ</a></blockquote><p><a href=\"https://www.joelonsoftware.com/2010/06/22/area-51-is-now-in-beta/\" title=\"https://www.joelonsoftware.com/2010/06/22/area-51-is-now-in-beta/\">Area 51 is now in beta</a> - <em>Joel Spolsky</em></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "area51",
+          "url": "https://meta.stackexchange.com/search?q=area51&tab=newest&pagesize=50",
+          "isMse": true
+        }
+      ]
+    },
+    {
+      "classes": [
+        "featured-event",
+        "tag-blog",
+        "tag-site-launch",
+        "tag-data-explorerdata-explorer"
+      ],
+      "slug": "stack-exchange-data-explorer-launches",
+      "type": "blog site-launch",
+      "date_str": "2010-06-13",
+      "title": "Stack Exchange Data Explorer launches",
+      "summary": "also known as SEDE",
+      "body": "<p><a href=\"https://stackoverflow.blog/2010/06/13/introducing-stack-exchange-data-explorer/\" title=\"https://stackoverflow.blog/2010/06/13/introducing-stack-exchange-data-explorer/\">Introducing Stack Exchange Data Explorer</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "data-explorer",
+          "url": "https://meta.stackexchange.com/questions/tagged/data-explorer?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "data-explorer",
+          "url": "https://meta.stackoverflow.com/questions/tagged/data-explorer?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": ["featured-event", "tag-site-launch", "tag-blog"],
+      "slug": "stack-apps-api-public-beta-launches",
+      "type": "site-launch blog",
+      "date_str": "2010-05-20",
+      "title": "Stack Apps & API public beta launches",
+      "summary": "for apps, scripts, and development with the Stack Exchange API",
+      "body": "<p><a href=\"https://stackapps.com\" target=\"_blank\" title=\"https://stackapps.com/\">https://stackapps.com</a></p><p><a href=\"https://stackoverflow.blog/2010/05/20/stack-exchange-api-public-beta-starts\" title=\"https://stackoverflow.blog/2010/05/20/stack-exchange-api-public-beta-starts\">Stack Exchange API Public Beta Starts</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b500b7c9a87f4a72f18c_apple-touch-icon.png"
+    },
+    {
+      "classes": ["featured-event", "event-large", "tag-blog", "tag-charity"],
+      "slug": "first-stack-overflow-gives-back",
+      "type": "blog charity",
+      "date_str": "2009-12-31",
+      "title": "First \"Stack Overflow Gives Back\"",
+      "summary": "",
+      "body": "<blockquote>First and foremost, our community moderators. They, more than anyone, set the tone and direction for the community — and generously contribute their time to make Stack Overflow, Server Fault, Super User, and Meta Stack Overflow into places you’d actually want to participate.<br><br>As a gesture of thanks for their contributions this year, Stack Overflow offered to make a donation to the charity or nonprofit of their choice.</blockquote><p><a href=\"https://stackoverflow.blog/2010/01/01/stack-overflow-gives-back\" title=\"https://stackoverflow.blog/2010/01/01/stack-overflow-gives-back\">Stack Overflow Gives Back</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["featured-event", "event-small", "tag-blog", "tag-feature"],
+      "slug": "stack-overflow-careers-launched",
+      "type": "blog feature",
+      "date_str": "2009-11-05",
+      "title": "Stack Overflow Careers launched",
+      "summary": "later succeeded by Jobs in 2011-02-23",
+      "body": "<p><a href=\"https://www.joelonsoftware.com/2009/11/05/upgrade-your-career\" title=\"https://www.joelonsoftware.com/2009/11/05/upgrade-your-career\">Upgrade your career</a> - <em>Joel Spolsky</em></p>",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": ["event-small", "tag-site-launch"],
+      "slug": "mathoverflow-launches",
+      "type": "site-launch",
+      "date_str": "2009-09-28",
+      "title": "MathOverflow launches",
+      "summary": "for professional mathematicians",
+      "body": "<p><a href=\"https://mathoverflow.net\" target=\"_blank\" title=\"https://mathoverflow.net/\">https://mathoverflow.net</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b4f259154765bd015bb2_mathoverflow.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-launch"],
+      "slug": "super-user-launches",
+      "type": "site-launch",
+      "date_str": "2009-08-18",
+      "title": "Super User launches",
+      "summary": "for computer enthusiasts and power users",
+      "body": "<p><a href=\"https://superuser.com\" target=\"_blank\" title=\"https://superuser.com/\">https://superuser.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b4e65915476357015ba7_superuser.png"
+    },
+    {
+      "classes": ["event-small", "tag-site-launch"],
+      "slug": "server-fault-launches",
+      "type": "site-launch",
+      "date_str": "2009-05-26",
+      "title": "Server Fault launches",
+      "summary": "for system and network administrators",
+      "body": "<p><a href=\"https://serverfault.com\" target=\"_blank\" title=\"https://serverfault.com/\">https://serverfault.com</a></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b4d4bbdcedc4d6e1930e_serverfault.png"
+    },
+    {
+      "classes": ["tag-feature", "tag-blog", "tag-flagsflags"],
+      "slug": "new-feature-red-post-flags",
+      "type": "feature blog",
+      "date_str": "2009-04-18",
+      "title": "New feature: Red post flags",
+      "summary": "users can now flag posts for spam, abuse, or for moderator attention",
+      "body": "<p><a href=\"https://stackoverflow.blog/2009/04/11/raising-a-red-flag\" title=\"https://stackoverflow.blog/2009/04/11/raising-a-red-flag\">Raising a Red Flag</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "flags",
+          "url": "https://meta.stackexchange.com/questions/tagged/flags?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "flags",
+          "url": "https://meta.stackoverflow.com/questions/tagged/flags?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": [
+        "tag-feature",
+        "tag-blog",
+        "tag-account-suspensionaccount-suspension"
+      ],
+      "slug": "new-feature-user-suspensions",
+      "type": "feature blog",
+      "date_str": "2009-04-06",
+      "title": "New feature: User suspensions",
+      "summary": "moderators now have the ability to suspend users",
+      "body": "<p><a href=\"https://stackoverflow.blog/2009/04/06/a-day-in-the-penalty-box/\" title=\"https://stackoverflow.blog/2009/04/06/a-day-in-the-penalty-box/\">A Day in the Penalty Box</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "account-suspension",
+          "url": "https://meta.stackexchange.com/questions/tagged/account-suspension?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "account-suspension",
+          "url": "https://meta.stackoverflow.com/questions/tagged/account-suspension?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": [
+        "event-large",
+        "tag-feature",
+        "tag-blog",
+        "tag-inappropriate-advertisementsadvertisingadvertising"
+      ],
+      "slug": "jeff-atwood-states-that-they-will-never-accept-animated-ads",
+      "type": "feature blog",
+      "date_str": "2009-03-25",
+      "title": "Jeff Atwood states that they will never accept animated ads",
+      "summary": "is this still the case now?",
+      "body": "<blockquote>While we don’t want to pummel anyone with ads, we do need to advertise responsibly to ensure we generate enough revenue to fund continued development of the site</blockquote><blockquote>We aren’t planning to have more than 3 ads, and as always, we will never accept animated, Flash, or Silverlight ads. We think this is a good, responsible balance of advertising, and hopefully sufficient to underwrite the continued development and improvement of Stack Overflow!</blockquote><p><a href=\"https://stackoverflow.blog/2009/03/25/responsible-advertising-feed-a-programmer\" title=\"https://stackoverflow.blog/2009/03/25/responsible-advertising-feed-a-programmer\">Responsible Advertising: Feed a Programmer</a></p>",
+      "links": [],
+      "tags": [
+        {
+          "text": "inappropriate-advertisements",
+          "url": "https://meta.stackexchange.com/questions/tagged/inappropriate-advertisements?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "advertising",
+          "url": "https://meta.stackexchange.com/questions/tagged/advertising?tab=newest&pagesize=50",
+          "isMse": true
+        },
+        {
+          "text": "advertising",
+          "url": "https://meta.stackoverflow.com/questions/tagged/advertising?tab=newest&pagesize=50",
+          "isMse": false
+        }
+      ]
+    },
+    {
+      "classes": [
+        "featured-event",
+        "event-large",
+        "tag-site-launch",
+        "tag-company"
+      ],
+      "slug": "stack-overflow-launches",
+      "type": "site-launch",
+      "date_str": "2008-09-15",
+      "title": "Stack Overflow launches",
+      "summary": "for professional and enthusiast programmers",
+      "body": "<p><a href=\"https://stackoverflow.com\" title=\"https://stackoverflow.com/\">https://stackoverflow.com</a></p><ul role=\"list\"><li>‍<a href=\"https://www.joelonsoftware.com/2008/09/15/stack-overflow-launches/\" title=\"https://www.joelonsoftware.com/2008/09/15/stack-overflow-launches/\">Stack Overflow Launches</a> - <em>Joel Spolsky</em></li><li><a href=\"https://blog.codinghorror.com/stack-overflow-none-of-us-is-as-dumb-as-all-of-us/\" title=\"https://blog.codinghorror.com/stack-overflow-none-of-us-is-as-dumb-as-all-of-us/\">Stack Overflow: None of Us is as Dumb as All of Us</a> - <em>Jeff Atwood</em></li><li><em>see also </em><a href=\"https://en.wikipedia.org/wiki/Stack_Overflow\" title=\"https://en.wikipedia.org/wiki/Stack_Overflow\">Stack_Overflow - Wikipedia</a></li></ul>",
+      "links": [],
+      "tags": [
+        {
+          "text": "company",
+          "url": "https://meta.stackexchange.com/questions/tagged/company",
+          "isMse": true
+        }
+      ],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
+    },
+    {
+      "classes": ["event-small", "tag-beta"],
+      "slug": "stack-overflow-private-beta",
+      "type": "beta",
+      "date_str": "2008-07-31",
+      "title": "Stack Overflow private beta",
+      "summary": "",
+      "body": "<p>Jeff Atwood sent out invitations encouraging blog subscribers to take part in the private beta</p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
+    },
+    {
+      "classes": ["tag-blog"],
+      "slug": "joel-spolsky-blogs-about-stack-overflow",
+      "type": "blog",
+      "date_str": "2008-04-16",
+      "title": "Joel Spolsky blogs about Stack Overflow",
+      "summary": "",
+      "body": "<blockquote>We’re starting to build a programming Q&A site that’s free.<br><br>This is a free new community site for programmers around the world and we need your help to design it, to program it, and to build it. We want to hear your suggestions, hear your ideas, and we’re going to build it right in front of your eyes.</blockquote><p><a href=\"https://www.joelonsoftware.com/2008/04/16/stackoverflowcom/\" title=\"https://www.joelonsoftware.com/2008/04/16/stackoverflowcom/\">What is stackoverflow.com?</a> - <em>Joel Spolsky</em></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
+    },
+    {
+      "classes": ["event-large", "tag-blog"],
+      "slug": "jeff-atwood-blogs-about-stack-overflow",
+      "type": "blog",
+      "date_str": "2008-04-16",
+      "title": "Jeff Atwood blogs about Stack Overflow",
+      "summary": "",
+      "body": "<blockquote>The \"building stuff\", as you helped us determine, is stackoverflow.com. It's a small company Joel Spolsky and I are founding together.<br><br>From day one, my blog has been about putting helpful information out into the world. I never had any particular aspirations for this blog to become what it is today; I'm humbled and gratified by its amazing success. It has quite literally changed my life. Blogs are fantastic resources, but as much as I might encourage my fellow programmers to blog, not everyone has the time or inclination to start a blog. There's far too much great programming information trapped in forums, buried in online help, or hidden away in books that nobody buys any more. We'd like to unlock all that. Let's create something that makes it easy to participate, and put it online in a form that is trivially easy to find.<br><br>Stackoverflow is sort of like the anti-experts-exchange (minus the nausea-inducing sleaze and quasi-legal search engine gaming) meets wikipedia meets programming reddit. It is by programmers, for programmers, with the ultimate intent of collectively increasing the sum total of good programming knowledge in the world. No matter what programming language you use, or what operating system you call home. Better programming is our goal.</blockquote><p><a href=\"https://blog.codinghorror.com/introducing-stackoverflow-com\" title=\"https://blog.codinghorror.com/introducing-stackoverflow-com\">Introducing Stackoverflow.com</a> - <em>Jeff Atwood</em></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
+    },
+    {
+      "classes": ["event-large", "tag-blog"],
+      "slug": "jeff-atwood-releases-a-public-poll-for-the-name-of-the-project",
+      "type": "blog",
+      "date_str": "2008-04-06",
+      "title": "Jeff Atwood releases a public poll for the name of the project",
+      "summary": "",
+      "body": "<blockquote>As I work on UI prototypes for the new web venture, I've been brainstorming names for the web site we're building. I've surveyed some of the finest minds in the software developer community (for very small values of \"fine\"), and we've come to a collective realization: naming a website is hard. Really, really hard.<br><br>You begin to have a new respect for all the crazily-named Web 2.0 startups. And then there are the domain names which must not be named. Some of them are actually serious. What were the people who named experts-exchange.com thinking? I'm not so sure they were.<br><br>We've racked our collective brains, and this is the best we could do. We'd like your input to see if we're on the right track. Vote for the name that best embodies what you'd like to see on a software developer community website.</blockquote><p><a href=\"https://blog.codinghorror.com/help-name-our-website\" title=\"https://blog.codinghorror.com/help-name-our-website\">Help Name Our Website</a> - <em>Jeff Atwood</em></p>",
+      "links": [],
+      "tags": [],
+      "linkedEvent": null,
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
+    }
+  ]
+}
