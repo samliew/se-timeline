@@ -9,14 +9,14 @@ const createEventElem = event => {
   const slug = event.slug || event.title?.toLowerCase().replace(/\W+/g, '-');
   const tags = event.tags?.map(tag => {
     const { text, url, isMse } = tag;
-    return `<a href="${url ?? '#'}" class="tag ${isMse ? 'meta-se-tag' : ''}" title="${url ?? ''}">${text}</a>`;
+    return `<a href="${url ?? '#'}" class="tag ${isMse ? 'meta-se-tag' : ''}">${text}</a>`;
   }).join('');
   const buttons = event.links?.map(link => {
     const { text, url } = link;
-    return `<a href="${url ?? '#'}" class="button event-button" title="${url ?? ''}">${text}</a>`;
+    return `<a href="${url ?? '#'}" class="button event-button">${text}</a>`;
   }).join('');
   const linkedEventLink = !event.linkedEvent ? '' :
-    `<a href="${event.linkedEvent}" class="linked-event" title="${event.linkedEvent}">linked event</a>`;
+    `<a href="${event.linkedEvent}" class="linked-event">linked event</a>`;
   
   const eventEl = document.createElement('div');
   eventEl.classList.add('event', ...event.classes);
@@ -45,7 +45,6 @@ const createEventElem = event => {
     ${event.body ?? ''}
   </div>
   <div class="event-tags">${tags}<div>
-  <a href="${event.linkedEvent}" class="button event-button" title="https:">farewell post</a>
   ${buttons}
   ${linkedEventLink}
 </div>`;
@@ -245,6 +244,7 @@ $(async function () {
   // Back to top
   $('#back-to-top').click(function () {
     animateTo(0);
+    return false;
   });
 
   // Tooltips for discuss links
