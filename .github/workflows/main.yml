@@ -1,0 +1,17 @@
+name: Glitch Deploy
+
+# Glitch Project: https://glitch.com/edit/#!/github-action
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Glitch Project
+        uses: kanadgupta/glitch-sync@main
+        with:
+          auth-token: "${{ secrets.glitch_auth_token }}"
+          project-id: "${{ secrets.glitch_project_id }}"
