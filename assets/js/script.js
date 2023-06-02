@@ -1,11 +1,31 @@
 const createYearGroupElem = year => {
+  // Validation
+  const y = Number(year);
+  if (isNaN(y) || y < 1970 || Math.round(y) !== y || y > (new Date()).getFullYear()) {
+    console.error('Invalid year:', year);
+    return;
+  }
+
   const yearEl = document.createElement('div');
   yearEl.classList.add('year-group');
-  yearEl.innerHTML = `<h2 class="timeline-year" data-year="${year}">${year}</h2><div class="events-list"></div>`;
+  yearEl.innerHTML = `<h2 class="timeline-year" data-year="${y}">${y}</h2><div class="events-list"></div>`;
   return yearEl;
 };
 
 const createEventElem = event => {
+  // Validate required fields
+  if (!event.title) {
+    console.error('Event missing title:', event);
+    return;
+  }
+  if (!event.date_str) {
+    console.error('Event missing date_str:', event);
+    return;
+  }
+
+  // Defaults
+  event.classes = event.classes ?? [];
+
   const slug = event.slug || event.title?.toLowerCase().replace(/\W+/g, '-');
   const tags = event.tags?.map(tag => {
     const { text, url, isMse } = tag;
@@ -17,13 +37,13 @@ const createEventElem = event => {
   }).join('');
   const linkedEventLink = !event.linkedEvent ? '' :
     `<a href="${event.linkedEvent}" class="linked-event">linked event</a>`;
-  
+
   const eventEl = document.createElement('div');
   eventEl.classList.add('event', ...event.classes);
   eventEl.id = slug;
   eventEl.innerHTML = `
 <div class="event-tags less-important">
-  <div class="inline">${event.type}</div>
+  <div class="inline">${event.type ?? ''}</div>
 </div>
 <div class="connector">
   <div class="connector-dot">
@@ -45,27 +65,27 @@ const createEventElem = event => {
     ${event.body ?? ''}
   </div>
   <div class="event-tags">${tags}<div>
-  ${buttons}
-  ${linkedEventLink}
+  ${buttons ?? ''}
+  ${linkedEventLink ?? ''}
 </div>`;
-  
+
   return eventEl;
 };
 
 $(async function () {
-  
+
   // Build timeline from json
   let currentYear = 0, currentYearEventsElem;
   const timelineEl = document.querySelector('#timeline > .events-container');
   timelineEl.querySelectorAll('.year-group').forEach(v => v.remove());
-  
+
   const { items } = await $.getJSON('./timeline_data.json');
   items.forEach(event => {
-    
+
     // Assumes items are already sorted by year
     const year = event.date_str?.slice(0, 4);
-    if(!year) return;
-    
+    if (!year) return;
+
     // New year
     if (currentYear !== year) {
       currentYear = year;
@@ -73,12 +93,12 @@ $(async function () {
       currentYearEventsElem = currentYearElem.querySelector('.events-list');
       timelineEl.append(currentYearElem);
     }
-    
+
     // Create element html
     const eventEl = createEventElem(event);
     currentYearEventsElem.append(eventEl);
   });
-  
+
   // Move "beginning" to end
   const beginning = [...timelineEl.querySelectorAll('.static-year')].pop();
   timelineEl.append(beginning);

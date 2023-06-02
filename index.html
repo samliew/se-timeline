@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -42,7 +41,7 @@
     </header>
     <div class="fixed-header-padding"></div>
     <aside id="sidebar" class="sidebar sidebar-open"><a href="#" class="current-year">2021</a><a href="#">2020</a><a href="#">2019</a><a href="#">2018</a><a href="#">2017</a><a href="#">2016</a><a href="#">2015</a><a href="#">2014</a><a href="#">2013</a><a href="#">2012</a><a href="#">2011</a><a href="#">2010</a><a href="#">2009</a><a href="#">2008</a></aside>
-    <aside class="filter-container wf-section">
+    <aside class="filter-container">
       <div class="filter-section-title">show:</div>
       <div class="filters">
         <div class="filter-group inline"><label title="event descriptions"><input type="checkbox" id="event-descriptions" checked /> event descriptions</label></div>
@@ -52,13 +51,16 @@
       </div>
     </aside>
     
-    <main id="timeline" class="timeline wf-section">
+    <main id="timeline" class="timeline">
       <div class="timeline-line"></div>
       <div class="events-container">
         <h2 class="timeline-year static-year">present</h2>
+        
+        <!-- EXAMPLE EVENT
         <div class="year-group">
           <h2 class="timeline-year">2021</h2>
-          <div class="event">
+          
+          <div class="event featured-event">
             <div class="event-tags less-important">
               <div class="inline">staff resignation</div>
             </div>
@@ -85,52 +87,25 @@
               <div class="event-tags"><a href="#" class="tag meta-se-tag">Text Link</a><a href="#" class="tag">Text Link</a></div><a href="https://" class="button event-button">farewell post</a><a href="https://" class="linked-event">linked event</a>
             </div>
           </div>
-          <div id="prosus-acquires-stack-overflow" class="event featured-event">
-            <div class="event-tags less-important">
-              <div class="inline">company acquisition</div>
-            </div>
-            <div class="connector">
-              <div class="connector-dot">
-                <div class="featured-connector-dot"></div>
-              </div>
-              <div class="connector-dot dot-right">
-                <div class="featured-connector-dot"></div>
-              </div>
-              <div class="featured-connector"></div>
-            </div>
-            <div class="box">
-              <div class="featured-box"></div>
-              <div class="event-date">
-                <div class="date date-from">2021-06-02</div>
-              </div>
-              <h4 class="event-name">Prosus Acquires Stack Overflow</h4>
-              <div class="event-summary">Prosus NV said it struck a $1.8 billion deal to acquire Stack Overflow</div>
-              <div class="event-description w-richtext">
-                <blockquote>Prosus N.V. (&quot;Prosus&quot;), a global consumer internet group and one of the largest technology investors in the world, announced today that it has entered into a definitive agreement to acquire Stack Overflow, a leading knowledge-sharing platform for the global community of developers and technologists, for approximately US$1.8 billion.<br />-- <a href="https://www.prosus.com/news/prosus-to-acquire-stack-overflow-for-us18-billion/">Prosus</a></blockquote>
-                <p>Also mentioned on:</p>
-                <ul role="list">
-                  <li>‍<a href="https://www.joelonsoftware.com/2021/06/02/kinda-a-big-announcement/">Joel Spolsky&#x27;s blog: Kinda a big announcement</a></li>
-                  <li>‍<a href="https://www.wsj.com/articles/software-developer-community-stack-overflow-sold-to-tech-giant-prosus-for-1-8-billion-11622648400">WSJ: Stack Overflow Sold to Tech Giant Prosus for $1.8 Billion‍</a></li>
-                  <li>‍<a href="https://techcrunch.com/2021/06/02/stack-overflow-acquired-by-prosus-for-a-reported-1-8-billion/">Techcrunch: Stack Overflow acquired by Prosus for $1.8 billion</a></li>
-                </ul>
-              </div><a href="https://stackoverflow.blog/2021/06/02/prosus-acquires-stack-overflow/" class="button event-button">blog post</a>
-            </div>
-          </div>
+          
         </div>
+        -->
+        
         <h2 class="timeline-year static-year">the beginning</h2>
       </div>
       <div class="left-mask"></div>
       <div class="right-mask"></div>
     </main>
     
-    <footer class="footer wf-section">
+    <footer class="footer">
       <p>All dates displayed in UTC+0</p>
       <p><a href="https://discord.gg/tpgZmwR" target="_blank">Feedback &amp; discussion @ Meta Discord</a></p>
-      <div class="disclaimer">The Contents of this Website are provided on an &quot;as is&quot; basis without warranties of any kind. To the fullest extent permitted by law, the owners of this website do not warrant and hereby disclaims any warranty as to the accuracy, correctness, reliability, timeliness, non-infringement, title, merchantability or fitness for any particular purpose of the Contents of this Website; and that the Contents available through this Website or any functions associated therewith will be uninterrupted or error-free, or that defects will be corrected or that this Website and the server is and will be free of all viruses and/or other harmful elements. The owners of this website shall also not be liable for any damage or loss of any kind caused as a result (direct or indirect) of the use of the Website, including but not limited to any damage or loss suffered as a result of reliance on the Contents contained in or available from the Website.</div>
+      <div class="disclaimer">
+        The Contents of this Website are provided on an &quot;as is&quot; basis without warranties of any kind. To the fullest extent permitted by law, the owners of this website do not warrant and hereby disclaims any warranty as to the accuracy, correctness, reliability, timeliness, non-infringement, title, merchantability or fitness for any particular purpose of the Contents of this Website; and that the Contents available through this Website or any functions associated therewith will be uninterrupted or error-free, or that defects will be corrected or that this Website and the server is and will be free of all viruses and/or other harmful elements. The owners of this website shall also not be liable for any damage or loss of any kind caused as a result (direct or indirect) of the use of the Website, including but not limited to any damage or loss suffered as a result of reliance on the Contents contained in or available from the Website.
+      </div>
     </footer>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- <script src="https://assets.website-files.com/5e28e4d5ff9207d4429418f2/js/stackexchange-timeline.365882f5d.js" type="text/javascript"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js" integrity="sha512-JZSo0h5TONFYmyLMqp8k4oPhuo6yNk9mHM+FY50aBjpypfofqtEWsAgRDQm94ImLCzSaHeqNvYuD9382CEn2zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/script.js"></script>
   </body>
