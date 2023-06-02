@@ -1,6 +1,6 @@
 name: Glitch Deploy
 
-# Glitch Project: https://glitch.com/edit/#!/github-action
+# Glitch Project: https://glitch.com/edit/#!/se-timeline
 on:
   push:
     branches:
