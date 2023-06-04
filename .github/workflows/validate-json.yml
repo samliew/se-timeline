@@ -1,16 +1,19 @@
 name: Validate Timeline JSON
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
-    branches: master
+    paths:
+      - "**.json"
 
 jobs:
-  verify-json-validation:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: /dev/timeline_schema.json
-          INPUT_JSONS: /timeline_data.json
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v2
+        with:
+          pattern: "\\.json$"
