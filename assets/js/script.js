@@ -253,7 +253,7 @@ $(async function () {
         animateTo(eventEl.offset().top - offsetConstant);
         eventEl.addClass('highlight');
         setTimeout(() => {
-          document.querySelectorAll('.event.hightlight').forEach(el => el.classList.remove('highlight'));
+          document.querySelectorAll('.event.highlight').forEach(el => el.classList.remove('highlight'));
         }, 2000);
       };
       setTimeout(scrollToPermalink, 100);
