@@ -1,6 +1,6 @@
 /* ===== HELPER FUNCTIONS ===== */
 
-// scroll to element
+// Scroll to element
 const animateTo = function (scrollY) {
   if ($ && $.fn && $.fn.animate) {
     $('html, body').stop(1).animate({
@@ -8,22 +8,24 @@ const animateTo = function (scrollY) {
     }, 400);
   }
 };
-// highlight and go to event
+// Highlight and go to event
 const goToEvent = function (slug) {
   const elem = document.querySelector('#' + slug);
   if (!elem) return;
   elem.click();
   elem.classList.add('highlight');
-  setTimeout(elem => {
+
+  // Remove highlight after short delay
+  setTimeout(() => {
     elem.classList.remove('highlight');
-  }, 2000, elem);
+  }, 2000);
 };
-// go to year
+// Go to first element in year (latest event)
 const goToYear = function (year) {
   year = Number(year);
   if (!isNaN(year)) $(`.timeline-year[data-year="${year}"]`).click();
 };
-// string to tags
+// String to tags
 const tagsStrToClass = function (str) {
   return str.toLowerCase().trim().split(/\s+/g)
     .map(v => 'tag-' + v.replace(/(^\W+|\W+$)/g, '').replace(/\W+/g, '-'))
@@ -250,9 +252,9 @@ $(async function () {
       const scrollToPermalink = function () {
         animateTo(eventEl.offset().top - offsetConstant);
         eventEl.addClass('highlight');
-        setTimeout(elem => {
-          elem.classList.remove('highlight');
-        }, 2000, eventEl);
+        setTimeout(() => {
+          document.querySelectorAll('.event.hightlight').forEach(el => el.classList.remove('highlight'));
+        }, 2000);
       };
       setTimeout(scrollToPermalink, 100);
     }
