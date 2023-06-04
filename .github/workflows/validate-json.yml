@@ -1,8 +1,10 @@
 name: Validate Timeline JSON
 
 on:
+  push:
   pull_request:
-    branches: master
+    branches:
+      - master
 
 jobs:
   verify-json-validation:
