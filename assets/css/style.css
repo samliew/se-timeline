@@ -218,3 +218,27 @@ body {
     margin-bottom: -20px;
   }
 }
+
+.rainbow-text {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent;
+
+  --r: #ff0000;
+  --o: #ffa500;
+  --y: #ffdc00;
+  --g: #008000;
+  --b: #0000ff;
+  --p: #800080;
+
+  background: linear-gradient(
+      90deg,
+      var(--r),
+      var(--o),
+      var(--y),
+      var(--g),
+      var(--b),
+      var(--p)
+    )
+    left center / 50%;
+}
