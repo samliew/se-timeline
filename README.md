@@ -4,13 +4,13 @@
 
 This is currently hosted on [Glitch](https://glitch.com), at [se-timeline.glitch.me](https://se-timeline.glitch.me).
 
-# Contributing
+## Contributing
 
 Please direct any queries & feedback by [creating an issue on Github](https://github.com/samliew/se-timeline/issues).
 
 You can also contribute to updating the events using the instructions below, then opening a pull request. After review and merging to the main branch, a GitHub action will then automatically update the Glitch project.
 
-## Updating Events
+### Updating Events
 
 The timeline data is stored in the [timeline_data.json](https://github.com/samliew/se-timeline/blob/main/timeline_data.json) file as JSON. Event items are nested in the "items" array.
 
@@ -18,7 +18,7 @@ The timeline data is stored in the [timeline_data.json](https://github.com/samli
 - To update an existing event, change the corresponding item's properties.
 - To remove an event, remove the corresponding item from the array.
 
-## Event Object Properties
+### Event Object Properties
 
 The properties of each event item is as follows:
 
