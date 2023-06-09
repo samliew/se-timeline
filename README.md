@@ -6,7 +6,7 @@ This is currently hosted on [Glitch](https://glitch.com), at [se-timeline.glitch
 
 ## Contributing
 
-Please direct any queries & feedback by [creating an issue on Github](https://github.com/samliew/se-timeline/issues).
+Please direct any queries & feedback by [creating an issue on GitHub](https://github.com/samliew/se-timeline/issues).
 
 You can also contribute to updating the events using the instructions below, then opening a pull request. After review and merging to the main branch, a GitHub action will then automatically update the Glitch project.
 
@@ -14,7 +14,7 @@ You can also contribute to updating the events using the instructions below, the
 
 The timeline data is stored in the [timeline_data.json](https://github.com/samliew/se-timeline/blob/main/timeline_data.json) file as JSON. Event items are nested in the "items" array.
 
-- To add a new event, simply add a new item to the array, in the position sorted by date.
+- To add a new event, simply add a new item to the array, in the position sorted by date, in reverse chronological order (i.e.: latest first).
 - To update an existing event, change the corresponding item's properties.
 - To remove an event, remove the corresponding item from the array.
 
