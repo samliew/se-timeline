@@ -60,3 +60,7 @@ The properties of each event item is as follows:
   "icon": "" // (optional) url of an image (for site graduation events)
 }
 ```
+
+Comments starting with `//` are not actually allowed in the JSON file, and is only used in the example above to describe each property.
+
+All double quotes, especially in the title, summary, and body properties, need to be escaped with a backslash like this: `\"`
