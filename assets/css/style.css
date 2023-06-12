@@ -42,10 +42,6 @@ body {
   min-height: 400px;
 }
 
-.timeline-year {
-  margin-bottom: 160px;
-}
-
 .event:hover .box,
 .event:hover .connector,
 .event:hover .connector-dot {
@@ -240,7 +236,12 @@ body {
     margin-top: 40px !important;
   }
 
-  .events-list .timeline-year + .event.featured-event {
+  .timeline-year {
+    margin-bottom: 160px;
+  }
+
+  .events-container .timeline-year + .event.featured-event,
+  .events-container .timeline-year + .event.event-large {
     margin-top: 0px;
   }
 
