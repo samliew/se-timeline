@@ -1,65 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>The Stack Exchange Timeline</title>
-    <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" name="description" />
-    
-    <meta content="The Stack Exchange Timeline" property="og:title" />
-    <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="og:description" />
-    <meta content="./assets/img/se-og-image.png" property="og:image" />
-    <meta property="og:type" content="website" />
-    
-    <meta content="The Stack Exchange Timeline" property="twitter:title" />
-    <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="twitter:description" />
-    <meta content="./assets/img/se-og-image.png" property="twitter:image" />
-    <meta content="summary_large_image" name="twitter:card" />
-    
-    <link href="./assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    
-    <link href="./assets/css/webflow.9498fd7ed.css" rel="stylesheet" type="text/css" />
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
-    
-    <base target="_blank" />
-  </head>
-  <body>
-    <header class="navbar">
-      <div class="header-left"></div>
-      <a href="#" id="back-to-top" class="header-link w-inline-block rainbow-text">
-        <h1 class="main-title desktop-only">The Stack Exchange Timeline</h1>
-        <h1 class="main-title mobile-only">SE Timeline</h1>
-      </a>
-      <div class="header-right">
-        <div>
-          <select id="year-picker" class="year-picker w-select">
-            <option>2021</option>
-          </select>
-        </div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>The Stack Exchange Timeline</title>
+  <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" name="description" />
+
+  <meta content="The Stack Exchange Timeline" property="og:title" />
+  <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="og:description" />
+  <meta content="./assets/img/se-og-image.png" property="og:image" />
+  <meta property="og:type" content="website" />
+
+  <meta content="The Stack Exchange Timeline" property="twitter:title" />
+  <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="twitter:description" />
+  <meta content="./assets/img/se-og-image.png" property="twitter:image" />
+  <meta content="summary_large_image" name="twitter:card" />
+
+  <link href="./assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <link href="./assets/css/webflow.9498fd7ed.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+
+  <base target="_blank" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="header-left"></div>
+    <a href="#" id="back-to-top" class="header-link w-inline-block rainbow-text">
+      <h1 class="main-title desktop-only">The Stack Exchange Timeline</h1>
+      <h1 class="main-title mobile-only">SE Timeline</h1>
+    </a>
+    <div class="header-right">
+      <div>
+        <select id="year-picker" class="year-picker w-select">
+          <option>2021</option>
+        </select>
       </div>
-    </header>
-    <div class="fixed-header-padding"></div>
-    <aside id="sidebar" class="sidebar sidebar-open"><a href="#" class="current-year">2021</a><a href="#">2020</a><a href="#">2019</a><a href="#">2018</a><a href="#">2017</a><a href="#">2016</a><a href="#">2015</a><a href="#">2014</a><a href="#">2013</a><a href="#">2012</a><a href="#">2011</a><a href="#">2010</a><a href="#">2009</a><a href="#">2008</a></aside>
-    <aside class="filter-container">
-      <div class="filter-section-title">show:</div>
-      <div class="filters">
-        <div class="filter-group inline"><label title="event descriptions"><input type="checkbox" id="event-descriptions" checked /> event descriptions</label></div>
-        <div class="filter-group inline"><label title="moderator resignations and reinstatements"><input type="checkbox" id="mod-resignations" checked /> mod movements</label></div>
-        <div class="filter-group inline"><label title="staff fired and resignations"><input type="checkbox" id="staff-resignations" checked /> staff movements</label></div>
-        <div class="filter-group inline"><label title="sites graduating (launching) out of beta"><input type="checkbox" id="site-graduations" checked /> site graduations</label></div>
-      </div>
-    </aside>
-    
-    <main id="timeline" class="timeline">
-      <div class="timeline-line"></div>
-      <div class="events-container">
-        <h2 class="timeline-year static-year">present</h2>
-        
-        <!-- EXAMPLE EVENT
+    </div>
+  </header>
+  <div class="fixed-header-padding"></div>
+  <aside id="sidebar" class="sidebar sidebar-open"><a href="#" class="current-year">2021</a><a href="#">2020</a><a href="#">2019</a><a href="#">2018</a><a href="#">2017</a><a href="#">2016</a><a href="#">2015</a><a href="#">2014</a><a href="#">2013</a><a href="#">2012</a><a href="#">2011</a><a href="#">2010</a><a href="#">2009</a><a href="#">2008</a></aside>
+  <aside class="filter-container">
+    <div class="filter-section-title">show:</div>
+    <div class="filters">
+      <div class="filter-group inline"><label title="event descriptions"><input type="checkbox" id="event-descriptions" checked /> event descriptions</label></div>
+      <div class="filter-group inline"><label title="moderator resignations and reinstatements"><input type="checkbox" id="mod-resignations" checked /> mod movements</label></div>
+      <div class="filter-group inline"><label title="staff fired and resignations"><input type="checkbox" id="staff-resignations" checked /> staff movements</label></div>
+      <div class="filter-group inline"><label title="sites graduating (launching) out of beta"><input type="checkbox" id="site-graduations" checked /> site graduations</label></div>
+    </div>
+  </aside>
+
+  <main id="timeline" class="timeline">
+    <div class="timeline-line"></div>
+    <div class="events-container">
+      <h2 class="timeline-year static-year">present</h2>
+
+      <!-- EXAMPLE EVENT
         <div class="year-group">
           <h2 class="timeline-year">2021</h2>
-          
+
           <div class="event featured-event">
             <div class="event-tags less-important">
               <div class="inline">staff resignation</div>
@@ -87,26 +89,27 @@
               <div class="event-tags"><a href="#" class="tag meta-se-tag">Text Link</a><a href="#" class="tag">Text Link</a></div><a href="https://" class="button event-button">farewell post</a><a href="https://" class="linked-event">linked event</a>
             </div>
           </div>
-          
+
         </div>
         -->
-        
-        <h2 class="timeline-year static-year">the beginning</h2>
-      </div>
-      <div class="left-mask"></div>
-      <div class="right-mask"></div>
-    </main>
-    
-    <footer class="footer">
-      <p>All dates displayed in UTC+0</p>
-      <p><a href="https://discord.gg/tpgZmwR" target="_blank">Feedback &amp; discussion @ Meta Discord</a></p>
-      <div class="disclaimer">
-        The Contents of this Website are provided on an &quot;as is&quot; basis without warranties of any kind. To the fullest extent permitted by law, the owners of this website do not warrant and hereby disclaims any warranty as to the accuracy, correctness, reliability, timeliness, non-infringement, title, merchantability or fitness for any particular purpose of the Contents of this Website; and that the Contents available through this Website or any functions associated therewith will be uninterrupted or error-free, or that defects will be corrected or that this Website and the server is and will be free of all viruses and/or other harmful elements. The owners of this website shall also not be liable for any damage or loss of any kind caused as a result (direct or indirect) of the use of the Website, including but not limited to any damage or loss suffered as a result of reliance on the Contents contained in or available from the Website.
-      </div>
-    </footer>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js" integrity="sha512-JZSo0h5TONFYmyLMqp8k4oPhuo6yNk9mHM+FY50aBjpypfofqtEWsAgRDQm94ImLCzSaHeqNvYuD9382CEn2zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./assets/js/script.js"></script>
-  </body>
+
+      <h2 class="timeline-year static-year">the beginning</h2>
+    </div>
+    <div class="left-mask"></div>
+    <div class="right-mask"></div>
+  </main>
+
+  <footer class="footer">
+    <p>All dates displayed in UTC+0</p>
+    <p><a href="https://discord.gg/tpgZmwR" target="_blank">Feedback &amp; discussion @ Meta Discord</a></p>
+    <div class="disclaimer">
+      The Contents of this Website are provided on an &quot;as is&quot; basis without warranties of any kind. To the fullest extent permitted by law, the owners of this website do not warrant and hereby disclaims any warranty as to the accuracy, correctness, reliability, timeliness, non-infringement, title, merchantability or fitness for any particular purpose of the Contents of this Website; and that the Contents available through this Website or any functions associated therewith will be uninterrupted or error-free, or that defects will be corrected or that this Website and the server is and will be free of all viruses and/or other harmful elements. The owners of this website shall also not be liable for any damage or loss of any kind caused as a result (direct or indirect) of the use of the Website, including but not limited to any damage or loss suffered as a result of reliance on the Contents contained in or available from the Website.
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js" integrity="sha512-JZSo0h5TONFYmyLMqp8k4oPhuo6yNk9mHM+FY50aBjpypfofqtEWsAgRDQm94ImLCzSaHeqNvYuD9382CEn2zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
 </html>

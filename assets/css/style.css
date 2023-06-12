@@ -198,6 +198,18 @@ body {
   pointer-events: none;
 }
 
+.w-label {
+  font-weight: 600;
+}
+
+.w-label + .info {
+  color: #555;
+}
+
+.w-button.w-button-secondary {
+  background-color: #888;
+}
+
 .rainbow-text {
   background-clip: text !important;
   -webkit-background-clip: text !important;
