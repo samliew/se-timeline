@@ -1,9 +1,3 @@
-#timeline.hide-descriptions .event-description,
-#timeline.hide-descriptions .event-tags,
-#timeline.hide-descriptions .linked-event {
-  display: none !important;
-}
-
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -36,6 +30,20 @@ body {
 #event-template,
 .button[href="#"] {
   display: none;
+}
+
+#timeline.hide-descriptions .event-description,
+#timeline.hide-descriptions .event-tags,
+#timeline.hide-descriptions .linked-event {
+  display: none !important;
+}
+
+.events-list {
+  min-height: 400px;
+}
+
+.timeline-year {
+  margin-bottom: 160px;
 }
 
 .event:hover .box,
@@ -190,18 +198,32 @@ body {
   pointer-events: none;
 }
 
+.rainbow-text {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent;
+
+  --r: #ff0000;
+  --o: #ffa500;
+  --y: #ffdc00;
+  --g: #008000;
+  --b: #0000ff;
+  --p: #800080;
+
+  background: linear-gradient(90deg, var(--r), var(--o), var(--y), var(--g), var(--b), var(--p)) left center / 50%;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (min-width: 768px) {
-  .events-list .event:nth-child(even) {
+  #timeline:not(.hide-descriptions) .events-list .event:nth-child(even) {
     margin-top: 90px;
   }
 
-  .events-list .event.featured-event:nth-child(even) {
+  #timeline:not(.hide-descriptions) .events-list .event.featured-event:nth-child(even) {
     margin-top: 160px;
   }
 
-  .events-list
-    .event.event-small:not(.event-hidden):nth-child(odd)
-    + .event.event-hidden,
+  .events-list .event.event-small:not(.event-hidden):nth-child(odd) + .event.event-hidden,
   .events-list .event.event-hidden:nth-child(even) + .event:not(.event-hidden) {
     margin-top: 40px !important;
   }
@@ -217,28 +239,4 @@ body {
   .event.event-small {
     margin-bottom: -20px;
   }
-}
-
-.rainbow-text {
-  background-clip: text !important;
-  -webkit-background-clip: text !important;
-  color: transparent;
-
-  --r: #ff0000;
-  --o: #ffa500;
-  --y: #ffdc00;
-  --g: #008000;
-  --b: #0000ff;
-  --p: #800080;
-
-  background: linear-gradient(
-      90deg,
-      var(--r),
-      var(--o),
-      var(--y),
-      var(--g),
-      var(--b),
-      var(--p)
-    )
-    left center / 50%;
 }
