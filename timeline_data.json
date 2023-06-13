@@ -157,13 +157,11 @@
       "tags": [
         {
           "text": "licensing",
-          "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest"
         },
         {
           "text": "licensing",
-          "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest"
         }
       ],
       "linkedEvent": "#stack-exchange-retroactively-relicenses-all-usercontributed-content-on-the-network"
@@ -559,13 +557,11 @@
       "tags": [
         {
           "text": "the-loop",
-          "url": "https://meta.stackexchange.com/questions/tagged/the-loop?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/the-loop?tab=newest"
         },
         {
           "text": "the-loop",
-          "url": "https://meta.stackoverflow.com/questions/tagged/the-loop?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/the-loop?tab=newest"
         }
       ]
     },
@@ -1209,13 +1205,11 @@
       "tags": [
         {
           "text": "licensing",
-          "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest"
         },
         {
           "text": "licensing",
-          "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest"
         }
       ]
     },
@@ -1672,13 +1666,11 @@
       "tags": [
         {
           "text": "code-of-conduct",
-          "url": "https://meta.stackexchange.com/questions/tagged/code-of-conduct?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/code-of-conduct?tab=newest"
         },
         {
           "text": "code-of-conduct",
-          "url": "https://meta.stackoverflow.com/questions/tagged/code-of-conduct?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/code-of-conduct?tab=newest"
         }
       ]
     },
@@ -1694,13 +1686,11 @@
       "tags": [
         {
           "text": "welcoming",
-          "url": "https://meta.stackexchange.com/questions/tagged/welcoming?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/welcoming?tab=newest"
         },
         {
           "text": "welcoming",
-          "url": "https://meta.stackoverflow.com/questions/tagged/welcoming?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/welcoming?tab=newest"
         }
       ]
     },
@@ -1715,8 +1705,7 @@
       "tags": [
         {
           "text": "stack-overflow-for-teams",
-          "url": "https://meta.stackoverflow.com/questions/tagged/stack-overflow-for-teams?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/stack-overflow-for-teams?tab=newest"
         }
       ]
     },
@@ -1743,18 +1732,15 @@
       "tags": [
         {
           "text": "inappropriate-advertisements",
-          "url": "https://meta.stackexchange.com/questions/tagged/inappropriate-advertisements?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/inappropriate-advertisements?tab=newest"
         },
         {
           "text": "advertising",
-          "url": "https://meta.stackexchange.com/questions/tagged/advertising?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/advertising?tab=newest"
         },
         {
           "text": "advertising",
-          "url": "https://meta.stackoverflow.com/questions/tagged/advertising?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/advertising?tab=newest"
         }
       ]
     },
@@ -1803,8 +1789,7 @@
       "tags": [
         {
           "text": "documentation",
-          "url": "https://meta.stackoverflow.com/questions/tagged/documentation?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/documentation?tab=newest"
         }
       ],
       "linkedEvent": "#stack-overflow-launches-documentation"
@@ -1820,8 +1805,7 @@
       "tags": [
         {
           "text": "mentoring",
-          "url": "https://meta.stackoverflow.com/questions/tagged/mentoring?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/mentoring?tab=newest"
         }
       ]
     },
@@ -2137,8 +2121,7 @@
       "tags": [
         {
           "text": "documentation",
-          "url": "https://meta.stackoverflow.com/questions/tagged/documentation?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/documentation?tab=newest"
         }
       ]
     },
@@ -2298,13 +2281,11 @@
       "tags": [
         {
           "text": "se-quality-project",
-          "url": "https://meta.stackexchange.com/questions/tagged/se-quality-project?tab=Newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/se-quality-project?tab=Newest"
         },
         {
           "text": "se-quality-project",
-          "url": "https://meta.stackoverflow.com/questions/tagged/se-quality-project?tab=Newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/se-quality-project?tab=Newest"
         }
       ]
     },
@@ -2710,8 +2691,7 @@
       "tags": [
         {
           "text": "jobs",
-          "url": "https://meta.stackoverflow.com/questions/tagged/jobs?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/jobs?tab=newest"
         }
       ]
     },
@@ -2929,8 +2909,7 @@
       "tags": [
         {
           "text": "area51",
-          "url": "https://meta.stackexchange.com/search?q=area51&tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/search?q=area51&tab=newest"
         }
       ]
     },
@@ -2946,13 +2925,11 @@
       "tags": [
         {
           "text": "data-explorer",
-          "url": "https://meta.stackexchange.com/questions/tagged/data-explorer?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/data-explorer?tab=newest"
         },
         {
           "text": "data-explorer",
-          "url": "https://meta.stackoverflow.com/questions/tagged/data-explorer?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/data-explorer?tab=newest"
         }
       ]
     },
@@ -3037,13 +3014,11 @@
       "tags": [
         {
           "text": "flags",
-          "url": "https://meta.stackexchange.com/questions/tagged/flags?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/flags?tab=newest"
         },
         {
           "text": "flags",
-          "url": "https://meta.stackoverflow.com/questions/tagged/flags?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/flags?tab=newest"
         }
       ]
     },
@@ -3059,13 +3034,11 @@
       "tags": [
         {
           "text": "account-suspension",
-          "url": "https://meta.stackexchange.com/questions/tagged/account-suspension?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/account-suspension?tab=newest"
         },
         {
           "text": "account-suspension",
-          "url": "https://meta.stackoverflow.com/questions/tagged/account-suspension?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/account-suspension?tab=newest"
         }
       ]
     },
@@ -3081,18 +3054,15 @@
       "tags": [
         {
           "text": "inappropriate-advertisements",
-          "url": "https://meta.stackexchange.com/questions/tagged/inappropriate-advertisements?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/inappropriate-advertisements?tab=newest"
         },
         {
           "text": "advertising",
-          "url": "https://meta.stackexchange.com/questions/tagged/advertising?tab=newest",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/advertising?tab=newest"
         },
         {
           "text": "advertising",
-          "url": "https://meta.stackoverflow.com/questions/tagged/advertising?tab=newest",
-          "isMse": false
+          "url": "https://meta.stackoverflow.com/questions/tagged/advertising?tab=newest"
         }
       ]
     },
@@ -3108,8 +3078,7 @@
       "tags": [
         {
           "text": "company",
-          "url": "https://meta.stackexchange.com/questions/tagged/company",
-          "isMse": true
+          "url": "https://meta.stackexchange.com/questions/tagged/company"
         }
       ],
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"

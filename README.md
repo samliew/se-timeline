@@ -27,7 +27,6 @@ The properties of each event item is as follows:
 ```json
 {
   "classes": [
-    "event-large", // (optional) use this class if the body is long
     "featured-event" // (optional) use this class for a red border
   ],
   "slug": "sobotics-founded", // (optional) this is auto-generated if not set
@@ -37,23 +36,21 @@ The properties of each event item is as follows:
   "summary": "SOBotics creates bots to help with...", // (optional) a short summary, displayed in italics
   "body": "<p>body text</p>", // (optional) body html
   "links": [
-    // (optional) an array of button links
+    // (optional) an array of button links (up to three)
     {
       "text": "chat room",
       "url": "https://chat.stackoverflow.com/rooms/111347/sobotics"
     }
   ],
   "tags": [
-    // (optional) an array of tags
+    // (optional) an array of tags (up to three)
     {
       "text": "licensing",
-      "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest",
-      "isMse": true
+      "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest"
     },
     {
       "text": "licensing",
-      "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest",
-      "isMse": false
+      "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest"
     }
   ],
   "linkedEvent": "#another-event-slug", // (optional) another event's slug prefixed with a #

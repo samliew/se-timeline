@@ -102,7 +102,7 @@ const createEventElem = event => {
   <div class="event-description w-richtext">
     ${event.body ?? ''}
   </div>
-  <div class="event-tags">${tags}<div>
+  <div class="event-tags">${tags}</div>
   ${buttons ?? ''}
   ${linkedEventLink ?? ''}
 </div>`;
