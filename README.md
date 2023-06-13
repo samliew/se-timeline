@@ -61,3 +61,5 @@ The properties of each event item is as follows:
 Comments starting with `//` are not actually allowed in the JSON file, and is only used in the example above to describe each property.
 
 All double quotes, especially in the title, summary, and body properties, need to be escaped with a backslash like this: `\"`
+
+If you are unsure how to manually edit the event data using JSON, you can also use the [Event Editor](https://se-timeline.glitch.me/event-editor) to import an existing event.
