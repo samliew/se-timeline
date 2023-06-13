@@ -15,6 +15,7 @@
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
 
@@ -30,6 +31,16 @@ body {
 #event-template,
 .button[href="#"] {
   display: none;
+}
+
+.filter-group label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-group input {
+  margin: 0;
+  margin-right: 0.25rem;
 }
 
 #timeline.hide-descriptions .event-description,
@@ -353,7 +364,7 @@ body {
   padding: 1rem;
   border: 1px solid #ccc;
   border-top-color: white;
-  background-color: white;
+  background-color: #f3f3f3;
 }
 
 .datepicker-wrapper .datepicker-container {
@@ -368,14 +379,16 @@ body {
   margin-top: 10px;
 }
 
+.datepicker-wrapper .datepicker-container .datepicker-panel > ul > li.disabled,
 .datepicker-wrapper .datepicker-container .datepicker-panel > ul > li {
   min-width: 36px;
   min-height: 36px;
+  background-color: #f3f3f3;
 }
 
 .datepicker-wrapper .datepicker-container ul[data-view="week"],
-.datepicker-wrapper .datepicker-container ul[data-view] .muted,
-.datepicker-wrapper .datepicker-container ul[data-view] .disabled {
+.datepicker-wrapper .datepicker-container ul[data-view] > li.muted,
+.datepicker-wrapper .datepicker-container ul[data-view] > li.disabled {
   display: none;
 }
 
@@ -394,7 +407,7 @@ body {
 
 .datepicker-wrapper .datepicker-panel > ul > li.picked {
   color: #39f;
-  background: #f3f3f3;
+  background-color: #fff;
   border: 1px solid #888;
   border-radius: 8px;
 }

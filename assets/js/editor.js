@@ -30,7 +30,10 @@
   // https://www.tiny.cloud/docs/release-notes/release-notes50/
   tinymce.init({
     selector: '#body',
-    content_css: "/assets/css/tinymce-override.css",
+    content_css: [
+      "/assets/css/tinymce-override.css",
+      "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap"
+    ],
     branding: false,
     contextmenu: false,
     draggable_modal: true,

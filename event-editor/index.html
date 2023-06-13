@@ -20,6 +20,7 @@
   <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap" rel="stylesheet" />
   <link href="/assets/css/webflow.9498fd7ed.css" rel="stylesheet" type="text/css" />
   <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -37,7 +38,7 @@
 
   <main class="event-editor w-container" style="padding-bottom: 5rem;">
     <h2>Event Editor</h2>
-    <aside>A visual editor to add/edit event details.</aside>
+    <aside>This is a UI to assist in adding/editing event details in the JSON object.</aside>
     <form action="#" id="event-editor-form">
       <fieldset class="form-row">
         <label class="w-label" style="margin-bottom: 10px;">Classes:</label>
@@ -76,38 +77,38 @@
         </div>
       </fieldset>
       <div class="form-row">
-        <label class="w-label" for="slug">slug</label>
+        <label class="w-label" for="slug">Slug</label>
         <div class="info">this is auto-generated if not set</div>
         <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^[a-z0-9-]+$">
       </div>
       <div class="form-row">
-        <label class="w-label" for="type">type</label>
+        <label class="w-label" for="type">Type</label>
         <div class="info">describe the event using single words</div>
         <input class="w-input" type="text" name="type" id="type" maxlength="140" placeholder="chat blog licensing moderators staff resignation company">
       </div>
       <div class="form-row">
-        <label class="w-label required" for="date_str">date_str</label>
+        <label class="w-label required" for="date_str">Date</label>
         <div class="info">displayed date string in UTC (required)</div>
         <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
         <div class="datepicker-wrapper" style="position: relative;"></div>
       </div>
       <div class="form-row">
-        <label class="w-label required" for="title">title</label>
+        <label class="w-label required" for="title">Title</label>
         <div class="info">title of event (required)</div>
         <input class="w-input" type="text" name="title" id="title" maxlength="500" required>
       </div>
       <div class="form-row">
-        <label class="w-label" for="summary">summary</label>
+        <label class="w-label" for="summary">Summary</label>
         <div class="info">a short summary, displayed in italics under the title</div>
         <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
       </div>
       <div class="form-row">
-        <label class="w-label" for="body">body</label>
+        <label class="w-label" for="body">Body</label>
         <div class="info"></div>
         <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
       </div>
       <div class="form-row">
-        <label class="w-label" for="links">links</label>
+        <label class="w-label" for="links">Links</label>
         <div class="info">button links (up to three)</div>
         <div class="link-grid">
           <span>1.</span>
@@ -122,7 +123,7 @@
         </div>
       </div>
       <div class="form-row">
-        <label class="w-label" for="tags">tags</label>
+        <label class="w-label" for="tags">Tags</label>
         <div class="info">an array of link tags (up to three)</div>
         <div class="tags-grid">
           <span>1.</span>
@@ -137,12 +138,12 @@
         </div>
       </div>
       <div class="form-row">
-        <label class="w-label" for="linkedEvent">linkedEvent</label>
+        <label class="w-label" for="linkedEvent">Linked Event</label>
         <div class="info">another event's slug prefixed with a #</div>
         <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#.*$">
       </div>
       <div class="form-row">
-        <label class="w-label" for="icon">icon</label>
+        <label class="w-label" for="icon">Icon</label>
         <div class="info">image url (e.g.: for site graduation events)</div>
         <input class="w-input" type="url" name="icon" id="icon" placeholder="https://">
         <img src="" class="icon-preview" style="display: none;">
