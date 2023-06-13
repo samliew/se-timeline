@@ -214,7 +214,21 @@ body {
   --b: #0000ff;
   --p: #800080;
 
-  background: linear-gradient(90deg, var(--r), var(--o), var(--y), var(--g), var(--b), var(--p)) left center / 50%;
+  background: linear-gradient(
+      90deg,
+      var(--r),
+      var(--o),
+      var(--y),
+      var(--g),
+      var(--b),
+      var(--p),
+      var(--r),
+      var(--o),
+      var(--y),
+      var(--g),
+      var(--b)
+    )
+    left center / 100%;
   -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
 }
 
