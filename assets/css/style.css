@@ -293,7 +293,18 @@ body {
   align-items: center;
 }
 .event-editor .class-grid > .form-row-inline {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.event-editor .class-grid .w-checkbox {
+  margin-right: 5px;
+}
+.event-editor .class-grid .info {
+  display: block;
+  flex-basis: 100%;
+  padding-left: calc(1rem + 5px);
 }
 
 .event-editor .link-grid {

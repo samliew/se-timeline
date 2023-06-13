@@ -39,14 +39,42 @@
     <h2>Event Editor</h2>
     <aside>Insert event details and the JSON will be generated below, or paste an event's JSON object below to import into the fields.</aside>
     <form action="#" id="event-editor-form">
-      <div class="class-grid">
-        <div class="form-row-inline">
-          <label class="w-label" for="classes_featured-event">featured</label>
-          <div class="info">feature event with a red border?</div>
-          <input class="w-checkbox" type="checkbox" name="classes" id="classes_featured-event" value="featured-event">
+      <fieldset class="form-row">
+        <label class="w-label" style="margin-bottom: 10px;">Classes:</label>
+        <div class="class-grid">
+          <div class="form-row-inline">
+            <input class="w-checkbox" type="checkbox" name="classes" id="classes_featured-event" value="featured-event">
+            <label class="w-label" for="classes_featured-event">featured</label>
+            <div class="info">feature event with a red border?</div>
+          </div>
+          <div class="form-row-inline">
+            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-moderator" value="tag-moderator">
+            <label class="w-label" for="classes_tag-moderator">moderator</label>
+            <div class="info">event is about moderator</div>
+          </div>
+          <div class="form-row-inline">
+            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-staff" value="tag-staff">
+            <label class="w-label" for="classes_tag-staff">staff</label>
+            <div class="info">event is about staff</div>
+          </div>
+          <div class="form-row-inline">
+            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-resignation" value="tag-resignation">
+            <label class="w-label" for="classes_tag-resignation">resignation</label>
+            <div class="info">event is about resignation</div>
+          </div>
+          <div class="form-row-inline">
+            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-reinstatement" value="tag-reinstatement">
+            <label class="w-label" for="classes_tag-reinstatement">reinstatement</label>
+            <div class="info">event is about reinstatement</div>
+          </div>
+          <div class="form-row-inline">
+            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-site-graduation" value="tag-site-graduation">
+            <label class="w-label" for="classes_tag-site-graduation">site-graduation</label>
+            <div class="info">event is about site graduation</div>
+          </div>
+          <input type="hidden" name="classes" id="classes_other" value="">
         </div>
-        <input type="text" name="classes" id="classes_other" value="">
-      </div>
+      </fieldset>
       <div class="form-row">
         <label class="w-label" for="slug">slug</label>
         <div class="info">this is auto-generated if not set</div>
@@ -125,7 +153,7 @@
       </div>
     </form>
 
-    <h4>Output / Input JSON</h4>
+    <h4>Export / Import JSON</h4>
     <textarea name="output" id="json-output" rows="10" class="w-input json-output" style="width: 100%; min-height: 400px; resize: vertical;"></textarea>
     <button class="w-button" id="import-json" type="button">Import JSON</button>
   </main>
