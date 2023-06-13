@@ -30,6 +30,7 @@
   // https://www.tiny.cloud/docs/release-notes/release-notes50/
   tinymce.init({
     selector: '#body',
+    content_css: "/assets/css/tinymce-override.css",
     branding: false,
     contextmenu: false,
     draggable_modal: true,
@@ -189,6 +190,65 @@
   document.querySelector('#import-json').addEventListener('click', evt => {
     evt.preventDefault();
     tryImportJson();
+  });
+
+
+  /**
+   * @summary Copy text to clipboard
+   * @param {string | HTMLElement} content text or element to copy
+   * @returns {boolean} success
+   */
+  const copyToClipboard = async content => {
+    let success = false;
+
+    // If content is an element, get its value or innerText
+    if (content instanceof HTMLElement) {
+      content = content.value || content.innerText;
+    }
+
+    // Save current focus
+    const previousFocusElement = document.activeElement;
+
+    // Create a temporary textarea element
+    const textArea = document.createElement('textarea');
+    Object.assign(textArea.style, {
+      position: 'fixed',
+      zIndex: -1,
+      opacity: 0,
+      pointerEvents: 'none'
+    });
+    textArea.value = content;
+    document.body.appendChild(textArea);
+    window.focus();
+    textArea.focus();
+    textArea.select();
+
+    // Method 1
+    try {
+      if (typeof navigator.clipboard?.writeText === 'function') {
+        success = await navigator.clipboard.writeText(content || textArea.value);
+      }
+    }
+    catch (err) { }
+
+    // Method 2
+    try {
+      if (!success) document.execCommand('copy');
+      success = true;
+    }
+    catch (err) { }
+
+    // Remove temporary textarea and restore previous focus
+    document.body.removeChild(textArea);
+    previousFocusElement.focus();
+
+    return success;
+  };
+
+  // Copy JSON button
+  document.querySelector('#copy-json').addEventListener('click', evt => {
+    evt.preventDefault();
+    copyToClipboard(output);
   });
 
 })();

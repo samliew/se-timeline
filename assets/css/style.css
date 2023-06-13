@@ -342,6 +342,7 @@ body {
   white-space: pre-wrap;
 }
 
+/* ===== DATEPICKER STYLES ===== */
 [data-component="datepicker"] {
   text-align: center;
 }
