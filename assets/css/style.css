@@ -73,10 +73,6 @@ body {
   transition: border-color 0.15s ease, background-color 2s linear;
 }
 
-.event-large {
-  margin-bottom: 30px;
-}
-
 .event.highlight .box,
 .event.highlight .featured-box {
   background-color: #ffff77;
@@ -210,6 +206,7 @@ body {
   -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
 }
 
+/* Desktop Only, extra margins */
 @media screen and (min-width: 768px) {
   #timeline:not(.hide-descriptions) .events-list .event:nth-child(even) {
     margin-top: 90px;
@@ -235,6 +232,10 @@ body {
 
   .event.featured-event + .featured-event {
     margin-top: -40px;
+  }
+
+  .event.event-large {
+    margin-bottom: 30px;
   }
 
   .event.event-small {
