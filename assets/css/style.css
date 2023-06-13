@@ -250,6 +250,10 @@ body {
   background: #e8e8e8;
 }
 
+.event-editor .form-row {
+  margin-bottom: 1.5rem;
+}
+
 .event-editor .w-label {
   font-weight: 600;
 }
