@@ -38,10 +38,6 @@ body {
   display: none !important;
 }
 
-.events-list {
-  min-height: 400px;
-}
-
 .event:hover .box,
 .event:hover .connector,
 .event:hover .connector-dot {
@@ -214,6 +210,10 @@ body {
 
   #timeline:not(.hide-descriptions) .events-list .event.featured-event:nth-child(even) {
     margin-top: 160px;
+  }
+
+  .events-list {
+    min-height: 400px;
   }
 
   .events-list .event.event-small:not(.event-hidden):nth-child(odd) + .event.event-hidden,
