@@ -39,20 +39,28 @@
     <h2>Event Editor</h2>
     <aside>Insert event details and the JSON will be generated below, or paste an event's JSON object below to import into the fields.</aside>
     <form action="#" id="event-editor-form">
-      <div class="form-row">
-        <label class="w-label" for="classes.featured-event">featured</label>
-        <div class="info">feature event with a red border?</div>
-        <input class="w-checkbox" type="checkbox" name="classes" id="classes.featured-event" value="featured-event">
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="classes.event-large">large</label>
-        <div class="info">event has lots of content?</div>
-        <input class="w-checkbox" type="checkbox" name="classes" id="classes.event-large" value="event-large">
+      <div class="class-grid">
+        <div class="form-row-inline">
+          <label class="w-label" for="classes_featured-event">featured</label>
+          <div class="info">feature event with a red border?</div>
+          <input class="w-checkbox" type="checkbox" name="classes" id="classes_featured-event" value="featured-event">
+        </div>
+        <div class="form-row-inline">
+          <label class="w-label" for="classes_event-large">large</label>
+          <div class="info">event has lots of content?</div>
+          <input class="w-checkbox" type="checkbox" name="classes" id="classes_event-large" value="event-large">
+        </div>
+        <div class="form-row-inline">
+          <label class="w-label" for="classes_event-small">small</label>
+          <div class="info">event has very little content?</div>
+          <input class="w-checkbox" type="checkbox" name="classes" id="classes_event-small" value="event-small">
+        </div>
+        <input type="text" name="classes" id="classes_other" value="">
       </div>
       <div class="form-row">
         <label class="w-label" for="slug">slug</label>
         <div class="info">this is auto-generated if not set</div>
-        <input class="w-input" type="text" name="slug" id="slug" maxlength="500">
+        <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^[a-z0-9-]+$">
       </div>
       <div class="form-row">
         <label class="w-label" for="type">type</label>
@@ -61,14 +69,14 @@
       </div>
       <div class="form-row">
         <label class="w-label required" for="date_str">date_str</label>
-        <div class="info">displayed date string (UTC)</div>
+        <div class="info">displayed date string in UTC (required)</div>
         <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
         <div class="datepicker-wrapper" style="position: relative;"></div>
       </div>
       <div class="form-row">
         <label class="w-label required" for="title">title</label>
-        <div class="info">title of event</div>
-        <input class="w-input" type="text" name="title" id="title" maxlength="500" value="Event Title" required>
+        <div class="info">title of event (required)</div>
+        <input class="w-input" type="text" name="title" id="title" maxlength="500" required>
       </div>
       <div class="form-row">
         <label class="w-label" for="summary">summary</label>
@@ -85,26 +93,29 @@
         <div class="info">button links (up to three)</div>
         <div class="link-grid">
           <span>1.</span>
-          <input class="w-input" type="text" name="linkText" id="links_0_text" data-pair="links_0_url" placeholder="button text" maxlength="500">
-          <input class="w-input" type="url" name="linkUrl" id="links_0_url" data-pair="links_0_text" placeholder="https://">
+          <input class="w-input linkText" type="text" id="linkText0" data-pair="linkUrl0" placeholder="discuss" maxlength="50">
+          <input class="w-input linkUrl" type="url" id="linkUrl0" data-pair="linkText0" placeholder="https://">
           <span>2.</span>
-          <input class="w-input" type="text" name="linkText" id="links_1_text" data-pair="links_1_url" placeholder="button text" maxlength="500">
-          <input class="w-input" type="url" name="linkUrl" id="links_1_url" data-pair="links_1_text" placeholder="https://">
+          <input class="w-input linkText" type="text" id="linkText1" data-pair="linkUrl1" placeholder="chat" maxlength="50">
+          <input class="w-input linkUrl" type="url" id="linkUrl1" data-pair="linkText1" placeholder="https://">
           <span>3.</span>
-          <input class="w-input" type="text" name="linkText" id="links_2_text" data-pair="links_2_url" placeholder="button text" maxlength="500">
-          <input class="w-input" type="url" name="linkUrl" id="links_2_url" data-pair="links_2_text" placeholder="https://">
+          <input class="w-input linkText" type="text" id="linkText2" data-pair="linkUrl2" placeholder="meta post" maxlength="50">
+          <input class="w-input linkUrl" type="url" id="linkUrl2" data-pair="linkText2" placeholder="https://">
         </div>
       </div>
       <div class="form-row">
         <label class="w-label" for="tags">tags</label>
-        <div class="info">an array of link tags (up to two)</div>
+        <div class="info">an array of link tags (up to three)</div>
         <div class="tags-grid">
           <span>1.</span>
-          <input class="w-input" type="text" name="tagText" id="tags_0_text" data-pair="tags_0_url" placeholder="tag text" maxlength="50">
-          <input class="w-input" type="url" name="tagUrl" id="tags_0_url" data-pair="tags_0_text" placeholder="https://">
+          <input class="w-input tagText" type="text" id="tagText0" data-pair="tagUrl0" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+          <input class="w-input tagUrl" type="url" id="tagUrl0" data-pair="tagText0" placeholder="https://">
           <span>2.</span>
-          <input class="w-input" type="text" name="tagText" id="tags_1_text" data-pair="tags_1_url" placeholder="tag text" maxlength="50">
-          <input class="w-input" type="url" name="tagUrl" id="tags_1_url" data-pair="tags_1_text" placeholder="https://">
+          <input class="w-input tagText" type="text" id="tagText1" data-pair="tagUrl1" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+          <input class="w-input tagUrl" type="url" id="tagUrl1" data-pair="tagText1" placeholder="https://">
+          <span>3.</span>
+          <input class="w-input tagText" type="text" id="tagText2" data-pair="tagUrl2" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+          <input class="w-input tagUrl" type="url" id="tagUrl2" data-pair="tagText2" placeholder="https://">
         </div>
       </div>
       <div class="form-row">
@@ -116,6 +127,7 @@
         <label class="w-label" for="icon">icon</label>
         <div class="info">image url (e.g.: for site graduation events)</div>
         <input class="w-input" type="url" name="icon" id="icon" placeholder="https://">
+        <img src="" class="icon-preview" style="display: none;">
       </div>
 
       <div class="form-actions" style="margin-bottom: 3rem;">

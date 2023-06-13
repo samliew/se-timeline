@@ -65,7 +65,8 @@ const createEventElem = event => {
 
   const slug = event.slug || event.title?.toLowerCase().replace(/\W+/g, '-');
   const tags = event.tags?.map(tag => {
-    const { text, url, isMse } = tag;
+    const { text, url } = tag;
+    const isMse = url.includes('meta.stackexchange.com');
     return `<a href="${url ?? '#'}" class="tag ${isMse ? 'meta-se-tag' : ''}">${text}</a>`;
   }).join('');
   const buttons = event.links?.map(link => {

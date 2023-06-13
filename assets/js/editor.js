@@ -1,21 +1,24 @@
 (() => {
 
   console.clear();
+  const today = new Date();
+  const startOfUTCToday = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getUTCDate()));
 
   // Init Datepicker
   // https://fengyuanchen.github.io/datepicker/
   // https://github.com/fengyuanchen/datepicker
-  $('[data-component="datepicker"]').datepicker({
+  const dateField = $('[data-component="datepicker"]').datepicker({
+    'container': '.datepicker-wrapper',
     'autoShow': false,
     'autoHide': false,
-    'autoPick': false,
+    'autoPick': true,
     'format': 'yyyy-mm-dd',
     'inline': true,
-    'endDate': new Date(),
-    'startView': 2,
-    'weekStart': 0,
+    'date': startOfUTCToday,
+    'endDate': startOfUTCToday,
+    'startView': 0, // days
+    'weekStart': 0, // sun
     'yearFirst': false,
-    'container': '.datepicker-wrapper',
     'zIndex': 1,
     'daysMin': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
   }).on('pick.datepicker', evt => {
@@ -53,64 +56,139 @@
     }
 
     // Add body
-    data.body = tinymce.activeEditor.getContent();
+    data.body = tinymce.activeEditor.getContent().replace(/[\n\r]+/, '');
 
     // Join multiple values (from checkboxes) into array
     const join = key => {
-      const values = formData.getAll(key);
+      const values = [...formData.getAll(key)].flatMap(v => v.split(/[,; ]+/)).filter(Boolean);
       data[key] = values;
     };
     join('classes');
 
     // Join links
-    const linkText = formData.getAll('linkText');
-    data.links = formData.getAll('linkUrl')
+    const linkText = [...form.querySelectorAll('.linkText')].map(v => v.value)
+    data.links = [...form.querySelectorAll('.linkUrl')].map(v => v.value)
       .map((url, i) => ({ text: linkText[i], url }))
       .filter(v => v.text && v.url); // remove empty links
-    delete data.linkText;
-    delete data.linkUrl;
 
     // Join tags
-    const tagText = formData.getAll('tagText');
-    data.tags = formData.getAll('tagUrl')
+    const tagText = [...form.querySelectorAll('.tagText')].map(v => v.value)
+    data.tags = [...form.querySelectorAll('.tagUrl')].map(v => v.value)
       .map((url, i) => ({ text: tagText[i], url }))
       .filter(v => v.text && v.url); // remove empty links
-    delete data.tagText;
-    delete data.tagUrl;
+
+    // Remove empty fields
+    Object.entries(data).forEach(([key, value]) => {
+      if (value.length === 0) delete data[key];
+    });
 
     // Output JSON
     const json = JSON.stringify(data, null, 2);
-    output.value = json;
+    output.value = json + ',';
   };
 
   // Import JSON to form fields
   const tryImportJson = () => {
     try {
-      const json = JSON.parse(output.value);
+      const json = JSON.parse(output.value.trim().replace(/,$/, ''));
       Object.entries(json).forEach(([key, value]) => {
-        const field = document.querySelector(`#${key}`);
+
+        const field = document.getElementById(key);
         if (field) field.value = value;
+
+        // If date field, update datepicker
+        if (key === 'date_str') {
+          dateField.datepicker('update');
+        }
+
+        // If body field, update tinymce
+        if (key === 'body') {
+          tinymce.activeEditor.setContent(value);
+        }
+
+        // If classes field, update checkboxes
+        if (key === 'classes') {
+          const otherField = document.querySelector('#classes_other');
+          otherField.value = '';
+          value.forEach(v => {
+            const checkbox = document.querySelector(`[name="classes"][value="${v}"]`);
+            if (checkbox) {
+              checkbox.checked = true;
+            }
+            else if (otherField.value.length) {
+              otherField.value += `;${v}`;
+            }
+            else {
+              otherField.value = v;
+            }
+          });
+        }
+
+        // If links field, update links
+        if (key === 'links') {
+          document.querySelectorAll('.linkText').forEach((el, i) => {
+            el.value = value[i]?.text || '';
+          });
+          document.querySelectorAll('.linkUrl').forEach((el, i) => {
+            el.value = value[i]?.url || '';
+          });
+        }
+
+        // If tags field, update tags
+        if (key === 'tags') {
+          document.querySelectorAll('.tagText').forEach((el, i) => {
+            el.value = value[i]?.text || '';
+          });
+          document.querySelectorAll('.tagUrl').forEach((el, i) => {
+            el.value = value[i]?.url || '';
+          });
+        }
       });
+
+      // Update form fields
+      [...form.elements].forEach(el => formatField(el));
     } catch (e) { } // ignore errors
+  };
+
+  const formatField = field => {
+    field.value = field.value.trim();
+
+    // If has linked fields, toggle the other to required if not empty
+    const notEmpty = field.value.length > 0;
+    const pairField = document.querySelector(`#${field.dataset.pair}`);
+    if (pairField) pairField.required = notEmpty;
+
+    // If linkedEvent field, and not empty, prepend with #
+    if (field.id === 'linkedEvent' && notEmpty && field.value[0] !== '#') {
+      field.value = `#${field.value}`;
+    }
+
+    // If url field, and does not start with http, prepend with https://
+    if (field.type === 'url' && notEmpty && !field.value.match(/^https?:\/\//)) {
+      field.value = `https://${field.value}`;
+    }
+
+    // If icon field, try preview image
+    if (field.id === 'icon') {
+      const preview = field.nextElementSibling;
+      preview.src = field.value;
+      preview.style.display = notEmpty ? 'inline-block' : 'none';
+    }
   };
 
   // Form field change
   form.addEventListener('change', evt => {
     const target = evt.target;
-    target.value = target.value.trim();
+    formatField(target);
+
     target.reportValidity();
-
-    // If has linked fields, toggle the other to required if not empty
-    const notEmpty = target.value.length > 0;
-    const pairField = document.querySelector(`#${target.dataset.pair}`);
-    if (pairField) pairField.required = notEmpty;
-
-    // If linkedEvent field, and not empty, prepend with #
-    if (target.id === 'linkedEvent' && notEmpty && target.value[0] !== '#') {
-      target.value = `#${target.value}`;
-    }
-
     tryGenerateJson();
+  });
+
+  // Import JSON button
+  document.querySelector('#import-json').addEventListener('click', evt => {
+    evt.preventDefault();
+    tryImportJson();
   });
 
 })();

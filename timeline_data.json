@@ -12,12 +12,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-company",
-        "tag-acquisition"
-      ],
+      "classes": ["featured-event", "event-large", "tag-company", "tag-acquisition"],
       "slug": "prosus-acquires-stack-overflow",
       "type": "company acquisition",
       "date_str": "2021-06-02",
@@ -125,12 +120,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-company",
-        "tag-statement"
-      ],
+      "classes": ["featured-event", "event-large", "tag-company", "tag-statement"],
       "slug": "stack-exchange-commits-to-communicate-and-engage-with-meta-and-moderators",
       "type": "company statement",
       "date_str": "2020-03-04",
@@ -179,12 +169,7 @@
       "linkedEvent": "#stack-exchange-retroactively-relicenses-all-usercontributed-content-on-the-network"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-company",
-        "tag-statement"
-      ],
+      "classes": ["featured-event", "event-large", "tag-company", "tag-statement"],
       "slug": "stack-exchange-renews-its-commitment-to-rebuilding-the-relationship-with-the-community",
       "type": "company statement",
       "date_str": "2020-02-19",
@@ -340,12 +325,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-staff",
-        "tag-resignation"
-      ],
+      "classes": ["featured-event", "event-large", "tag-staff", "tag-resignation"],
       "slug": "jon-ericson-resigns",
       "type": "staff resignation",
       "date_str": "2020-01-17",
@@ -404,12 +384,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-official",
-        "tag-policy"
-      ],
+      "classes": ["featured-event", "event-large", "tag-official", "tag-policy"],
       "slug": "stack-exchange-attempts-to-limit-featured-moderator-resignation-notices-to-a-maximum-of-24-hours",
       "type": "official policy",
       "date_str": "2020-01-16",
@@ -573,13 +548,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": [
-        "featured-event",
-        "tag-official",
-        "tag-loop",
-        "tag-blog",
-        "tag-the-loopthe-loop"
-      ],
+      "classes": ["featured-event", "tag-official", "tag-loop", "tag-blog", "tag-the-loop"],
       "slug": "stack-exchange-launches-the-loop",
       "type": "official loop blog",
       "date_str": "2019-11-25",
@@ -734,12 +703,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "tag-official",
-        "tag-policy",
-        "tag-moderators"
-      ],
+      "classes": ["featured-event", "tag-official", "tag-policy", "tag-moderators"],
       "slug": "stack-exchange-releases-new-moderator-warning-and-removal-and-reinstatement-processes",
       "type": "official policy moderators",
       "date_str": "2019-10-21",
@@ -754,13 +718,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "event-small",
-        "tag-official",
-        "tag-policy",
-        "tag-coc"
-      ],
+      "classes": ["featured-event", "event-small", "tag-official", "tag-policy", "tag-coc"],
       "slug": "stack-exchange-releases-faq-on-pronouns",
       "type": "official policy coc",
       "date_str": "2019-10-21",
@@ -889,12 +847,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-official",
-        "tag-statement"
-      ],
+      "classes": ["featured-event", "event-large", "tag-official", "tag-statement"],
       "slug": "third-official-response-by-david-fullerton-stack-exchange-cto",
       "type": "official statement",
       "date_str": "2019-10-06",
@@ -952,12 +905,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-official",
-        "tag-statement"
-      ],
+      "classes": ["featured-event", "event-large", "tag-official", "tag-statement"],
       "slug": "second-official-statement-by-sara-chipps",
       "type": "official statement",
       "date_str": "2019-10-03",
@@ -1105,12 +1053,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-official",
-        "tag-statement"
-      ],
+      "classes": ["featured-event", "event-large", "tag-official", "tag-statement"],
       "slug": "official-statement-by-sara-chipps",
       "type": "official statement",
       "date_str": "2019-09-29",
@@ -1206,12 +1149,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-moderator",
-        "tag-fired"
-      ],
+      "classes": ["featured-event", "event-large", "tag-moderator", "tag-fired"],
       "slug": "monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites",
       "type": "moderator fired",
       "date_str": "2019-09-27",
@@ -1660,12 +1598,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-official",
-        "tag-policy"
-      ],
+      "classes": ["featured-event", "event-large", "tag-official", "tag-policy"],
       "slug": "hot-meta-posts-removed-from-stack-overflows-sidebar",
       "type": "official policy",
       "date_str": "2019-07-23",
@@ -1687,12 +1620,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-moderators",
-        "tag-appointed"
-      ],
+      "classes": ["featured-event", "event-large", "tag-moderators", "tag-appointed"],
       "slug": "moderators-appointed-on-meta-stack-exchange-for-the-first-time",
       "type": "moderators appointed",
       "date_str": "2018-11-21",
@@ -1733,13 +1661,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "tag-official",
-        "tag-policy",
-        "tag-coc",
-        "tag-code-of-conductcode-of-conduct"
-      ],
+      "classes": ["featured-event", "tag-official", "tag-policy", "tag-coc", "tag-code-of-conduct"],
       "slug": "stack-exchange-launches-the-code-of-conduct",
       "type": "official policy coc",
       "date_str": "2018-07-19",
@@ -1761,14 +1683,7 @@
       ]
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-blog",
-        "tag-welcoming",
-        "tag-drama",
-        "tag-welcomingwelcoming"
-      ],
+      "classes": ["featured-event", "event-large", "tag-blog", "tag-welcoming", "tag-drama", "tag-welcomingwelcoming"],
       "slug": "the-welcoming",
       "type": "blog welcoming drama",
       "date_str": "2018-04-26",
@@ -1817,12 +1732,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "event-large",
-        "tag-advertising",
-        "tag-quality",
-        "tag-inappropriate-advertisementsadvertisingadvertising"
-      ],
+      "classes": ["event-large", "tag-advertising", "tag-quality", "tag-inappropriate-advertisements"],
       "slug": "implemention-of-affiliate-ads",
       "type": "advertising quality",
       "date_str": "2018-02-07",
@@ -2045,13 +1955,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf09623916f63e4798_philosophy.png"
     },
     {
-      "classes": [
-        "event-large",
-        "tag-stackoverflow",
-        "tag-chat",
-        "tag-group",
-        "tag-blog"
-      ],
+      "classes": ["event-large", "tag-stackoverflow", "tag-chat", "tag-group", "tag-blog"],
       "slug": "sobotics-founded",
       "type": "stackoverflow chat group blog",
       "date_str": "2016-05-08",
@@ -2223,12 +2127,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd909623918f33dff09_magento.png"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-small",
-        "tag-feature",
-        "tag-documentation"
-      ],
+      "classes": ["featured-event", "event-small", "tag-feature", "tag-documentation"],
       "slug": "stack-overflow-launches-documentation",
       "type": "feature",
       "date_str": "2015-08-31",
@@ -2389,12 +2288,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbb76f903fd40e2af53_salesforce.png"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-experiment",
-        "tag-se-quality-projectse-quality-project"
-      ],
+      "classes": ["featured-event", "event-large", "tag-experiment", "tag-se-quality-projectse-quality-project"],
       "slug": "stack-exchange-quality-improvement-project-announced",
       "type": "experiment",
       "date_str": "2014-04-17",
@@ -3025,12 +2919,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f591547f1460177fe_webapps.png"
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-site-launch",
-        "tag-area51"
-      ],
+      "classes": ["featured-event", "event-large", "tag-site-launch", "tag-area51"],
       "slug": "area-51-launches-in-beta",
       "type": "site-launch",
       "date_str": "2010-06-22",
@@ -3046,12 +2935,7 @@
       ]
     },
     {
-      "classes": [
-        "featured-event",
-        "tag-blog",
-        "tag-site-launch",
-        "tag-data-explorerdata-explorer"
-      ],
+      "classes": ["featured-event", "tag-blog", "tag-site-launch", "tag-data-explorer"],
       "slug": "stack-exchange-data-explorer-launches",
       "type": "blog site-launch",
       "date_str": "2010-06-13",
@@ -3164,11 +3048,7 @@
       ]
     },
     {
-      "classes": [
-        "tag-feature",
-        "tag-blog",
-        "tag-account-suspensionaccount-suspension"
-      ],
+      "classes": ["tag-feature", "tag-blog", "tag-account-suspensionaccount-suspension"],
       "slug": "new-feature-user-suspensions",
       "type": "feature blog",
       "date_str": "2009-04-06",
@@ -3190,12 +3070,7 @@
       ]
     },
     {
-      "classes": [
-        "event-large",
-        "tag-feature",
-        "tag-blog",
-        "tag-inappropriate-advertisementsadvertisingadvertising"
-      ],
+      "classes": ["event-large", "tag-feature", "tag-blog", "tag-inappropriate-advertisementsadvertisingadvertising"],
       "slug": "jeff-atwood-states-that-they-will-never-accept-animated-ads",
       "type": "feature blog",
       "date_str": "2009-03-25",
@@ -3222,12 +3097,7 @@
       ]
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-site-launch",
-        "tag-company"
-      ],
+      "classes": ["featured-event", "event-large", "tag-site-launch", "tag-company"],
       "slug": "stack-overflow-launches",
       "type": "site-launch",
       "date_str": "2008-09-15",
