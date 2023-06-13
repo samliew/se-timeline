@@ -258,6 +258,10 @@ body {
   font-weight: 600;
 }
 
+.event-editor .w-input:not(:valid) {
+  border-color: #c00;
+}
+
 .event-editor .w-checkbox {
   width: 1rem;
   height: 1rem;
@@ -302,10 +306,44 @@ body {
   margin: 0;
 }
 
-.datepicker-container {
-  box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 10%) !important;
-  -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 10%) !important;
+.event-editor .json-output {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  color: #222;
+  font-family: monospace;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
 }
+
+[data-component="datepicker"] {
+  text-align: center;
+}
+
+.datepicker-wrapper {
+  display: flex;
+  margin-top: -10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  background-color: white;
+}
+
+.datepicker-wrapper .datepicker-container {
+  flex-basis: 100%;
+  background-color: transparent;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  z-index: 1 !important;
+}
+
+.datepicker-wrapper .datepicker-container ul[data-view="week"],
+.datepicker-wrapper .datepicker-container ul[data-view] .muted,
+.datepicker-wrapper .datepicker-container ul[data-view] .disabled {
+  display: none;
+}
+
 .datepicker-container * {
   display: flex;
   align-items: center;
