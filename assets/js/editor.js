@@ -30,8 +30,13 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
     'zIndex': 1,
     'daysMin': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
   }).on('pick.datepicker', evt => {
-    evt.target.dispatchEvent(new Event('change'));
-    evt.target.reportValidity();
+    // Update date_str field after datepicker selection
+    setTimeout(() => {
+      evt.target.dispatchEvent(new Event('change', {
+        bubbles: true, cancelable: true, composed: true
+      }));
+      evt.target.reportValidity();
+    }, 10);
   });
 
   // Init Tinymce
@@ -39,8 +44,10 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
   tinymce.init({
     selector: '#body',
     content_css: [
+      "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap",
+      "/assets/css/webflow.9498fd7ed.css",
+      "/assets/css/style.css",
       "/assets/css/tinymce-override.css",
-      "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap"
     ],
     branding: false,
     contextmenu: false,
@@ -51,6 +58,20 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
     menubar: false,
     statusbar: false,
     min_height: 300,
+    setup: editor => {
+      editor.on('change', evt => {
+        console.log('the event object ', evt);
+        console.log('the editor object ', editor);
+        console.log('the content ', editor.getContent());
+
+        // Update textarea
+        const target = editor.targetElm;
+        target.value = editor.getContent().replace(/[\n\r]+/, '');
+        editor.targetElm.dispatchEvent(new Event('change', {
+          bubbles: true, cancelable: true, composed: true
+        }));
+      });
+    }
   });
 
   const form = document.querySelector('#event-editor-form');
@@ -66,9 +87,6 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
     if (!data.slug) {
       data.slug = data.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     }
-
-    // Add body
-    data.body = tinymce.activeEditor.getContent().replace(/[\n\r]+/, '');
 
     // Join multiple values (from checkboxes) into array
     const join = key => {
