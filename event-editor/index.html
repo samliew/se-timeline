@@ -35,9 +35,9 @@
   </header>
   <div class="fixed-header-padding"></div>
 
-  <main class="event-editor w-container" style="padding-bottom: 3rem;">
+  <main class="event-editor w-container" style="padding-bottom: 5rem;">
     <h2>Event Editor</h2>
-    <aside>Insert event details and the JSON will be generated below, or paste an event's JSON object below to import into the fields.</aside>
+    <aside>A visual editor to add/edit event details.</aside>
     <form action="#" id="event-editor-form">
       <fieldset class="form-row">
         <label class="w-label" style="margin-bottom: 10px;">Classes:</label>
@@ -154,6 +154,7 @@
     </form>
 
     <h4>Export / Import JSON</h4>
+    <aside>The event JSON will be generated below, or paste an event JSON object to import into the fields above.</aside>
     <textarea name="output" id="json-output" rows="10" class="w-input json-output" style="width: 100%; min-height: 400px; resize: vertical;"></textarea>
     <button class="w-button" id="copy-json" type="button">Copy</button>
     <button class="w-button" id="import-json" type="button">Import JSON</button>
