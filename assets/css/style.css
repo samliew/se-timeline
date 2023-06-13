@@ -258,7 +258,7 @@ body {
 .event-editor aside {
   margin: 1rem 0 1.5rem;
   padding: 0.8rem 1rem;
-  border: 1px solid #ddd;
+  border: 1px dashed #ccc;
   background: #e8e8e8;
 }
 
