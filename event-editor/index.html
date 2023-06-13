@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>The Stack Exchange Timeline</title>
+  <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" name="description" />
+
+  <meta content="The Stack Exchange Timeline" property="og:title" />
+  <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="og:description" />
+  <meta content="./assets/img/se-og-image.png" property="og:image" />
+  <meta property="og:type" content="website" />
+
+  <meta content="The Stack Exchange Timeline" property="twitter:title" />
+  <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="twitter:description" />
+  <meta content="./assets/img/se-og-image.png" property="twitter:image" />
+  <meta content="summary_large_image" name="twitter:card" />
+
+  <link href="./assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <link href="./assets/css/webflow.9498fd7ed.css" rel="stylesheet" type="text/css" />
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+
+  <base target="_blank" />
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="header-left"></div>
+    <a href="#" id="back-to-top" class="header-link w-inline-block">
+      <h1 class="main-title desktop-only">The Stack Exchange Timeline</h1>
+      <h1 class="main-title mobile-only">SE Timeline</h1>
+    </a>
+    <div class="header-right"></div>
+  </header>
+  <div class="fixed-header-padding"></div>
+
+  <main id="event-editor" class="event-editor w-container" style="padding-bottom: 3rem;">
+    <h2>Event Editor</h2>
+    <aside>Insert event details and the JSON will be generated below, or paste an event's JSON object below to import into the fields.</aside>
+    <form action="#" id="event-edit-form">
+      <div class="form-row">
+        <label class="w-label" for="classes.featured-event">featured</label>
+        <div class="info">feature event with a red border?</div>
+        <input class="w-checkbox" type="checkbox" name="classes[]" id="classes.featured-event" value="featured-event">
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="slug">slug</label>
+        <div class="info">this is auto-generated if not set</div>
+        <input class="w-input" type="text" name="slug" id="slug" maxlength="500">
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="type">type</label>
+        <div class="info">describe the event using single words</div>
+        <input class="w-input" type="text" name="type" id="type" maxlength="140" placeholder="chat blog licensing moderators staff resignation company">
+      </div>
+      <div class="form-row">
+        <label class="w-label required" for="date_str">date_str</label>
+        <div class="info">displayed date string (UTC)</div>
+        <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
+      </div>
+      <div class="form-row">
+        <label class="w-label required" for="title">title</label>
+        <div class="info">title of event</div>
+        <input class="w-input" type="text" name="title" id="title" maxlength="500" required>
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="summary">summary</label>
+        <div class="info">a short summary, displayed in italics under the title</div>
+        <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="body">body (html)</label>
+        <div class="info">body html</div>
+        <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="links">links</label>
+        <div class="info">button links (up to three)</div>
+        <div class="link-grid">
+          <span>1.</span>
+          <input class="w-input" type="text" name="links[0][text]" id="links[0][text]" placeholder="button text" maxlength="500">
+          <input class="w-input" type="text" name="links[0][url]" id="links[0][url]" placeholder="https://" pattern="^https:\/\/.*$">
+          <span>2.</span>
+          <input class="w-input" type="text" name="links[1][text]" id="links[1][text]" placeholder="button text" maxlength="500">
+          <input class="w-input" type="text" name="links[1][url]" id="links[1][url]" placeholder="https://" pattern="^https:\/\/.*$">
+          <span>3.</span>
+          <input class="w-input" type="text" name="links[2][text]" id="links[2][text]" placeholder="button text" maxlength="500">
+          <input class="w-input" type="text" name="links[2][url]" id="links[2][url]" placeholder="https://" pattern="^https:\/\/.*$">
+        </div>
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="tags">tags</label>
+        <div class="info">an array of link tags (up to two)</div>
+        <div class="tags-grid">
+          <span>1.</span>
+          <input class="w-input" type="text" name="links[0][text]" id="links[0][text]" placeholder="button text" maxlength="500">
+          <input class="w-input" type="text" name="links[0][url]" id="links[0][url]" placeholder="https://" pattern="^https:\/\/.*$">
+          <span>2.</span>
+          <input class="w-input" type="text" name="links[1][text]" id="links[1][text]" placeholder="button text" maxlength="500">
+          <input class="w-input" type="text" name="links[1][url]" id="links[1][url]" placeholder="https://" pattern="^https:\/\/.*$">
+        </div>
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="linkedEvent">linkedEvent</label>
+        <div class="info">another event's slug prefixed with a #</div>
+        <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#.*$">
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="icon">icon</label>
+        <div class="info">image url (e.g.: for site graduation events)</div>
+        <input class="w-input" type="text" name="icon" id="icon" placeholder="https://" pattern="^https:\/\/.*$">
+      </div>
+
+      <div class="form-actions" style="margin-bottom: 3rem;">
+        <button class="w-button w-button-secondary" id="clear-form" type="reset">Clear</button>
+      </div>
+    </form>
+
+    <h4>Output / Input JSON</h4>
+    <textarea name="output" id="output" rows="10" class="w-input" style="width: 100%; min-height: 400px; resize: vertical;"></textarea>
+    <button class="w-button" id="import-json" type="button">Import JSON</button>
+  </main>
+
+  <style>
+    .form-row {
+      margin-bottom: 1.5rem;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css" integrity="sha512-YdYyWQf8AS4WSB0WWdc3FbQ3Ypdm0QCWD2k4hgfqbQbRCJBEgX0iAegkl2S1Evma5ImaVXLBeUkIlP6hQ1eYKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js" integrity="sha512-JZSo0h5TONFYmyLMqp8k4oPhuo6yNk9mHM+FY50aBjpypfofqtEWsAgRDQm94ImLCzSaHeqNvYuD9382CEn2zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js" integrity="sha512-RCgrAvvoLpP7KVgTkTctrUdv7C6t7Un3p1iaoPr1++3pybCyCsCZZN7QEHMZTcJTmcJ7jzexTO+eFpHk4OCFAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/editor.js"></script>
+</body>
+
+</html>

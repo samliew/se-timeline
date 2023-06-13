@@ -34,7 +34,7 @@ The properties of each event item is as follows:
   "type": "stackoverflow chat group blog", // (required) describe the event using single words
   "date_str": "2016-05-08", // (required) displayed date string, in the format YYYY-MM-DD (UTC)
   "title": "SOBotics founded", // (required) title
-  "summary": "SOBotics creates bots to help with...", // (optional) a short summary, displayed in italics under the title
+  "summary": "SOBotics creates bots to help with...", // (optional) a short summary, displayed in italics
   "body": "<p>body text</p>", // (optional) body html
   "links": [
     // (optional) an array of button links

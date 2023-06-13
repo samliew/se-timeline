@@ -194,18 +194,6 @@ body {
   pointer-events: none;
 }
 
-.w-label {
-  font-weight: 600;
-}
-
-.w-label + .info {
-  color: #555;
-}
-
-.w-button.w-button-secondary {
-  background-color: #888;
-}
-
 .rainbow-text {
   background-clip: text !important;
   -webkit-background-clip: text !important;
@@ -252,4 +240,71 @@ body {
   .event.event-small {
     margin-bottom: -20px;
   }
+}
+
+/* ===== EDITOR STYLES ===== */
+.event-editor aside {
+  margin: 1rem 0 1.5rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  background: #e8e8e8;
+}
+
+.event-editor .w-label {
+  font-weight: 600;
+}
+
+.event-editor .w-checkbox {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.25rem;
+  cursor: pointer;
+}
+
+.event-editor .w-label.required::after {
+  content: "*";
+  display: inline-block;
+  color: #f00;
+  margin-left: 3px;
+}
+
+.event-editor .w-label + .info {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.event-editor .w-button.w-button-secondary {
+  background-color: #888;
+}
+
+.event-editor .link-grid {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: 10px 1fr 1fr;
+  grid-gap: 1rem 0.5rem;
+  align-items: center;
+}
+
+.event-editor .tags-grid {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: 10px 1fr 1fr;
+  grid-gap: 1rem 0.5rem;
+  align-items: center;
+}
+
+.event-editor .link-grid .w-input,
+.event-editor .tags-grid .w-input {
+  margin: 0;
+}
+
+.datepicker-container {
+  box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 10%) !important;
+  -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 10%) !important;
+}
+.datepicker-container * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
