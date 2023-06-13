@@ -341,7 +341,8 @@ body {
   padding-left: calc(1rem + 5px);
 }
 
-.event-editor .link-grid {
+.event-editor .link-grid,
+.event-editor .tags-grid {
   display: grid;
   margin-top: 1rem;
   grid-template-columns: 10px 240px auto;
@@ -351,13 +352,6 @@ body {
 .event-editor .linkUrl:empty ~ *,
 .event-editor .tagUrl:empty ~ * {
   display: none;
-}
-.event-editor .tags-grid {
-  display: grid;
-  margin-top: 1rem;
-  grid-template-columns: 10px 240px auto;
-  grid-gap: 1rem 0.5rem;
-  align-items: center;
 }
 
 .event-editor .link-grid .w-input,
@@ -401,6 +395,17 @@ body {
   margin: 0 0 0 0.5rem;
   padding: 0.5rem 0.5rem;
   background-color: white;
+}
+
+/* Mobile Only */
+@media screen and (max-width: 768px) {
+  .event-editor .class-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+  .event-editor .link-grid,
+  .event-editor .tags-grid {
+    grid-template-columns: 10px 90px auto;
+  }
 }
 
 /* ===== DATEPICKER STYLES ===== */

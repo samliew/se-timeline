@@ -40,6 +40,37 @@
     <h2>Event Editor</h2>
     <aside>This is a UI to assist in adding/editing event details in the JSON object.</aside>
     <form action="#" id="event-editor-form">
+      <div class="form-row">
+        <label class="w-label required" for="date_str">Date</label>
+        <div class="info">displayed date string in UTC (required)</div>
+        <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
+        <div class="datepicker-wrapper" style="position: relative;"></div>
+      </div>
+      <div class="form-row">
+        <label class="w-label required" for="title">Title</label>
+        <div class="info">title of event (required)</div>
+        <input class="w-input" type="text" name="title" id="title" maxlength="500" required>
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="slug">Slug</label>
+        <div class="info">this is auto-generated if not set</div>
+        <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^[a-z0-9-]+$">
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="type">Type</label>
+        <div class="info">describe the event using single words</div>
+        <input class="w-input" type="text" name="type" id="type" maxlength="140" placeholder="chat blog licensing moderators staff resignation company">
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="summary">Summary</label>
+        <div class="info">a short summary, displayed in italics under the title</div>
+        <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
+      </div>
+      <div class="form-row">
+        <label class="w-label" for="body">Body</label>
+        <div class="info"></div>
+        <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
+      </div>
       <fieldset class="form-row">
         <label class="w-label" style="margin-bottom: 10px;">Classes:</label>
         <div class="class-grid">
@@ -76,37 +107,6 @@
           <input type="hidden" name="classes" id="classes_other" value="">
         </div>
       </fieldset>
-      <div class="form-row">
-        <label class="w-label" for="slug">Slug</label>
-        <div class="info">this is auto-generated if not set</div>
-        <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^[a-z0-9-]+$">
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="type">Type</label>
-        <div class="info">describe the event using single words</div>
-        <input class="w-input" type="text" name="type" id="type" maxlength="140" placeholder="chat blog licensing moderators staff resignation company">
-      </div>
-      <div class="form-row">
-        <label class="w-label required" for="date_str">Date</label>
-        <div class="info">displayed date string in UTC (required)</div>
-        <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
-        <div class="datepicker-wrapper" style="position: relative;"></div>
-      </div>
-      <div class="form-row">
-        <label class="w-label required" for="title">Title</label>
-        <div class="info">title of event (required)</div>
-        <input class="w-input" type="text" name="title" id="title" maxlength="500" required>
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="summary">Summary</label>
-        <div class="info">a short summary, displayed in italics under the title</div>
-        <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="body">Body</label>
-        <div class="info"></div>
-        <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
-      </div>
       <div class="form-row">
         <label class="w-label" for="links">Links</label>
         <div class="info">button links (up to three)</div>
