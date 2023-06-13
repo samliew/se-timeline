@@ -1,4 +1,12 @@
-(() => {
+// Helper functions
+// An array of short month names from Jan-Dec, in current locale
+const monthsOfYear = [...Array(12)].map((_, i) => {
+  const date = new Date(2000, i, 1);
+  return date.toLocaleString(undefined, { month: 'short' });
+});
+
+// Main
+(async () => {
 
   console.clear();
   const today = new Date();
@@ -93,6 +101,8 @@
 
   // Import JSON to form fields
   const tryImportJson = () => {
+    form.reset();
+
     try {
       const json = JSON.parse(output.value.trim().replace(/,$/, ''));
       Object.entries(json).forEach(([key, value]) => {
@@ -195,6 +205,52 @@
     tryImportJson();
   });
 
+  // Init dropdown import
+  const dropdown = document.querySelector('#events-import-slug');
+  if (dropdown) {
+    let currentYear;
+
+    const { items } = await $.getJSON('/timeline_data.json');
+    items.forEach(event => {
+
+      // Assumes items are already sorted by year
+      const year = event.date_str?.slice(0, 4);
+      if (!year) return;
+
+      // New year
+      if (currentYear !== year) {
+        currentYear = year;
+        const currentYearElem = document.createElement('optgroup');
+        currentYearElem.label = year;
+        dropdown.append(currentYearElem);
+      }
+
+      // Create element html
+      const eventEl = document.createElement('option');
+      eventEl.value = event.slug || event.title;
+      eventEl.innerText = event.title.split(' ').slice(0, 8).join(' ');
+      if (eventEl.innerText.length < event.title.length) eventEl.innerText += '...';
+      // Append month
+      if (event.date_str?.length) {
+        const month = Number(event.date_str.match(/-(\d\d)-/)?.pop());
+        eventEl.innerText = `${monthsOfYear[month - 1]} - ${eventEl.innerText}`;
+      }
+
+      dropdown.append(eventEl);
+    });
+
+    // Event listener
+    dropdown.addEventListener('change', evt => {
+      const slug = evt.target.value;
+      const item = items.find(e => e.slug === slug || e.title === slug);
+      if (!item) return;
+
+      output.value = JSON.stringify(item, null, 2) + ',';
+
+      // Import JSON
+      tryImportJson();
+    });
+  }
 
   /**
    * @summary Copy text to clipboard

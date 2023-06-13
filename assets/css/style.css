@@ -19,6 +19,11 @@ body {
   overflow-x: hidden;
 }
 
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
 .inline input:radio,
 .inline input:checkbox {
   margin: 0 !important;
@@ -296,6 +301,9 @@ body {
 .event-editor .w-button.w-button-secondary {
   background-color: #888;
 }
+.event-editor .w-button.w-button-danger {
+  background-color: #d04343;
+}
 
 .event-editor .class-grid {
   display: grid;
@@ -343,7 +351,7 @@ body {
 .event-editor .json-output {
   width: 100%;
   height: 400px;
-  margin-top: 1rem;
+  margin: 1rem 0 1rem;
   padding: 0.5rem 1rem;
   border: 1px solid #ddd;
   background: #f8f8f8;
@@ -351,6 +359,30 @@ body {
   font-family: monospace;
   font-size: 0.75rem;
   white-space: pre-wrap;
+}
+
+.event-editor .form-actions,
+.event-editor .import-export-actions {
+  flex-wrap: wrap;
+}
+.event-editor .form-actions > *,
+.event-editor .import-export-actions > * {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.event-editor .import-export-actions .import-field-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: 0;
+}
+.event-editor .import-export-actions .import-field-wrapper select {
+  display: inline-block;
+  margin: 0 0 0 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
 }
 
 /* ===== DATEPICKER STYLES ===== */
