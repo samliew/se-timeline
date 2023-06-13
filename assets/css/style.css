@@ -310,7 +310,7 @@ body {
   margin-bottom: 1rem;
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
-  align-items: center;
+  align-items: start;
 }
 .event-editor .class-grid > .form-row-inline {
   display: inline-flex;
@@ -334,7 +334,10 @@ body {
   grid-gap: 1rem 0.5rem;
   align-items: center;
 }
-
+.event-editor .linkUrl:empty ~ *,
+.event-editor .tagUrl:empty ~ * {
+  display: none;
+}
 .event-editor .tags-grid {
   display: grid;
   margin-top: 1rem;
