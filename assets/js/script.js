@@ -96,6 +96,7 @@ const createEventElem = event => {
   <div class="featured-box"></div>
   <div class="event-date">
     <div class="date date-from">${event.date_str}</div>
+    <a href="/event-editor/?event=${slug}" class="edit-event" title="Edit event">edit</a>
   </div>
   <h4 class="event-name">${event.title}</h4>
   <div class="event-summary">${event.summary ?? ''}</div>
@@ -105,7 +106,6 @@ const createEventElem = event => {
   <div class="event-tags">${tags}</div>
   ${buttons ?? ''}
   ${linkedEventLink ?? ''}
-  <a href="/event-editor/?event=${slug}" class="edit-event" title="Edit event">edit</a>
 </div>`;
 
   return eventEl;
