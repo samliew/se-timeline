@@ -1,0 +1,193 @@
+/* ===== EDITOR STYLES ===== */
+.event-editor aside {
+  margin: 1rem 0 1.5rem;
+  padding: 0.8rem 1rem;
+  border: 1px dashed #ccc;
+  background: #e8e8e8;
+}
+
+.event-editor .form-row {
+  margin-bottom: 1.5rem;
+}
+
+.event-editor .w-label {
+  font-weight: 600;
+}
+
+.event-editor .w-input:not(:valid) {
+  border-color: #c00;
+}
+
+.event-editor .w-checkbox {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.25rem;
+  cursor: pointer;
+}
+
+.event-editor .w-label.required::after {
+  content: "*";
+  display: inline-block;
+  color: #f00;
+  margin-left: 3px;
+}
+
+.event-editor .w-label + .info {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.event-editor .w-button.w-button-secondary {
+  background-color: #888;
+}
+.event-editor .w-button.w-button-danger {
+  background-color: #d04343;
+}
+
+.event-editor .class-grid {
+  display: grid;
+  margin-bottom: 1rem;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  align-items: start;
+}
+.event-editor .class-grid > .form-row-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.event-editor .class-grid .w-checkbox {
+  margin-right: 5px;
+}
+.event-editor .class-grid .info {
+  display: block;
+  flex-basis: 100%;
+  padding-left: calc(1rem + 5px);
+}
+
+.event-editor .link-grid,
+.event-editor .tags-grid {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: 10px 240px auto;
+  grid-gap: 1rem 0.5rem;
+  align-items: center;
+}
+.event-editor .linkUrl:empty ~ *,
+.event-editor .tagUrl:empty ~ * {
+  display: none;
+}
+
+.event-editor .link-grid .w-input,
+.event-editor .tags-grid .w-input {
+  margin: 0;
+}
+
+.event-editor .json-output {
+  width: 100%;
+  min-height: 300px;
+  resize: vertical;
+  margin: 1rem 0 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  color: #222;
+  font-family: monospace;
+  font-size: 0.75rem;
+  white-space: pre-wrap;
+}
+
+.event-editor .form-actions,
+.event-editor .import-export-actions {
+  flex-wrap: wrap;
+}
+.event-editor .form-actions > *,
+.event-editor .import-export-actions > * {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.event-editor .import-export-actions .import-field-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: 0;
+}
+.event-editor .import-export-actions .import-field-wrapper select {
+  display: inline-block;
+  margin: 0 0 0 0.5rem;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
+}
+
+/* Mobile Only */
+@media screen and (max-width: 768px) {
+  .event-editor .class-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+  .event-editor .link-grid,
+  .event-editor .tags-grid {
+    grid-template-columns: 10px 90px auto;
+  }
+}
+
+/* ===== DATEPICKER STYLES ===== */
+[data-component="datepicker"] {
+  text-align: center;
+}
+
+.datepicker-wrapper {
+  display: flex;
+  margin-top: -10px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-top-color: white;
+  background-color: #f3f3f3;
+}
+
+.datepicker-wrapper .datepicker-container {
+  flex-basis: 100%;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  z-index: 1;
+}
+
+.datepicker-wrapper .datepicker-container ul + ul {
+  margin-top: 10px;
+}
+
+.datepicker-wrapper .datepicker-container .datepicker-panel > ul > li.disabled,
+.datepicker-wrapper .datepicker-container .datepicker-panel > ul > li {
+  min-width: 36px;
+  min-height: 36px;
+  background-color: #f3f3f3;
+}
+
+.datepicker-wrapper .datepicker-container ul[data-view="week"],
+.datepicker-wrapper .datepicker-container ul[data-view] > li.muted,
+.datepicker-wrapper .datepicker-container ul[data-view] > li.disabled {
+  display: none;
+}
+
+.datepicker-container * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.datepicker-wrapper .datepicker-panel > ul > li.highlighted {
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.datepicker-wrapper .datepicker-panel > ul > li.picked {
+  color: #39f;
+  background-color: #fff;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
