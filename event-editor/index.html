@@ -164,8 +164,8 @@
         </div>
       </form>
 
-      <h4>Export / Import JSON</h4>
-      <aside>The event JSON will be generated below, or paste an event JSON object to import into the fields above. This page does not auto-save - please see the <a href="https://github.com/samliew/se-timeline#contributing" target="_blank">readme</a> for contribution notes.</aside>
+      <h4>Event JSON</h4>
+      <aside><strong>Export:</strong> The event JSON will be generated in the field below when the event editor form is valid. This page does not auto-save - please refer to the <a href="https://github.com/samliew/se-timeline#contributing" target="_blank">readme</a> on GitHub for contribution notes, and submit an <a href="https://github.com/samliew/se-timeline/issues/new/choose" target="_blank">issue</a> or pull request for review.</aside>
 
       <div class="json-output-wrapper">
         <textarea name="output" id="json-output" rows="10" class="w-input json-output" placeholder=" " required></textarea>
@@ -174,7 +174,14 @@
           <button class="w-button small" id="import-json" type="button">Import</button>
         </div>
       </div>
-      <div class="import-field-wrapper">Import: <select class="w-select" id="import-event-selector"></select></div>
+
+      <aside><strong>Import:</strong> To load the event, select an existing event from the dropdown below, or paste an event JSON object into the field above then click the "Import" button.</aside>
+
+      <div class="import-field-wrapper">Import:
+        <select class="w-select" id="import-event-selector">
+          <option>select existing event</option>
+        </select>
+      </div>
     </div>
   </main>
 
