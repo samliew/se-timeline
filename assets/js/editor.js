@@ -248,6 +248,12 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
   // Form reset
   form.addEventListener('reset', async evt => {
+
+    // Reset all tinymce editors
+    tinymce.editors.forEach(editor => {
+      editor.setContent('');
+    });
+
     await delay(1);
 
     // Remove required attribute from link-grid and tag-grid
