@@ -14,11 +14,46 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
+/* Header */
 body {
+  --fixed-header-height: 80px;
+  --fixed-header-margin: 1rem;
+
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  padding: 0;
+}
+body.fixed-header {
+  padding-top: calc(var(--fixed-header-height) + var(--fixed-header-margin));
+}
+.navbar {
+  position: static;
+  width: 100%;
+  margin-bottom: var(--fixed-header-margin);
+}
+body.fixed-header .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--fixed-header-height);
+  margin-bottom: 0;
+  z-index: 1000;
+}
+@media screen and (max-width: 768px) {
+  body.fixed-header {
+    --fixed-header-height: 40px;
+  }
 }
 
+/* Webflow Overrides */
+.w-col {
+  min-height: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Utility */
 .d-block {
   display: block !important;
 }
@@ -30,6 +65,7 @@ body {
   display: none !important;
 }
 
+/* Elements */
 button:hover {
   cursor: pointer;
   filter: brightness(1.05);
@@ -59,27 +95,10 @@ button:hover {
   margin-right: 0.25rem;
 }
 
-.box:hover .edit-event {
-  display: block;
-}
-.edit-event {
-  position: absolute;
-  bottom: 2px;
-  left: 2px;
-  display: none;
-  width: 18px;
-  height: 18px;
-  font-size: 0;
-  text-decoration: none;
-  border-radius: 8px;
-  background: transparent url("/assets/img/icons/edit.svg") no-repeat center center / 12px;
-  opacity: 0.5;
-}
-
-#timeline.hide-descriptions .event-description,
-#timeline.hide-descriptions .event-tags,
-#timeline.hide-descriptions .linked-event,
-#timeline.hide-descriptions .edit-event {
+.timeline.hide-descriptions .event-description,
+.timeline.hide-descriptions .event-tags,
+.timeline.hide-descriptions .linked-event,
+.timeline.hide-descriptions .edit-event {
   display: none !important;
 }
 
@@ -128,6 +147,34 @@ button:hover {
 
 .event.event-hidden > * {
   display: none !important;
+}
+
+.event .event-date {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.edit-event {
+  width: 18px;
+  height: 18px;
+  margin: -1px 0 0;
+  font-size: 0;
+  text-decoration: none;
+  background: transparent url("/assets/img/icons/edit.svg") no-repeat center center / 12px;
+  opacity: 0.4;
+  visibility: hidden;
+}
+.event:hover .event-date .edit-event {
+  visibility: visible;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline {
+    margin-left: 1rem;
+    margin-right: 0;
+  }
 }
 
 .timeline.hide-descriptions .connector {

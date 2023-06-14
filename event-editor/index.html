@@ -35,146 +35,147 @@
     </a>
     <div class="header-right"></div>
   </header>
-  <div class="fixed-header-padding"></div>
 
   <main class="event-editor w-container" style="padding-bottom: 5rem;">
-    <h2>Event Editor</h2>
-    <aside>This is a UI to assist in adding/editing event details in the JSON object.</aside>
-    <form action="#" class="event-editor-form" id="event-editor-form">
-      <div class="form-row">
-        <label class="w-label required">Date</label>
-        <div class="info">displayed date string in UTC (required)</div>
-        <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
-        <div class="datepicker-wrapper" style="position: relative;"></div>
-      </div>
-      <div class="form-row">
-        <label class="w-label required" for="title">Title</label>
-        <div class="info">title of event (required)</div>
-        <input class="w-input" type="text" name="title" id="title" maxlength="500" required>
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="slug">Slug</label>
-        <div class="info">this is auto-generated if not set</div>
-        <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^([a-z0-9]|-)+$">
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="type">Type</label>
-        <div class="info">describe the event using single words</div>
-        <input class="w-input" type="text" name="type" id="type" maxlength="140" placeholder="chat blog licensing moderators staff resignation company">
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="summary">Summary</label>
-        <div class="info">a short summary, displayed in italics under the title</div>
-        <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="body">Body</label>
-        <div class="info"></div>
-        <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
-      </div>
-      <fieldset>
-        <legend class="w-label">Classes</legend>
-        <div class="class-grid">
-          <div class="form-row-inline">
-            <input class="w-checkbox" type="checkbox" name="classes" id="classes_featured-event" value="featured-event">
-            <label class="w-label" for="classes_featured-event">featured</label>
-            <div class="info">feature event with a red border?</div>
-          </div>
-          <div class="form-row-inline">
-            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-moderator" value="tag-moderator">
-            <label class="w-label" for="classes_tag-moderator">moderator</label>
-            <div class="info">event is about moderator</div>
-          </div>
-          <div class="form-row-inline">
-            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-staff" value="tag-staff">
-            <label class="w-label" for="classes_tag-staff">staff</label>
-            <div class="info">event is about staff</div>
-          </div>
-          <div class="form-row-inline">
-            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-resignation" value="tag-resignation">
-            <label class="w-label" for="classes_tag-resignation">resignation</label>
-            <div class="info">event is about resignation</div>
-          </div>
-          <div class="form-row-inline">
-            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-reinstatement" value="tag-reinstatement">
-            <label class="w-label" for="classes_tag-reinstatement">reinstatement</label>
-            <div class="info">event is about reinstatement</div>
-          </div>
-          <div class="form-row-inline">
-            <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-site-graduation" value="tag-site-graduation">
-            <label class="w-label" for="classes_tag-site-graduation">site-graduation</label>
-            <div class="info">event is about site graduation</div>
-          </div>
-          <input type="hidden" name="classes" id="classes_other" value="">
+    <div class="w-col">
+      <h2>Event Editor</h2>
+      <aside>This is a UI to assist in adding/editing event details in the JSON object.</aside>
+      <form action="#" class="event-editor-form" id="event-editor-form">
+        <div class="form-row">
+          <label class="w-label required">Date</label>
+          <div class="info">displayed date string in UTC (required)</div>
+          <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
+          <div class="datepicker-wrapper" style="position: relative;"></div>
         </div>
-      </fieldset>
-      <div class="form-row">
-        <label class="w-label" for="links">Links</label>
-        <div class="info">button links (up to three)</div>
-        <div class="link-grid">
-          <span>1.</span>
-          <input class="w-input linkText" type="text" id="linkText0" data-pair="linkUrl0" placeholder="discuss" maxlength="50">
-          <input class="w-input linkUrl" type="url" id="linkUrl0" data-pair="linkText0" placeholder="https://">
-          <span>2.</span>
-          <input class="w-input linkText" type="text" id="linkText1" data-pair="linkUrl1" placeholder="chat" maxlength="50">
-          <input class="w-input linkUrl" type="url" id="linkUrl1" data-pair="linkText1" placeholder="https://">
-          <span>3.</span>
-          <input class="w-input linkText" type="text" id="linkText2" data-pair="linkUrl2" placeholder="meta post" maxlength="50">
-          <input class="w-input linkUrl" type="url" id="linkUrl2" data-pair="linkText2" placeholder="https://">
+        <div class="form-row">
+          <label class="w-label required" for="title">Title</label>
+          <div class="info">title of event (required)</div>
+          <input class="w-input" type="text" name="title" id="title" maxlength="500" required>
         </div>
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="tags">Tags</label>
-        <div class="info">an array of link tags (up to three)</div>
-        <div class="tags-grid">
-          <span>1.</span>
-          <input class="w-input tagText" type="text" id="tagText0" data-pair="tagUrl0" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
-          <input class="w-input tagUrl" type="url" id="tagUrl0" data-pair="tagText0" placeholder="https://">
-          <span>2.</span>
-          <input class="w-input tagText" type="text" id="tagText1" data-pair="tagUrl1" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
-          <input class="w-input tagUrl" type="url" id="tagUrl1" data-pair="tagText1" placeholder="https://">
-          <span>3.</span>
-          <input class="w-input tagText" type="text" id="tagText2" data-pair="tagUrl2" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
-          <input class="w-input tagUrl" type="url" id="tagUrl2" data-pair="tagText2" placeholder="https://">
+        <div class="form-row">
+          <label class="w-label" for="slug">Slug</label>
+          <div class="info">this is auto-generated if not set</div>
+          <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^([a-z0-9]|-)+$">
         </div>
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="linkedEvent">Linked Event</label>
-        <div class="info">another event's slug prefixed with a #</div>
-        <div class="d-flex">
-          <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#([a-z0-9]|-)+$">
-          <div class="linked-event-wrapper">
-            <select class="w-select" id="linked-event-selector">
-              <option>select existing event</option>
-            </select>
+        <div class="form-row">
+          <label class="w-label" for="type">Type</label>
+          <div class="info">describe the event using single words</div>
+          <input class="w-input" type="text" name="type" id="type" maxlength="140" placeholder="chat blog licensing moderators staff resignation company">
+        </div>
+        <div class="form-row">
+          <label class="w-label" for="summary">Summary</label>
+          <div class="info">a short summary, displayed in italics under the title</div>
+          <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
+        </div>
+        <div class="form-row">
+          <label class="w-label" for="body">Body</label>
+          <div class="info"></div>
+          <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
+        </div>
+        <fieldset>
+          <legend class="w-label">Classes</legend>
+          <div class="class-grid">
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="classes" id="classes_featured-event" value="featured-event">
+              <label class="w-label" for="classes_featured-event">featured</label>
+              <div class="info">feature event with a red border?</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-moderator" value="tag-moderator">
+              <label class="w-label" for="classes_tag-moderator">moderator</label>
+              <div class="info">event is about moderator</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-staff" value="tag-staff">
+              <label class="w-label" for="classes_tag-staff">staff</label>
+              <div class="info">event is about staff</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-resignation" value="tag-resignation">
+              <label class="w-label" for="classes_tag-resignation">resignation</label>
+              <div class="info">event is about resignation</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-reinstatement" value="tag-reinstatement">
+              <label class="w-label" for="classes_tag-reinstatement">reinstatement</label>
+              <div class="info">event is about reinstatement</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-site-graduation" value="tag-site-graduation">
+              <label class="w-label" for="classes_tag-site-graduation">site-graduation</label>
+              <div class="info">event is about site graduation</div>
+            </div>
+            <input type="hidden" name="classes" id="classes_other" value="">
+          </div>
+        </fieldset>
+        <div class="form-row">
+          <label class="w-label" for="links">Links</label>
+          <div class="info">button links (up to three)</div>
+          <div class="link-grid">
+            <span>1.</span>
+            <input class="w-input linkText" type="text" id="linkText0" data-pair="linkUrl0" placeholder="discuss" maxlength="50">
+            <input class="w-input linkUrl" type="url" id="linkUrl0" data-pair="linkText0" placeholder="https://">
+            <span>2.</span>
+            <input class="w-input linkText" type="text" id="linkText1" data-pair="linkUrl1" placeholder="chat" maxlength="50">
+            <input class="w-input linkUrl" type="url" id="linkUrl1" data-pair="linkText1" placeholder="https://">
+            <span>3.</span>
+            <input class="w-input linkText" type="text" id="linkText2" data-pair="linkUrl2" placeholder="meta post" maxlength="50">
+            <input class="w-input linkUrl" type="url" id="linkUrl2" data-pair="linkText2" placeholder="https://">
           </div>
         </div>
-      </div>
-      <div class="form-row">
-        <label class="w-label" for="icon">Icon</label>
-        <div class="info">image url (e.g.: for site graduation events)</div>
-        <input class="w-input" type="url" name="icon" id="icon" placeholder="https://">
-        <img src class="icon-preview" id="icon-preview">
-      </div>
+        <div class="form-row">
+          <label class="w-label" for="tags">Tags</label>
+          <div class="info">an array of link tags (up to three)</div>
+          <div class="tags-grid">
+            <span>1.</span>
+            <input class="w-input tagText" type="text" id="tagText0" data-pair="tagUrl0" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+            <input class="w-input tagUrl" type="url" id="tagUrl0" data-pair="tagText0" placeholder="https://">
+            <span>2.</span>
+            <input class="w-input tagText" type="text" id="tagText1" data-pair="tagUrl1" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+            <input class="w-input tagUrl" type="url" id="tagUrl1" data-pair="tagText1" placeholder="https://">
+            <span>3.</span>
+            <input class="w-input tagText" type="text" id="tagText2" data-pair="tagUrl2" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+            <input class="w-input tagUrl" type="url" id="tagUrl2" data-pair="tagText2" placeholder="https://">
+          </div>
+        </div>
+        <div class="form-row">
+          <label class="w-label" for="linkedEvent">Linked Event</label>
+          <div class="info">another event's slug prefixed with a #</div>
+          <div class="d-flex">
+            <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#([a-z0-9]|-)+$">
+            <div class="linked-event-wrapper">
+              <select class="w-select" id="linked-event-selector">
+                <option>select existing event</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <label class="w-label" for="icon">Icon</label>
+          <div class="info">image url (e.g.: for site graduation events)</div>
+          <input class="w-input" type="url" name="icon" id="icon" placeholder="https://">
+          <img src class="icon-preview" id="icon-preview">
+        </div>
 
-      <aside class="form-invalid-notice danger">Please fix the validation issues in the highlighted fields above.</aside>
+        <aside class="form-invalid-notice danger">Please fix the validation issues in the highlighted fields above.</aside>
 
-      <div class="form-actions" style="margin-bottom: 3rem;">
-        <button class="w-button w-button-danger" id="clear-form" type="reset">Clear</button>
+        <div class="form-actions" style="margin-bottom: 3rem;">
+          <button class="w-button w-button-danger" id="clear-form" type="reset">Clear</button>
+        </div>
+      </form>
+
+      <h4>Export / Import JSON</h4>
+      <aside>The event JSON will be generated below, or paste an event JSON object to import into the fields above. This page does not auto-save - please see the <a href="https://github.com/samliew/se-timeline#contributing" target="_blank">readme</a> for contribution notes.</aside>
+
+      <div class="json-output-wrapper">
+        <textarea name="output" id="json-output" rows="10" class="w-input json-output" placeholder=" " required></textarea>
+        <div class="import-export-actions">
+          <button class="w-button small" id="copy-json" type="button">Copy</button>
+          <button class="w-button small" id="import-json" type="button">Import</button>
+        </div>
       </div>
-    </form>
-
-    <h4>Export / Import JSON</h4>
-    <aside>The event JSON will be generated below, or paste an event JSON object to import into the fields above. This page does not auto-save - please see the <a href="https://github.com/samliew/se-timeline#contributing" target="_blank">readme</a> for contribution notes.</aside>
-
-    <div class="json-output-wrapper">
-      <textarea name="output" id="json-output" rows="10" class="w-input json-output" placeholder=" " required></textarea>
-      <div class="import-export-actions">
-        <button class="w-button small" id="copy-json" type="button">Copy</button>
-        <button class="w-button small" id="import-json" type="button">Import</button>
-      </div>
+      <div class="import-field-wrapper">Import: <select class="w-select" id="import-event-selector"></select></div>
     </div>
-    <div class="import-field-wrapper">Import: <select class="w-select" id="import-event-selector"></select></div>
   </main>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css" integrity="sha512-YdYyWQf8AS4WSB0WWdc3FbQ3Ypdm0QCWD2k4hgfqbQbRCJBEgX0iAegkl2S1Evma5ImaVXLBeUkIlP6hQ1eYKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
