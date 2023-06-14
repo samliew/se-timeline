@@ -46,7 +46,7 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
     content_css: [
       "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap",
       "/assets/css/webflow.9498fd7ed.css",
-      "/assets/css/style.css",
+      "/assets/css/main.css",
       "/assets/css/tinymce-override.css",
     ],
     branding: false,
