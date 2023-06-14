@@ -67,8 +67,9 @@ fieldset > legend:first-child {
 }
 
 .event-editor .w-label + .info {
-  color: #888;
+  margin-bottom: 0.25rem;
   font-size: 0.75rem;
+  color: #888;
 }
 
 .event-editor .w-button.w-button-secondary {
@@ -102,8 +103,8 @@ fieldset > legend:first-child {
 .event-editor .link-grid,
 .event-editor .tags-grid {
   display: grid;
-  margin-top: 1rem;
-  grid-template-columns: 10px 240px auto;
+  margin-top: 0.5rem;
+  grid-template-columns: 10px 200px auto;
   grid-gap: 1rem 0.5rem;
   align-items: center;
 }
