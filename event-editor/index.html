@@ -166,12 +166,15 @@
 
     <h4>Export / Import JSON</h4>
     <aside>The event JSON will be generated below, or paste an event JSON object to import into the fields above. This page does not auto-save - please see the <a href="https://github.com/samliew/se-timeline#contributing" target="_blank">readme</a> for contribution notes.</aside>
-    <textarea name="output" id="json-output" rows="10" class="w-input json-output"></textarea>
-    <div class="import-export-actions d-flex">
-      <button class="w-button" id="copy-json" type="button">Copy</button>
-      <button class="w-button" id="import-json" type="button">Import JSON</button>
-      <div class="import-field-wrapper">Import: <select class="w-select" id="import-event-selector"></select></div>
+
+    <div class="json-output-wrapper">
+      <textarea name="output" id="json-output" rows="10" class="w-input json-output" placeholder=" " required></textarea>
+      <div class="import-export-actions">
+        <button class="w-button small" id="copy-json" type="button">Copy</button>
+        <button class="w-button small" id="import-json" type="button">Import</button>
+      </div>
     </div>
+    <div class="import-field-wrapper">Import: <select class="w-select" id="import-event-selector"></select></div>
   </main>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css" integrity="sha512-YdYyWQf8AS4WSB0WWdc3FbQ3Ypdm0QCWD2k4hgfqbQbRCJBEgX0iAegkl2S1Evma5ImaVXLBeUkIlP6hQ1eYKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />

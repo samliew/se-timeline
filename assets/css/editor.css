@@ -1,7 +1,12 @@
+html {
+  --border-color: #ccc;
+  --border-color-focus: #3898ec;
+}
+
 fieldset {
   margin-bottom: 1.5rem;
   padding: 0.6rem 1rem 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-color);
 }
 fieldset > legend:first-child {
   margin-bottom: 0.5rem;
@@ -20,10 +25,15 @@ fieldset > legend:first-child {
   display: none !important;
 }
 
+.small {
+  font-size: 0.75rem;
+  line-height: 1.15;
+}
+
 .event-editor aside {
   margin: 1rem 0 1.5rem;
   padding: 0.8rem 1rem;
-  border: 1px dashed #ccc;
+  border: 1px dashed var(--border-color);
   background: #e8e8e8;
 }
 .event-editor aside.danger {
@@ -133,38 +143,61 @@ fieldset > legend:first-child {
   background-color: white;
 }
 
-.event-editor .json-output {
+.event-editor .json-output-wrapper {
+  position: relative;
+  margin: 1rem 0 1rem;
+}
+.event-editor .json-output-wrapper .json-output {
   width: 100%;
   min-height: 300px;
   resize: vertical;
-  margin: 1rem 0 1rem;
+  margin: 0;
   padding: 0.5rem 1rem;
-  border: 1px solid #ddd;
-  background: #f8f8f8;
   color: #222;
   font-family: monospace;
   font-size: 0.75rem;
   white-space: pre-wrap;
 }
+.event-editor .json-output-wrapper .json-output:invalid {
+  border-color: var(--border-color);
+  box-shadow: none;
+}
+.event-editor .json-output-wrapper .json-output:focus {
+  border-color: var(--border-color-focus);
+}
+.event-editor .json-output-wrapper .import-export-actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.event-editor .json-output-wrapper .import-export-actions > button {
+  margin-left: 10px;
+}
+
+.event-editor .json-output-wrapper .json-output:placeholder-shown + .import-export-actions {
+  display: none;
+}
+.event-editor .json-output-wrapper .json-output:invalid + .import-export-actions #import-json {
+  display: none;
+}
 
 .event-editor .form-actions,
-.event-editor .import-export-actions {
-  flex-wrap: wrap;
+.event-editor .import-field-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .event-editor .form-actions > *,
-.event-editor .import-export-actions > * {
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
-.event-editor .import-export-actions .import-field-wrapper {
+.event-editor .import-field-wrapper > * {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
-  margin-left: auto;
-  margin-right: 0;
+  margin-right: 0.5rem;
 }
-.event-editor .import-export-actions .import-field-wrapper select {
+.event-editor .import-field-wrapper select {
   display: inline-block;
   margin: 0 0 0 0.5rem;
   padding: 0.5rem 0.5rem;
@@ -203,7 +236,7 @@ fieldset > legend:first-child {
   display: none;
   margin-top: -10px;
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-color);
   border-top-color: white;
   background-color: #f3f3f3;
 }

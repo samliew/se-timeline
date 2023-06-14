@@ -7,6 +7,8 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
+const toSlug = str => str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
 
 // Main
 (async () => {
@@ -295,14 +297,14 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
       // Create element html
       const eventEl = document.createElement('option');
-      eventEl.value = event.slug || event.title;
-      eventEl.innerText = event.title.split(' ').slice(0, 8).join(' ');
-      if (eventEl.innerText.length < event.title.length) eventEl.innerText += '...';
-      // Append month
-      //if (event.date_str?.length) {
+      eventEl.value = event.slug || toSlug(event.title);
+      eventEl.innerText = event.title;
+      // if (eventEl.innerText.length < event.title.length) eventEl.innerText += '...';
+      // // Append month
+      // if (event.date_str?.length) {
       //  const month = Number(event.date_str.match(/-(\d\d)-/)?.pop());
       //  eventEl.innerText = `${monthsOfYear[month - 1]} - ${eventEl.innerText}`;
-      //}
+      // }
 
       importDropdown.append(eventEl);
       linkedDropdown.append(eventEl.cloneNode(true));
