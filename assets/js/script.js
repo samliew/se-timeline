@@ -73,8 +73,6 @@ const createEventElem = event => {
     const { text, url } = link;
     return `<a href="${url ?? '#'}" class="button event-button">${text}</a>`;
   }).join('');
-  const linkedEventLink = !event.linkedEvent ? '' :
-    `<a href="${event.linkedEvent}" class="linked-event">linked event</a>`;
 
   const eventEl = document.createElement('div');
   eventEl.classList.add('event', ...event.classes);
@@ -94,6 +92,7 @@ const createEventElem = event => {
 </div>
 <div class="box">
   <div class="featured-box"></div>
+  ${event.icon ? `<img class="site-icon" src="${event.icon}">` : ''}
   <div class="event-date">
     <div class="date date-from">${event.date_str}</div>
     <a href="/event-editor/?event=${slug}" class="edit-event" title="Edit event">edit</a>
@@ -105,7 +104,7 @@ const createEventElem = event => {
   </div>
   <div class="event-tags">${tags}</div>
   ${buttons ?? ''}
-  ${linkedEventLink ?? ''}
+  ${event.linkedEvent ? `<a href="${event.linkedEvent}" class="linked-event">linked event</a>` : ''}
 </div>`;
 
   return eventEl;
