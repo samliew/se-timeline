@@ -250,6 +250,11 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
   form.addEventListener('reset', async evt => {
     await delay(1);
 
+    // Remove required attribute from link-grid and tag-grid
+    [...form.querySelectorAll('.link-grid input, .tag-grid input')].forEach(el => {
+      el.required = false;
+    });
+
     // Reset datepicker value
     if (dateField[0].value === '') {
       dateField[0].value = `${startOfUTCToday.getUTCFullYear()}-${startOfUTCToday.getUTCMonth() + 1}-${startOfUTCToday.getUTCDate()}`;
