@@ -8,16 +8,16 @@
 
   <meta content="The Stack Exchange Timeline" property="og:title" />
   <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="og:description" />
-  <meta content="/assets/img/se-og-image.png" property="og:image" />
+  <meta content="/assets/img/site/se-og-image.png" property="og:image" />
   <meta property="og:type" content="website" />
 
   <meta content="The Stack Exchange Timeline" property="twitter:title" />
   <meta content="A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites" property="twitter:description" />
-  <meta content="/assets/img/se-og-image.png" property="twitter:image" />
+  <meta content="/assets/img/site/se-og-image.png" property="twitter:image" />
   <meta content="summary_large_image" name="twitter:card" />
 
-  <link href="/assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="/assets/img/site/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap" rel="stylesheet" />
@@ -55,7 +55,7 @@
       <div class="form-row">
         <label class="w-label" for="slug">Slug</label>
         <div class="info">this is auto-generated if not set</div>
-        <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^[a-z0-9-]+$">
+        <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^([a-z0-9]|-)+$">
       </div>
       <div class="form-row">
         <label class="w-label" for="type">Type</label>
@@ -142,7 +142,7 @@
         <label class="w-label" for="linkedEvent">Linked Event</label>
         <div class="info">another event's slug prefixed with a #</div>
         <div class="d-flex">
-          <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#.*$">
+          <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#([a-z0-9]|-)+$">
           <div class="linked-event-wrapper">
             <select class="w-select" id="linked-event-selector">
               <option>select existing event</option>

@@ -59,9 +59,27 @@ button:hover {
   margin-right: 0.25rem;
 }
 
+.box:hover .edit-event {
+  display: block;
+}
+.edit-event {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  display: none;
+  width: 18px;
+  height: 18px;
+  font-size: 0;
+  text-decoration: none;
+  border-radius: 8px;
+  background: transparent url("/assets/img/icons/edit.svg") no-repeat center center / 12px;
+  opacity: 0.5;
+}
+
 #timeline.hide-descriptions .event-description,
 #timeline.hide-descriptions .event-tags,
-#timeline.hide-descriptions .linked-event {
+#timeline.hide-descriptions .linked-event,
+#timeline.hide-descriptions .edit-event {
   display: none !important;
 }
 

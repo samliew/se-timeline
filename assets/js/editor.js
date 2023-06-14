@@ -7,7 +7,7 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-const toSlug = str => str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 
 // Main
@@ -200,14 +200,17 @@ const toSlug = str => str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|
     const pairField = document.querySelector(`#${field.dataset.pair}`);
     if (pairField) pairField.required = notEmpty;
 
+    // If slug format field
+    if (name === 'slug' || name === 'linkedEvent') {
+      field.value = toSlug(field.value);
+    }
+
     // If linked event field
     if (name === 'linkedEvent') {
-
-      // Not empty, prepend with #
+      // Prepend with #
       if (notEmpty && field.value[0] !== '#') {
         field.value = `#${field.value}`;
       }
-
       // Slug different from linked dropdown, reset linked dropdown
       const slug = field.value.replace(/^#/, '');
       if (slug !== linkedDropdown.value) {
@@ -313,7 +316,7 @@ const toSlug = str => str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|
     // Event listener for linked dropdown
     linkedDropdown.addEventListener('change', evt => {
       const slug = evt.target.value;
-      const item = items.find(e => e.slug === slug || e.title === slug);
+      const item = items.find(v => v.slug === slug);
       if (!item) return;
 
       // Update form field
@@ -329,7 +332,7 @@ const toSlug = str => str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|
     // Event listener for import dropdown
     importDropdown.addEventListener('change', evt => {
       const slug = evt.target.value;
-      const item = items.find(e => e.slug === slug || e.title === slug);
+      const item = items.find(v => v.slug === slug);
       if (!item) return;
 
       output.value = JSON.stringify(item, null, 2) + ',';
@@ -337,6 +340,15 @@ const toSlug = str => str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|
       // Import JSON
       tryImportJson();
     });
+
+    // If event slug was passed on page load, try to import
+    const slug = new URLSearchParams(window.location.search).get('event');
+    if (slug) {
+      importDropdown.value = slug;
+      importDropdown.dispatchEvent(new Event('change', {
+        bubbles: true, cancelable: true
+      }));
+    }
   }
 
   /**

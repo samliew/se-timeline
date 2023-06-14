@@ -105,6 +105,7 @@ const createEventElem = event => {
   <div class="event-tags">${tags}</div>
   ${buttons ?? ''}
   ${linkedEventLink ?? ''}
+  <a href="/event-editor/?event=${slug}" class="edit-event" title="Edit event">edit</a>
 </div>`;
 
   return eventEl;
