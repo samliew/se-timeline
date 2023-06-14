@@ -142,19 +142,23 @@
           <label class="w-label" for="linkedEvent">Linked Event</label>
           <div class="info">another event's slug prefixed with a #</div>
           <div class="d-flex">
-            <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#([a-z0-9]|-)+$">
             <div class="linked-event-wrapper">
+              <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#([a-z0-9]|-)+$">
               <select class="w-select" id="linked-event-selector">
-                <option>select existing event</option>
+                <option>select event</option>
               </select>
             </div>
           </div>
         </div>
         <div class="form-row">
-          <label class="w-label" for="icon">Icon</label>
-          <div class="info">image url (e.g.: for site graduation events)</div>
-          <input class="w-input" type="url" name="icon" id="icon" placeholder="https://">
-          <img src class="icon-preview" id="icon-preview">
+          <div class="icon-preview-wrapper">
+            <div>
+              <label class="w-label" for="icon">Icon</label>
+              <div class="info">image url (e.g.: for site graduation events)</div>
+              <input class="w-input" type="url" name="icon" id="icon" placeholder="https://">
+            </div>
+            <img src class="icon-preview" id="icon-preview" title="preview">
+          </div>
         </div>
 
         <aside class="form-invalid-notice danger">Please fix the validation issues in the highlighted fields above.</aside>
@@ -179,7 +183,7 @@
 
       <div class="import-field-wrapper">Import:
         <select class="w-select" id="import-event-selector">
-          <option>select existing event</option>
+          <option>select event</option>
         </select>
       </div>
     </div>

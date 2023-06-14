@@ -136,10 +136,33 @@ fieldset > legend:first-child {
   margin-left: auto;
   margin-right: 0;
 }
+.event-editor .linked-event-wrapper input {
+  flex-grow: 1;
+  width: auto;
+}
 .event-editor .linked-event-wrapper select {
-  display: inline-block;
+  flex-basis: 160px;
   margin: 0 0 10px -2px;
   padding: 0.5rem 0.5rem;
+  background-color: white;
+}
+
+.event-editor .icon-preview-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.icon-preview-wrapper > * {
+  flex-grow: 1;
+}
+.event-editor .icon-preview-wrapper input {
+  margin-bottom: 0;
+}
+.event-editor .icon-preview-wrapper .icon-preview {
+  width: 100%;
+  max-width: 64px;
+  max-height: 64px;
+  margin-left: 10px;
   background-color: white;
 }
 
@@ -168,7 +191,7 @@ fieldset > legend:first-child {
 .event-editor .json-output-wrapper .import-export-actions {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 9px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
