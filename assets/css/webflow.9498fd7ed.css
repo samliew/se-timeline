@@ -1187,8 +1187,7 @@ textarea.w-select {
 
 .w-widget-twitter-count-shim:not(.w--vertical):before {
   border-width: 4px;
-  border-color: rgba(117, 134, 150, 0) #5d6c7b rgba(117, 134, 150, 0)
-    rgba(117, 134, 150, 0);
+  border-color: rgba(117, 134, 150, 0) #5d6c7b rgba(117, 134, 150, 0) rgba(117, 134, 150, 0);
   margin-top: -4px;
   margin-left: -9px;
 }
@@ -1201,8 +1200,7 @@ textarea.w-select {
 
 .w-widget-twitter-count-shim:not(.w--vertical):after {
   border-width: 4px;
-  border-color: rgba(255, 255, 255, 0) #fff rgba(255, 255, 255, 0)
-    rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0) #fff rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
   margin-top: -4px;
   margin-left: -8px;
 }
@@ -2414,7 +2412,7 @@ blockquote {
 
 .timeline {
   max-width: 1400px;
-  margin: 60px auto 100px;
+  margin: 60px 20px 100px;
   position: relative;
 }
 
@@ -2962,7 +2960,7 @@ blockquote {
   .timeline {
     margin-top: 30px;
     margin-bottom: 50px;
-    margin-right: -20px;
+    margin-right: 0;
   }
 
   .timeline-line {
