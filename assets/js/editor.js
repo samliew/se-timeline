@@ -5,6 +5,9 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
   return date.toLocaleString(undefined, { month: 'short' });
 });
 
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+
 // Main
 (async () => {
 
@@ -29,15 +32,7 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
     'yearFirst': false,
     'zIndex': 1,
     'daysMin': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-  }).on('pick.datepicker', evt => {
-    // Update date_str field after datepicker selection
-    setTimeout(() => {
-      evt.target.dispatchEvent(new Event('change', {
-        bubbles: true, cancelable: true, composed: true
-      }));
-      evt.target.reportValidity();
-    }, 10);
-  });
+  }).on('pick.datepicker', evt => { });
 
   // Init Tinymce
   // https://www.tiny.cloud/docs/release-notes/release-notes50/
@@ -68,7 +63,7 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
         const target = editor.targetElm;
         target.value = editor.getContent().replace(/[\n\r]+/, '');
         editor.targetElm.dispatchEvent(new Event('change', {
-          bubbles: true, cancelable: true, composed: true
+          bubbles: true, cancelable: true
         }));
       });
     }
@@ -76,6 +71,10 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
 
   const form = document.querySelector('#event-editor-form');
   const output = document.querySelector('#json-output');
+  const importDropdown = document.querySelector('#import-event-selector');
+  const linkedDropdown = document.querySelector('#linked-event-selector');
+  const iconField = document.querySelector('#icon');
+  const iconPreview = document.querySelector('#icon-preview');
 
   // Generate JSON from form fields
   const tryGenerateJson = () => {
@@ -118,8 +117,9 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
   };
 
   // Import JSON to form fields
-  const tryImportJson = () => {
+  const tryImportJson = async () => {
     form.reset();
+    await delay(15);
 
     try {
       const json = JSON.parse(output.value.trim().replace(/,$/, ''));
@@ -177,22 +177,40 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
         }
       });
 
-      // Update form fields
-      [...form.elements].forEach(el => formatField(el));
     } catch (e) { } // ignore errors
+
+    // Format form fields
+    [...form.elements].forEach(el => formatField(el));
   };
 
+  // Format a form field
   const formatField = field => {
-    field.value = field.value.trim();
+    field.value = field.value?.trim();
+
+    const { name, value, tagName } = field;
+
+    if (tagName === 'BUTTON') return;
+    if (tagName === 'FIELDSET') return;
+    if (value === undefined) return;
 
     // If has linked fields, toggle the other to required if not empty
     const notEmpty = field.value.length > 0;
     const pairField = document.querySelector(`#${field.dataset.pair}`);
     if (pairField) pairField.required = notEmpty;
 
-    // If linkedEvent field, and not empty, prepend with #
-    if (field.id === 'linkedEvent' && notEmpty && field.value[0] !== '#') {
-      field.value = `#${field.value}`;
+    // If linked event field
+    if (name === 'linkedEvent') {
+
+      // Not empty, prepend with #
+      if (notEmpty && field.value[0] !== '#') {
+        field.value = `#${field.value}`;
+      }
+
+      // Slug different from linked dropdown, reset linked dropdown
+      const slug = field.value.replace(/^#/, '');
+      if (slug !== linkedDropdown.value) {
+        linkedDropdown.selectedIndex = 0;
+      }
     }
 
     // If url field, and does not start with http, prepend with https://
@@ -201,20 +219,51 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
     }
 
     // If icon field, try preview image
-    if (field.id === 'icon') {
-      const preview = field.nextElementSibling;
-      preview.src = field.value;
-      preview.style.display = notEmpty ? 'inline-block' : 'none';
+    if (name === 'icon') {
+      // No src - Reset invalid error state
+      if (field.value === '') {
+        iconPreview.removeAttribute('src');
+        field.setCustomValidity('');
+      }
+      else {
+        iconPreview.src = field.value;
+      }
     }
+
+    // Validate field
+    field.reportValidity();
   };
 
   // Form field change
   form.addEventListener('change', evt => {
     const target = evt.target;
     formatField(target);
-
-    target.reportValidity();
     tryGenerateJson();
+  });
+
+  // Form reset
+  form.addEventListener('reset', async evt => {
+    await delay(1);
+
+    // Reset datepicker value
+    if (dateField[0].value === '') {
+      dateField[0].value = `${startOfUTCToday.getUTCFullYear()}-${startOfUTCToday.getUTCMonth() + 1}-${startOfUTCToday.getUTCDate()}`;
+      dateField.datepicker('update'); // sync datepicker with field
+      dateField.datepicker('pick'); // update field with formatted date
+    }
+
+    // Clear image preview
+    if (iconField.value === '') {
+      iconPreview.removeAttribute('src');
+      iconField.setCustomValidity('');
+    }
+  });
+
+  // Preview image error state
+  iconPreview.addEventListener('error', () => {
+    // No src - ignore error
+    if (iconPreview.src === '') return;
+    iconField.setCustomValidity('Invalid image URL');
   });
 
   // Import JSON button
@@ -223,9 +272,8 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
     tryImportJson();
   });
 
-  // Init dropdown import
-  const dropdown = document.querySelector('#events-import-slug');
-  if (dropdown) {
+  // Init linked event and import dropdowns
+  if (linkedDropdown && importDropdown) {
     let currentYear;
 
     const { items } = await $.getJSON('/timeline_data.json');
@@ -240,7 +288,9 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
         currentYear = year;
         const currentYearElem = document.createElement('optgroup');
         currentYearElem.label = year;
-        dropdown.append(currentYearElem);
+
+        importDropdown.append(currentYearElem);
+        linkedDropdown.append(currentYearElem.cloneNode(true));
       }
 
       // Create element html
@@ -249,16 +299,33 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
       eventEl.innerText = event.title.split(' ').slice(0, 8).join(' ');
       if (eventEl.innerText.length < event.title.length) eventEl.innerText += '...';
       // Append month
-      if (event.date_str?.length) {
-        const month = Number(event.date_str.match(/-(\d\d)-/)?.pop());
-        eventEl.innerText = `${monthsOfYear[month - 1]} - ${eventEl.innerText}`;
-      }
+      //if (event.date_str?.length) {
+      //  const month = Number(event.date_str.match(/-(\d\d)-/)?.pop());
+      //  eventEl.innerText = `${monthsOfYear[month - 1]} - ${eventEl.innerText}`;
+      //}
 
-      dropdown.append(eventEl);
+      importDropdown.append(eventEl);
+      linkedDropdown.append(eventEl.cloneNode(true));
     });
 
-    // Event listener
-    dropdown.addEventListener('change', evt => {
+    // Event listener for linked dropdown
+    linkedDropdown.addEventListener('change', evt => {
+      const slug = evt.target.value;
+      const item = items.find(e => e.slug === slug || e.title === slug);
+      if (!item) return;
+
+      // Update form field
+      const linkedEvent = document.querySelector('#linkedEvent');
+      linkedEvent.value = item.slug || item.title;
+
+      // Trigger change event
+      linkedEvent.dispatchEvent(new Event('change', {
+        bubbles: true, cancelable: true
+      }));
+    });
+
+    // Event listener for import dropdown
+    importDropdown.addEventListener('change', evt => {
       const slug = evt.target.value;
       const item = items.find(e => e.slug === slug || e.title === slug);
       if (!item) return;

@@ -1,9 +1,42 @@
-/* ===== EDITOR STYLES ===== */
+fieldset {
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 1rem 1rem;
+  border: 1px solid #ccc;
+}
+fieldset > legend:first-child {
+  margin-bottom: 0.5rem;
+  margin-left: -0.5rem;
+  padding: 0 0.5rem;
+}
+
+.d-block {
+  display: block !important;
+}
+.d-flex {
+  display: flex !important;
+  align-items: center;
+}
+.d-none {
+  display: none !important;
+}
+
 .event-editor aside {
   margin: 1rem 0 1.5rem;
   padding: 0.8rem 1rem;
   border: 1px dashed #ccc;
   background: #e8e8e8;
+}
+.event-editor aside.danger {
+  border: 1px dashed #ff0000;
+  background: #ffecec;
+}
+
+.event-editor .event-editor-form .form-invalid-notice {
+  display: none;
+}
+.event-editor .event-editor-form:invalid .form-invalid-notice,
+.event-editor .event-editor-form:invalid .w-input:not(:valid) ~ .form-invalid-notice {
+  display: block;
 }
 
 .event-editor .form-row {
@@ -15,7 +48,8 @@
 }
 
 .event-editor .w-input:not(:valid) {
-  border-color: #c00;
+  border-color: #ff0000;
+  box-shadow: inset 0 0 0 2px #ff0000;
 }
 
 .event-editor .w-checkbox {
@@ -46,8 +80,7 @@
 
 .event-editor .class-grid {
   display: grid;
-  margin-bottom: 1rem;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
   align-items: start;
 }
@@ -74,14 +107,29 @@
   grid-gap: 1rem 0.5rem;
   align-items: center;
 }
-.event-editor .linkUrl:empty ~ *,
-.event-editor .tagUrl:empty ~ * {
+.event-editor .linkUrl:placeholder-shown ~ *,
+.event-editor .tagUrl:placeholder-shown ~ * {
   display: none;
 }
 
 .event-editor .link-grid .w-input,
 .event-editor .tags-grid .w-input {
   margin: 0;
+}
+
+.event-editor .linked-event-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: 0;
+}
+.event-editor .linked-event-wrapper select {
+  display: inline-block;
+  margin: 0 0 10px -2px;
+  padding: 0.5rem 0.5rem;
+  background-color: white;
 }
 
 .event-editor .json-output {
@@ -122,6 +170,12 @@
   background-color: white;
 }
 
+.event-editor select option:not([value]),
+.event-editor .icon-preview:not([src]),
+.event-editor .icon-preview[src=""] {
+  display: none;
+}
+
 /* Mobile Only */
 @media screen and (max-width: 768px) {
   .event-editor .class-grid {
@@ -138,8 +192,14 @@
   text-align: center;
 }
 
-.datepicker-wrapper {
+[data-component="datepicker"]:hover + .datepicker-wrapper,
+[data-component="datepicker"]:focus + .datepicker-wrapper,
+.datepicker-wrapper:hover {
   display: flex;
+}
+
+.datepicker-wrapper {
+  display: none;
   margin-top: -10px;
   padding: 1rem;
   border: 1px solid #ccc;

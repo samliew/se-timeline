@@ -40,9 +40,9 @@
   <main class="event-editor w-container" style="padding-bottom: 5rem;">
     <h2>Event Editor</h2>
     <aside>This is a UI to assist in adding/editing event details in the JSON object.</aside>
-    <form action="#" id="event-editor-form">
+    <form action="#" class="event-editor-form" id="event-editor-form">
       <div class="form-row">
-        <label class="w-label required" for="date_str">Date</label>
+        <label class="w-label required">Date</label>
         <div class="info">displayed date string in UTC (required)</div>
         <input class="w-input" type="text" name="date_str" id="date_str" placeholder="YYYY-MM-DD" pattern="^\d{4}-\d{2}-\d{2}$" maxlength="10" data-component="datepicker" required>
         <div class="datepicker-wrapper" style="position: relative;"></div>
@@ -72,8 +72,8 @@
         <div class="info"></div>
         <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
       </div>
-      <fieldset class="form-row">
-        <label class="w-label" style="margin-bottom: 10px;">Classes:</label>
+      <fieldset>
+        <legend class="w-label">Classes</legend>
         <div class="class-grid">
           <div class="form-row-inline">
             <input class="w-checkbox" type="checkbox" name="classes" id="classes_featured-event" value="featured-event">
@@ -141,14 +141,23 @@
       <div class="form-row">
         <label class="w-label" for="linkedEvent">Linked Event</label>
         <div class="info">another event's slug prefixed with a #</div>
-        <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#.*$">
+        <div class="d-flex">
+          <input class="w-input" type="text" name="linkedEvent" id="linkedEvent" maxlength="500" placeholder="#" pattern="^#.*$">
+          <div class="linked-event-wrapper">
+            <select class="w-select" id="linked-event-selector">
+              <option>select existing event</option>
+            </select>
+          </div>
+        </div>
       </div>
       <div class="form-row">
         <label class="w-label" for="icon">Icon</label>
         <div class="info">image url (e.g.: for site graduation events)</div>
         <input class="w-input" type="url" name="icon" id="icon" placeholder="https://">
-        <img src="" class="icon-preview" style="display: none;">
+        <img src class="icon-preview" id="icon-preview">
       </div>
+
+      <aside class="form-invalid-notice danger">Please fix the validation issues in the highlighted fields above.</aside>
 
       <div class="form-actions" style="margin-bottom: 3rem;">
         <button class="w-button w-button-danger" id="clear-form" type="reset">Clear</button>
@@ -161,7 +170,7 @@
     <div class="import-export-actions d-flex">
       <button class="w-button" id="copy-json" type="button">Copy</button>
       <button class="w-button" id="import-json" type="button">Import JSON</button>
-      <div class="import-field-wrapper">Import: <select class="w-select" name="events-import-slug" id="events-import-slug"></select></div>
+      <div class="import-field-wrapper">Import: <select class="w-select" id="import-event-selector"></select></div>
     </div>
   </main>
 

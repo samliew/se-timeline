@@ -19,9 +19,20 @@ body {
   overflow-x: hidden;
 }
 
+.d-block {
+  display: block !important;
+}
 .d-flex {
-  display: flex;
+  display: flex !important;
   align-items: center;
+}
+.d-none {
+  display: none !important;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.05);
 }
 
 .inline input:radio,
