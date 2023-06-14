@@ -119,7 +119,6 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
   // Import JSON to form fields
   const tryImportJson = async () => {
     form.reset();
-    await delay(15);
 
     try {
       const json = JSON.parse(output.value.trim().replace(/,$/, ''));
@@ -180,6 +179,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
     } catch (e) { } // ignore errors
 
     // Format form fields
+    await delay(15);
     [...form.elements].forEach(el => formatField(el));
   };
 
