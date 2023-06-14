@@ -256,8 +256,8 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
     await delay(1);
 
-    // Remove required attribute from link-grid and tag-grid
-    [...form.querySelectorAll('.link-grid input, .tag-grid input')].forEach(el => {
+    // Remove required attribute from link-grid and tags-grid
+    [...form.querySelectorAll('.link-grid input, .tags-grid input')].forEach(el => {
       el.required = false;
     });
 
