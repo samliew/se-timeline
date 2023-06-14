@@ -14,19 +14,17 @@ assignees: ""
 
 ### Describe the event
 
-Include a clear and concise description of the event:
+Please provide a clear and concise title and description of the event
 
-- Event title
-- Event date
+- Title
+- Date (YYYY-MM-DD)
 - Description
-
-### Additional Context
-
-Add any other context or links about the event here.
+- Link(s)
 
 ### Event JSON
 
-If you created/edited this event using the Event Editor, please paste the exported event JSON between the code backticks below:
+If you created/edited this event using the [Event Editor](https://se-timeline.glitch.me/event-editor),
+please paste the exported event JSON between the code backticks below:
 
 ```json
 
