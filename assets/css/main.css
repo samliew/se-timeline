@@ -76,6 +76,10 @@ button:hover {
   margin: 0 !important;
 }
 
+.filter-container {
+  font-size: 0.8rem;
+}
+
 .box a {
   word-break: break-word;
 }
@@ -167,6 +171,15 @@ button:hover {
 .event:hover .event-date .edit-event {
   visibility: visible;
   margin-left: 0.5rem;
+}
+
+.contribution-notice {
+  max-width: 600px;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.contribution-notice .box {
+  border-style: dashed;
 }
 
 @media screen and (max-width: 768px) {

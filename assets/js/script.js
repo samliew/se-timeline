@@ -97,12 +97,12 @@ const createEventElem = event => {
     <div class="date date-from">${event.date_str}</div>
     <a href="/event-editor/?event=${slug}" class="edit-event" title="Edit event">edit</a>
   </div>
-  <h4 class="event-name">${event.title}</h4>
+  <h4 class="event-name">${event.title ?? 'Untitled Event'}</h4>
   <div class="event-summary">${event.summary ?? ''}</div>
   <div class="event-description w-richtext">
     ${event.body ?? ''}
   </div>
-  <div class="event-tags">${tags}</div>
+  <div class="event-tags">${tags ?? ''}</div>
   ${buttons ?? ''}
   ${event.linkedEvent ? `<a href="${event.linkedEvent}" class="linked-event">linked event</a>` : ''}
 </div>`;
@@ -136,6 +136,16 @@ const buildTimeline = async () => {
     const eventEl = createEventElem(event);
     currentYearEventsElem.append(eventEl);
   });
+
+  // Add notice to link users to event editor
+  const thisYear = new Date().getFullYear();
+  if (currentYear !== thisYear) {
+    currentYear = thisYear;
+    const notice = document.createElement('aside');
+    notice.classList.add('contribution-notice');
+    notice.innerHTML = `<div class="box">Missing recent events? <a href="/event-editor">Add it here</a>!</div>`;
+    timelineEl.children[0].after(notice);
+  }
 
   // Move "beginning" to end
   const beginning = [...timelineEl.querySelectorAll('.static-year')].pop();
