@@ -34,7 +34,14 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     'yearFirst': false,
     'zIndex': 1,
     'daysMin': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-  }).on('pick.datepicker', evt => { });
+  }).on('pick.datepicker', evt => {
+    // Trigger change event after datepicker selection
+    setTimeout(() => {
+      evt.target.dispatchEvent(new Event('change', {
+        bubbles: true, cancelable: true, composed: true
+      }));
+    }, 1);
+  });
 
   // Init Tinymce
   // https://www.tiny.cloud/docs/release-notes/release-notes50/
