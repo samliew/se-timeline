@@ -44,7 +44,11 @@ body.fixed-header .navbar {
 .header-left {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   flex: 1 1 120px;
+}
+.header-right {
+  justify-content: flex-end;
 }
 @media screen and (max-width: 768px) {
   body.fixed-header {
@@ -208,6 +212,9 @@ button:hover {
   .timeline {
     margin-left: 1rem;
     margin-right: 0;
+  }
+  .sidebar {
+    display: none !important;
   }
 }
 
