@@ -28,7 +28,14 @@
 
 <body>
   <header class="navbar">
-    <div class="header-left"></div>
+    <div class="header-left">
+      <a href="/" class="back-link" title="Back to Timeline">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path d="M448 224V288C448 305.674 433.674 320 416 320H224V416C224 428.938 216.203 440.609 204.25 445.562C192.281 450.516 178.531 447.781 169.375 438.625L9.375 278.625C3.125 272.375 0 264.188 0 256S3.125 239.625 9.375 233.375L169.375 73.375C178.531 64.219 192.281 61.484 204.25 66.438C216.203 71.391 224 83.062 224 96V192H416C433.674 192 448 206.328 448 224Z" />
+        </svg>
+        Back
+      </a>
+    </div>
     <a href="#" id="back-to-top" class="header-link w-inline-block">
       <h1 class="main-title desktop-only">The Stack Exchange Timeline</h1>
       <h1 class="main-title mobile-only">SE Timeline</h1>
@@ -161,7 +168,7 @@
           </div>
         </div>
 
-        <aside class="form-invalid-notice danger">Please fix the validation issues in the highlighted fields above.</aside>
+        <aside class="form-invalid-notice danger">Please fix any validation issues in the highlighted fields above.</aside>
 
         <div class="form-actions" style="margin-bottom: 3rem;">
           <button class="w-button w-button-danger" id="clear-form" type="reset">Clear</button>
@@ -172,7 +179,7 @@
       <aside><strong>Export:</strong> The event JSON will be generated in the field below when the event editor form is valid. This page does not auto-save - please refer to the <a href="https://github.com/samliew/se-timeline#contributing" target="_blank">readme</a> on GitHub for contribution notes, and copy the JSON below into a <a href="https://github.com/samliew/se-timeline/issues/new/choose" target="_blank">new issue</a> for review.</aside>
 
       <div class="json-output-wrapper">
-        <textarea name="output" id="json-output" rows="10" class="w-input json-output" placeholder=" " required></textarea>
+        <textarea name="output" id="json-output" rows="10" class="w-input json-output" placeholder="Please fix any validation issues in the highlighted fields above." required></textarea>
         <div class="import-export-actions">
           <button class="w-button small" id="copy-json" type="button">Copy</button>
           <button class="w-button small" id="import-json" type="button">Import</button>
@@ -188,6 +195,16 @@
       </div>
     </div>
   </main>
+
+  <footer class="footer">
+    <div class="w-container">
+      <p>All dates displayed in UTC+0</p>
+      <p><a href="https://discord.gg/tpgZmwR" target="_blank">Feedback &amp; Discussion</a> | <a href="https://github.com/samliew/se-timeline" target="_blank">Contribute</a></p>
+      <div class="disclaimer">
+        The Contents of this Website are provided on an &quot;as is&quot; basis without warranties of any kind. To the fullest extent permitted by law, the owners of this website do not warrant and hereby disclaims any warranty as to the accuracy, correctness, reliability, timeliness, non-infringement, title, merchantability or fitness for any particular purpose of the Contents of this Website; and that the Contents available through this Website or any functions associated therewith will be uninterrupted or error-free, or that defects will be corrected or that this Website and the server is and will be free of all viruses and/or other harmful elements. The owners of this website shall also not be liable for any damage or loss of any kind caused as a result (direct or indirect) of the use of the Website, including but not limited to any damage or loss suffered as a result of reliance on the Contents contained in or available from the Website.
+      </div>
+    </div>
+  </footer>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css" integrity="sha512-YdYyWQf8AS4WSB0WWdc3FbQ3Ypdm0QCWD2k4hgfqbQbRCJBEgX0iAegkl2S1Evma5ImaVXLBeUkIlP6hQ1eYKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 

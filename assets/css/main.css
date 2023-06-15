@@ -40,10 +40,27 @@ body.fixed-header .navbar {
   margin-bottom: 0;
   z-index: 1000;
 }
+.header-right,
+.header-left {
+  display: flex;
+  align-items: center;
+  flex: 1 1 120px;
+}
 @media screen and (max-width: 768px) {
   body.fixed-header {
     --fixed-header-height: 40px;
   }
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.back-link svg {
+  height: 1.4em;
+  margin-right: 0.5em;
 }
 
 /* Webflow Overrides */
@@ -66,6 +83,9 @@ body.fixed-header .navbar {
 }
 
 /* Elements */
+svg {
+  fill: currentColor;
+}
 button:hover {
   cursor: pointer;
   filter: brightness(1.05);
@@ -176,9 +196,11 @@ button:hover {
 .contribution-notice {
   max-width: 600px;
   margin: 1.5rem auto;
+  padding: 0 20px;
   text-align: center;
 }
 .contribution-notice .box {
+  padding: 1.8rem;
   border-style: dashed;
 }
 

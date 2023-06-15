@@ -80,7 +80,13 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
   // Generate JSON from form fields
   const tryGenerateJson = () => {
-    if (!form.checkValidity()) return;
+
+    // Validate form
+    if (!form.checkValidity()) {
+      output.value = '';
+      return;
+    }
+
     const formData = new FormData(form);
     const data = Object.fromEntries(formData);
 
@@ -121,6 +127,11 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
   // Import JSON to form fields
   const tryImportJson = async () => {
     form.reset();
+
+    // Reset all tinymce editors
+    tinymce.editors.forEach(editor => {
+      editor.setContent('');
+    });
 
     try {
       const json = JSON.parse(output.value.trim().replace(/,$/, ''));
@@ -239,20 +250,15 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     field.reportValidity();
   };
 
-  // Form field change
+  // EVENT: Form field change
   form.addEventListener('change', evt => {
     const target = evt.target;
     formatField(target);
     tryGenerateJson();
   });
 
-  // Form reset
+  // EVENT: RESET - Form reset
   form.addEventListener('reset', async evt => {
-
-    // Reset all tinymce editors
-    tinymce.editors.forEach(editor => {
-      editor.setContent('');
-    });
 
     await delay(1);
 
@@ -273,6 +279,23 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       iconPreview.removeAttribute('src');
       iconField.setCustomValidity('');
     }
+
+    // Set selectedIndex for linked event and import dropdowns
+    linkedDropdown && (linkedDropdown.selectedIndex = 0);
+    importDropdown && (importDropdown.selectedIndex = 0);
+  });
+
+  // EVENT: CLICK - Clear button
+  document.querySelector('#clear-form').addEventListener('click', async evt => {
+    await delay(1);
+
+    // Reset all tinymce editors
+    tinymce.editors.forEach(editor => {
+      editor.setContent('');
+    });
+
+    // In addition to form reset, clear output
+    output.value = '';
   });
 
   // Preview image error state
@@ -282,13 +305,14 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     iconField.setCustomValidity('Invalid image URL');
   });
 
-  // Import JSON button
+  // EVENT: CLICK - Import JSON button
   document.querySelector('#import-json').addEventListener('click', evt => {
-    evt.preventDefault();
     tryImportJson();
   });
 
   // Init linked event and import dropdowns
+  // EVENT: CHANGE - linked event dropdown
+  // EVENT: CHANGE - import JSON dropdown
   if (linkedDropdown && importDropdown) {
     let currentYear;
 
@@ -324,7 +348,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       linkedDropdown.append(eventEl.cloneNode(true));
     });
 
-    // Event listener for linked dropdown
+    // Add event listener for linked event dropdown
     linkedDropdown.addEventListener('change', evt => {
       const slug = evt.target.value;
       const item = items.find(v => v.slug === slug);
@@ -340,15 +364,22 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       }));
     });
 
-    // Event listener for import dropdown
+    // Add event listener for import JSON dropdown
     importDropdown.addEventListener('change', evt => {
       const slug = evt.target.value;
       const item = items.find(v => v.slug === slug);
-      if (!item) return;
 
+      // Replace URL
+      window.history.replaceState({}, '', window.location.pathname + `?event=${slug}`);
+
+      // Reset dropdown if not found
+      if (!item) {
+        importDropdown.selectedIndex = 0;
+        return;
+      }
+
+      // Update output and import JSON
       output.value = JSON.stringify(item, null, 2) + ',';
-
-      // Import JSON
       tryImportJson();
     });
 
@@ -414,9 +445,8 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     return success;
   };
 
-  // Copy JSON button
+  // EVENT: CLICK - Copy JSON button
   document.querySelector('#copy-json').addEventListener('click', evt => {
-    evt.preventDefault();
     copyToClipboard(output);
   });
 
