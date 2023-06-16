@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "classes": ["event-large", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "nick-craver-resigns",
       "type": "staff resignation",
       "date_str": "2021-08-16",
@@ -12,7 +12,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-large", "tag-company", "tag-acquisition"],
+      "classes": ["featured-event", "tag-company", "tag-acquisition"],
       "slug": "prosus-acquires-stack-overflow",
       "type": "company acquisition",
       "date_str": "2021-06-02",
@@ -28,7 +28,7 @@
       "tags": []
     },
     {
-      "classes": ["event-large", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "geoff-dalgas-resigns",
       "type": "staff resignation",
       "date_str": "2020-08-14",
@@ -44,7 +44,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-large", "tag-staff", "tag-fired"],
+      "classes": ["featured-event", "tag-staff", "tag-fired"],
       "slug": "2020-stack-exchange-staff-layoffs",
       "type": "staff fired",
       "date_str": "2020-05-07",
@@ -60,7 +60,7 @@
       "tags": []
     },
     {
-      "classes": ["event-large", "tag-meta", "tag-moderators"],
+      "classes": ["tag-meta", "tag-moderators"],
       "slug": "moderator-council-formed",
       "type": "meta moderators",
       "date_str": "2020-04-28",
@@ -71,7 +71,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-reinstatement"],
+      "classes": ["tag-moderator", "tag-reinstatement"],
       "slug": "jon-clements-reinstated",
       "type": "moderator reinstatement",
       "date_str": "2020-04-09",
@@ -82,7 +82,7 @@
       "linkedEvent": "#jon-clements-resigns"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "henders-resigns",
       "type": "moderator resignation",
       "date_str": "2020-04-03",
@@ -105,7 +105,7 @@
       "linkedEvent": "#third-official-response-by-david-fullerton-stack-exchange-cto"
     },
     {
-      "classes": ["event-small", "tag-feature"],
+      "classes": ["tag-feature"],
       "slug": "new-feature-dark-mode",
       "type": "feature",
       "date_str": "2020-03-31",
@@ -120,7 +120,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-large", "tag-company", "tag-statement"],
+      "classes": ["featured-event", "tag-company", "tag-statement"],
       "slug": "stack-exchange-commits-to-communicate-and-engage-with-meta-and-moderators",
       "type": "company statement",
       "date_str": "2020-03-04",
@@ -130,7 +130,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "mark-henderson-resigns",
       "type": "staff resignation",
       "date_str": "2020-03-05",
@@ -140,14 +140,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-official",
-        "tag-policy",
-        "tag-licensing",
-        "tag-licensinglicensing"
-      ],
+      "classes": ["featured-event", "tag-official", "tag-policy", "tag-licensing", "tag-licensinglicensing"],
       "slug": "stack-exchange-changes-to-a-split-cc-license",
       "type": "official policy licensing",
       "date_str": "2020-03-04",
@@ -167,7 +160,7 @@
       "linkedEvent": "#stack-exchange-retroactively-relicenses-all-usercontributed-content-on-the-network"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-company", "tag-statement"],
+      "classes": ["featured-event", "tag-company", "tag-statement"],
       "slug": "stack-exchange-renews-its-commitment-to-rebuilding-the-relationship-with-the-community",
       "type": "company statement",
       "date_str": "2020-02-19",
@@ -178,7 +171,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "aaron-hall-meets-ceo",
       "type": "moderator resignation",
       "date_str": "2020-02-04",
@@ -189,7 +182,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "sam-i-am-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-31",
@@ -201,7 +194,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "tim-b-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-29",
@@ -213,7 +206,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "james-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-28",
@@ -225,7 +218,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-meta"],
+      "classes": ["featured-event", "tag-meta"],
       "slug": "monica-leaves-the-stack-exchange-network",
       "type": "meta",
       "date_str": "2020-01-27",
@@ -248,7 +241,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "djmcmayhem-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-24",
@@ -260,7 +253,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "anongoodnurse-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-24",
@@ -272,7 +265,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "lois6b-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-23",
@@ -284,7 +277,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-large", "tag-ceo", "tag-blog"],
+      "classes": ["tag-ceo", "tag-blog"],
       "slug": "ceo-posted-on-the-blog-on-the-future-of-stack-overflow",
       "type": "ceo blog",
       "date_str": "2020-01-22",
@@ -299,7 +292,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "iklsr-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-21",
@@ -311,7 +304,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "david-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-21",
@@ -323,7 +316,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-staff", "tag-resignation"],
+      "classes": ["featured-event", "tag-staff", "tag-resignation"],
       "slug": "jon-ericson-resigns",
       "type": "staff resignation",
       "date_str": "2020-01-17",
@@ -335,7 +328,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "mad-scientist-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-16",
@@ -346,7 +339,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "strongbad-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-16",
@@ -358,7 +351,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "dmckee-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-16",
@@ -370,7 +363,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "web-head-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-16",
@@ -382,7 +375,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-official", "tag-policy"],
+      "classes": ["featured-event", "tag-official", "tag-policy"],
       "slug": "stack-exchange-attempts-to-limit-featured-moderator-resignation-notices-to-a-maximum-of-24-hours",
       "type": "official policy",
       "date_str": "2020-01-16",
@@ -398,7 +391,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "madara-uchiha-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-14",
@@ -410,7 +403,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "hatchet-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-14",
@@ -422,7 +415,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "elendia-starman-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-14",
@@ -434,7 +427,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "nhinkle-resigns",
       "type": "moderator resignation",
       "date_str": "2020-01-14",
@@ -446,7 +439,7 @@
       "linkedEvent": "#community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-staff", "tag-fired"],
+      "classes": ["featured-event", "tag-staff", "tag-fired"],
       "slug": "community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc",
       "type": "staff fired",
       "date_str": "2020-01-13",
@@ -510,7 +503,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "terdon-resigns-from-ask-ubuntu-and-bioinformatics",
       "type": "moderator resignation",
       "date_str": "2019-12-03",
@@ -522,7 +515,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "stphane-gimenez-resigns",
       "type": "moderator resignation",
       "date_str": "2019-11-27",
@@ -534,7 +527,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "colleenv-resigns",
       "type": "moderator resignation",
       "date_str": "2019-11-26",
@@ -566,7 +559,7 @@
       ]
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "fedorqui-resigns",
       "type": "moderator resignation",
       "date_str": "2019-11-15",
@@ -578,7 +571,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "snow-resigns-again",
       "type": "moderator resignation",
       "date_str": "2019-11-15",
@@ -606,7 +599,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "will-cole-resigns",
       "type": "staff resignation",
       "date_str": "2019-11-11",
@@ -617,7 +610,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "mego-resigns",
       "type": "moderator resignation",
       "date_str": "2019-11-02",
@@ -629,7 +622,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "hohmannfan-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-31",
@@ -641,7 +634,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-large", "tag-user", "tag-statement"],
+      "classes": ["tag-user", "tag-statement"],
       "slug": "letter-from-user-belovedfool-to-se",
       "type": "user statement",
       "date_str": "2019-10-30",
@@ -653,7 +646,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-reinstatement"],
+      "classes": ["tag-moderator", "tag-reinstatement"],
       "slug": "journeyman-geek-reinstated-on-mse",
       "type": "moderator reinstatement",
       "date_str": "2019-10-29",
@@ -665,7 +658,7 @@
       "linkedEvent": "#journeyman-geek-resigns-from-mse"
     },
     {
-      "classes": ["event-large", "tag-statement"],
+      "classes": ["tag-statement"],
       "slug": "heather-after-talking-with-monica-urges-se-to-join-in-seeking-dialogue-and-understanding",
       "type": "statement",
       "date_str": "2019-10-25",
@@ -677,7 +670,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-statement"],
+      "classes": ["featured-event", "tag-statement"],
       "slug": "monica-posts-a-response-to-the-situation",
       "type": "statement",
       "date_str": "2019-10-24",
@@ -714,7 +707,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-small", "tag-official", "tag-policy", "tag-coc"],
+      "classes": ["featured-event", "tag-official", "tag-policy", "tag-coc"],
       "slug": "stack-exchange-releases-faq-on-pronouns",
       "type": "official policy coc",
       "date_str": "2019-10-21",
@@ -724,7 +717,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "seth-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-19",
@@ -748,7 +741,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "mithical-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-17",
@@ -760,7 +753,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "jon-clements-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-17",
@@ -795,7 +788,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "diego-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-14",
@@ -807,7 +800,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "sklivvz-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-10",
@@ -819,7 +812,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "jack-douglas-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-10",
@@ -843,7 +836,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-official", "tag-statement"],
+      "classes": ["featured-event", "tag-official", "tag-statement"],
       "slug": "third-official-response-by-david-fullerton-stack-exchange-cto",
       "type": "official statement",
       "date_str": "2019-10-06",
@@ -854,7 +847,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-reinstatement"],
+      "classes": ["tag-moderator", "tag-reinstatement"],
       "slug": "misterpositive-snow-reinstated",
       "type": "moderator reinstatement",
       "date_str": "2019-10-04",
@@ -865,7 +858,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "glen_b-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-04",
@@ -877,7 +870,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "rolfl-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-03",
@@ -889,7 +882,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "pashapash-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-03",
@@ -901,7 +894,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-official", "tag-statement"],
+      "classes": ["featured-event", "tag-official", "tag-statement"],
       "slug": "second-official-statement-by-sara-chipps",
       "type": "official statement",
       "date_str": "2019-10-03",
@@ -918,7 +911,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "neil-fein-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-01",
@@ -930,7 +923,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "a-cvn-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-01",
@@ -942,7 +935,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "dominela10-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-01",
@@ -954,7 +947,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "keelan-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-01",
@@ -966,7 +959,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "mister-positive-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-01",
@@ -978,7 +971,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "ed-cottrell-resigns",
       "type": "moderator resignation",
       "date_str": "2019-10-01",
@@ -1001,7 +994,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "anonymous2-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-30",
@@ -1013,7 +1006,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "caleb-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-30",
@@ -1025,7 +1018,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "nathaniel-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-30",
@@ -1037,7 +1030,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "journeyman-geek-resigns-from-mse",
       "type": "moderator resignation",
       "date_str": "2019-09-29",
@@ -1049,7 +1042,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-official", "tag-statement"],
+      "classes": ["featured-event", "tag-official", "tag-statement"],
       "slug": "official-statement-by-sara-chipps",
       "type": "official statement",
       "date_str": "2019-09-29",
@@ -1061,7 +1054,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "glenh7-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-29",
@@ -1073,7 +1066,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "brock-adams-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-29",
@@ -1085,7 +1078,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "robert-harvey-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-29",
@@ -1097,7 +1090,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "dennis-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-29",
@@ -1109,7 +1102,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "jane-s-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-29",
@@ -1121,7 +1114,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "snow-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-28",
@@ -1133,7 +1126,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "gilles-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-28",
@@ -1145,7 +1138,7 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-moderator", "tag-fired"],
+      "classes": ["featured-event", "tag-moderator", "tag-fired"],
       "slug": "monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites",
       "type": "moderator fired",
       "date_str": "2019-09-27",
@@ -1165,7 +1158,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "yvette-steps-down",
       "type": "moderator resignation",
       "date_str": "2019-09-19",
@@ -1176,7 +1169,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-moderator", "tag-resignation"],
+      "classes": ["tag-moderator", "tag-resignation"],
       "slug": "aza-resigns",
       "type": "moderator resignation",
       "date_str": "2019-09-26",
@@ -1187,14 +1180,7 @@
       "tags": []
     },
     {
-      "classes": [
-        "featured-event",
-        "event-large",
-        "tag-official",
-        "tag-policy",
-        "tag-licensing",
-        "tag-licensinglicensing"
-      ],
+      "classes": ["featured-event", "tag-official", "tag-policy", "tag-licensing", "tag-licensinglicensing"],
       "slug": "stack-exchange-retroactively-relicenses-all-usercontributed-content-on-the-network",
       "type": "official policy licensing",
       "date_str": "2019-09-05",
@@ -1214,7 +1200,7 @@
       ]
     },
     {
-      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "guy-zerega-resigns",
       "type": "staff resignation",
       "date_str": "2019-08-31 ??",
@@ -1224,7 +1210,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1236,7 +1222,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a948547a6a2522b5cc917_rus.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "sound-design-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1248,7 +1234,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9486e8da5a049f21518f_sound.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "islam-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1260,7 +1246,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9485e8da5a8c6121518d_islam.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "russian-language-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1272,7 +1258,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9485941c93f3c7b37a04_russian.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "chess-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1284,7 +1270,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e6313e2a67d8279d2_chess.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "windows-phone-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1296,7 +1282,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e941c933f46b379fb_windowsphone.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "sports-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1308,7 +1294,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947ea9923d1ef73199c7_sports.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "martial-arts-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1320,7 +1306,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e6313e2fd8c8279d3_martialarts.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "the-great-outdoors-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1332,7 +1318,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a947e47a6a253695cc90e_outdoors.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "psychology-neuroscience-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1344,7 +1330,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9476598c47bfc577ef13_psychology.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "poker-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1356,7 +1342,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a94766313e20e908279cf_poker.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "chinese-language-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1368,7 +1354,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9476e8da5a723c21514c_chinese.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "computational-science-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1380,7 +1366,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9477941c93121db379f9_scicomp.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "spanish-language-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1392,7 +1378,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9478941c93694bb379fa_spanish.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "bricks-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1404,7 +1390,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941fe8da5a4971214e3f_bricks.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "history-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1416,7 +1402,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941f598c4727ff77ede8_history.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "biblical-hermeneutics-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1428,7 +1414,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941fa9923d85183195b0_hermeneutics.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "linguistics-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1440,7 +1426,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941f6313e24e02827972_linguistics.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "french-language-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1452,7 +1438,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941f47a6a227755cc5e4_french.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "gardening-landscaping-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1464,7 +1450,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417598c47e05e77eddc_gardening.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "german-language-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1476,7 +1462,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941747a6a2a42b5cc5d2_german.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "software-quality-assurance-testing-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1488,7 +1474,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417598c47a45e77eddb_sqa.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "parenting-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1500,7 +1486,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417598c47189f77edda_parenting.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "physical-fitness-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1512,7 +1498,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9417e8da5a60dd214e3c_fitness.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "project-management-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1524,7 +1510,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9410941c93c45db3765d_pm.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "video-production-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1536,7 +1522,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941047a6a270205cc5bf_video.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "writing-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1548,7 +1534,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a941347a6a28e0a5cc5c8_writing.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "homebrewing-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1560,7 +1546,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9411a9923d4ddd3195ad_homebrew.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "board-card-games-launches",
       "type": "site-graduation",
       "date_str": "2019-08-01",
@@ -1572,7 +1558,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a94136313e26254827798_boardgames.png"
     },
     {
-      "classes": ["event-large", "tag-meta"],
+      "classes": ["tag-meta"],
       "slug": "29-beta-sites-mass-graduate",
       "type": "meta",
       "date_str": "2019-08-01",
@@ -1582,7 +1568,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "cassie-montrose-resigns",
       "type": "staff resignation",
       "date_str": "2019-07-31 ??",
@@ -1592,7 +1578,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-large", "tag-official", "tag-policy"],
+      "classes": ["featured-event", "tag-official", "tag-policy"],
       "slug": "hot-meta-posts-removed-from-stack-overflows-sidebar",
       "type": "official policy",
       "date_str": "2019-07-23",
@@ -1603,7 +1589,7 @@
       "tags": []
     },
     {
-      "classes": ["event-large", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "jay-hanlon-resigns",
       "type": "staff resignation",
       "date_str": "2019-03-13",
@@ -1614,7 +1600,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-large", "tag-moderators", "tag-appointed"],
+      "classes": ["featured-event", "tag-moderators", "tag-appointed"],
       "slug": "moderators-appointed-on-meta-stack-exchange-for-the-first-time",
       "type": "moderators appointed",
       "date_str": "2018-11-21",
@@ -1625,7 +1611,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-staff", "tag-resignation"],
+      "classes": ["tag-staff", "tag-resignation"],
       "slug": "joe-friend-resigns",
       "type": "staff resignation",
       "date_str": "2018-11-18",
@@ -1675,7 +1661,7 @@
       ]
     },
     {
-      "classes": ["featured-event", "event-large", "tag-blog", "tag-welcoming", "tag-drama", "tag-welcomingwelcoming"],
+      "classes": ["featured-event", "tag-blog", "tag-welcoming", "tag-drama", "tag-welcomingwelcoming"],
       "slug": "the-welcoming",
       "type": "blog welcoming drama",
       "date_str": "2018-04-26",
@@ -1695,7 +1681,7 @@
       ]
     },
     {
-      "classes": ["event-small", "tag-product", "tag-stack-overflow-for-teams"],
+      "classes": ["tag-product", "tag-stack-overflow-for-teams"],
       "slug": "stack-overflow-for-teams-announced",
       "type": "product",
       "date_str": "2018-03-05",
@@ -1710,7 +1696,7 @@
       ]
     },
     {
-      "classes": ["featured-event", "event-large", "tag-blog", "tag-design"],
+      "classes": ["featured-event", "tag-blog", "tag-design"],
       "slug": "stack-exchange-announces-networkwide-redesign",
       "type": "blog design",
       "date_str": "2018-02-08",
@@ -1721,7 +1707,7 @@
       "tags": []
     },
     {
-      "classes": ["event-large", "tag-advertising", "tag-quality", "tag-inappropriate-advertisements"],
+      "classes": ["tag-advertising", "tag-quality", "tag-inappropriate-advertisements"],
       "slug": "implemention-of-affiliate-ads",
       "type": "advertising quality",
       "date_str": "2018-02-07",
@@ -1745,7 +1731,7 @@
       ]
     },
     {
-      "classes": ["featured-event", "event-large", "tag-staff", "tag-fired"],
+      "classes": ["featured-event", "tag-staff", "tag-fired"],
       "slug": "2017-stack-exchange-staff-layoffs",
       "type": "staff fired",
       "date_str": "2017-11-02",
@@ -1756,7 +1742,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "bitcoin-launches",
       "type": "site-graduation",
       "date_str": "2017-10-09",
@@ -1768,7 +1754,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bcbe4a74784220a3d5_bitcoin.png"
     },
     {
-      "classes": ["event-small", "tag-experiment"],
+      "classes": ["tag-experiment"],
       "slug": "stack-overflow-mentorship-research-project-ends",
       "type": "experiment",
       "date_str": "2017-09-28",
@@ -1795,7 +1781,7 @@
       "linkedEvent": "#stack-overflow-launches-documentation"
     },
     {
-      "classes": ["event-small", "tag-experiment", "tag-mentoring"],
+      "classes": ["tag-experiment", "tag-mentoring"],
       "slug": "stack-overflow-mentorship-research-project-begins",
       "type": "experiment",
       "date_str": "2017-07-26",
@@ -1810,7 +1796,7 @@
       ]
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "arduino-launches",
       "type": "site-graduation",
       "date_str": "2017-07-17",
@@ -1822,7 +1808,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bc3fa1326194e48de9_arduino.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "data-science-launches",
       "type": "site-graduation",
       "date_str": "2017-07-10",
@@ -1834,7 +1820,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bc3fa13245a9e48de8_datascience.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "ethereum-launches",
       "type": "site-graduation",
       "date_str": "2017-06-26",
@@ -1846,7 +1832,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bcb3437b29b804ffec_ethereum.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "stack-overflow-en-espaol-launches",
       "type": "site-graduation",
       "date_str": "2017-05-17",
@@ -1880,7 +1866,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "quantitative-finance-launches",
       "type": "site-graduation",
       "date_str": "2016-12-12",
@@ -1892,7 +1878,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bcbe4a7417a820a3d6_quant.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "motor-vehicle-maintenance-repair-launches",
       "type": "site-graduation",
       "date_str": "2016-09-13",
@@ -1915,7 +1901,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bd096239c43c3e4791_mechanics.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "law-launches",
       "type": "site-graduation",
       "date_str": "2016-07-06",
@@ -1927,7 +1913,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf3fa1325b76e48ded_law.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "philosophy-launches",
       "type": "site-graduation",
       "date_str": "2016-07-06",
@@ -1939,7 +1925,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf09623916f63e4798_philosophy.png"
     },
     {
-      "classes": ["event-large", "tag-stackoverflow", "tag-chat", "tag-group", "tag-blog"],
+      "classes": ["tag-stackoverflow", "tag-chat", "tag-group", "tag-blog"],
       "slug": "sobotics-founded",
       "type": "stackoverflow chat group blog",
       "date_str": "2016-05-08",
@@ -1955,7 +1941,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "puzzling-launches",
       "type": "site-graduation",
       "date_str": "2016-05-04",
@@ -1967,7 +1953,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bf3fa132fe09e48dee_puzzling.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "code-golf-launches",
       "type": "site-graduation",
       "date_str": "2016-02-23",
@@ -1979,7 +1965,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a79bfb3437ba5f504ffef_codegolf.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "stack-overflow-launches",
       "type": "site-graduation",
       "date_str": "2015-12-11",
@@ -1991,7 +1977,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fdfbe4a74ecb62059ad_ru.stackoverflow.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "raspberry-pi-launches",
       "type": "site-graduation",
       "date_str": "2015-11-17",
@@ -2003,7 +1989,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe03fa132e05ae4541a_raspberrypi.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "emacs-launches",
       "type": "site-graduation",
       "date_str": "2015-11-16",
@@ -2015,7 +2001,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe0b3437baf6c049e35_emacs.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "worldbuilding-launches",
       "type": "site-graduation",
       "date_str": "2015-11-16",
@@ -2027,7 +2013,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fdfca7814c1552c837d_worldbuilding.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "aviation-launches",
       "type": "site-graduation",
       "date_str": "2015-11-16",
@@ -2039,7 +2025,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fddbe4a74548a2059ac_aviation.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "signal-processing-launches",
       "type": "site-graduation",
       "date_str": "2015-11-16",
@@ -2051,7 +2037,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe0ca7814b2982c837e_dsp.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "software-recommendations-launches",
       "type": "site-graduation",
       "date_str": "2015-09-09",
@@ -2063,7 +2049,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fe0be4a74e7182059ae_softwarerecs.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "japanese-language-launches",
       "type": "site-graduation",
       "date_str": "2015-09-09",
@@ -2075,7 +2061,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd93fa1326589e45184_japanese.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "music-practice-theory-launches",
       "type": "site-graduation",
       "date_str": "2015-09-09",
@@ -2087,7 +2073,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd93fa1324793e45183_music.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "english-language-learners-launches",
       "type": "site-graduation",
       "date_str": "2015-09-08",
@@ -2099,7 +2085,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd9ca78145aa42c8376_ell.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "magento-launches",
       "type": "site-graduation",
       "date_str": "2015-09-01",
@@ -2111,7 +2097,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd909623918f33dff09_magento.png"
     },
     {
-      "classes": ["featured-event", "event-small", "tag-feature", "tag-documentation"],
+      "classes": ["featured-event", "tag-feature", "tag-documentation"],
       "slug": "stack-overflow-launches-documentation",
       "type": "feature",
       "date_str": "2015-08-31",
@@ -2126,7 +2112,7 @@
       ]
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "anime-manga-launches",
       "type": "site-graduation",
       "date_str": "2015-08-25",
@@ -2138,7 +2124,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd9ca78141e8c2c8374_anime.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "computer-science-launches",
       "type": "site-graduation",
       "date_str": "2015-08-18",
@@ -2149,7 +2135,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd9ca78145d502c8375_cs.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "code-review-launches",
       "type": "site-graduation",
       "date_str": "2015-07-14",
@@ -2160,7 +2146,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd976f903e21ae2b0be_codereview.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "cryptography-launches",
       "type": "site-graduation",
       "date_str": "2015-06-30",
@@ -2171,7 +2157,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd8ca78144ca92c8373_crypto.png"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-meta"],
+      "classes": ["featured-event", "tag-meta"],
       "slug": "can-stack-overflow-and-metas-logos-be-changed-temporarily-to-the-loveoverflows-logo",
       "type": "meta",
       "date_str": "2015-06-26",
@@ -2182,7 +2168,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "network-engineering-launches",
       "type": "site-graduation",
       "date_str": "2015-06-23",
@@ -2193,7 +2179,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd276f903392be2b0b1_networkengineering.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "blender-launches",
       "type": "site-graduation",
       "date_str": "2015-06-16",
@@ -2204,7 +2190,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd1be4a741d01205992_blender.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "biology-launches",
       "type": "site-graduation",
       "date_str": "2015-05-20",
@@ -2215,7 +2201,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd3be4a74434020599c_biology.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "stack-overflow-em-portugus-launches",
       "type": "site-graduation",
       "date_str": "2015-05-18",
@@ -2226,7 +2212,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd3ca781420832c8368_pt.stackoverflow.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "chemistry-launches",
       "type": "site-graduation",
       "date_str": "2015-05-13",
@@ -2237,7 +2223,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd409623949d43dfef3_chemistry.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "movies-tv-launches",
       "type": "site-graduation",
       "date_str": "2015-01-28",
@@ -2248,7 +2234,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd4be4a74085920599e_movies.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "expressionengine-answers-launches",
       "type": "site-graduation",
       "date_str": "2015-01-14",
@@ -2259,7 +2245,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fd3ca781417102c835b_expressionengine.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "salesforce-launches",
       "type": "site-graduation",
       "date_str": "2014-09-10",
@@ -2271,7 +2257,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbb76f903fd40e2af53_salesforce.png"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-experiment", "tag-se-quality-projectse-quality-project"],
+      "classes": ["featured-event", "tag-experiment", "tag-se-quality-projectse-quality-project"],
       "slug": "stack-exchange-quality-improvement-project-announced",
       "type": "experiment",
       "date_str": "2014-04-17",
@@ -2290,7 +2276,7 @@
       ]
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "academia-launches",
       "type": "site-graduation",
       "date_str": "2014-04-23",
@@ -2314,7 +2300,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a9692a9923d655e31ab1c_meta.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "graphic-design-launches",
       "type": "site-graduation",
       "date_str": "2014-04-02",
@@ -2326,7 +2312,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fba3fa13211cee45125_graphicdesign.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "personal-finance-money-launches",
       "type": "site-graduation",
       "date_str": "2014-02-26",
@@ -2338,7 +2324,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbc76f9031e9ae2af54_money.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "the-workplace-launches",
       "type": "site-graduation",
       "date_str": "2014-02-20",
@@ -2350,7 +2336,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fba09623959193dfdd4_workplace.png"
     },
     {
-      "classes": ["event-small", "tag-design"],
+      "classes": ["tag-design"],
       "slug": "top-bar-redesign",
       "type": "design",
       "date_str": "2013-12-04",
@@ -2377,7 +2363,7 @@
       "tags": []
     },
     {
-      "classes": ["event-large", "tag-stackexchange", "tag-chat", "tag-group"],
+      "classes": ["tag-stackexchange", "tag-chat", "tag-group"],
       "slug": "charcoal-founded",
       "type": "stackexchange chat group",
       "date_str": "2013-11-16",
@@ -2393,7 +2379,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "christianity-launches",
       "type": "site-graduation",
       "date_str": "2013-05-29",
@@ -2405,7 +2391,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbcca78145e162c834b_christianity.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "travel-launches",
       "type": "site-graduation",
       "date_str": "2013-01-22",
@@ -2417,7 +2403,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fba3fa1324358e45124_travel.png"
     },
     {
-      "classes": ["event-small", "tag-community-event"],
+      "classes": ["tag-community-event"],
       "slug": "first-networkwide-winter-bash",
       "type": "community-event",
       "date_str": "2012-12-19",
@@ -2428,7 +2414,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "ask-patents-launches",
       "type": "site-graduation",
       "date_str": "2012-09-20",
@@ -2440,7 +2426,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fadca781411dc2c8333_patents.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "mathematica-launches",
       "type": "site-graduation",
       "date_str": "2012-07-17",
@@ -2452,7 +2438,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fad76f9033213e2af2d_mathematica.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "mi-yodeya-launches",
       "type": "site-graduation",
       "date_str": "2012-05-08",
@@ -2464,7 +2450,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fac76f9036d74e2af2a_judaism.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "roleplaying-games-launches",
       "type": "site-graduation",
       "date_str": "2012-04-11",
@@ -2476,7 +2462,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fac3fa132456ce44fd1_rpg.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "skeptics-launches",
       "type": "site-graduation",
       "date_str": "2012-03-21",
@@ -2504,7 +2490,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-small", "tag-feature", "tag-blog"],
+      "classes": ["featured-event", "tag-feature", "tag-blog"],
       "slug": "stack-exchange-api-v20-launch",
       "type": "feature blog",
       "date_str": "2012-02-03",
@@ -2514,7 +2500,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "user-experience-launches",
       "type": "site-graduation",
       "date_str": "2012-01-03",
@@ -2526,7 +2512,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fab76f9032708e2af29_ux.png"
     },
     {
-      "classes": ["event-small", "tag-community-event"],
+      "classes": ["tag-community-event"],
       "slug": "first-winter-bash-on-gamingse",
       "type": "community-event",
       "date_str": "2011-12-16",
@@ -2537,7 +2523,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "science-fiction-fantasy-launches",
       "type": "site-graduation",
       "date_str": "2011-12-13",
@@ -2549,7 +2535,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f13fa132ebc4e3f87b_scifi.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "sharepoint-launches",
       "type": "site-graduation",
       "date_str": "2011-09-13",
@@ -2561,7 +2547,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f1be4a74615c200057_sharepoint.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "drupal-answers-launches",
       "type": "site-graduation",
       "date_str": "2011-08-30",
@@ -2573,7 +2559,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f1ca78140e962c2f4e_drupal.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "database-administrators-launches",
       "type": "site-graduation",
       "date_str": "2011-08-16",
@@ -2585,7 +2571,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f13fa13214c5e3f87c_dba.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "bicycles-launches",
       "type": "site-graduation",
       "date_str": "2011-08-02",
@@ -2597,7 +2583,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f1be4a740472200058_bicycles.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "information-security-launches",
       "type": "site-graduation",
       "date_str": "2011-07-12",
@@ -2609,7 +2595,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f23fa1321f35e3f87e_security.png"
     },
     {
-      "classes": ["event-small", "tag-feature", "tag-blog"],
+      "classes": ["tag-feature", "tag-blog"],
       "slug": "community-promotion-ads-extended-networkwide",
       "type": "feature blog",
       "date_str": "2011-05-31",
@@ -2620,7 +2606,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "android-enthusiasts-launches",
       "type": "site-graduation",
       "date_str": "2011-03-24",
@@ -2632,7 +2618,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f2b3437b4e89046547_android.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "electrical-engineering-launches",
       "type": "site-graduation",
       "date_str": "2011-03-21",
@@ -2644,7 +2630,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f3be4a7479bb20005b_electronics.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "geographic-information-systems-launches",
       "type": "site-graduation",
       "date_str": "2011-03-07",
@@ -2656,7 +2642,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f33fa1320864e3f88a_gis.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "home-improvement-launches",
       "type": "site-graduation",
       "date_str": "2011-03-03",
@@ -2668,7 +2654,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f3b3437b7c54046549_diy.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "physics-launches",
       "type": "site-graduation",
       "date_str": "2011-02-24",
@@ -2696,7 +2682,7 @@
       ]
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "wordpress-development-launches",
       "type": "site-graduation",
       "date_str": "2011-02-14",
@@ -2708,7 +2694,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f3ca7814e11d2c2f59_wordpress.png"
     },
     {
-      "classes": ["event-small", "tag-feature", "tag-blog"],
+      "classes": ["tag-feature", "tag-blog"],
       "slug": "new-feature-moderator-private-messages",
       "type": "feature blog",
       "date_str": "2011-02-02",
@@ -2719,7 +2705,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "ask-different-launches",
       "type": "site-graduation",
       "date_str": "2011-01-28",
@@ -2731,7 +2717,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f33fa132a777e3f87f_apple.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "unix-linux-launches",
       "type": "site-graduation",
       "date_str": "2011-01-12",
@@ -2743,7 +2729,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a64f2ca78141a942c2f4f_unix.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "software-engineering-launches",
       "type": "site-graduation",
       "date_str": "2010-12-16",
@@ -2755,7 +2741,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b742986a645603c99042_softwareengineering.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "theoretical-computer-science-launches",
       "type": "site-graduation",
       "date_str": "2010-11-30",
@@ -2767,7 +2753,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b743b7c9a87426731365_cstheory.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "english-language-usage-launches",
       "type": "site-graduation",
       "date_str": "2010-11-22",
@@ -2779,7 +2765,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b7413ec4082b237285f1_english.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "tex-latex-launches",
       "type": "site-graduation",
       "date_str": "2010-11-11",
@@ -2791,7 +2777,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b743986a644e9dc99045_tex.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "cross-validated-launches",
       "type": "site-graduation",
       "date_str": "2010-11-04",
@@ -2803,7 +2789,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b74091110638450476b7_stats.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "photography-launches",
       "type": "site-graduation",
       "date_str": "2010-10-28",
@@ -2815,7 +2801,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b740b7c9a891de731360_photo.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "mathematics-launches",
       "type": "site-graduation",
       "date_str": "2010-10-25",
@@ -2827,7 +2813,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f9a482e7bfbd01f29_math.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "game-development-launches",
       "type": "site-graduation",
       "date_str": "2010-10-21",
@@ -2839,7 +2825,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f0f2d35e7f36c855b_gamedev.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "seasoned-advice-launches",
       "type": "site-graduation",
       "date_str": "2010-10-14",
@@ -2851,7 +2837,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73fbbdced6504e1b257_cooking.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "webmasters-launches",
       "type": "site-graduation",
       "date_str": "2010-10-13",
@@ -2863,7 +2849,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b740986a64b384c99041_webmasters.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "ask-ubuntu-launches",
       "type": "site-graduation",
       "date_str": "2010-10-10",
@@ -2875,7 +2861,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f9111064d170476b6_askubuntu.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "arqade-launches",
       "type": "site-graduation",
       "date_str": "2010-10-06",
@@ -2887,7 +2873,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73e9f25ef12fb54b6c7_gaming.png"
     },
     {
-      "classes": ["event-small", "tag-site-graduation"],
+      "classes": ["tag-site-graduation"],
       "slug": "web-applications-launches",
       "type": "site-graduation",
       "date_str": "2010-09-30",
@@ -2899,7 +2885,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b73f591547f1460177fe_webapps.png"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-site-launch", "tag-area51"],
+      "classes": ["featured-event", "tag-site-launch", "tag-area51"],
       "slug": "area-51-launches-in-beta",
       "type": "site-launch",
       "date_str": "2010-06-22",
@@ -2946,7 +2932,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b500b7c9a87f4a72f18c_apple-touch-icon.png"
     },
     {
-      "classes": ["featured-event", "event-large", "tag-blog", "tag-charity"],
+      "classes": ["featured-event", "tag-blog", "tag-charity"],
       "slug": "first-stack-overflow-gives-back",
       "type": "blog charity",
       "date_str": "2009-12-31",
@@ -2956,7 +2942,7 @@
       "tags": []
     },
     {
-      "classes": ["featured-event", "event-small", "tag-blog", "tag-feature"],
+      "classes": ["featured-event", "tag-blog", "tag-feature"],
       "slug": "stack-overflow-careers-launched",
       "type": "blog feature",
       "date_str": "2009-11-05",
@@ -2967,7 +2953,7 @@
       "tags": []
     },
     {
-      "classes": ["event-small", "tag-site-launch"],
+      "classes": ["tag-site-launch"],
       "slug": "mathoverflow-launches",
       "type": "site-launch",
       "date_str": "2009-09-28",
@@ -2979,7 +2965,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b4f259154765bd015bb2_mathoverflow.png"
     },
     {
-      "classes": ["event-small", "tag-site-launch"],
+      "classes": ["tag-site-launch"],
       "slug": "super-user-launches",
       "type": "site-launch",
       "date_str": "2009-08-18",
@@ -2991,7 +2977,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b4e65915476357015ba7_superuser.png"
     },
     {
-      "classes": ["event-small", "tag-site-launch"],
+      "classes": ["tag-site-launch"],
       "slug": "server-fault-launches",
       "type": "site-launch",
       "date_str": "2009-05-26",
@@ -3043,7 +3029,7 @@
       ]
     },
     {
-      "classes": ["event-large", "tag-feature", "tag-blog", "tag-inappropriate-advertisementsadvertisingadvertising"],
+      "classes": ["tag-feature", "tag-blog", "tag-inappropriate-advertisementsadvertisingadvertising"],
       "slug": "jeff-atwood-states-that-they-will-never-accept-animated-ads",
       "type": "feature blog",
       "date_str": "2009-03-25",
@@ -3067,7 +3053,7 @@
       ]
     },
     {
-      "classes": ["featured-event", "event-large", "tag-site-launch", "tag-company"],
+      "classes": ["featured-event", "tag-site-launch", "tag-company"],
       "slug": "stack-overflow-launches",
       "type": "site-launch",
       "date_str": "2008-09-15",
@@ -3084,7 +3070,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
     },
     {
-      "classes": ["event-small", "tag-beta"],
+      "classes": ["tag-beta"],
       "slug": "stack-overflow-private-beta",
       "type": "beta",
       "date_str": "2008-07-31",
@@ -3106,7 +3092,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
     },
     {
-      "classes": ["event-large", "tag-blog"],
+      "classes": ["tag-blog"],
       "slug": "jeff-atwood-blogs-about-stack-overflow",
       "type": "blog",
       "date_str": "2008-04-16",
@@ -3117,7 +3103,7 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b48caa04976c9344370c_apple-touch-icon.png"
     },
     {
-      "classes": ["event-large", "tag-blog"],
+      "classes": ["tag-blog"],
       "slug": "jeff-atwood-releases-a-public-poll-for-the-name-of-the-project",
       "type": "blog",
       "date_str": "2008-04-06",
