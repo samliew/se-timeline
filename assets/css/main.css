@@ -306,7 +306,7 @@ body.fixed-header .navbar {
   pointer-events: none;
 }
 
-/* Desktop Only, alternating events in left/right column */
+/* MEDIA: Desktop Only - alternating events in left/right column */
 @media (min-width: 768px) {
   body {
     --events-offset: 115px; /* average height of normal events (mostly without desc) */
@@ -331,7 +331,10 @@ body.fixed-header .navbar {
   .event:nth-child(odd) {
     transform: translate(0px, calc(var(--events-offset) * -1));
   }
+}
 
+/* MEDIA: Extra Large Desktop */
+@media (min-width: 1280px) {
   /* Event on the left column, followed by a large event below it */
   .event:nth-child(odd):not(.event-large) + .event-large + .event-large,
   .event:nth-child(odd):not(.event-xlarge) + .event-large + .event-large {

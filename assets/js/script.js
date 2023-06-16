@@ -142,13 +142,16 @@ const buildTimeline = async () => {
     if (el.textContent?.trim() === '') el.remove();
   });
 
+  // Elements are naturally taller in smaller screens
+  const desktopMultiplier = window.innerWidth < 1200 ? 1.3 : 1;
+
   // Resize small and large boxes
   document.querySelectorAll('.box').forEach(el => {
     const $el = $(el);
     var h = $el.outerHeight();
-    if (h < 180) $el.parent().addClass('event-small');
-    if (h > 350) $el.parent().addClass('event-large');
-    if (h > 700) $el.parent().addClass('event-xlarge');
+    if (h < 180 * desktopMultiplier) $el.parent().addClass('event-small');
+    if (h > 350 * desktopMultiplier) $el.parent().addClass('event-large');
+    if (h > 700 * desktopMultiplier) $el.parent().addClass('event-xlarge');
   });
 
   // Show url in tooltips for links that don't have a title
