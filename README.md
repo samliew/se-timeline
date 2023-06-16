@@ -22,28 +22,34 @@ The timeline data is stored in the [timeline_data.json](https://github.com/samli
 
 ### Event Object Properties
 
-The properties of each event item is as follows:
+The properties of each event item is as follows. \*\*The properties `date_str` and `title` are required.
 
 ```json
 {
+  "date_str": "2016-05-08", // ** displayed date string, in the format YYYY-MM-DD (UTC)
+  "title": "SOBotics founded", // ** title
+  "slug": "sobotics-founded", // this is auto-generated if not set
+  "type": "stackoverflow chat group blog", // described using single words separated by space
+  "summary": "SOBotics creates bots to help with...", // a short summary displayed in italics
+  "body": "<p>body text</p>", // body html
+  // an array of CSS classes, also used for filtering
   "classes": [
-    "featured-event" // (optional) use this class for a red border
+    "featured-event", // feature with a red border
+    "tag-moderator", // event is about moderator
+    "tag-staff", // event is about staff
+    "tag-resignation", // event is about resignation
+    "tag-reinstatement", // event is about reinstatement
+    "tag-site-graduation" // event is about site graduation
   ],
-  "slug": "sobotics-founded", // (optional) this is auto-generated if not set
-  "type": "stackoverflow chat group blog", // (required) describe the event using single words
-  "date_str": "2016-05-08", // (required) displayed date string, in the format YYYY-MM-DD (UTC)
-  "title": "SOBotics founded", // (required) title
-  "summary": "SOBotics creates bots to help with...", // (optional) a short summary, displayed in italics
-  "body": "<p>body text</p>", // (optional) body html
+  // an array of button links
   "links": [
-    // (optional) an array of button links (up to three)
     {
       "text": "chat room",
       "url": "https://chat.stackoverflow.com/rooms/111347/sobotics"
     }
   ],
+  // an array of links visually displayed like SE tags
   "tags": [
-    // (optional) an array of tags (up to three)
     {
       "text": "licensing",
       "url": "https://meta.stackexchange.com/questions/tagged/licensing?tab=newest"
@@ -53,8 +59,10 @@ The properties of each event item is as follows:
       "url": "https://meta.stackoverflow.com/questions/tagged/licensing?tab=newest"
     }
   ],
-  "linkedEvent": "#another-event-slug", // (optional) another event's slug prefixed with a #
-  "icon": "" // (optional) url of an image (for site graduation events)
+  // another event's slug prefixed with a #
+  "linkedEvent": "#another-event-slug",
+  // url of an image (for site graduation events)
+  "icon": ""
 }
 ```
 

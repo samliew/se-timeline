@@ -14,6 +14,20 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
+/* Webflow Overrides */
+.w-col {
+  min-height: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+svg {
+  fill: currentColor;
+}
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.05);
+}
+
 /* Header */
 body {
   --fixed-header-height: 80px;
@@ -92,13 +106,6 @@ body.fixed-header .navbar {
   margin-right: 0.5em;
 }
 
-/* Webflow Overrides */
-.w-col {
-  min-height: 1px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 /* Utility */
 .d-block {
   display: block !important;
@@ -111,15 +118,37 @@ body.fixed-header .navbar {
   display: none !important;
 }
 
-/* Elements */
-svg {
-  fill: currentColor;
-}
-button:hover {
-  cursor: pointer;
-  filter: brightness(1.05);
+.rainbow-text {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent;
+
+  --r: #ff0000;
+  --o: #ffa500;
+  --y: #ffdc00;
+  --g: #008000;
+  --b: #0000ff;
+  --p: #800080;
+
+  background: linear-gradient(
+      90deg,
+      var(--r),
+      var(--o),
+      var(--y),
+      var(--g),
+      var(--b),
+      var(--p),
+      var(--r),
+      var(--o),
+      var(--y),
+      var(--g),
+      var(--b)
+    )
+    left center / 100%;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
 }
 
+/* Filter Checkboxes */
 .inline input:radio,
 .inline input:checkbox {
   margin: 0 !important;
@@ -127,15 +156,6 @@ button:hover {
 
 .filter-container {
   font-size: 0.8rem;
-}
-
-.box a {
-  word-break: break-word;
-}
-
-#event-template,
-.button[href="#"] {
-  display: none;
 }
 
 .filter-group label {
@@ -152,6 +172,30 @@ button:hover {
 .timeline.hide-descriptions .event-tags,
 .timeline.hide-descriptions .linked-event {
   display: none !important;
+}
+
+/* Timeline Events */
+.box a {
+  word-break: break-word;
+}
+
+.button[href="#"] {
+  display: none;
+}
+
+.contribution-notice {
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.contribution-notice .box {
+  padding: 1.8rem;
+  border-style: dashed;
+}
+
+.events-list {
+  min-height: 0;
 }
 
 .event:hover .box,
@@ -217,17 +261,6 @@ button:hover {
   margin-left: 0.5rem;
 }
 
-.contribution-notice {
-  max-width: 600px;
-  margin: 1.5rem auto;
-  padding: 0 20px;
-  text-align: center;
-}
-.contribution-notice .box {
-  padding: 1.8rem;
-  border-style: dashed;
-}
-
 @media (max-width: 767px) {
   .timeline {
     margin-left: 1rem;
@@ -273,49 +306,18 @@ button:hover {
   pointer-events: none;
 }
 
-.rainbow-text {
-  background-clip: text !important;
-  -webkit-background-clip: text !important;
-  color: transparent;
-
-  --r: #ff0000;
-  --o: #ffa500;
-  --y: #ffdc00;
-  --g: #008000;
-  --b: #0000ff;
-  --p: #800080;
-
-  background: linear-gradient(
-      90deg,
-      var(--r),
-      var(--o),
-      var(--y),
-      var(--g),
-      var(--b),
-      var(--p),
-      var(--r),
-      var(--o),
-      var(--y),
-      var(--g),
-      var(--b)
-    )
-    left center / 100%;
-  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
-}
-
 /* Desktop Only, alternating events in left/right column */
 @media (min-width: 768px) {
   body {
-    --events-offset: 160px;
+    --events-offset: 115px; /* average height of normal events (mostly without desc) */
   }
 
   .timeline-year {
     margin-bottom: var(--events-offset);
   }
 
-  /* Animate events so we can see changes */
-  .event {
-    transition: all 1s ease;
+  .events-list {
+    min-height: 50px;
   }
 
   /* Reset transformations */
@@ -335,4 +337,10 @@ button:hover {
   .event:nth-child(odd):not(.event-xlarge) + .event-large + .event-large {
     transform: translate(0px, -35%);
   }
+}
+
+/* Dev */
+/* Animate events so we can see changes */
+.dev .event {
+  transition: all 1s ease;
 }
