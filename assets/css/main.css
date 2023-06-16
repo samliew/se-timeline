@@ -237,7 +237,9 @@ body.fixed-header .navbar {
 
 .event.event-hidden {
   opacity: 0.2;
-  pointer-events: none;
+}
+.event.event-hidden:hover {
+  opacity: 0.9;
 }
 
 .event .event-date {
@@ -318,6 +320,10 @@ body.fixed-header .navbar {
 
   .events-list {
     min-height: 50px;
+  }
+
+  .event {
+    transition: opacity 0.6s ease;
   }
 
   /* Reset transformations */
