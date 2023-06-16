@@ -46,7 +46,6 @@
   <aside class="filter-container">
     <div class="filter-section-title">show:</div>
     <div class="filters">
-      <div class="filter-group inline"><label title="event descriptions"><input type="checkbox" id="event-descriptions" checked /> event descriptions</label></div>
       <div class="filter-group inline"><label title="moderator resignations and reinstatements"><input type="checkbox" id="mod-resignations" checked /> mod movements</label></div>
       <div class="filter-group inline"><label title="staff fired and resignations"><input type="checkbox" id="staff-resignations" checked /> staff movements</label></div>
       <div class="filter-group inline"><label title="sites graduating (launching) out of beta"><input type="checkbox" id="site-graduations" checked /> site graduations</label></div>
@@ -56,7 +55,12 @@
   <main id="timeline" class="timeline">
     <div class="timeline-line"></div>
     <div class="events-container">
-      <h2 class="timeline-year static-year">present</h2>
+      <div class="static-year">
+        <h2 class="timeline-year static-year">present</h2>
+        <div class="contribution-notice">
+          <div class="box">Missing recent events? <a href="/event-editor">Add it here</a>!</div>
+        </div>
+      </div>
 
       <!-- EXAMPLE EVENT
         <div class="year-group">
@@ -93,8 +97,8 @@
         </div>
         -->
 
-      <h2 class="timeline-year static-year">the beginning</h2>
     </div>
+    <h2 class="timeline-year static-year">the beginning</h2>
     <div class="left-mask"></div>
     <div class="right-mask"></div>
   </main>

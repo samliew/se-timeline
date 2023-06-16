@@ -137,20 +137,6 @@ const buildTimeline = async () => {
     currentYearEventsElem.append(eventEl);
   });
 
-  // Add notice to link users to event editor
-  const thisYear = new Date().getFullYear();
-  if (currentYear !== thisYear) {
-    currentYear = thisYear;
-    const notice = document.createElement('aside');
-    notice.classList.add('contribution-notice');
-    notice.innerHTML = `<div class="box">Missing recent events? <a href="/event-editor">Add it here</a>!</div>`;
-    timelineEl.children[0].after(notice);
-  }
-
-  // Move "beginning" to end
-  const beginning = [...timelineEl.querySelectorAll('.static-year')].pop();
-  timelineEl.append(beginning);
-
   // Remove unused/empty elements
   document.querySelectorAll('.event-summary, .event-description, .event-link').forEach(el => {
     if (el.textContent?.trim() === '') el.remove();
@@ -277,11 +263,6 @@ $(async function () {
   const tags = $('.event-tags');
   tags.each(function (i, el) {
     $(this).closest('.event').addClass(tagsStrToClass(el.textContent));
-  });
-  // Toggle descr
-  $('#event-descriptions').change(function () {
-    const chk = !this.checked;
-    $('#timeline').toggleClass('hide-descriptions', chk);
   });
   // Filter tags
   $('#mod-resignations').change(function () {

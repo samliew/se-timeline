@@ -192,13 +192,8 @@ button:hover {
 }
 
 .event.event-hidden {
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.event.event-hidden > * {
-  display: none !important;
+  opacity: 0.2;
+  pointer-events: none;
 }
 
 .event .event-date {
@@ -241,10 +236,6 @@ button:hover {
   .sidebar {
     display: none !important;
   }
-}
-
-.timeline.hide-descriptions .connector {
-  top: 68px;
 }
 
 .sidebar {
@@ -314,21 +305,22 @@ button:hover {
 
 /* Desktop Only, extra margins */
 @media (min-width: 768px) {
-  #timeline:not(.hide-descriptions) .events-list .event:nth-child(even) {
-    margin-top: 90px;
+  .events-list {
+    min-height: 320px;
   }
 
   #timeline:not(.hide-descriptions) .events-list .event.featured-event:nth-child(even) {
     margin-top: 160px;
   }
 
-  .events-list {
-    min-height: 400px;
+  /* Event on the even column */
+  .events-list .event:nth-child(even) {
+    margin-top: 90px;
   }
 
-  .events-list .event.event-small:not(.event-hidden):nth-child(odd) + .event.event-hidden,
-  .events-list .event.event-hidden:nth-child(even) + .event:not(.event-hidden) {
-    margin-top: 40px !important;
+  /* Featured event on the even column */
+  .events-list .event.featured-event:nth-child(even) {
+    margin-top: 200px;
   }
 
   .timeline-year {
@@ -346,9 +338,5 @@ button:hover {
 
   .event.event-large {
     margin-bottom: 30px;
-  }
-
-  .event.event-small {
-    margin-bottom: -20px;
   }
 }
