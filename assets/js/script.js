@@ -225,14 +225,18 @@ $(async function () {
   await buildTimeline();
   initYearNav();
 
+  const offsetConstant = () => {
+    const headerHeight = $('header').outerHeight() || 80;
+    const timelineYearHeight = $('.timeline-year').outerHeight() || 0;
+    return headerHeight + timelineYearHeight;
+  }
+
   // When event box is clicked, scroll to it
-  const topHeight = $('header').outerHeight() || 80;
-  const offsetConstant = 108 + topHeight;
   $('.timeline').on('click', '.event', function () {
     history.replaceState(null, document.title, `${location.pathname}${location.search}#${this.id}`);
-    animateTo($(this).offset().top - offsetConstant);
+    animateTo($(this).offset().top - offsetConstant());
   }).on('click', '.timeline-year:not(.static-year)', function () {
-    animateTo($(this).next().children().first().offset().top - offsetConstant);
+    animateTo($(this).next().children().first().offset().top - offsetConstant());
   }).on('click', '.linked-event', function (evt) {
     evt.stopPropagation();
     goToEvent(this.hash.substr(1));
@@ -248,7 +252,7 @@ $(async function () {
     // On page load scroll to item if match hash
     if (slug === location.hash?.slice(1)) {
       const scrollToPermalink = function () {
-        animateTo(eventEl.offset().top - offsetConstant);
+        animateTo(eventEl.offset().top - offsetConstant());
         eventEl.addClass('highlight');
         setTimeout(() => {
           document.querySelectorAll('.event.highlight').forEach(el => el.classList.remove('highlight'));
