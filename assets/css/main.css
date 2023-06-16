@@ -303,40 +303,36 @@ button:hover {
   -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
 }
 
-/* Desktop Only, extra margins */
+/* Desktop Only, alternating events in left/right column */
 @media (min-width: 768px) {
-  .events-list {
-    min-height: 320px;
-  }
-
-  #timeline:not(.hide-descriptions) .events-list .event.featured-event:nth-child(even) {
-    margin-top: 160px;
-  }
-
-  /* Event on the even column */
-  .events-list .event:nth-child(even) {
-    margin-top: 90px;
-  }
-
-  /* Featured event on the even column */
-  .events-list .event.featured-event:nth-child(even) {
-    margin-top: 200px;
+  body {
+    --events-offset: 160px;
   }
 
   .timeline-year {
-    margin-bottom: 160px;
+    margin-bottom: var(--events-offset);
   }
 
-  .events-container .timeline-year + .event.featured-event,
-  .events-container .timeline-year + .event.event-large {
-    margin-top: 0px;
+  /* Animate events so we can see changes */
+  .event {
+    transition: all 1s ease;
   }
 
-  .event.featured-event + .featured-event {
-    margin-top: -40px;
+  /* Reset transformations */
+  .event,
+  .event.featured-event {
+    margin: 0 0 1rem;
+    transform: translate(0, 0);
   }
 
-  .event.event-large {
-    margin-bottom: 30px;
+  /* Events on the left column */
+  .event:nth-child(odd) {
+    transform: translate(0px, calc(var(--events-offset) * -1));
+  }
+
+  /* Event on the left column, followed by a large event below it */
+  .event:nth-child(odd):not(.event-large) + .event-large + .event-large,
+  .event:nth-child(odd):not(.event-xlarge) + .event-large + .event-large {
+    transform: translate(0px, -35%);
   }
 }

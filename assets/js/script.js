@@ -147,7 +147,8 @@ const buildTimeline = async () => {
     const $el = $(el);
     var h = $el.outerHeight();
     if (h < 180) $el.parent().addClass('event-small');
-    if (h > 260) $el.parent().addClass('event-large');
+    if (h > 300) $el.parent().addClass('event-large');
+    if (h > 600) $el.parent().addClass('event-xlarge');
   });
 
   // Show url in tooltips for links that don't have a title
