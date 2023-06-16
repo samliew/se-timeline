@@ -234,7 +234,7 @@ fieldset > legend:first-child {
 }
 
 /* Mobile Only */
-@media screen and (max-width: 768px) {
+@media (max-width: 767px) {
   .event-editor .class-grid {
     grid-template-columns: repeat(2, auto);
   }

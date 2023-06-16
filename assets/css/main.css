@@ -50,9 +50,34 @@ body.fixed-header .navbar {
 .header-right {
   justify-content: flex-end;
 }
-@media screen and (max-width: 768px) {
+.header-link h1 {
+  white-space: nowrap;
+  line-height: 1.3;
+}
+@media (max-width: 767px) {
   body.fixed-header {
     --fixed-header-height: 40px;
+  }
+  .navbar {
+    height: 40px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .header-left {
+    display: none;
+    width: 100%;
+  }
+}
+
+/* Footer */
+.footer {
+  margin: 0;
+  border-top: 1px solid silver;
+  box-shadow: inset 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 3rem 1rem 3rem;
   }
 }
 
@@ -208,7 +233,7 @@ button:hover {
   border-style: dashed;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 767px) {
   .timeline {
     margin-left: 1rem;
     margin-right: 0;
@@ -288,7 +313,7 @@ button:hover {
 }
 
 /* Desktop Only, extra margins */
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   #timeline:not(.hide-descriptions) .events-list .event:nth-child(even) {
     margin-top: 90px;
   }
