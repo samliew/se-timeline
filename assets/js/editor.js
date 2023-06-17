@@ -58,7 +58,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     draggable_modal: true,
     elementpath: false,
     plugins: 'anchor autolink charmap code emoticons image link lists media searchreplace',
-    toolbar: 'bold italic underline link numlist bullist removeformat | undo redo | searchreplace code',
+    toolbar: 'bold italic underline link blockquote numlist bullist removeformat | undo redo | searchreplace code',
     menubar: false,
     statusbar: false,
     min_height: 300,
