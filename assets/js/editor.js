@@ -13,7 +13,12 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 // Main
 (async () => {
 
-  console.clear();
+  // If this script is loaded with ".html" extension, redirect to "/"
+  if (location.pathname.endsWith('.html')) {
+    const url = location.pathname.replace(/[^/]+\.html$/, '');
+    history.replaceState(null, null, url + location.search + location.hash);
+  }
+
   const today = new Date();
   const startOfUTCToday = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getUTCDate()));
 
@@ -210,7 +215,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
         }
       });
 
-    } catch (e) { } // ignore errors
+    } catch (err) { } // ignore errors
 
     // Format form fields
     await delay(15);
@@ -280,7 +285,6 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
   // EVENT: RESET - Form reset
   form.addEventListener('reset', async evt => {
-
     await delay(1);
 
     // Remove required attribute from link-grid and tags-grid
@@ -319,7 +323,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     output.value = '';
 
     // Clear URL params
-    history.replaceState(null, '', location.pathname);
+    history.replaceState(null, null, location.pathname);
   });
 
   // Preview image error state
@@ -394,7 +398,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       const item = items.find(v => v.slug === slug);
 
       // Replace URL
-      window.history.replaceState({}, '', window.location.pathname + `?event=${slug}`);
+      window.history.replaceState(null, null, window.location.pathname + `?event=${slug}`);
 
       // Reset dropdown if not found
       if (!item) {
@@ -404,6 +408,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
       // Update output and import JSON
       output.value = JSON.stringify(item, null, 2) + ',';
+
       tryImportJson();
     });
 
@@ -453,14 +458,14 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
         success = await navigator.clipboard.writeText(content || textArea.value);
       }
     }
-    catch (err) { }
+    catch (err) { } // ignore errors
 
     // Method 2
     try {
       if (!success) document.execCommand('copy');
       success = true;
     }
-    catch (err) { }
+    catch (err) { } // ignore errors
 
     // Remove temporary textarea and restore previous focus
     document.body.removeChild(textArea);
