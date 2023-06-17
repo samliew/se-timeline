@@ -317,6 +317,9 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
     // In addition to form reset, clear output
     output.value = '';
+
+    // Clear URL params
+    history.replaceState(null, '', location.pathname);
   });
 
   // Preview image error state
