@@ -1,7 +1,8 @@
 ---
 name: Bug Report
-about: Report an issue
+about: Report an issue about the website or project
 labels: bug
+assignees: samliew
 ---
 
 ### Describe the bug
@@ -10,14 +11,14 @@ Please state the issue, and a description of the bug.
 
 ### To Reproduce
 
-Steps to reproduce the behavior:
+Steps to reproduce the behaviour:
 
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-### Expected behavior
+### Expected behaviour
 
 A clear and concise description of what you expected to happen.
 
