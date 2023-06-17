@@ -12,6 +12,29 @@
       "tags": []
     },
     {
+      "classes": [
+        "featured-event",
+        "tag-staff"
+      ],
+      "slug": "2023-stack-exchange-staff-layoffs",
+      "type": "staff fired",
+      "date_str": "2023-05-10",
+      "title": "2023 Stack Exchange staff layoffs",
+      "summary": "approximately 10% of its staff were laid-off",
+      "body": "<p><a href=\"https://meta.stackexchange.com/q/389060\" target=\"_blank\" rel=\"noopener\">2023 Layoff impacting 58 SO/SE staff</a></p><blockquote>I&rsquo;m writing today to share that I&rsquo;ve made the very difficult decision to reduce our workforce by about 10%, or 58 employees</blockquote>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/q/389060"
+        },
+        {
+          "text": "blog post",
+          "url": "https://stackoverflow.blog/2023/05/10/a-message-from-prashanth-chandrasekar-ceo-stack-overflow/"
+        }
+      ],
+      "tags": []
+    },
+    {
       "classes": ["tag-staff", "tag-resignation"],
       "slug": "nick-craver-resigns",
       "type": "staff resignation",
