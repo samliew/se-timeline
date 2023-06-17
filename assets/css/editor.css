@@ -61,6 +61,13 @@ fieldset > legend:first-child {
   border-color: #ff0000;
   box-shadow: inset 0 0 0 2px #ff0000;
 }
+.event-editor .w-input.w-input-large {
+  height: auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 .event-editor .w-checkbox {
   width: 1rem;
