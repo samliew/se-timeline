@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "classes": ["tag-moderator", "tag-resignation"],
+      "slug": "ortolano-resigns",
+      "type": "moderator resignation",
+      "date_str": "2023-05-31",
+      "title": "Massimo Ortolano resigns",
+      "summary": "moderator on Academia",
+      "body": "<p><a href=\"https://academia.meta.stackexchange.com/q/5283\" target=\"_blank\" rel=\"noopener\">It's time for me to resign</a></p>",
+      "links": [],
+      "tags": []
+    },
+    {
       "classes": ["tag-staff", "tag-resignation"],
       "slug": "nick-craver-resigns",
       "type": "staff resignation",
