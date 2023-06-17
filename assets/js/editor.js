@@ -45,28 +45,42 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
   // Init Tinymce
   // https://www.tiny.cloud/docs/release-notes/release-notes50/
+  const bodyField = document.querySelector('#body');
   tinymce.init({
-    selector: '#body',
+    target: bodyField,
     content_css: [
-      "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap",
-      "/assets/css/webflow.9498fd7ed.css",
-      "/assets/css/main.css",
-      "/assets/css/tinymce-override.css",
+      "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&",
+      "/assets/css/webflow.9498fd7ed.css?",
+      "/assets/css/main.css?",
+      "/assets/css/tinymce-override.css?",
     ],
+    cache_suffix: 'v=1', // update this if there are breaking changes in the stylesheet
     branding: false,
     contextmenu: false,
     draggable_modal: true,
-    elementpath: false,
+    elementpath: true,
     plugins: 'anchor autolink charmap code emoticons image link lists media searchreplace',
     toolbar: 'bold italic underline link blockquote numlist bullist removeformat | undo redo | searchreplace code',
     menubar: false,
-    statusbar: false,
-    min_height: 300,
+    statusbar: true,
+    min_height: 320,
+    custom_undo_redo_levels: 30,
+    invalid_elements: 'script,style,div',
     setup: editor => {
       editor.on('change', evt => {
-        console.log('the event object ', evt);
-        console.log('the editor object ', editor);
-        console.log('the content ', editor.getContent());
+        console.log({
+          event: evt,
+          editor,
+          content: editor.getContent(),
+        });
+
+        // If there are blockquotes with only a single paragraph, remove the inner paragraph
+        [...editor.getBody().querySelectorAll('blockquote')].forEach(bq => {
+          const p = bq.querySelector('p');
+          if (p && !p.previousElementSibling && !p.nextElementSibling) {
+            bq.innerHTML = p.innerHTML;
+          }
+        });
 
         // Update textarea
         const target = editor.targetElm;
