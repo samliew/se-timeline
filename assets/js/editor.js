@@ -286,10 +286,10 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     tryGenerateJson();
   });
 
-  // EVENT: Slug field focus
+  // EVENT: Title field blur
   const titleField = document.querySelector('#title');
   const slugField = document.querySelector('#slug');
-  slugField.addEventListener('focus', evt => {
+  titleField.addEventListener('blur', evt => {
     // Generate slug from title if empty
     if (slugField.value === '') {
       slugField.value = toSlug(titleField.value);
