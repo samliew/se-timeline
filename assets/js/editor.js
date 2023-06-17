@@ -215,6 +215,9 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
         }
       });
 
+      // Scroll to top of page
+      window.scrollTo(0, 0);
+
     } catch (err) { } // ignore errors
 
     // Format form fields
@@ -281,6 +284,16 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     const target = evt.target;
     formatField(target);
     tryGenerateJson();
+  });
+
+  // EVENT: Slug field focus
+  const titleField = document.querySelector('#title');
+  const slugField = document.querySelector('#slug');
+  slugField.addEventListener('focus', evt => {
+    // Generate slug from title if empty
+    if (slugField.value === '') {
+      slugField.value = toSlug(titleField.value);
+    }
   });
 
   // EVENT: RESET - Form reset
