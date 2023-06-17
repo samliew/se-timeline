@@ -1,9 +1,6 @@
 name: Validate JSON
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     paths:
       - "**.json"
