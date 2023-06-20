@@ -104,6 +104,21 @@
       ]
     },
     {
+      "date_str": "2021-11-23",
+      "title": "BoltClock and Bhargav Rao resign",
+      "slug": "boltclock-and-bhargav-rao-resign",
+      "type": "moderators resignation",
+      "summary": "two Stack Overflow moderators resign",
+      "body": "<blockquote><p>On November 22nd and 23rd, 2021 we celebrated two big anniversaries - a 10 year moderator tenure for BoltClock on the 23rd and a 5 year tenure for Bhargav Rao. In their ways, these two have done an immense service to this site and I'm honored they've spent so much time helping us out and responding to the needs of Stack Overflow.</p><p>Considering this, I'm sad to announce that&nbsp;<strong>they're both stepping down as moderators.</strong> While they won't have diamonds as of later today, they've both assured me that they won't completely disappear on us all, so we hope to see them around in some capacity - but I certainly wish them well and some deserved time off from SO.</p>-- <a href=\"https://meta.stackoverflow.com/q/413240\">Catija</a></blockquote>",
+      "classes": ["tag-moderator", "tag-resignation"],
+      "links": [
+        {
+          "text": "farewell post",
+          "url": "https://meta.stackoverflow.com/questions/413240/two-b-or-not-two-b-farewell-boltclock-and-bhargav"
+        }
+      ]
+    },
+    {
       "classes": ["tag-staff", "tag-resignation"],
       "slug": "nick-craver-resigns",
       "type": "staff resignation",
