@@ -102,11 +102,11 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     // Callback
     setup: editor => {
       editor.on('change', evt => {
-        console.log({
-          event: evt,
-          editor,
-          content: editor.getContent(),
-        });
+        // console.log({
+        //   event: evt,
+        //   editor,
+        //   content: editor.getContent(),
+        // });
 
         // If there are blockquotes with only a single paragraph, remove the inner paragraph
         [...editor.getBody().querySelectorAll('blockquote')].forEach(bq => {
