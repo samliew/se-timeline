@@ -22,7 +22,8 @@
           "url": "https://meta.stackoverflow.com/q/425000"
         }
       ],
-      "tags": []
+      "tags": [],
+      "linkedEvent": "#stack-overflow-required-moderators-to-stop-moderating-ai-generated-content"
     },
     {
       "classes": ["tag-moderator", "tag-resignation"],
@@ -34,6 +35,21 @@
       "body": "<p><a href=\"https://academia.meta.stackexchange.com/q/5283\" target=\"_blank\" rel=\"noopener\">It's time for me to resign</a></p>",
       "links": [],
       "tags": []
+    },
+    {
+      "date_str": "2023-05-29",
+      "title": "Stack Overflow required moderators to stop moderating AI-generated content",
+      "slug": "stack-overflow-required-moderators-to-stop-moderating-ai-generated-content",
+      "type": "policy ai community",
+      "summary": "The company reversed an earlier policy that allowed moderators to remove AI-generated content and suspend users",
+      "body": "<p>ChatGPT was made available in November 2022, and quickly became extremely popular. One of the things it was used for was to quickly post machine-generated answers to questions on Stack Overflow. Because of quality and scalability issues, the community had banned AI-generated content, and the moderators had been encouraged to issue suspensions by the Community Managers (Stack Overflow employees who liaise with the community in general and the moderators in particular.</p><p>One of the complications was that moderators had been given one instruction in private, which they were not allowed to share or discuss outside the moderator community. Another was that this policy was rolled out in violation of existing processes for creating new instructions for moderators.</p>",
+      "linkedEvent": "#general-moderation-strike-starts",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/questions/389582/what-is-the-network-policy-regarding-ai-generated-content"
+        }
+      ]
     },
     {
       "classes": ["featured-event", "tag-staff"],
