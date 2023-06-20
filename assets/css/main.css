@@ -166,6 +166,7 @@ body.fixed-header .navbar {
 
 .rainbow-text {
   background-clip: text !important;
+  -moz-background-clip: text !important;
   -webkit-background-clip: text !important;
   color: transparent;
 
