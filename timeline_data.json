@@ -7,7 +7,7 @@
       "date_str": "2023-06-05",
       "title": "General moderation strike starts",
       "summary": "Strikers stop all moderation and curation activities in protest of actions by Stack Exchange, Inc.",
-      "body": "<p>On June 5<sup>th</sup>, 2023, a number of moderators and curators all over the network called for an indefinite general moderation strike in protest of actions taken by Stack Exchange, Inc. regarding the policy on AI-generated content, as well as of its continuous mistreatment and malignment of volunteers.</p><p>Related:</p>\n<ul>\n<li>Jon Ericson's blog: <a href=\"https://jlericson.com/2023/06/04/signing_on.html\" rel=\"noopener\">Why I'm signing the Stack Overflow strike letter</a></li>\n<li>Monica Cellio's blog: <a href=\"https://cellio.org/blog/2023/stack-overflow-strike\" rel=\"noopener\">Stack Overflow is alienating its community again</a></li>\n</ul>",
+      "body": "<p>On June 5<sup>th</sup>, 2023, a number of moderators and curators all over the network called for an indefinite general moderation strike in protest of actions taken by Stack Exchange, Inc. regarding the policy on AI-generated content, as well as of its continuous mistreatment and malignment of volunteers.</p><p>Related:</p><ul><li>Jon Ericson's blog: <a href=\"https://jlericson.com/2023/06/04/signing_on.html\" rel=\"noopener\">Why I'm signing the Stack Overflow strike letter</a></li><li>Monica Cellio's blog: <a href=\"https://cellio.org/blog/2023/stack-overflow-strike\" rel=\"noopener\">Stack Overflow is alienating its community again</a></li></ul>",
       "links": [
         {
           "text": "Open Letter",
@@ -129,6 +129,24 @@
         }
       ],
       "tags": []
+    },
+    {
+      "date_str": "2020-11-13",
+      "title": "Tim Post leaves Stack Exchange",
+      "slug": "tim-post-leaves-stack-exchange",
+      "type": "resignation",
+      "body": "<blockquote><p>I owe all of you so much. <em><strong>All</strong></em> of you.</p><p>As I read all of the wonderful things that folks are saying about me, I can't help but think of the people that led me to those qualities; almost all of those folks are people that I encountered through being here. I didn't arrive as the adult in the room who always seemed to have the right advice to give, all of you taught me how to be that person as I learned from every interaction that we had.</p><p>You made this place that, for all my faults, ambitions, hopes and successes that were <em>usually</em> more colossal than my failures, has been my home for over a decade. And it will continue to be. But what I've brought back to this place we've made pales in comparison to what I've taken from it.</p></blockquote>",
+      "classes": ["tag-staff"],
+      "links": [
+        {
+          "text": "Twitter",
+          "url": "https://twitter.com/tinkertim/status/1326989993928237057"
+        },
+        {
+          "text": "MSE",
+          "url": "https://meta.stackexchange.com/questions/356603/a-big-thank-you-tim-post"
+        }
+      ]
     },
     {
       "classes": ["tag-staff", "tag-resignation"],
