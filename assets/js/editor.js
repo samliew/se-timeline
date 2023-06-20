@@ -271,6 +271,11 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     const pairField = document.querySelector(`#${field.dataset.pair}`);
     if (pairField) pairField.required = notEmpty;
 
+    // If title and first letter is not uppercase, uppercase all words
+    if (name === 'title' && notEmpty && !field.value.match(/^[A-Z]/)) {
+      field.value = field.value.replace(/\b\w/g, l => l.toUpperCase());
+    }
+
     // If slug format field
     if (name === 'slug' || name === 'linkedEvent') {
       field.value = toSlug(field.value);
