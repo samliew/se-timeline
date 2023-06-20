@@ -1,7 +1,6 @@
 ---
 name: Update Timeline
 about: Submit a request to add, update, or delete an event on the timeline
-title: "Event: "
 labels: timeline
 assignees: samliew
 ---
