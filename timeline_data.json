@@ -42,12 +42,29 @@
       "slug": "stack-overflow-required-moderators-to-stop-moderating-ai-generated-content",
       "type": "policy ai community",
       "summary": "The company reversed an earlier policy that allowed moderators to remove AI-generated content and suspend users",
-      "body": "<p>ChatGPT was made available in November 2022, and quickly became extremely popular. One of the things it was used for was to quickly post machine-generated answers to questions on Stack Overflow. Because of quality and scalability issues, the community had banned AI-generated content, and the moderators had been encouraged to issue suspensions by the Community Managers (Stack Overflow employees who liaise with the community in general and the moderators in particular.</p><p>One of the complications was that moderators had been given one instruction in private, which they were not allowed to share or discuss outside the moderator community. Another was that this policy was rolled out in violation of existing processes for creating new instructions for moderators.</p>",
+      "body": "<p>ChatGPT was made available in November 2022, and quickly became extremely popular. One of the things it was used for was to quickly post machine-generated answers to questions on Stack Overflow. Because of quality and scalability issues, the community had banned AI-generated content, and the moderators had been encouraged to issue suspensions by the Community Managers (Stack Overflow employees who liaise with the community in general and the moderators in particular).</p><p>One of the complications was that moderators had been given one instruction in private, which they were not allowed to share or discuss outside the moderator community. Another was that this policy was rolled out in violation of existing processes for creating new instructions for moderators.</p>",
       "linkedEvent": "#general-moderation-strike-starts",
       "links": [
         {
           "text": "MSE post",
           "url": "https://meta.stackexchange.com/questions/389582/what-is-the-network-policy-regarding-ai-generated-content"
+        }
+      ]
+    },
+    {
+      "date_str": "2023-06-20",
+      "title": "\"Community is the Future of AI\" blog post",
+      "slug": "community-is-the-future-of-ai-blog-post",
+      "summary": "CEO posts an announcement which leads to lots of speculations",
+      "body": "<p>Stack Overflow Prashanth Chandrasekar posted his quarterly announcement on the company blog, where he was waxing enthusiastic about artificial intelligence and its promises for the company.</p><p>The post was not well received by the community, and led to many speculations about a change of direction for the company.</p>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/questions/388401/new-blog-post-from-our-ceo-prashanth-community-is-the-future-of-ai"
+        },
+        {
+          "text": "Blog post",
+          "url": "https://stackoverflow.blog/?p=21973"
         }
       ]
     },
