@@ -1,15 +1,15 @@
 ---
-name: Update Timeline Event
+name: Update Timeline
 about: Submit a request to add, update, or delete an event on the timeline
-title: "New Event: "
+title: "Event: "
 labels: timeline
 assignees: samliew
 ---
 
 ### What type of event change are you requesting
 
-- [x] New event
-- [ ] Update existing event details
+- [x] Add new event
+- [ ] Update event details
 - [ ] Remove event
 
 ---
