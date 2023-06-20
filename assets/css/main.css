@@ -28,6 +28,41 @@ button:hover {
   filter: brightness(1.05);
 }
 
+/* Body */
+body.background-se::before {
+  content: "";
+  position: fixed;
+  top: -50vh;
+  bottom: -50vh;
+  left: -50vw;
+  right: -50vw;
+  z-index: -1;
+  pointer-events: none;
+  background: #f3f3f3 url(/assets/img/icons/stack_exchange_icon.svg) center / 25% repeat;
+  filter: opacity(0.05);
+  transform: rotate(325deg);
+}
+body.background-se .timeline-year {
+  background: linear-gradient(rgba(243, 243, 243, 0.8) 70%, rgba(243, 243, 243, 0.2));
+  box-shadow: none;
+}
+body.background-se .timeline-year.static-year {
+  background: none;
+  box-shadow: none;
+}
+body.background-se .timeline-year::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  margin-left: -4px;
+  z-index: -1;
+  pointer-events: none;
+  background: rgba(243, 243, 243, 1);
+}
+
 /* Header */
 body {
   --fixed-header-height: 80px;
@@ -208,6 +243,7 @@ body.fixed-header .navbar {
 .event:hover .connector,
 .event:hover .connector-dot {
   border-color: #666;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.15));
 }
 
 .event:hover .connector-dot {
