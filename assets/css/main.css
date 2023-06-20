@@ -391,15 +391,6 @@ body.fixed-header .navbar {
   }
 }
 
-/* MEDIA: Extra Large Desktop */
-@media (min-width: 1280px) {
-  /* Event on the left column, followed by a large event below it */
-  .event:nth-child(odd):not(.event-large) + .event-large + .event-large,
-  .event:nth-child(odd):not(.event-xlarge) + .event-large + .event-large {
-    transform: translate(0px, -35%);
-  }
-}
-
 /* Dev */
 /* Animate events so we can see changes */
 .dev .event {
