@@ -77,14 +77,9 @@
       "slug": "teresa-dietrich-left-stack-overflow",
       "type": "staff resignation",
       "summary": "Chief Product Officer, formerly also Chief Technology Officer",
-      "body": "<p>Teresa&rsquo;s last day with the company was Friday, April 21st. In the 3+ years that she was here, Teresa had a huge impact on the company and the website. In addition to the Product team, Teresa had the Community team under her purview, and for more than half of her tenure she also acted as Chief Technology Officer.</p>",
+      "body": "<blockquote>Teresa&rsquo;s last day with the company was Friday, April 21st. In the 3+ years that she was here, Teresa had a huge impact on the company and the website. In addition to the Product team, Teresa had the Community team under her purview, and for more than half of her tenure she also acted as Chief Technology Officer.<br>-- <a href=\"https://meta.stackexchange.com/q/388800\">Philippe</a></blockquote>",
       "classes": ["tag-staff", "tag-resignation"],
-      "links": [
-        {
-          "text": "MSE post",
-          "url": "https://meta.stackexchange.com/q/388800"
-        }
-      ]
+      "links": []
     },
     {
       "date_str": "2023-04-07",
@@ -135,15 +130,11 @@
       "title": "Tim Post leaves Stack Exchange",
       "slug": "tim-post-leaves-stack-exchange",
       "type": "resignation",
-      "body": "<blockquote><p>I owe all of you so much. <em><strong>All</strong></em> of you.</p><p>As I read all of the wonderful things that folks are saying about me, I can't help but think of the people that led me to those qualities; almost all of those folks are people that I encountered through being here. I didn't arrive as the adult in the room who always seemed to have the right advice to give, all of you taught me how to be that person as I learned from every interaction that we had.</p><p>You made this place that, for all my faults, ambitions, hopes and successes that were <em>usually</em> more colossal than my failures, has been my home for over a decade. And it will continue to be. But what I've brought back to this place we've made pales in comparison to what I've taken from it.</p></blockquote>",
+      "body": "<blockquote><p>I owe all of you so much. <em><strong>All</strong></em> of you.</p><p>As I read all of the wonderful things that folks are saying about me, I can't help but think of the people that led me to those qualities; almost all of those folks are people that I encountered through being here. I didn't arrive as the adult in the room who always seemed to have the right advice to give, all of you taught me how to be that person as I learned from every interaction that we had.</p><p>You made this place that, for all my faults, ambitions, hopes and successes that were <em>usually</em> more colossal than my failures, has been my home for over a decade. And it will continue to be. But what I've brought back to this place we've made pales in comparison to what I've taken from it.</p><br>-- <a href=\"https://twitter.com/tinkertim/status/1326989993928237057\">Tim Post</a></blockquote>",
       "classes": ["tag-staff"],
       "links": [
         {
-          "text": "Twitter",
-          "url": "https://twitter.com/tinkertim/status/1326989993928237057"
-        },
-        {
-          "text": "MSE",
+          "text": "farewell post",
           "url": "https://meta.stackexchange.com/questions/356603/a-big-thank-you-tim-post"
         }
       ]
