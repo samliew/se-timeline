@@ -27,7 +27,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     'container': '.datepicker-wrapper',
     'autoShow': false,
     'autoHide': false,
-    'autoPick': true,
+    'autoPick': false, // pick the initial date automatically when initialised
     'format': 'yyyy-mm-dd',
     'inline': true,
     'date': startOfUTCToday,
