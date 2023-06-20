@@ -12,6 +12,12 @@ assignees: samliew
 - [ ] Update event details
 - [ ] Remove event
 
+**Checklist**
+
+- [ ] I have checked the spelling/grammar
+- [ ] I have verified that the date of the event is correct
+- [ ] I have verified all link references to ensure that they are not broken
+
 ---
 
 If you are requesting a new event or updates to one, please provide either of the following:
