@@ -1,7 +1,6 @@
 ---
 name: Update Timeline
 about: Submit a request to add, update, or delete an event on the timeline
-title: "Event: "
 labels: timeline
 assignees: samliew
 ---
@@ -11,6 +10,12 @@ assignees: samliew
 - [x] Add new event
 - [ ] Update event details
 - [ ] Remove event
+
+**Checklist**
+
+- [ ] I have checked the spelling/grammar
+- [ ] I have verified that the date of the event is correct
+- [ ] I have verified all link references to ensure that they are not broken
 
 ---
 

@@ -52,23 +52,6 @@
       ]
     },
     {
-      "date_str": "2023-06-20",
-      "title": "\"Community is the Future of AI\" blog post",
-      "slug": "community-is-the-future-of-ai-blog-post",
-      "summary": "CEO posts an announcement which leads to lots of speculations",
-      "body": "<p>Stack Overflow Prashanth Chandrasekar posted his quarterly announcement on the company blog, where he was waxing enthusiastic about artificial intelligence and its promises for the company.</p><p>The post was not well received by the community, and led to many speculations about a change of direction for the company.</p>",
-      "links": [
-        {
-          "text": "MSE post",
-          "url": "https://meta.stackexchange.com/questions/388401/new-blog-post-from-our-ceo-prashanth-community-is-the-future-of-ai"
-        },
-        {
-          "text": "Blog post",
-          "url": "https://stackoverflow.blog/?p=21973"
-        }
-      ]
-    },
-    {
       "classes": ["featured-event", "tag-staff"],
       "slug": "2023-stack-exchange-staff-layoffs",
       "type": "staff fired",
@@ -100,6 +83,23 @@
         {
           "text": "MSE post",
           "url": "https://meta.stackexchange.com/q/388800"
+        }
+      ]
+    },
+    {
+      "date_str": "2023-04-07",
+      "title": "\"Community is the Future of AI\" blog post",
+      "slug": "community-is-the-future-of-ai-blog-post",
+      "summary": "CEO posts an announcement which leads to lots of speculations",
+      "body": "<p>Stack Overflow Prashanth Chandrasekar posted his quarterly announcement on the company blog, where he was waxing enthusiastically about artificial intelligence and its promises for the company.</p><p>The post was not well received by the community, and led to many speculations about a change of direction for the company.</p>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/questions/388401/new-blog-post-from-our-ceo-prashanth-community-is-the-future-of-ai"
+        },
+        {
+          "text": "Blog post",
+          "url": "https://stackoverflow.blog/?p=21973"
         }
       ]
     },

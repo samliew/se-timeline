@@ -4,9 +4,7 @@ const monthsOfYear = [...Array(12)].map((_, i) => {
   const date = new Date(2000, i, 1);
   return date.toLocaleString(undefined, { month: 'short' });
 });
-
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
 const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 
@@ -29,7 +27,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     'container': '.datepicker-wrapper',
     'autoShow': false,
     'autoHide': false,
-    'autoPick': true,
+    'autoPick': false, // pick the initial date automatically when initialised
     'format': 'yyyy-mm-dd',
     'inline': true,
     'date': startOfUTCToday,
@@ -134,6 +132,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
   const linkedDropdown = document.querySelector('#linked-event-selector');
   const iconField = document.querySelector('#icon');
   const iconPreview = document.querySelector('#icon-preview');
+  let isEditing = false;
 
   // Generate JSON from form fields
   const tryGenerateJson = () => {
@@ -246,6 +245,8 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
         }
       });
 
+      isEditing = true;
+
       // Scroll to top of page
       window.scrollTo(0, 0);
 
@@ -326,14 +327,15 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
   const titleField = document.querySelector('#title');
   const slugField = document.querySelector('#slug');
   titleField.addEventListener('blur', evt => {
-    // Generate slug from title if empty
-    if (slugField.value === '') {
+    // Generate slug from title if creation mode
+    if (slugField.value === '' || isEditing === false) {
       slugField.value = toSlug(titleField.value);
     }
   });
 
   // EVENT: RESET - Form reset
   form.addEventListener('reset', async evt => {
+    isEditing = false;
     await delay(1);
 
     // Remove required attribute from link-grid and tags-grid
