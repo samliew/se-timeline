@@ -64,13 +64,44 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     contextmenu: false,
     draggable_modal: true,
     elementpath: true,
-    plugins: 'anchor autolink charmap code emoticons image link lists media searchreplace',
+    plugins: 'anchor autolink charmap code emoticons image link lists media searchreplace paste',
     toolbar: 'bold italic underline superscript subscript link blockquote numlist bullist removeformat | undo redo | searchreplace code',
     menubar: false,
     statusbar: true,
     min_height: 320,
     custom_undo_redo_levels: 30,
     invalid_elements: 'script,style,div',
+
+    // Paste Plugin Options
+    paste_as_text: false,
+    paste_block_drop: true,
+    paste_data_images: true,
+    paste_enable_default_filters: true,
+    paste_filter_drop: true,
+    //paste_word_valid_elements: 'b,strong,i,em,a,p,br,ul,ol,li',
+    paste_webkit_styles: 'none',
+    paste_retain_style_properties: '',
+    paste_merge_formats: true,
+    paste_tab_spaces: 0,
+    paste_convert_word_fake_lists: true,
+    paste_remove_styles_if_webkit: true,
+    smart_paste: true,
+    image_file_types: 'jpeg,jpg,png,gif,webp',
+    paste_preprocess: (plugin, args) => { },
+    paste_postprocess: (plugin, args) => {
+      // Iterate through all children elements in args.node and remove all element attributes
+      //   except for "href" in <a> tags and "src" in <img> tags
+      [...args.node.querySelectorAll('*')].forEach(el => {
+        const allowedAttrs = el.tagName === 'A' ? ['href'] : el.tagName === 'IMG' ? ['src'] : [];
+        [...el.attributes].forEach(attr => {
+          if (!allowedAttrs.includes(attr.name)) {
+            el.removeAttribute(attr.name);
+          }
+        });
+      });
+    },
+
+    // Callback
     setup: editor => {
       editor.on('change', evt => {
         console.log({
