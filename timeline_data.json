@@ -26,15 +26,13 @@
       "linkedEvent": "#stack-overflow-required-moderators-to-stop-moderating-ai-generated-content"
     },
     {
-      "classes": ["tag-moderator", "tag-resignation"],
-      "slug": "ortolano-resigns",
-      "type": "moderator resignation",
       "date_str": "2023-05-31",
       "title": "Massimo Ortolano resigns",
+      "slug": "ortolano-resigns",
+      "type": "moderator resignation",
       "summary": "moderator on Academia",
-      "body": "<p><a href=\"https://academia.meta.stackexchange.com/q/5283\" rel=\"noopener\">It's time for me to resign</a></p>",
-      "links": [],
-      "tags": []
+      "body": "<blockquote><p>The title says it all: I'm resigning. In the last few days the Stack Exchange staff introduced <a href=\"https://meta.stackexchange.com/q/389582\">a new policy</a> about AI-generated content and how we should moderate it.</p>\n<p>This is a policy hastily created by Stack Exchange and forced to us moderators in an insulting way, irrespectful of the expertise and the work we have volunteered so far.</p>\n<p>Therefore, I'm no longer interested in spending my time for Stack Exchange.</p>\n<p>Here I've learned a lot, and it's been a pleasure and a honour to serve this community as a moderator, working together with all the other moderators, past and present.</p>\n<p>So, well, so long and thanks for all the fish!</p>\n-- <a href=\"https://academia.meta.stackexchange.com/q/5283\">Massimo Ortolano</a></blockquote>",
+      "classes": ["tag-moderator", "tag-resignation"]
     },
     {
       "date_str": "2023-05-29",
