@@ -43,7 +43,7 @@ body.background-se::before {
   transform: rotate(325deg);
 }
 body.background-se .timeline-year {
-  background: linear-gradient(rgba(243, 243, 243, 0.8) 70%, rgba(243, 243, 243, 0.2));
+  background: linear-gradient(rgba(243, 243, 243, 0.95) 50%, rgba(243, 243, 243, 0.2) 100%);
   box-shadow: none;
 }
 body.background-se .timeline-year.static-year {
@@ -61,6 +61,11 @@ body.background-se .timeline-year::before {
   z-index: -1;
   pointer-events: none;
   background: rgba(243, 243, 243, 1);
+}
+@media (max-width: 767px) {
+  body.background-se .timeline-year::before {
+    left: calc(1rem + 5px);
+  }
 }
 
 /* Header */
