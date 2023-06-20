@@ -99,6 +99,21 @@
       ]
     },
     {
+      "date_str": "2021-11-23",
+      "title": "BoltClock and Bhargav Rao resign",
+      "slug": "boltclock-and-bhargav-rao-resign",
+      "type": "moderators resignation",
+      "summary": "two Stack Overflow moderators resign",
+      "body": "<blockquote><p>On November 22nd and 23rd, 2021 we celebrated two big anniversaries - a 10 year moderator tenure for BoltClock on the 23rd and a 5 year tenure for Bhargav Rao. In their ways, these two have done an immense service to this site and I'm honored they've spent so much time helping us out and responding to the needs of Stack Overflow.</p><p>Considering this, I'm sad to announce that&nbsp;<strong>they're both stepping down as moderators.</strong> While they won't have diamonds as of later today, they've both assured me that they won't completely disappear on us all, so we hope to see them around in some capacity - but I certainly wish them well and some deserved time off from SO.</p>-- <a href=\"https://meta.stackoverflow.com/q/413240\">Catija</a></blockquote>",
+      "classes": ["tag-moderator", "tag-resignation"],
+      "links": [
+        {
+          "text": "farewell post",
+          "url": "https://meta.stackoverflow.com/questions/413240/two-b-or-not-two-b-farewell-boltclock-and-bhargav"
+        }
+      ]
+    },
+    {
       "classes": ["tag-staff", "tag-resignation"],
       "slug": "nick-craver-resigns",
       "type": "staff resignation",
@@ -154,6 +169,19 @@
         }
       ],
       "tags": []
+    },
+    {
+      "date_str": "2020-07-08",
+      "title": "New moderator agreement",
+      "slug": "new-moderator-agreement",
+      "type": "policy moderators",
+      "body": "<blockquote>Today, we&rsquo;re announcing that the <a href=\"https://meta.stackexchange.com/legal/moderator-agreement/versions/2\">new moderator agreement</a> is live and the existing moderators are being asked to accept it. This has been a great collaboration to get from a draft in November 2019 to the final agreement in July 2020. It&rsquo;s gone through several phases of review internally, including with the Community Leadership Team, the Community Management Team, our Legal department, and we have had the assistance of our Public Platform team to build in some tooling to support a sixty-day transition period between the old and new agreements.<br />-- <a href=\"https://meta.stackexchange.com/q/350544\">Catija</a></blockquote>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/questions/350544/the-new-moderator-agreement-is-now-live-for-moderators-to-accept-across-the-netw"
+        }
+      ]
     },
     {
       "classes": ["featured-event", "tag-staff", "tag-fired"],
@@ -254,7 +282,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-policy", "tag-licensing", "tag-licensinglicensing"],
       "slug": "stack-exchange-changes-to-a-split-cc-license",
-      "type": "official policy licensing",
+      "type": "policy licensing",
       "date_str": "2020-03-04",
       "title": "Stack Exchange changes to a split Creative Commons license",
       "body": "<blockquote>We’d like to provide you with an update to our transition to version 4.0 of the CC BY-SA license. We realize that this is something that you care deeply about, and that our response to your concerns is long overdue. We’d like to thank all of you for your patience while we worked on a plan forward that would address your concerns.<br><br>The change to CC BY-SA 4.0 occurred on 2018-05-02 (May 2, 2018) as part of our ToS update. It was updated as part of a process that was not led by the community team and there was an internal disconnect at the time of the release.<br><br>Our move forward plan is to switch to a licensing scheme where:<br>- Content contributed before 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 3.0<br>- Content contributed on or after 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 4.0<br><br>This will correct any inconsistencies with the prevailing and advertised licenses.</blockquote><p><a href=\"https://meta.stackexchange.com/q/344491\">An Update On Creative Commons Licensing</a><br><br><a href=\"https://meta.stackexchange.com/q/347758\">Creative Commons Licensing UI and Data Updates</a></p>",
@@ -489,7 +517,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-policy"],
       "slug": "stack-exchange-attempts-to-limit-featured-moderator-resignation-notices-to-a-maximum-of-24-hours",
-      "type": "official policy",
+      "type": "policy",
       "date_str": "2020-01-16",
       "title": "Stack Exchange attempts to limit featured moderator resignation notices to a maximum of 24 hours",
       "summary": "Unhappiness is permitted only for 24 hours at a time",
@@ -653,7 +681,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-loop", "tag-blog", "tag-the-loop"],
       "slug": "stack-exchange-launches-the-loop",
-      "type": "official loop blog",
+      "type": "loop blog",
       "date_str": "2019-11-25",
       "title": "Stack Exchange launches \"The Loop\"",
       "summary": "Introduced by Sara Chipps and Juan Garza, The Loop is a new way of obtaining user feedback and a moderator advisor group",
@@ -806,7 +834,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-policy", "tag-moderators"],
       "slug": "stack-exchange-releases-new-moderator-warning-and-removal-and-reinstatement-processes",
-      "type": "official policy moderators",
+      "type": "policy moderators",
       "date_str": "2019-10-21",
       "title": "Stack Exchange releases new Moderator Warning and Removal, and Reinstatement processes",
       "body": "<ul><li><a href=\"https://meta.stackexchange.com/q/336173\">Moderator Warning and Removal process</a></li><li><a href=\"https://meta.stackexchange.com/q/336175\">Moderator Reinstatement Process</a></li></ul>",
@@ -821,7 +849,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-policy", "tag-coc"],
       "slug": "stack-exchange-releases-faq-on-pronouns",
-      "type": "official policy coc",
+      "type": "policy coc",
       "date_str": "2019-10-21",
       "title": "Stack Exchange releases FAQ on pronouns",
       "body": "<p><a href=\"https://meta.stackexchange.com/q/336364\">What does the Code of Conduct say about pronouns?</a></p>",
@@ -1294,7 +1322,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-policy", "tag-licensing", "tag-licensinglicensing"],
       "slug": "stack-exchange-retroactively-relicenses-all-usercontributed-content-on-the-network",
-      "type": "official policy licensing",
+      "type": "policy licensing",
       "date_str": "2019-09-05",
       "title": "Stack Exchange retroactively relicenses all user-contributed content on the Network",
       "summary": "is this even legal?",
@@ -1692,7 +1720,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-policy"],
       "slug": "hot-meta-posts-removed-from-stack-overflows-sidebar",
-      "type": "official policy",
+      "type": "policy",
       "date_str": "2019-07-23",
       "title": "Hot Meta Posts removed from Stack Overflow's sidebar",
       "summary": "Stack Exchange wanted to remove automatic visibility on popular site discussions so that there will be less transparency to avoid possible blowback on controversial topics",
@@ -1755,7 +1783,7 @@
     {
       "classes": ["featured-event", "tag-official", "tag-policy", "tag-coc", "tag-code-of-conduct"],
       "slug": "stack-exchange-launches-the-code-of-conduct",
-      "type": "official policy coc",
+      "type": "policy coc",
       "date_str": "2018-07-19",
       "title": "Stack Exchange launches the Code of Conduct",
       "summary": "https://meta.stackexchange.com/conduct",
