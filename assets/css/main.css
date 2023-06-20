@@ -244,6 +244,12 @@ body.fixed-header .navbar {
   min-height: 0;
 }
 
+.event .box,
+.event .connector,
+.event .connector-dot {
+  transition: border-color 0.6s ease, zoom 0.6s ease;
+}
+
 .event:hover .box,
 .event:hover .connector,
 .event:hover .connector-dot {
@@ -265,10 +271,6 @@ body.fixed-header .navbar {
 .featured-event .featured-connector-dot,
 .featured-event .featured-box {
   display: block;
-}
-
-.event * {
-  transition: border-color 0.15s ease, zoom 0.15s ease;
 }
 
 .event .box,
@@ -341,11 +343,11 @@ body.fixed-header .navbar {
   justify-content: center;
 }
 
-#sidebar > a.current-year {
+.sidebar > a.current-year {
   border: 1px solid black;
 }
 
-#sidebar > a.current-year:before {
+.sidebar > a.current-year:before {
   content: "";
   position: absolute;
   right: 105%;
