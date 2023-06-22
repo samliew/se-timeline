@@ -29,6 +29,9 @@ button:hover {
 }
 
 /* Body */
+body.background-se {
+  --bg-color: #f3f3f3;
+}
 body.background-se::before {
   content: "";
   position: fixed;
@@ -38,7 +41,7 @@ body.background-se::before {
   right: -50vw;
   z-index: -1;
   pointer-events: none;
-  background: #f3f3f3 url(/assets/img/icons/stack_exchange_icon.svg) center / 25% repeat;
+  background: var(--bg-color) url(/assets/img/icons/stack_exchange_icon.svg) center / 25% repeat;
   filter: opacity(0.05);
   transform: rotate(325deg);
 }
@@ -220,6 +223,12 @@ body.fixed-header .navbar {
   display: none !important;
 }
 
+/* Connector Dot Mask */
+.left-mask,
+.right-mask {
+  display: none;
+}
+
 /* Timeline Events */
 .box a {
   word-break: break-word;
@@ -376,6 +385,28 @@ body.fixed-header .navbar {
 
   .event {
     transition: opacity 0.6s ease;
+  }
+
+  /* Connector Dot Mask */
+  .events-list .event .connector-dot {
+    display: none;
+  }
+  .events-list .event:nth-child(odd) .connector-dot.dot-right,
+  .events-list .event:nth-child(even) .connector-dot:not(.dot-right) {
+    display: block;
+  }
+  .events-list .event:nth-child(odd) .connector::after,
+  .events-list .event:nth-child(even) .connector::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    border-top: 2px solid var(--bg-color);
+    z-index: 0;
+  }
+  .events-list .event:nth-child(even) .connector::after {
+    left: 50%;
   }
 
   /* Reset transformations */
