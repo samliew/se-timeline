@@ -41,7 +41,7 @@ body.background-se::before {
   right: -50vw;
   z-index: -1;
   pointer-events: none;
-  background: var(--bg-color) url(/assets/img/icons/stack_exchange_icon.svg) center / 25% repeat;
+  background: var(--bg-color) url(/assets/img/icons/stack_exchange_icon.svg) center / 20% repeat;
   filter: opacity(0.05);
   transform: rotate(325deg);
 }
