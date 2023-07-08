@@ -34,7 +34,7 @@ fieldset > legend:first-child {
   margin: 1rem 0 1.5rem;
   padding: 0.8rem 1rem;
   border: 1px dashed var(--border-color);
-  background: #e8e8e8;
+  background: #ffffe5;
 }
 .event-editor aside.danger {
   border: 1px dashed #ff0000;
