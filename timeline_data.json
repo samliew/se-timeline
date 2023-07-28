@@ -2,10 +2,10 @@
   "items": [
     {
   "date_str": "2023-06-07",
-  "title": "Data Dumps Removed",
-  "slug": "data-dumps-removed",
+  "title": "June 2023 Data Dump Not Posted",
+  "slug": "data-dump-not-posted",
   "type": "licensing",
-  "summary": "Stack Exchange Inc. does not post the June 2023 data dump.",
+  "summary": "Stack Exchange Inc. did not post the June 2023 data dump.",
   "body": "<p>The job that uploads the data dump to Archive.org was disabled on 28 March, and marked to not be re-enabled without approval of senior leadership. This was mainly over concerns on AI using Stack Exchange data. This caused a large outrage and was eventually reverted on June 16, 2023 (9 days later).</p>",
   "links": [
     {
@@ -13,6 +13,7 @@
       "url": "https://meta.stackexchange.com/questions/389922/june-2023-data-dump-is-missing"
     }
   ],
+}
     {
       "classes": ["featured-event"],
       "slug": "general-moderation-strike-starts",
