@@ -14,13 +14,17 @@ Don't worry about making mistakes, a GitHub action will run on any pull request 
 
 ### Updating Events
 
-The timeline data is stored in the [timeline_data.json](https://github.com/samliew/se-timeline/blob/main/timeline_data.json) file as JSON. Event items are nested in the "items" array.
+The timeline data is stored in the [timeline_data.json](https://github.com/samliew/se-timeline/blob/main/timeline_data.json) file as JSON.
+
+If you are unsure how to manually edit the event data using JSON, you should use the [Event Editor](https://se-timeline.glitch.me/event-editor) to import an existing event or create a new one, following which you can paste the output in a new "Update Timeline" [issue](https://github.com/samliew/se-timeline/issues/new/choose).
+
+### Event Object Properties
+
+Event items are nested in the "items" array.
 
 - To add a new event, simply add a new item to the array, in the position sorted by date, in reverse chronological order (i.e.: latest first).
 - To update an existing event, change the corresponding item's properties.
 - To remove an event, remove the corresponding item from the array.
-
-### Event Object Properties
 
 The properties of each event item is as follows. \*\*The properties `date_str` and `title` are required.
 
@@ -69,5 +73,3 @@ The properties of each event item is as follows. \*\*The properties `date_str` a
 Comments starting with `//` are not actually allowed in the JSON file, and is only used in the example above to describe each property.
 
 All double quotes, especially in the title, summary, and body properties, need to be escaped with a backslash like this: `\"`
-
-If you are unsure how to manually edit the event data using JSON, you can also use the [Event Editor](https://se-timeline.glitch.me/event-editor) to import an existing event.

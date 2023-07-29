@@ -46,7 +46,7 @@
 
   <main class="event-editor w-container" style="padding-bottom: 5rem;">
     <div class="w-col">
-      <aside>This is a UI to assist in adding/editing event details in the JSON object.</aside>
+      <aside>This is a UI to assist in adding/editing event details for export to a JSON object. To import an existing event's details, click an edit icon on an event in the <a href="/" title="Back to Timeline">timeline</a>, or see the <a href="#event-json">instructions at the bottom of this page</a>.</aside>
       <form action="#" class="event-editor-form" id="event-editor-form">
         <div class="form-row">
           <label class="w-label required">Date</label>
@@ -76,7 +76,7 @@
         </div>
         <div class="form-row">
           <label class="w-label" for="body">Body</label>
-          <div class="info"></div>
+          <div class="info">ctrl+click to open links in a new window</div>
           <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;"></textarea>
         </div>
         <fieldset>
@@ -90,12 +90,12 @@
             <div class="form-row-inline">
               <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-moderator" value="tag-moderator">
               <label class="w-label" for="classes_tag-moderator">moderator</label>
-              <div class="info">event is about moderator</div>
+              <div class="info">event is about specific moderator</div>
             </div>
             <div class="form-row-inline">
               <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-staff" value="tag-staff">
               <label class="w-label" for="classes_tag-staff">staff</label>
-              <div class="info">event is about staff</div>
+              <div class="info">event is about specific staff</div>
             </div>
             <div class="form-row-inline">
               <input class="w-checkbox" type="checkbox" name="classes" id="classes_tag-resignation" value="tag-resignation">
@@ -175,7 +175,7 @@
         </div>
       </form>
 
-      <h4>Event JSON</h4>
+      <h4 id="event-json">Event JSON</h4>
       <aside><strong>Export:</strong> The event JSON will be generated in the field below when the event editor form is valid. This page does not auto-save - please refer to the <a href="https://github.com/samliew/se-timeline#contributing" target="_blank">readme</a> on GitHub for contribution notes, and copy the JSON below into a <a href="https://github.com/samliew/se-timeline/issues/new/choose" target="_blank">new issue</a> for review.</aside>
 
       <div class="json-output-wrapper">
