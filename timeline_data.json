@@ -9,7 +9,7 @@
       "body": "<p>The job that uploads the data dump to Archive.org was disabled on 28 March, and marked to not be re-enabled without approval of senior leadership. This was mainly over concerns on AI using Stack Exchange data. This caused a large outrage and was eventually reverted on June 16, 2023 (9 days later).</p>",
       "links": [
         {
-          "text": "MSE Post",
+          "text": "discuss",
           "url": "https://meta.stackexchange.com/questions/389922/june-2023-data-dump-is-missing"
         }
       ]
@@ -63,7 +63,7 @@
       "linkedEvent": "#general-moderation-strike-starts",
       "links": [
         {
-          "text": "MSE post",
+          "text": "discuss",
           "url": "https://meta.stackexchange.com/questions/389582/what-is-the-network-policy-regarding-ai-generated-content"
         }
       ]
@@ -112,7 +112,7 @@
       "body": "<p>Stack Overflow Prashanth Chandrasekar posted his quarterly announcement on the company blog, where he was waxing enthusiastically about artificial intelligence and its promises for the company.</p><p>The post was not well received by the community, and led to many speculations about a change of direction for the company.</p>",
       "links": [
         {
-          "text": "MSE post",
+          "text": "discuss",
           "url": "https://meta.stackexchange.com/questions/388401/new-blog-post-from-our-ceo-prashanth-community-is-the-future-of-ai"
         },
         {
