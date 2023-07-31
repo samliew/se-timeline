@@ -2,10 +2,10 @@
   "items": [
     {
       "date_str": "2023-06-07",
-      "title": "June 2023 Data Dump Not Posted",
-      "slug": "data-dump-not-posted",
+      "title": "June 2023 data dump was not posted",
+      "slug": "june-2023-data-dump-was-not-posted",
       "type": "licensing",
-      "summary": "Stack Exchange Inc. did not post the June 2023 data dump.",
+      "summary": "Stack Overflow Inc. did not upload the June 2023 data dump",
       "body": "<p>The job that uploads the data dump to Archive.org was disabled on 28 March, and marked to not be re-enabled without approval of senior leadership. This was mainly over concerns on AI using Stack Exchange data. This caused a large outrage and was eventually reverted on June 16, 2023 (9 days later).</p>",
       "links": [
         {
@@ -728,7 +728,7 @@
       "slug": "community-managers-shog9-and-robert-cartaino-fired-from-stack-exchange-inc",
       "type": "staff fired",
       "date_str": "2020-01-13",
-      "title": "Community Managers Shog9 and Robert Cartaino fired from Stack Exchange Inc",
+      "title": "Community Managers Shog9 and Robert Cartaino fired from Stack Overflow Inc.",
       "body": "<p><a href=\"https://meta.stackoverflow.com/questions/392867/in-case-you-missed-it-shog9-and-robert-cartaino-are-no-longer-staff-members-at\">Shog9 and Robert Cartaino are no longer staff members at Stack Exchange</a></p><blockquote>\"We’re seeking to align the company so that it can continue growing in 2020 and we continue to be committed in investing in the community and ensuring that it has a seat at the table as we keep moving forward. These changes are a part of that process.\" -- <a href=\"https://meta.stackexchange.com/a/342045\"><em>Juan M</em></a></blockquote><ul><li><a href=\"https://twitter.com/shog9/status/1216752358933184512\">Shog9 tweeted</a> about <strong>suddenly being in need of new job</strong></li><li><a href=\"https://meta.stackexchange.com/users/98786/robert-cartaino?tab=profile\">Robert updated his profile</a> indicating he is <strong>no longer with the company</strong></li><li><a href=\"https://meta.stackexchange.com/q/342079\">Thank you, Robert Cartaino</a> and <a href=\"https://meta.stackexchange.com/q/342031\">Thank you, Shog9!</a> – meta posts <strong>from the community</strong></li><li>George Stocker starts a <a href=\"https://www.gofundme.com/f/thanking-josh-heyer-for-shaping-stack-overflow\">GoFundMe campaign</a> to <em>thank Shog9 for cultivating Stack Overflow</em></li><li><strong>More moderators on the network continue to resign in protest</strong><br></li></ul>",
       "links": [
         {
@@ -752,7 +752,7 @@
       "type": "official statement",
       "date_str": "2019-12-23",
       "title": "Stack Exchange posts update on a private agreement with Monica Cellio",
-      "summary": "Stack Exchange Inc and Monica Cellio have come to an agreement",
+      "summary": "Stack Overflow Inc. and Monica Cellio have come to an agreement",
       "body": "<p><a href=\"https://meta.stackexchange.com/q/340906\">Update: an agreement with Monica Cellio</a></p><p>Also reported on The Register: \"<a href=\"https://www.theregister.co.uk/2020/01/02/stack_overflow_settles/\">Stack Overflow makes peace with ousted moderator, wants to start New Year with 2020 vision on codes of conduct</a>\"</p>",
       "links": [],
       "tags": [],
