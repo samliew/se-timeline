@@ -28,7 +28,7 @@ Event items are nested in the "items" array.
 
 The properties of each event item is as follows. \*\*The properties `date_str` and `title` are required.
 
-```json
+```jsonc
 {
   "date_str": "2016-05-08", // ** displayed date string, in the format YYYY-MM-DD (UTC)
   "title": "SOBotics founded", // ** title
