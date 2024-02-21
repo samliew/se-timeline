@@ -1,6 +1,33 @@
 {
   "items": [
     {
+  "date_str": "2023-10-16",
+  "title": "2023 Stack Exchange Staff Layoffs, Round 2",
+  "slug": "2023-stack-exchange-staff-layoffs-round-2",
+  "type": "staff fired",
+  "summary": "28% of staff was laid off",
+  "body": "<p><a href=\"https://stackoverflow.blog/2023/10/16/stack-overflow-company-announcement-october-2023/\">28% of Stack Exchange staff was laid off</a>, spanning the entire company.</p><blockquote>Unfortunately, those changes were not enough and we have made the extremely difficult decision to reduce the company&rsquo;s headcount by approximately 28%.</blockquote>\n<p>A major casualty of this was Catija, one of the longest employed and well-known Community Managers remaining at SE.</p>",
+  "classes": [
+    "featured-event",
+    "tag-staff"
+  ],
+  "linkedEvent": "#2023-stack-exchange-staff-layoffs",
+  "links": [
+    {
+      "text": "Meta Discussion",
+      "url": "https://meta.stackexchange.com/questions/393806/practical-effects-of-the-october-2023-layoff"
+    },
+    {
+      "text": "CEO Blog",
+      "url": "https://stackoverflow.blog/2023/10/16/stack-overflow-company-announcement-october-2023/"
+    },
+    {
+      "text": "Thank you Catija",
+      "url": "https://meta.stackexchange.com/questions/393797/thank-you-catija"
+    }
+  ]
+},
+    {
       "date_str": "2023-06-07",
       "title": "June 2023 data dump was not posted",
       "slug": "june-2023-data-dump-was-not-posted",
