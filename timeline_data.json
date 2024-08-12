@@ -1,32 +1,32 @@
 {
   "items": [
     {
-  "date_str": "2023-10-16",
-  "title": "2023 Stack Exchange Staff Layoffs, Round 2",
-  "slug": "2023-stack-exchange-staff-layoffs-round-2",
-  "type": "staff fired",
-  "summary": "28% of staff was laid off",
-  "body": "<p><a href=\"https://stackoverflow.blog/2023/10/16/stack-overflow-company-announcement-october-2023/\">28% of Stack Exchange staff was laid off</a>, spanning the entire company.</p><blockquote>Unfortunately, those changes were not enough and we have made the extremely difficult decision to reduce the company&rsquo;s headcount by approximately 28%.</blockquote>\n<p>A major casualty of this was Catija, one of the longest employed and well-known Community Managers remaining at SE.</p>",
-  "classes": [
-    "featured-event",
-    "tag-staff"
-  ],
-  "linkedEvent": "#2023-stack-exchange-staff-layoffs",
-  "links": [
-    {
-      "text": "Meta Discussion",
-      "url": "https://meta.stackexchange.com/questions/393806/practical-effects-of-the-october-2023-layoff"
+      "date_str": "2023-10-16",
+      "title": "2023 Stack Exchange Staff Layoffs, Round 2",
+      "slug": "2023-stack-exchange-staff-layoffs-round-2",
+      "type": "staff fired",
+      "summary": "28% of staff was laid off",
+      "body": "<p><a href=\"https://stackoverflow.blog/2023/10/16/stack-overflow-company-announcement-october-2023/\">28% of Stack Exchange staff was laid off</a>, spanning the entire company.</p><blockquote>Unfortunately, those changes were not enough and we have made the extremely difficult decision to reduce the company&rsquo;s headcount by approximately 28%.</blockquote>\n<p>A major casualty of this was Catija, one of the longest employed and well-known Community Managers remaining at SE.</p>",
+      "classes": [
+        "featured-event",
+        "tag-staff"
+      ],
+      "linkedEvent": "#2023-stack-exchange-staff-layoffs",
+      "links": [
+        {
+          "text": "Meta Discussion",
+          "url": "https://meta.stackexchange.com/questions/393806/practical-effects-of-the-october-2023-layoff"
+        },
+        {
+          "text": "CEO Blog",
+          "url": "https://stackoverflow.blog/2023/10/16/stack-overflow-company-announcement-october-2023/"
+        },
+        {
+          "text": "Thank you Catija",
+          "url": "https://meta.stackexchange.com/questions/393797/thank-you-catija"
+        }
+      ]
     },
-    {
-      "text": "CEO Blog",
-      "url": "https://stackoverflow.blog/2023/10/16/stack-overflow-company-announcement-october-2023/"
-    },
-    {
-      "text": "Thank you Catija",
-      "url": "https://meta.stackexchange.com/questions/393797/thank-you-catija"
-    }
-  ]
-},
     {
       "date_str": "2023-06-07",
       "title": "June 2023 data dump was not posted",
@@ -179,6 +179,20 @@
       "body": "<blockquote>I am leaving for me, for the next part of my journey and learning and growth. Working with the best, most talented people I have ever known has been the greatest privilege of my life. I cannot possible thank all the friends there enough and will miss them immensely.<br><br>Knowing that the thing I helped build is in great hands from leadership down to every engineer is why I can step away without worry. Stack's in a very good place, and for engineers it's a great learning and growth opportunity. If you like helping people, scale, etc. ask me.<br><br>I wanted to say thank you all for so many kind words in so many forms today. My mission is helping people, and I was lucky enough to find early in my life that tech could allow me do that. Hearing that I have helped some of you means I have succeeded some and means the world &lt;3<br><br>-- <a href=\"https://twitter.com/Nick_Craver/status/1427323097380794371\">Nick</a></blockquote><p><a href=\"https://twitter.com/Nick_Craver\">Follow @Nick_Craver on Twitter</a></p>",
       "links": [],
       "tags": []
+    },
+    {
+      "date_str": "2021-06-23",
+      "title": "Stack Overflow launches Collectives",
+      "slug": "stack-overflow-launches-collectives",
+      "type": "feature",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/408585\">Beta release of Collectives&trade; on Stack Overflow</a></p>",
+      "classes": [],
+      "tags": [
+        {
+          "text": "collectives",
+          "url": "https://meta.stackoverflow.com/questions/tagged/collectives"
+        }
+      ]
     },
     {
       "classes": [
