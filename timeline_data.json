@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "date_str": "2024-07-12",
+      "title": "SE will host the data dump & impose new restrictions",
+      "slug": "se-will-host-the-data-dump-impose-new-restrictions",
+      "type": "company hosting",
+      "body": "<p>Stack Exchange announced that Stack Exchange will host the data dump instead of the Internet Archive. Users seeking the data dump from SE will additionally need to do it site-by-site and check a box about use of the data dump for LLM training.</p>",
+      "linkedEvent": "#june-2023-data-dump-was-not-posted",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/questions/401324/announcing-a-change-to-the-data-dump-process"
+        }
+      ]
+    },
+    {
       "date_str": "2023-10-16",
       "title": "2023 Stack Exchange Staff Layoffs, Round 2",
       "slug": "2023-stack-exchange-staff-layoffs-round-2",
