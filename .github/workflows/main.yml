@@ -1,6 +1,7 @@
 name: Glitch Deploy
 
 # Glitch Project: https://glitch.com/edit/#!/se-timeline
+# Get Glitch token: (JSON.parse(localStorage.getItem('cachedUser'))).persistentToken
 
 on:
   push:
