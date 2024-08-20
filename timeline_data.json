@@ -42,6 +42,26 @@
       ]
     },
     {
+      "date_str": "2023-07-25",
+      "title": "GenAI (formerly Prompt Design) launches in beta",
+      "slug": "genai-formerly-prompt-design-launches-in-beta",
+      "type": "site-launch",
+      "body": "<p>It's notable in that it circumvented Area 51 and the normal procedure for establishing new sites, add to that the really suspicious timing of the site launch just days before the CEO's WeAreDevelopers World Congress talk.</p>",
+      "icon": "https://uploads-ssl.webflow.com/5e28e4d5ff9207d4429418f2/66c41f096cf889133e834ce5_genai.png",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/390463"
+        }
+      ],
+      "tags": [
+        {
+          "text": "prompt-design-site",
+          "url": "https://meta.stackexchange.com/questions/tagged/prompt-design-site"
+        }
+      ]
+    },
+    {
       "date_str": "2023-06-07",
       "title": "June 2023 data dump was not posted",
       "slug": "june-2023-data-dump-was-not-posted",
