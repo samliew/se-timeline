@@ -62,6 +62,25 @@
       ]
     },
     {
+      "date_str": "2023-06-13",
+      "title": "Stack Overflow Launches Labs",
+      "slug": "stack-overflow-launches-labs",
+      "type": "experiment",
+      "body": "<blockquote><p>The purpose is to have a central hub to share our experiments, demos, insights, and news - across all Stack Overflow products. We plan to continually add to this site as we experiment and release new solutions.</p>\n-- <a href=\"https://meta.stackexchange.com/users/430118\">J007B</a></blockquote>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/390241"
+        }
+      ],
+      "tags": [
+        {
+          "text": "stack-overflow-labs",
+          "url": "https://meta.stackexchange.com/questions/tagged/stack-overflow-labs"
+        }
+      ]
+    },
+    {
       "date_str": "2023-06-07",
       "title": "June 2023 data dump was not posted",
       "slug": "june-2023-data-dump-was-not-posted",
