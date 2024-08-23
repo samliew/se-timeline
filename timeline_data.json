@@ -286,6 +286,25 @@
       "tags": []
     },
     {
+      "date_str": "2020-06-01",
+      "title": "We're switching to CommonMark",
+      "slug": "we-re-switching-to-commonmark",
+      "type": "feature",
+      "body": "<p>As of June 20, 2020, all sites are on CommonMark.</p><blockquote>\n<p>In the past, changes to our Markdown renderers have been rather risky and high-effort. We needed to carefully evaluate if a change breaks anything for the millions of existing posts we have in place. By sticking to a well-defined specification like CommonMark, we can make sure that implementations that stick to this specification will work for us. If the specification gets extended, adopting changes will be easy and safe.</p>\n<p>Another reason is that this reduces some of the maintenance burdens of our development teams. Instead of maintaining two distinct Markdown renderers, we can now pick something off the shelf and use that instead. With markdig and markdown-it we&rsquo;ve found two reputable libraries that are beating our own implementations when it comes to performance and functionality. Both are great pieces of software that we're more than happy to use in our product.<br /><br />-- <a href=\"https://meta.stackexchange.com/users/507720/ham-vocke\">Ham Vocke</a></p>\n</blockquote>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/348746"
+        }
+      ],
+      "tags": [
+        {
+          "text": "commonmark",
+          "url": "https://meta.stackexchange.com/questions/tagged/commonmark"
+        }
+      ]
+    },
+    {
       "date_str": "2021-05-11",
       "title": "Sara Chipps resigns",
       "slug": "sara-chipps-resigns",
