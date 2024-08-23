@@ -296,11 +296,19 @@ $(async function () {
     return false;
   });
 
+  /* ===== DEV-only ===== */
+  ['localhost', '127.0.0.1'].some(h => h === location.hostname) && (() => {
+    document.documentElement.classList.add('dev');
+
+    // Check if timeline is sorted chronologically descending
+    const eventDates = [...document.querySelectorAll('.event .date-from')].map(v => v.textContent);
+    const sorted = eventDates.slice().sort((a, b) => new Date(b) - new Date(a));
+    if (eventDates.join() !== sorted.join()) {
+      console.error('Timeline not sorted chronologically.');
+      console.log(eventDates, sorted);
+    }
+    else {
+      console.log('Timeline is sorted chronologically.');
+    }
+  })();
 });
-
-
-
-/* ===== DEV ===== */
-['localhost', '127.0.0.1'].some(h => h === location.hostname) && (() => {
-  document.documentElement.classList.add('dev');
-})();
