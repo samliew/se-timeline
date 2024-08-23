@@ -15,6 +15,24 @@
       ]
     },
     {
+      "date_str": "2023-12-07",
+      "title": "Yaakov Ellis resigns",
+      "slug": "yaakov-ellis-resigns",
+      "type": "staff resignation",
+      "summary": "Staff Software Engineer, Tech Lead, and Community Advocate on PubPlat and Team Lead on Internal Dev",
+      "body": "<blockquote><p>As a developer, he's worked on numerous projects to update existing UI, create new features and tools, and respond to bugs - but he's devoted himself to working with the community directly throughout it all, wanting to ensure that the community was heard and got to have some fun.</p>\n<p>I can't overstate the efforts he's gone to, to redirect the company's thinking about the value of the Meta community by providing key data about who uses Meta, pushing for early and frequent discussions in public about upcoming work, and organizing community advocacy on development teams. His honesty and perseverance has helped bolster the Community Team as he holds a position of trust with many core community members while also having the ears of key figures within Stack Overflow.</p>\n<p>On top of that, he led some of the most beloved opportunities for fun in recent years, most notably being the primary developer for Winter Bash for several years - where he spent much extra time coming up with fun - sometimes secret - activities for the most devoted WB fans. I can certainly say, the last few years of adventuring with Sparkles the Unicorn have made for a very exciting event.</p>\n<p>-- <a href=\"https://meta.stackexchange.com/users/284336/catija\">Catija</a></p>\n</blockquote>",
+      "classes": [
+        "tag-staff",
+        "tag-resignation"
+      ],
+      "links": [
+        {
+          "text": "farewell post",
+          "url": "https://meta.stackexchange.com/q/395234"
+        }
+      ]
+    },
+    {
       "date_str": "2023-10-16",
       "title": "2023 Stack Exchange Staff Layoffs, Round 2",
       "slug": "2023-stack-exchange-staff-layoffs-round-2",
@@ -266,6 +284,43 @@
         }
       ],
       "tags": []
+    },
+    {
+      "date_str": "2020-06-01",
+      "title": "We're switching to CommonMark",
+      "slug": "we-re-switching-to-commonmark",
+      "type": "feature",
+      "body": "<p>As of June 20, 2020, all sites are on CommonMark.</p><blockquote>\n<p>In the past, changes to our Markdown renderers have been rather risky and high-effort. We needed to carefully evaluate if a change breaks anything for the millions of existing posts we have in place. By sticking to a well-defined specification like CommonMark, we can make sure that implementations that stick to this specification will work for us. If the specification gets extended, adopting changes will be easy and safe.</p>\n<p>Another reason is that this reduces some of the maintenance burdens of our development teams. Instead of maintaining two distinct Markdown renderers, we can now pick something off the shelf and use that instead. With markdig and markdown-it we&rsquo;ve found two reputable libraries that are beating our own implementations when it comes to performance and functionality. Both are great pieces of software that we're more than happy to use in our product.<br /><br />-- <a href=\"https://meta.stackexchange.com/users/507720/ham-vocke\">Ham Vocke</a></p>\n</blockquote>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/348746"
+        }
+      ],
+      "tags": [
+        {
+          "text": "commonmark",
+          "url": "https://meta.stackexchange.com/questions/tagged/commonmark"
+        }
+      ]
+    },
+    {
+      "date_str": "2021-05-11",
+      "title": "Sara Chipps resigns",
+      "slug": "sara-chipps-resigns",
+      "type": "staff resignation",
+      "summary": "Director of Community and Stack Overflow",
+      "body": "<blockquote>Sara Chipps has decided to leave the role of Director of Community and Stack Overflow, and May 11th is her last day with us. We are backfilling Sara&rsquo;s role with a VP rather than a Director to reflect the importance of our communities and the Community management team within the company.<br />-- <a href=\"https://meta.stackexchange.com/users/704608/teresa-dietrich\">Teresa Dietrich</a></blockquote>",
+      "classes": [
+        "tag-staff",
+        "tag-resignation"
+      ],
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/364332"
+        }
+      ]
     },
     {
       "date_str": "2020-11-13",
@@ -941,6 +996,12 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
+      "date_str": "2019-11-25",
+      "title": "Stack Exchange launches \"The Loop\"",
+      "slug": "stack-exchange-launches-the-loop",
+      "type": "loop blog",
+      "summary": "Introduced by Sara Chipps and Juan Garza, The Loop is a new way of obtaining user feedback and a moderator advisor group",
+      "body": "<p>Original announcement: <a href=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\">Introducing &ldquo;The Loop&rdquo;: A Foundation in Listening</a> -- Sara Chipps, Juan M</p><p>Follow-up blog post by CEO about The Loop:</p>\n<blockquote>Most importantly, we kicked off a key large scale community survey named <a href=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\">Through The Loop</a> and invited our entire community to share their suggestions, product feature requests, and ideas for how Stack Overflow should evolve more broadly. We&rsquo;ve heard consistent feedback from you regarding key topics like question and answer quality, welcomingness and inclusion, and discovery for relevant questions and answers. <strong>All of this is in pursuit of new and more productive ways to work with and listen to our community</strong> <strong>in the next era of the company</strong>. We want to serve all of the millions of people who use Stack Overflow, not just those who know the most about how the site has worked in the past. To be clear, this does not mean channels like Meta will go away, but they need to grow to ensure that users are heard and responded to in a timely fashion.<br />-- <a href=\"https://stackoverflow.blog/2020/01/21/scripting-the-future-of-stack-2020-plans-vision/\">Prashanth Chandrasekar</a></blockquote>",
       "classes": [
         "featured-event",
         "tag-official",
@@ -948,13 +1009,12 @@
         "tag-blog",
         "tag-the-loop"
       ],
-      "slug": "stack-exchange-launches-the-loop",
-      "type": "loop blog",
-      "date_str": "2019-11-25",
-      "title": "Stack Exchange launches \"The Loop\"",
-      "summary": "Introduced by Sara Chipps and Juan Garza, The Loop is a new way of obtaining user feedback and a moderator advisor group",
-      "body": "<p><a href=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\">Introducing “The Loop”: A Foundation in Listening</a></p>",
-      "links": [],
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/q/339050"
+        }
+      ],
       "tags": [
         {
           "text": "the-loop",
