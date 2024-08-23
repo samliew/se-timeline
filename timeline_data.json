@@ -959,6 +959,12 @@
       "linkedEvent": "#monica-cellio-unceremoniously-fired-as-moderator-from-six-network-sites"
     },
     {
+      "date_str": "2019-11-25",
+      "title": "Stack Exchange launches \"The Loop\"",
+      "slug": "stack-exchange-launches-the-loop",
+      "type": "loop blog",
+      "summary": "Introduced by Sara Chipps and Juan Garza, The Loop is a new way of obtaining user feedback and a moderator advisor group",
+      "body": "<p>Original announcement: <a href=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\">Introducing &ldquo;The Loop&rdquo;: A Foundation in Listening</a> -- Sara Chipps, Juan M</p><p>Follow-up blog post by CEO about The Loop:</p>\n<blockquote>Most importantly, we kicked off a key large scale community survey named <a href=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\">Through The Loop</a> and invited our entire community to share their suggestions, product feature requests, and ideas for how Stack Overflow should evolve more broadly. We&rsquo;ve heard consistent feedback from you regarding key topics like question and answer quality, welcomingness and inclusion, and discovery for relevant questions and answers. <strong>All of this is in pursuit of new and more productive ways to work with and listen to our community</strong> <strong>in the next era of the company</strong>. We want to serve all of the millions of people who use Stack Overflow, not just those who know the most about how the site has worked in the past. To be clear, this does not mean channels like Meta will go away, but they need to grow to ensure that users are heard and responded to in a timely fashion.<br />-- <a href=\"https://stackoverflow.blog/2020/01/21/scripting-the-future-of-stack-2020-plans-vision/\">Prashanth Chandrasekar</a></blockquote>",
       "classes": [
         "featured-event",
         "tag-official",
@@ -966,13 +972,12 @@
         "tag-blog",
         "tag-the-loop"
       ],
-      "slug": "stack-exchange-launches-the-loop",
-      "type": "loop blog",
-      "date_str": "2019-11-25",
-      "title": "Stack Exchange launches \"The Loop\"",
-      "summary": "Introduced by Sara Chipps and Juan Garza, The Loop is a new way of obtaining user feedback and a moderator advisor group",
-      "body": "<p><a href=\"https://stackoverflow.blog/2019/11/25/introducing-the-loop-a-foundation-in-listening/\">Introducing “The Loop”: A Foundation in Listening</a></p>",
-      "links": [],
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/q/339050"
+        }
+      ],
       "tags": [
         {
           "text": "the-loop",
