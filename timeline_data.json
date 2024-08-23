@@ -286,6 +286,24 @@
       "tags": []
     },
     {
+      "date_str": "2021-05-11",
+      "title": "Sara Chipps resigns",
+      "slug": "sara-chipps-resigns",
+      "type": "staff resignation",
+      "summary": "Director of Community and Stack Overflow",
+      "body": "<blockquote>Sara Chipps has decided to leave the role of Director of Community and Stack Overflow, and May 11th is her last day with us. We are backfilling Sara&rsquo;s role with a VP rather than a Director to reflect the importance of our communities and the Community management team within the company.<br />-- <a href=\"https://meta.stackexchange.com/users/704608/teresa-dietrich\">Teresa Dietrich</a></blockquote>",
+      "classes": [
+        "tag-staff",
+        "tag-resignation"
+      ],
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/364332"
+        }
+      ]
+    },
+    {
       "date_str": "2020-11-13",
       "title": "Tim Post leaves Stack Exchange",
       "slug": "tim-post-leaves-stack-exchange",
