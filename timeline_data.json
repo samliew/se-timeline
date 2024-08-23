@@ -15,6 +15,24 @@
       ]
     },
     {
+      "date_str": "2023-12-07",
+      "title": "Yaakov Ellis resigns",
+      "slug": "yaakov-ellis-resigns",
+      "type": "staff resignation",
+      "summary": "Staff Software Engineer, Tech Lead, and Community Advocate on PubPlat and Team Lead on Internal Dev",
+      "body": "<blockquote><p>As a developer, he's worked on numerous projects to update existing UI, create new features and tools, and respond to bugs - but he's devoted himself to working with the community directly throughout it all, wanting to ensure that the community was heard and got to have some fun.</p>\n<p>I can't overstate the efforts he's gone to, to redirect the company's thinking about the value of the Meta community by providing key data about who uses Meta, pushing for early and frequent discussions in public about upcoming work, and organizing community advocacy on development teams. His honesty and perseverance has helped bolster the Community Team as he holds a position of trust with many core community members while also having the ears of key figures within Stack Overflow.</p>\n<p>On top of that, he led some of the most beloved opportunities for fun in recent years, most notably being the primary developer for Winter Bash for several years - where he spent much extra time coming up with fun - sometimes secret - activities for the most devoted WB fans. I can certainly say, the last few years of adventuring with Sparkles the Unicorn have made for a very exciting event.</p>\n<p>-- <a href=\"https://meta.stackexchange.com/users/284336/catija\">Catija</a></p>\n</blockquote>",
+      "classes": [
+        "tag-staff",
+        "tag-resignation"
+      ],
+      "links": [
+        {
+          "text": "farewell post",
+          "url": "https://meta.stackexchange.com/q/395234"
+        }
+      ]
+    },
+    {
       "date_str": "2023-10-16",
       "title": "2023 Stack Exchange Staff Layoffs, Round 2",
       "slug": "2023-stack-exchange-staff-layoffs-round-2",
