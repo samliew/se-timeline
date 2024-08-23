@@ -286,25 +286,6 @@
       "tags": []
     },
     {
-      "date_str": "2020-06-01",
-      "title": "We're switching to CommonMark",
-      "slug": "we-re-switching-to-commonmark",
-      "type": "feature",
-      "body": "<p>As of June 20, 2020, all sites are on CommonMark.</p><blockquote>\n<p>In the past, changes to our Markdown renderers have been rather risky and high-effort. We needed to carefully evaluate if a change breaks anything for the millions of existing posts we have in place. By sticking to a well-defined specification like CommonMark, we can make sure that implementations that stick to this specification will work for us. If the specification gets extended, adopting changes will be easy and safe.</p>\n<p>Another reason is that this reduces some of the maintenance burdens of our development teams. Instead of maintaining two distinct Markdown renderers, we can now pick something off the shelf and use that instead. With markdig and markdown-it we&rsquo;ve found two reputable libraries that are beating our own implementations when it comes to performance and functionality. Both are great pieces of software that we're more than happy to use in our product.<br /><br />-- <a href=\"https://meta.stackexchange.com/users/507720/ham-vocke\">Ham Vocke</a></p>\n</blockquote>",
-      "links": [
-        {
-          "text": "MSE post",
-          "url": "https://meta.stackexchange.com/q/348746"
-        }
-      ],
-      "tags": [
-        {
-          "text": "commonmark",
-          "url": "https://meta.stackexchange.com/questions/tagged/commonmark"
-        }
-      ]
-    },
-    {
       "date_str": "2021-05-11",
       "title": "Sara Chipps resigns",
       "slug": "sara-chipps-resigns",
@@ -367,6 +348,25 @@
         {
           "text": "discuss",
           "url": "https://meta.stackexchange.com/questions/350544/the-new-moderator-agreement-is-now-live-for-moderators-to-accept-across-the-netw"
+        }
+      ]
+    },
+    {
+      "date_str": "2020-06-01",
+      "title": "We're switching to CommonMark",
+      "slug": "we-re-switching-to-commonmark",
+      "type": "feature",
+      "body": "<p>As of June 20, 2020, all sites are on CommonMark.</p><blockquote>\n<p>In the past, changes to our Markdown renderers have been rather risky and high-effort. We needed to carefully evaluate if a change breaks anything for the millions of existing posts we have in place. By sticking to a well-defined specification like CommonMark, we can make sure that implementations that stick to this specification will work for us. If the specification gets extended, adopting changes will be easy and safe.</p>\n<p>Another reason is that this reduces some of the maintenance burdens of our development teams. Instead of maintaining two distinct Markdown renderers, we can now pick something off the shelf and use that instead. With markdig and markdown-it we&rsquo;ve found two reputable libraries that are beating our own implementations when it comes to performance and functionality. Both are great pieces of software that we're more than happy to use in our product.<br /><br />-- <a href=\"https://meta.stackexchange.com/users/507720/ham-vocke\">Ham Vocke</a></p>\n</blockquote>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/348746"
+        }
+      ],
+      "tags": [
+        {
+          "text": "commonmark",
+          "url": "https://meta.stackexchange.com/questions/tagged/commonmark"
         }
       ]
     },
@@ -466,6 +466,19 @@
     },
     {
       "classes": [
+        "tag-staff",
+        "tag-resignation"
+      ],
+      "slug": "mark-henderson-resigns",
+      "type": "staff resignation",
+      "date_str": "2020-03-05",
+      "title": "Mark Henderson resigns",
+      "summary": "Site Reliability Engineer",
+      "links": [],
+      "tags": []
+    },
+    {
+      "classes": [
         "featured-event",
         "tag-company",
         "tag-statement"
@@ -475,19 +488,6 @@
       "date_str": "2020-03-04",
       "title": "Stack Exchange commits to communicate and engage with Meta and moderators",
       "body": "<blockquote>We are working on establishing our commitment to responding on our Meta sites and to our moderators, by setting up a new Meta engagement policy. The goal is to increase staff participation on the various Meta sites, particularly Meta Stack Overflow and Meta Stack Exchange.<br><br>One major area we need to work on is being able to respond to and manage community feedback that needs staff response or action. This post defines a process for doing that. We also need to find out how many of your questions we can realistically respond to so that we can make a reasonable commitment (both internally and externally). Below is a timeline for testing and formulating these goals.<br><br>-- JNat</blockquote><p><a href=\"https://meta.stackexchange.com/q/344586\">Our Commitment to Responding to Meta and Moderators</a></p>",
-      "links": [],
-      "tags": []
-    },
-    {
-      "classes": [
-        "tag-staff",
-        "tag-resignation"
-      ],
-      "slug": "mark-henderson-resigns",
-      "type": "staff resignation",
-      "date_str": "2020-03-05",
-      "title": "Mark Henderson resigns",
-      "summary": "Site Reliability Engineer",
       "links": [],
       "tags": []
     },
@@ -1787,12 +1787,12 @@
         "tag-moderator",
         "tag-resignation"
       ],
-      "slug": "yvette-steps-down",
+      "slug": "aza-resigns",
       "type": "moderator resignation",
-      "date_str": "2019-09-19",
-      "title": "Yvette steps down",
-      "summary": "moderator on Stack Overflow",
-      "body": "<p>stepped down to take a break for personal reasons, but later requested and failed to be reinstated in 2020 due to the new reinstatement process</p>",
+      "date_str": "2019-09-26",
+      "title": "Aza resigns",
+      "summary": "moderator on Literature",
+      "body": "<p><a href=\"https://literature.meta.stackexchange.com/questions/1195/resignation-notice\">Resignation notice</a></p>",
       "links": [],
       "tags": []
     },
@@ -1801,12 +1801,12 @@
         "tag-moderator",
         "tag-resignation"
       ],
-      "slug": "aza-resigns",
+      "slug": "yvette-steps-down",
       "type": "moderator resignation",
-      "date_str": "2019-09-26",
-      "title": "Aza resigns",
-      "summary": "moderator on Literature",
-      "body": "<p><a href=\"https://literature.meta.stackexchange.com/questions/1195/resignation-notice\">Resignation notice</a></p>",
+      "date_str": "2019-09-19",
+      "title": "Yvette steps down",
+      "summary": "moderator on Stack Overflow",
+      "body": "<p>stepped down to take a break for personal reasons, but later requested and failed to be reinstated in 2020 due to the new reinstatement process</p>",
       "links": [],
       "tags": []
     },
@@ -3105,6 +3105,20 @@
     },
     {
       "classes": [
+        "tag-site-graduation"
+      ],
+      "slug": "academia-launches",
+      "type": "site-graduation",
+      "date_str": "2014-04-23",
+      "title": "Academia launches",
+      "summary": "for academics and those enrolled in higher education",
+      "body": "<p><a href=\"https://academia.stackexchange.com\">https://academia.stackexchange.com</a></p>",
+      "links": [],
+      "tags": [],
+      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbabe4a7433d9205816_academia.png"
+    },
+    {
+      "classes": [
         "featured-event",
         "tag-experiment",
         "tag-se-quality-projectse-quality-project"
@@ -3125,20 +3139,6 @@
           "url": "https://meta.stackoverflow.com/questions/tagged/se-quality-project?tab=Newest"
         }
       ]
-    },
-    {
-      "classes": [
-        "tag-site-graduation"
-      ],
-      "slug": "academia-launches",
-      "type": "site-graduation",
-      "date_str": "2014-04-23",
-      "title": "Academia launches",
-      "summary": "for academics and those enrolled in higher education",
-      "body": "<p><a href=\"https://academia.stackexchange.com\">https://academia.stackexchange.com</a></p>",
-      "links": [],
-      "tags": [],
-      "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fbabe4a7433d9205816_academia.png"
     },
     {
       "classes": [
