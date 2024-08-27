@@ -4,7 +4,7 @@
       "date_str": "2024-07-12",
       "title": "SE will host the data dump & impose new restrictions",
       "slug": "se-will-host-the-data-dump-impose-new-restrictions",
-      "type": "company hosting",
+      "type": "data-dump company hosting",
       "body": "<p>Stack Exchange announced that Stack Exchange will host the data dump instead of the Internet Archive. Users seeking the data dump from SE will additionally need to do it site-by-site and check a box about use of the data dump for LLM training.</p>",
       "linkedEvent": "#june-2023-data-dump-was-not-posted",
       "links": [
@@ -102,7 +102,7 @@
       "date_str": "2023-06-07",
       "title": "June 2023 data dump was not posted",
       "slug": "june-2023-data-dump-was-not-posted",
-      "type": "licensing",
+      "type": "data-dump licensing",
       "summary": "Stack Overflow Inc. did not upload the June 2023 data dump",
       "body": "<p>The job that uploads the data dump to Archive.org was disabled on 28 March, and marked to not be re-enabled without approval of senior leadership. This was mainly over concerns on AI using Stack Exchange data. This caused a large outrage and was eventually reverted on June 16, 2023 (9 days later).</p>",
       "links": [
@@ -3196,6 +3196,26 @@
       "links": [],
       "tags": [],
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e2a6fba09623959193dfdd4_workplace.png"
+    },
+    {
+      "date_str": "2014-01-23",
+      "title": "Data dumps now hosted on the Internet Archive",
+      "slug": "data-dumps-now-hosted-on-the-internet-archive",
+      "type": "data-dump hosting",
+      "body": "<p>The former host, ClearBits, permanently shut down at the end of 2013.</p><p>Links to all the data dump releases may be found in this <a href=\"https://meta.stackexchange.com/q/224873\">MSE post</a>.</p>",
+      "icon": "https://archive.org/offshoot_assets/assets/ia-logo-2c2c2c.03bd7e88c8814d63d0fcb35fc01f37c3.svg",
+      "links": [
+        {
+          "text": "blog post",
+          "url": "https://stackoverflow.blog/2014/01/23/stack-exchange-cc-data-now-hosted-by-the-internet-archive/"
+        }
+      ],
+      "tags": [
+        {
+          "text": "data-dump",
+          "url": "https://meta.stackexchange.com/questions/tagged/data-dump"
+        }
+      ]
     },
     {
       "classes": [
