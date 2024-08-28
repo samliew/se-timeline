@@ -15,6 +15,20 @@
       ]
     },
     {
+      "date_str": "2024-05-28",
+      "title": "Migration to in-house image hosting",
+      "slug": "migration-to-in-house-image-hosting",
+      "type": "hosting",
+      "summary": "All images are now hosted internally on i.sstatic.net",
+      "body": "<blockquote><a href=\"https://stackoverflow.blog/2010/08/18/new-image-upload-support\">Since 2010</a>, Imgur has provided image hosting services to Stack Exchange, but that hosting contract with Imgur comes to an end this upcoming April 2024. This April will conclude a 13-year-long successful relationship between Imgur and Stack, for which the whole company has been deeply grateful. However, Imgur no longer provides an enterprise image hosting product, and therefore, it has come time to find an alternative solution.<br />-- <a href=\"https://meta.stackexchange.com/users/1037447/slate\">Slate</a></blockquote>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/395024"
+        }
+      ]
+    },
+    {
       "date_str": "2023-12-07",
       "title": "Yaakov Ellis resigns",
       "slug": "yaakov-ellis-resigns",
