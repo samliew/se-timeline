@@ -97,6 +97,30 @@
       ]
     },
     {
+      "date_str": "2023-09-06",
+      "title": "Annual Winter/Summer Bash event cancelled indefinitely",
+      "slug": "annual-winter-summer-bash-event-cancelled-indefinitely",
+      "type": "community-event",
+      "body": "<p>Citing low participation rate and high cost of running the events as reasons for sunsetting this yearly tradition.</p>",
+      "linkedEvent": "#first-networkwide-winter-bash",
+      "links": [
+        {
+          "text": "announcement",
+          "url": "https://meta.stackexchange.com/q/392846"
+        }
+      ],
+      "tags": [
+        {
+          "text": "winter-bash",
+          "url": "https://meta.stackexchange.com/questions/tagged/winter-bash"
+        },
+        {
+          "text": "winter-bash",
+          "url": "https://meta.stackoverflow.com/questions/tagged/winter-bash"
+        }
+      ]
+    },
+    {
       "date_str": "2023-07-25",
       "title": "GenAI (formerly Prompt Design) launches in beta",
       "slug": "genai-formerly-prompt-design-launches-in-beta",
