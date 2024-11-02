@@ -4042,6 +4042,29 @@
       "tags": []
     },
     {
+      "date_str": "2009-09-30",
+      "title": "First usage of the sponsored tags feature seen with Adobe",
+      "slug": "first-usage-of-the-sponsored-tags-feature-seen-with-adobe",
+      "type": "advertising",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/328236\">A list of sponsored tags</a> (may be outdated).</p>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/q/23955"
+        }
+      ],
+      "tags": [
+        {
+          "text": "sponsored-tags",
+          "url": "https://meta.stackexchange.com/questions/tagged/sponsored-tags"
+        },
+        {
+          "text": "sponsored-tags",
+          "url": "https://meta.stackoverflow.com/questions/tagged/sponsored-tags"
+        }
+      ]
+    },
+    {
       "classes": [
         "tag-site-launch"
       ],
