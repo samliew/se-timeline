@@ -4043,6 +4043,19 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b500b7c9a87f4a72f18c_apple-touch-icon.png"
     },
     {
+      "date_str": "2010-01-01",
+      "title": "Stack Gives Back",
+      "slug": "stack-gives-back",
+      "type": "charity",
+      "body": "<p>Donations amounting to $100 per community moderator have since become a yearly tradition at Stack Overflow. Search for \"Stack Gives Back\" on the <a href=\"https://stackoverflow.blog\">Stack Overflow blog</a> to see a list of past donations.</p>",
+      "links": [
+        {
+          "text": "blog",
+          "url": "https://stackoverflow.blog/2010/01/01/stack-overflow-gives-back/"
+        }
+      ]
+    },
+    {
       "classes": [
         "featured-event",
         "tag-blog",
