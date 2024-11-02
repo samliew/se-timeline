@@ -2476,6 +2476,29 @@
       ]
     },
     {
+      "date_str": "2018-03-12",
+      "title": "Beginning of the formal site sponsorship program",
+      "slug": "beginning-of-the-formal-site-sponsorship-program",
+      "type": "advertising",
+      "body": "<p>Modeled after the \"tag sponsorship\" feature.</p>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/307861"
+        },
+        {
+          "text": "List of sponsored sites",
+          "url": "https://meta.stackexchange.com/q/341662"
+        }
+      ],
+      "tags": [
+        {
+          "text": "sponsored-sites",
+          "url": "https://meta.stackexchange.com/questions/tagged/sponsored-sites"
+        }
+      ]
+    },
+    {
       "classes": [
         "tag-product",
         "tag-stack-overflow-for-teams"
