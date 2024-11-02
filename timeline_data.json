@@ -281,6 +281,19 @@
       ]
     },
     {
+      "date_str": "2022-10-06",
+      "title": "Public bookmarks converted into private Saves",
+      "slug": "public-bookmarks-converted-into-private-saves",
+      "type": "feature",
+      "body": "<p>First, <a href=\"https://meta.stackexchange.com/q/347558\">Favorites were renamed to Bookmarks</a>, then Bookmarks got turned into Saves, and the feature was pushed out without coordinated changes to the API, so it became impossible to query a user's own Saves through the API even when authenticated.</p>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/382019"
+        }
+      ]
+    },
+    {
       "date_str": "2021-11-23",
       "title": "BoltClock and Bhargav Rao resign",
       "slug": "boltclock-and-bhargav-rao-resign",
