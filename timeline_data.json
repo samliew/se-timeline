@@ -2370,6 +2370,23 @@
       "tags": []
     },
     {
+      "date_str": "2019-05-17",
+      "title": "Stack Overflow security incident",
+      "slug": "stack-overflow-security-incident",
+      "type": "security",
+      "body": "<p>Stack Overflow's source code was exfiltrated and personally identifiable information of around 250 users were inadvertently accessed. The intrusion, originated on May 5, was discovered upon a privilege escalation that alarmed the community who notified Stack Overflow on May 12.</p>",
+      "links": [
+        {
+          "text": "blog",
+          "url": "https://stackoverflow.blog/2019/05/17/update-to-security-incident-may-17-2019/"
+        },
+        {
+          "text": "postmortem",
+          "url": "https://stackoverflow.blog/2021/01/25/a-deeper-dive-into-our-may-2019-security-incident/"
+        }
+      ]
+    },
+    {
       "classes": [
         "tag-staff",
         "tag-resignation"
