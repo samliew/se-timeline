@@ -29,6 +29,29 @@
       ]
     },
     {
+      "date_str": "2024-03-05",
+      "title": "No more April Fools pranks for the foreseeable future",
+      "slug": "no-more-april-fools-pranks-for-the-foreseeable-future",
+      "type": "april-fools",
+      "body": "<p>For a list of all past April Fools pranks, see <a href=\"https://meta.stackoverflow.com/q/406512\">this meta post</a>.</p>",
+      "links": [
+        {
+          "text": "announcement",
+          "url": "https://meta.stackexchange.com/q/398249"
+        }
+      ],
+      "tags": [
+        {
+          "text": "april-fools",
+          "url": "https://meta.stackexchange.com/questions/tagged/april-fools"
+        },
+        {
+          "text": "april-fools",
+          "url": "https://meta.stackoverflow.com/questions/tagged/april-fools"
+        }
+      ]
+    },
+    {
       "date_str": "2023-12-07",
       "title": "Yaakov Ellis resigns",
       "slug": "yaakov-ellis-resigns",
