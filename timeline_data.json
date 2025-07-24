@@ -29,6 +29,29 @@
       ]
     },
     {
+      "date_str": "2024-03-05",
+      "title": "No more April Fools pranks for the foreseeable future",
+      "slug": "no-more-april-fools-pranks-for-the-foreseeable-future",
+      "type": "april-fools",
+      "body": "<p>For a list of all past April Fools pranks, see <a href=\"https://meta.stackoverflow.com/q/406512\">this meta post</a>.</p>",
+      "links": [
+        {
+          "text": "announcement",
+          "url": "https://meta.stackexchange.com/q/398249"
+        }
+      ],
+      "tags": [
+        {
+          "text": "april-fools",
+          "url": "https://meta.stackexchange.com/questions/tagged/april-fools"
+        },
+        {
+          "text": "april-fools",
+          "url": "https://meta.stackoverflow.com/questions/tagged/april-fools"
+        }
+      ]
+    },
+    {
       "date_str": "2023-12-07",
       "title": "Yaakov Ellis resigns",
       "slug": "yaakov-ellis-resigns",
@@ -70,6 +93,30 @@
         {
           "text": "Thank you Catija",
           "url": "https://meta.stackexchange.com/questions/393797/thank-you-catija"
+        }
+      ]
+    },
+    {
+      "date_str": "2023-09-06",
+      "title": "Annual Winter/Summer Bash event cancelled indefinitely",
+      "slug": "annual-winter-summer-bash-event-cancelled-indefinitely",
+      "type": "community-event",
+      "body": "<p>Citing low participation rate and high cost of running the events as reasons for sunsetting this yearly tradition.</p>",
+      "linkedEvent": "#first-networkwide-winter-bash",
+      "links": [
+        {
+          "text": "announcement",
+          "url": "https://meta.stackexchange.com/q/392846"
+        }
+      ],
+      "tags": [
+        {
+          "text": "winter-bash",
+          "url": "https://meta.stackexchange.com/questions/tagged/winter-bash"
+        },
+        {
+          "text": "winter-bash",
+          "url": "https://meta.stackoverflow.com/questions/tagged/winter-bash"
         }
       ]
     },
@@ -230,6 +277,19 @@
         {
           "text": "Blog post",
           "url": "https://stackoverflow.blog/?p=21973"
+        }
+      ]
+    },
+    {
+      "date_str": "2022-10-06",
+      "title": "Public bookmarks converted into private Saves",
+      "slug": "public-bookmarks-converted-into-private-saves",
+      "type": "feature",
+      "body": "<p>First, <a href=\"https://meta.stackexchange.com/q/347558\">Favorites were renamed to Bookmarks</a>, then Bookmarks got turned into Saves, and the feature was pushed out without coordinated changes to the API, so it became impossible to query a user's own Saves through the API even when authenticated.</p>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/382019"
         }
       ]
     },
@@ -2310,6 +2370,23 @@
       "tags": []
     },
     {
+      "date_str": "2019-05-17",
+      "title": "Stack Overflow security incident",
+      "slug": "stack-overflow-security-incident",
+      "type": "security",
+      "body": "<p>Stack Overflow's source code was exfiltrated and personally identifiable information of around 250 users were inadvertently accessed. The intrusion, originated on May 5, was discovered upon a privilege escalation that alarmed the community who notified Stack Overflow on May 12.</p>",
+      "links": [
+        {
+          "text": "blog",
+          "url": "https://stackoverflow.blog/2019/05/17/update-to-security-incident-may-17-2019/"
+        },
+        {
+          "text": "postmortem",
+          "url": "https://stackoverflow.blog/2021/01/25/a-deeper-dive-into-our-may-2019-security-incident/"
+        }
+      ]
+    },
+    {
       "classes": [
         "tag-staff",
         "tag-resignation"
@@ -2425,6 +2502,29 @@
         {
           "text": "welcoming",
           "url": "https://meta.stackoverflow.com/questions/tagged/welcoming?tab=newest"
+        }
+      ]
+    },
+    {
+      "date_str": "2018-03-12",
+      "title": "Beginning of the formal site sponsorship program",
+      "slug": "beginning-of-the-formal-site-sponsorship-program",
+      "type": "advertising",
+      "body": "<p>Modeled after the \"tag sponsorship\" feature.</p>",
+      "links": [
+        {
+          "text": "MSE post",
+          "url": "https://meta.stackexchange.com/q/307861"
+        },
+        {
+          "text": "List of sponsored sites",
+          "url": "https://meta.stackexchange.com/q/341662"
+        }
+      ],
+      "tags": [
+        {
+          "text": "sponsored-sites",
+          "url": "https://meta.stackexchange.com/questions/tagged/sponsored-sites"
         }
       ]
     },
@@ -3943,6 +4043,19 @@
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b500b7c9a87f4a72f18c_apple-touch-icon.png"
     },
     {
+      "date_str": "2010-01-01",
+      "title": "Stack Gives Back",
+      "slug": "stack-gives-back",
+      "type": "charity",
+      "body": "<p>Donations amounting to $100 per community moderator have since become a yearly tradition at Stack Overflow. Search for \"Stack Gives Back\" on the <a href=\"https://stackoverflow.blog\">Stack Overflow blog</a> to see a list of past donations.</p>",
+      "links": [
+        {
+          "text": "blog",
+          "url": "https://stackoverflow.blog/2010/01/01/stack-overflow-gives-back/"
+        }
+      ]
+    },
+    {
       "classes": [
         "featured-event",
         "tag-blog",
@@ -3972,6 +4085,29 @@
       "tags": []
     },
     {
+      "date_str": "2009-09-30",
+      "title": "First usage of the sponsored tags feature seen with Adobe",
+      "slug": "first-usage-of-the-sponsored-tags-feature-seen-with-adobe",
+      "type": "advertising",
+      "body": "<p><a href=\"https://meta.stackoverflow.com/q/328236\">A list of sponsored tags</a> (may be outdated).</p>",
+      "links": [
+        {
+          "text": "discuss",
+          "url": "https://meta.stackexchange.com/q/23955"
+        }
+      ],
+      "tags": [
+        {
+          "text": "sponsored-tags",
+          "url": "https://meta.stackexchange.com/questions/tagged/sponsored-tags"
+        },
+        {
+          "text": "sponsored-tags",
+          "url": "https://meta.stackoverflow.com/questions/tagged/sponsored-tags"
+        }
+      ]
+    },
+    {
       "classes": [
         "tag-site-launch"
       ],
@@ -3998,6 +4134,19 @@
       "links": [],
       "tags": [],
       "icon": "https://assets.website-files.com/5e28e4d5ff9207d4429418f2/5e29b4e65915476357015ba7_superuser.png"
+    },
+    {
+      "date_str": "2009-07-30",
+      "title": "How-To Geek partners with Stack Overflow",
+      "slug": "how-to-geek-partners-with-stack-overflow",
+      "type": "advertising",
+      "body": "<p>Jeff, co-founder of Stack Overflow, had been a fan of <a href=\"https://www.howtogeek.com/\">The Geek's site</a> since he first discovered it. With this (short-lived) partnership that spanned from July 30, 2009, to <a href=\"https://meta.stackexchange.com/q/55668\">July 1, 2010</a>, Lowell (The Geek) would be an active moderator and participant on Super User and his site would be featured at the bottom of the Stack Overflow homepage.</p>",
+      "links": [
+        {
+          "text": "announcement",
+          "url": "https://stackoverflow.blog/2009/07/30/howtogeek-and-stack-overflow/"
+        }
+      ]
     },
     {
       "classes": [
