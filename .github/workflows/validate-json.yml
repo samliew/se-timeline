@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "**.json"
+      - "!.vscode/**"
 
 jobs:
   test:
@@ -14,7 +15,7 @@ jobs:
       - name: json-syntax-check
         run: |
           status=0
-          for f in $(find . -name '*.json' -not -path './.git/*'); do
+          for f in $(find . -name '*.json' -not -path './.git/*' -not -path './.vscode/*'); do
             if ! python3 -m json.tool "$f" > /dev/null 2>&1; then
               echo "❌ Invalid JSON: $f"
               python3 -m json.tool "$f" || true
