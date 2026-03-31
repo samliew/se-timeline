@@ -38,7 +38,13 @@ function buildEventHTML(event: TimelineEvent): string {
   const tags =
     event.tags
       ?.map((tag) => {
-        const isMse = tag.url.includes("meta.stackexchange.com");
+        let isMse = false;
+        try {
+          const hostname = new URL(tag.url).hostname;
+          isMse = hostname === "meta.stackexchange.com";
+        } catch {
+          // invalid URL, not MSE
+        }
         return `<a href="${tag.url ?? "#"}" class="tag ${isMse ? "meta-se-tag" : ""}">${tag.text}</a>`;
       })
       .join("") ?? "";
