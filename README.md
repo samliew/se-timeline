@@ -1,6 +1,7 @@
 # The Stack Exchange Timeline
 
-[![Deploy Info](https://github.com/samliew/se-timeline/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/samliew/se-timeline/actions/workflows/main.yml) [![Validate JSON](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml/badge.svg)](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml) [![Licence](https://img.shields.io/github/license/samliew/se-timeline?color=blue)](https://github.com/samliew/se-timeline/blob/main/LICENCE) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/samliew/se-timeline)](https://github.com/samliew/se-timeline/pulse)
+[![Deploy](https://github.com/samliew/se-timeline/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/samliew/se-timeline/actions/workflows/main.yml) [![JSON Validation](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml/badge.svg)](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml)
+[![Licence](https://img.shields.io/github/license/samliew/se-timeline?color=blue)](https://github.com/samliew/se-timeline/blob/main/LICENCE) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/samliew/se-timeline)](https://github.com/samliew/se-timeline/pulse)
 
 This is a static site deployed to [Vercel](https://vercel.com). Pushing to the `main` branch triggers an automatic deployment via Vercel's Git integration.
 
@@ -8,9 +9,7 @@ This is a static site deployed to [Vercel](https://vercel.com). Pushing to the `
 
 Please direct any queries & feedback by [creating an issue on GitHub](https://github.com/samliew/se-timeline/issues).
 
-You can also contribute to updating the events using the instructions below, then opening a pull request. After review and merging to the main branch, Vercel will automatically deploy the updated site.
-
-Don't worry about making mistakes, a GitHub action will run on any pull request to validate changes to the JSON file, and the PR can only be merged if it passes.
+You can also contribute to updating the events using the instructions below, then opening a pull request. After review and merging to the main branch, Vercel will automatically deploy the updated site. Don't worry about making mistakes—a GitHub action will run on pull requests to validate changes to the JSON file, and the changes can only be merged if it passes.
 
 ### Updating Events
 
