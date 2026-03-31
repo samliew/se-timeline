@@ -77,6 +77,10 @@
         <fieldset>
           <legend class="w-label">Type</legend>
           <div class="info">for grouping similar events, for easier browser page search</div>
+          <div class="form-row">
+            <label class="w-label" for="type_manual">Manual</label>
+            <input class="w-input" type="text" name="type" id="type_manual" placeholder="custom-type-1, custom-type-2">
+          </div>
           <div class="type-grid">
             <div class="form-row-inline">
               <input class="w-checkbox" type="checkbox" name="type" id="type_advertising" value="advertising">
@@ -218,7 +222,6 @@
               <label class="w-label" for="type_strike">strike</label>
               <div class="info">strike or protest</div>
             </div>
-            <input type="hidden" name="type" id="type_other" value="">
           </div>
         </fieldset>
         <fieldset>
@@ -273,116 +276,21 @@
             <input class="w-input linkUrl" type="url" id="linkUrl2" data-pair="linkText2" placeholder="https://">
           </div>
         </div>
-        <fieldset>
-          <legend class="w-label">Tags</legend>
-          <div class="info">for easier browser searching of similar events</div>
-          <div class="form-row">
-            <label class="w-label" for="tags_manual">Manual</label>
-            <input class="w-input" type="text" name="tags" id="tags_manual" placeholder="custom-tag-1, custom-tag-2">
-          </div>
+        <div class="form-row">
+          <label class="w-label" for="tags">Tags</label>
+          <div class="info">an array of link tags (up to three)</div>
           <div class="tags-grid">
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_account-suspension" value="account-suspension">
-              <label class="w-label" for="tags_account-suspension">account-suspension</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_advertising" value="advertising">
-              <label class="w-label" for="tags_advertising">advertising</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_april-fools" value="april-fools">
-              <label class="w-label" for="tags_april-fools">april-fools</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_area51" value="area51">
-              <label class="w-label" for="tags_area51">area51</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_code-of-conduct" value="code-of-conduct">
-              <label class="w-label" for="tags_code-of-conduct">code-of-conduct</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_collectives" value="collectives">
-              <label class="w-label" for="tags_collectives">collectives</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_commonmark" value="commonmark">
-              <label class="w-label" for="tags_commonmark">commonmark</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_company" value="company">
-              <label class="w-label" for="tags_company">company</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_data-dump" value="data-dump">
-              <label class="w-label" for="tags_data-dump">data-dump</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_data-explorer" value="data-explorer">
-              <label class="w-label" for="tags_data-explorer">data-explorer</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_documentation" value="documentation">
-              <label class="w-label" for="tags_documentation">documentation</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_flags" value="flags">
-              <label class="w-label" for="tags_flags">flags</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_inappropriate-advertisements" value="inappropriate-advertisements">
-              <label class="w-label" for="tags_inappropriate-advertisements">inappropriate-advertisements</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_jobs" value="jobs">
-              <label class="w-label" for="tags_jobs">jobs</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_licensing" value="licensing">
-              <label class="w-label" for="tags_licensing">licensing</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_mentoring" value="mentoring">
-              <label class="w-label" for="tags_mentoring">mentoring</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_prompt-design-site" value="prompt-design-site">
-              <label class="w-label" for="tags_prompt-design-site">prompt-design-site</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_se-quality-project" value="se-quality-project">
-              <label class="w-label" for="tags_se-quality-project">se-quality-project</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_sponsored-sites" value="sponsored-sites">
-              <label class="w-label" for="tags_sponsored-sites">sponsored-sites</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_sponsored-tags" value="sponsored-tags">
-              <label class="w-label" for="tags_sponsored-tags">sponsored-tags</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_stack-overflow-for-teams" value="stack-overflow-for-teams">
-              <label class="w-label" for="tags_stack-overflow-for-teams">stack-overflow-for-teams</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_stack-overflow-labs" value="stack-overflow-labs">
-              <label class="w-label" for="tags_stack-overflow-labs">stack-overflow-labs</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_the-loop" value="the-loop">
-              <label class="w-label" for="tags_the-loop">the-loop</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_welcoming" value="welcoming">
-              <label class="w-label" for="tags_welcoming">welcoming</label>
-            </div>
-            <div class="form-row-inline">
-              <input class="w-checkbox" type="checkbox" name="tags" id="tags_winter-bash" value="winter-bash">
-              <label class="w-label" for="tags_winter-bash">winter-bash</label>
-            </div>
+            <span>1.</span>
+            <input class="w-input tagText" type="text" id="tagText0" data-pair="tagUrl0" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+            <input class="w-input tagUrl" type="url" id="tagUrl0" data-pair="tagText0" placeholder="https://">
+            <span>2.</span>
+            <input class="w-input tagText" type="text" id="tagText1" data-pair="tagUrl1" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+            <input class="w-input tagUrl" type="url" id="tagUrl1" data-pair="tagText1" placeholder="https://">
+            <span>3.</span>
+            <input class="w-input tagText" type="text" id="tagText2" data-pair="tagUrl2" placeholder="tag-text" maxlength="50" pattern="^[a-z0-9-]+$">
+            <input class="w-input tagUrl" type="url" id="tagUrl2" data-pair="tagText2" placeholder="https://">
           </div>
-        </fieldset>
+        </div>
         <div class="form-row">
           <label class="w-label" for="linkedEvent">Linked Event</label>
           <div class="info">another event's slug prefixed with a #</div>
