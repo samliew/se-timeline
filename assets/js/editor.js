@@ -395,7 +395,8 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
   if (linkedDropdown && importDropdown) {
     let currentYear;
 
-    const { items } = await $.getJSON('/timeline_data.json');
+    const version = await fetch('/version.txt').then(r => r.ok ? r.text() : '').then(t => t.trim()).catch(() => '');
+    const { items } = await $.getJSON('/timeline_data.json' + (version ? '?v=' + version : ''));
     items.forEach(event => {
 
       // Assumes items are already sorted by year
