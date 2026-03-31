@@ -15,7 +15,7 @@ You can also contribute to updating the events using the instructions below, the
 
 The timeline data is stored in the [timeline_data.json](https://github.com/samliew/se-timeline/blob/main/timeline_data.json) file as JSON.
 
-If you are unsure how to manually edit the event data using JSON, you should use the [Event Editor](/event-editor) to import an existing event or create a new one, following which you can paste the output in a new "Update Timeline" [issue](https://github.com/samliew/se-timeline/issues/new/choose).
+If you are unsure how to manually edit the event data using JSON, you should use the [Event Editor](https://se-timeline.vercel.app/event-editor) to import an existing event or create a new one, following which you can paste the output in a new "Update Timeline" [issue](https://github.com/samliew/se-timeline/issues/new/choose).
 
 ### Event Object Properties
 

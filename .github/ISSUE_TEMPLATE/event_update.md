@@ -23,7 +23,7 @@ If you are requesting a new event or updates to one, please provide either of th
 
 ### A. Paste Event JSON, or
 
-If you created/edited this event using the [Event Editor](https://se-timeline.glitch.me/event-editor),
+If you created/edited this event using the [Event Editor](https://se-timeline.vercel.app/event-editor),
 please paste the exported event JSON between the code backticks below:
 
 ```json
