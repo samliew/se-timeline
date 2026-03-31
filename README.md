@@ -1,33 +1,14 @@
 # The Stack Exchange Timeline
 
-[![Validate JSON](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml/badge.svg)](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml) [![Licence](https://img.shields.io/github/license/samliew/se-timeline?color=blue)](https://github.com/samliew/se-timeline/blob/main/LICENCE) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/samliew/se-timeline)](https://github.com/samliew/se-timeline/pulse)
+[![Licence](https://img.shields.io/github/license/samliew/se-timeline?color=blue)](https://github.com/samliew/se-timeline/blob/main/LICENCE) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/samliew/se-timeline)](https://github.com/samliew/se-timeline/pulse)
 
-A timeline of notable events for Stack Overflow and Stack Overflow Inc., as well as the Stack Exchange Network of sites.
-
-## Tech Stack
-
-- **Framework**: [Next.js](https://nextjs.org/) (React)
-- **Deployment**: [Vercel](https://vercel.com/)
-- **Language**: TypeScript
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Deployment
-
-This project is configured for deployment on [Vercel](https://vercel.com/). Connect the GitHub repository to Vercel for automatic deployments on every push to the `main` branch.
+This is a static site deployed to [Vercel](https://vercel.com). Pushing to the `main` branch triggers an automatic deployment via Vercel's Git integration.
 
 ## Contributing
 
 Please direct any queries & feedback by [creating an issue on GitHub](https://github.com/samliew/se-timeline/issues).
 
-You can also contribute to updating the events using the instructions below, then opening a pull request. After review and merging to the main branch, Vercel will automatically deploy the changes.
+You can also contribute to updating the events using the instructions below, then opening a pull request. After review and merging to the main branch, Vercel will automatically deploy the updated site.
 
 Don't worry about making mistakes, a GitHub action will run on any pull request to validate changes to the JSON file, and the PR can only be merged if it passes.
 
@@ -35,7 +16,7 @@ Don't worry about making mistakes, a GitHub action will run on any pull request 
 
 The timeline data is stored in the [timeline_data.json](https://github.com/samliew/se-timeline/blob/main/timeline_data.json) file as JSON.
 
-If you are unsure how to manually edit the event data using JSON, you should use the Event Editor page (`/event-editor`) to import an existing event or create a new one, following which you can paste the output in a new "Update Timeline" [issue](https://github.com/samliew/se-timeline/issues/new/choose).
+If you are unsure how to manually edit the event data using JSON, you should use the [Event Editor](/event-editor) to import an existing event or create a new one, following which you can paste the output in a new "Update Timeline" [issue](https://github.com/samliew/se-timeline/issues/new/choose).
 
 ### Event Object Properties
 

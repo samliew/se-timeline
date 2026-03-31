@@ -1,0 +1,20 @@
+# Vercel handles deployments automatically via its Git integration.
+# Connect this repo to a Vercel project at: https://vercel.com/new
+# See: https://vercel.com/docs/deployments/git
+#
+# This workflow is intentionally left as a placeholder.
+# You can safely delete this file once Vercel deployment is confirmed working.
+
+name: Deploy Info
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployment note
+        run: echo "This site is deployed to Vercel automatically via Git integration."

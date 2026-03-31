@@ -53,9 +53,9 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
     target: bodyField,
     content_css: [
       "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&",
-      "/css/webflow.9498fd7ed.css?",
-      "/css/main.css?",
-      "/css/tinymce-override.css?",
+      "/assets/css/webflow.9498fd7ed.css?",
+      "/assets/css/main.css?",
+      "/assets/css/tinymce-override.css?",
     ],
     cache_suffix: 'v=1', // update this if there are breaking changes in the stylesheet
     branding: false,
