@@ -88,6 +88,9 @@ fieldset > legend:first-child {
   font-size: 0.75rem;
   color: #888;
 }
+fieldset > legend.w-label + .info {
+  margin-bottom: 1.0rem;
+}
 
 .event-editor .w-button.w-button-secondary {
   background-color: #888;
@@ -97,21 +100,24 @@ fieldset > legend:first-child {
 }
 
 .event-editor .class-grid,
-.event-editor .type-grid {
+.event-editor .type-grid,
+.event-editor .tags-grid {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
   align-items: start;
 }
 .event-editor .class-grid > .form-row-inline,
-.event-editor .type-grid > .form-row-inline {
+.event-editor .type-grid > .form-row-inline,
+.event-editor .tags-grid > .form-row-inline {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 .event-editor .class-grid .w-checkbox,
-.event-editor .type-grid .w-checkbox {
+.event-editor .type-grid .w-checkbox,
+.event-editor .tags-grid .w-checkbox {
   margin-right: 5px;
 }
 .event-editor .class-grid .info,
@@ -121,8 +127,7 @@ fieldset > legend:first-child {
   padding-left: calc(1rem + 5px);
 }
 
-.event-editor .link-grid,
-.event-editor .tags-grid {
+.event-editor .link-grid {
   display: grid;
   margin-top: 0.5rem;
   grid-template-columns: 10px 200px auto;
