@@ -10,8 +10,17 @@ jobs:
     name: Validate JSON
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: json-syntax-check
-        uses: limitusus/json-syntax-check@v2
-        with:
-          pattern: "\\.json$"
+        run: |
+          status=0
+          for f in $(find . -name '*.json' -not -path './.git/*'); do
+            if ! python3 -m json.tool "$f" > /dev/null 2>&1; then
+              echo "❌ Invalid JSON: $f"
+              python3 -m json.tool "$f" || true
+              status=1
+            else
+              echo "✅ Valid JSON: $f"
+            fi
+          done
+          exit $status
