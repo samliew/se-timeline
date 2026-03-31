@@ -2,6 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "buildCommand": "echo ${VERCEL_GIT_COMMIT_SHA:-dev} > version.txt",
+  "outputDirectory": ".",
   "headers": [
     {
       "source": "/assets/(.*)",
