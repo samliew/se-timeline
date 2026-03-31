@@ -1,0 +1,434 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(196, 196, 196);
+  border-radius: 5;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(196, 196, 196);
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Webflow Overrides */
+.w-col {
+  min-height: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+svg {
+  fill: currentColor;
+}
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.05);
+}
+
+/* Body */
+body,
+body.background-se {
+  --bg-color: #f3f3f3;
+}
+body.background-se::before {
+  content: "";
+  position: fixed;
+  top: -50vh;
+  bottom: -50vh;
+  left: -50vw;
+  right: -50vw;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--bg-color) url(/img/icons/stack_exchange_icon.svg) center / 20% repeat;
+  filter: opacity(0.05);
+  transform: rotate(325deg);
+}
+body.background-se .timeline-year {
+  background: linear-gradient(rgba(243, 243, 243, 0.95) 50%, rgba(243, 243, 243, 0.2) 100%);
+  box-shadow: none;
+}
+body.background-se .timeline-year.static-year {
+  background: none;
+  box-shadow: none;
+}
+body.background-se .timeline-year::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  margin-left: -4px;
+  z-index: -1;
+  pointer-events: none;
+  background: rgba(243, 243, 243, 1);
+}
+@media (max-width: 767px) {
+  body.background-se .timeline-year::before {
+    left: calc(1rem + 5px);
+  }
+}
+
+/* Header */
+body {
+  --fixed-header-height: 80px;
+  --fixed-header-margin: 1rem;
+
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+}
+body.fixed-header {
+  padding-top: calc(var(--fixed-header-height) + var(--fixed-header-margin));
+}
+.navbar {
+  position: static;
+  width: 100%;
+  margin-bottom: var(--fixed-header-margin);
+}
+body.fixed-header .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--fixed-header-height);
+  margin-bottom: 0;
+  z-index: 1000;
+}
+.header-right,
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1 1 120px;
+}
+.header-right {
+  justify-content: flex-end;
+}
+.main-title,
+.header-link h1 {
+  white-space: nowrap;
+  line-height: 1.3;
+}
+.year-picker {
+  margin-left: 1rem;
+  width: auto;
+}
+@media (max-width: 767px) {
+  body.fixed-header {
+    --fixed-header-height: 40px;
+  }
+  .navbar {
+    height: 40px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .header-left {
+    display: none;
+    width: 100%;
+  }
+}
+
+/* Footer */
+.footer {
+  margin: 0;
+  border-top: 1px solid silver;
+  box-shadow: inset 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 3rem 1rem 3rem;
+  }
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.back-link svg {
+  height: 1.4em;
+  margin-right: 0.5em;
+}
+
+/* Utility */
+.d-block {
+  display: block !important;
+}
+.d-flex {
+  display: flex !important;
+  align-items: center;
+}
+.d-none {
+  display: none !important;
+}
+
+.rainbow-text {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent;
+
+  --r: #ff0000;
+  --o: #ffa500;
+  --y: #ffdc00;
+  --g: #008000;
+  --b: #0000ff;
+  --p: #800080;
+
+  background: linear-gradient(
+      90deg,
+      var(--r),
+      var(--o),
+      var(--y),
+      var(--g),
+      var(--b),
+      var(--p),
+      var(--r),
+      var(--o),
+      var(--y),
+      var(--g),
+      var(--b)
+    )
+    left center / 100%;
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
+}
+
+/* Filter Checkboxes */
+.inline input:radio,
+.inline input:checkbox {
+  margin: 0 !important;
+}
+
+.filter-container {
+  font-size: 0.8rem;
+}
+
+.filter-group label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter-group input {
+  margin: 0;
+  margin-right: 0.25rem;
+}
+
+.timeline.hide-descriptions .event-description,
+.timeline.hide-descriptions .event-tags,
+.timeline.hide-descriptions .linked-event {
+  display: none !important;
+}
+
+/* Connector Dot Mask */
+.left-mask,
+.right-mask {
+  display: none;
+}
+
+/* Timeline Events */
+.box a {
+  word-break: break-word;
+}
+
+.button[href="#"] {
+  display: none;
+}
+
+.contribution-notice {
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.contribution-notice .box {
+  padding: 1.8rem;
+  border-style: dashed;
+}
+
+.events-list {
+  min-height: 0;
+}
+
+.event .box,
+.event .connector,
+.event .connector-dot {
+  transition: border-color 0.6s ease, zoom 0.6s ease;
+}
+
+.event:hover .box,
+.event:hover .connector,
+.event:hover .connector-dot {
+  border-color: #666;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.15));
+}
+
+.event:hover .connector-dot {
+  zoom: 1.2;
+}
+
+.featured-connector {
+  z-index: -1;
+}
+
+.featured-connector,
+.featured-connector-dot,
+.featured-box {
+  display: none;
+}
+
+.featured-event .featured-connector,
+.featured-event .featured-connector-dot,
+.featured-event .featured-box {
+  display: block;
+}
+
+.event .box,
+.event .featured-box {
+  transition: border-color 0.15s ease, background-color 2s linear;
+}
+
+.event.highlight .box,
+.event.highlight .featured-box {
+  background-color: #ffff77;
+  transition: none;
+}
+
+.event.event-hidden {
+  opacity: 0.2;
+}
+.event.event-hidden:hover {
+  opacity: 0.9;
+}
+
+.event .event-date {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.edit-event {
+  width: 18px;
+  height: 18px;
+  margin: -1px 0 0;
+  font-size: 0;
+  text-decoration: none;
+  background: transparent url("/img/icons/edit.svg") no-repeat center center / 12px;
+  opacity: 0.4;
+  visibility: hidden;
+}
+.event:hover .event-date .edit-event {
+  visibility: visible;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .timeline {
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+  .timeline-year {
+    margin-left: -20px;
+  }
+  .sidebar {
+    display: none !important;
+  }
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(20, 32px);
+  grid-gap: 10px 0px;
+  width: auto;
+  font-size: 0.8rem;
+  background: linear-gradient(270deg, rgb(243 243 243 / 50%) 50%, rgba(0 0 0 / 0%));
+}
+
+.sidebar > a {
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar > a.current-year {
+  border: 1px solid black;
+}
+
+.sidebar > a.current-year:before {
+  content: "";
+  position: absolute;
+  right: 105%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  pointer-events: none;
+}
+
+/* MEDIA: Desktop Only - alternating events in left/right column */
+@media (min-width: 768px) {
+  body {
+    --events-offset: 115px; /* average height of normal events (mostly without desc) */
+  }
+
+  .timeline-year {
+    margin-bottom: var(--events-offset);
+  }
+
+  .events-list {
+    min-height: 50px;
+  }
+
+  .event {
+    transition: opacity 0.6s ease;
+  }
+
+  /* Connector Dot Mask */
+  .events-list .event .connector-dot {
+    display: none;
+  }
+  .events-list .event:nth-child(odd) .connector-dot.dot-right,
+  .events-list .event:nth-child(even) .connector-dot:not(.dot-right) {
+    display: block;
+  }
+  .events-list .event:nth-child(odd) .connector::after,
+  .events-list .event:nth-child(even) .connector::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    border-top: 4px solid var(--bg-color);
+    z-index: 0;
+  }
+  .events-list .event:nth-child(even) .connector::after {
+    left: 50%;
+  }
+
+  /* Reset transformations */
+  .event,
+  .event.featured-event {
+    margin: 0 0 1rem;
+    transform: translate(0, 0);
+  }
+
+  /* Events on the left column */
+  .event:nth-child(odd) {
+    transform: translate(0px, calc(var(--events-offset) * -1));
+  }
+}
+
+/* Dev */
+/* Animate events so we can see changes */
+.dev .event {
+  transition: all 1s ease;
+}

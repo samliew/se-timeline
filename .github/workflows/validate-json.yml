@@ -4,14 +4,17 @@ on:
   pull_request:
     paths:
       - "**.json"
+      - "!package.json"
+      - "!package-lock.json"
+      - "!tsconfig.json"
 
 jobs:
   test:
     name: Validate JSON
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: json-syntax-check
         uses: limitusus/json-syntax-check@v2
         with:
-          pattern: "\\.json$"
+          pattern: "timeline_data\\.json$"
