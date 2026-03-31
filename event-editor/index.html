@@ -64,9 +64,19 @@
           <div class="info">this is auto-generated if not set</div>
           <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^([a-z0-9]|-)+$">
         </div>
+        <div class="form-row">
+          <label class="w-label" for="summary">Summary</label>
+          <div class="info">a short summary, displayed in italics under the title</div>
+          <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
+        </div>
+        <div class="form-row">
+          <label class="w-label required" for="body">Body</label>
+          <div class="info">ctrl+click to open links in a new window</div>
+          <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;" required></textarea>
+        </div>
         <fieldset>
           <legend class="w-label">Type</legend>
-          <div class="info">describe the event using single words</div>
+          <div class="info">for grouping similar events, for easier browser page search</div>
           <div class="type-grid">
             <div class="form-row-inline">
               <input class="w-checkbox" type="checkbox" name="type" id="type_advertising" value="advertising">
@@ -211,16 +221,6 @@
             <input type="hidden" name="type" id="type_other" value="">
           </div>
         </fieldset>
-        <div class="form-row">
-          <label class="w-label" for="summary">Summary</label>
-          <div class="info">a short summary, displayed in italics under the title</div>
-          <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
-        </div>
-        <div class="form-row">
-          <label class="w-label required" for="body">Body</label>
-          <div class="info">ctrl+click to open links in a new window</div>
-          <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;" required></textarea>
-        </div>
         <fieldset>
           <legend class="w-label">Classes</legend>
           <div class="info">for visual styling and filtering only; use Tags for textual labelling of events</div>

@@ -166,11 +166,12 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       .map((url, i) => ({ text: linkText[i], url }))
       .filter(v => v.text && v.url); // remove empty links
 
-    // Join tags
-    const tagText = [...form.querySelectorAll('.tagText')].map(v => v.value)
-    data.tags = [...form.querySelectorAll('.tagUrl')].map(v => v.value)
-      .map((url, i) => ({ text: tagText[i], url }))
-      .filter(v => v.text && v.url); // remove empty links
+    // Join tags (comma-separated manual field, allow spaces and hyphens in tag names)
+    const tagValues = [...formData.getAll('tags')]
+      .flatMap(v => v.split(/,/))
+      .map(v => v.trim())
+      .filter(Boolean);
+    data.tags = [...new Set(tagValues)];
 
     // Remove empty fields
     Object.entries(data).forEach(([key, value]) => {
@@ -255,13 +256,25 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
           });
         }
 
-        // If tags field, update tags
+        // If tags field, update tag checkboxes and manual field
         if (key === 'tags') {
-          document.querySelectorAll('.tagText').forEach((el, i) => {
-            el.value = value[i]?.text || '';
-          });
-          document.querySelectorAll('.tagUrl').forEach((el, i) => {
-            el.value = value[i]?.url || '';
+          const manualField = document.querySelector('#tags_manual');
+          manualField.value = '';
+          const tagNames = Array.isArray(value)
+            ? value.map(v => typeof v === 'string' ? v : v.text).filter(Boolean)
+            : [];
+          const uniqueTags = [...new Set(tagNames)];
+          uniqueTags.forEach(v => {
+            const checkbox = document.querySelector(`[name="tags"][value="${CSS.escape(v)}"]`);
+            if (checkbox) {
+              checkbox.checked = true;
+            }
+            else if (manualField.value.length) {
+              manualField.value += `, ${v}`;
+            }
+            else {
+              manualField.value = v;
+            }
           });
         }
       });
