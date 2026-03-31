@@ -12,6 +12,9 @@
           "text": "discuss",
           "url": "https://meta.stackexchange.com/questions/401324/announcing-a-change-to-the-data-dump-process"
         }
+      ],
+      "classes": [
+        "featured-event"
       ]
     },
     {
@@ -258,6 +261,7 @@
       "summary": "Chief Product Officer, formerly also Chief Technology Officer",
       "body": "<blockquote>Teresa&rsquo;s last day with the company was Friday, April 21st. In the 3+ years that she was here, Teresa had a huge impact on the company and the website. In addition to the Product team, Teresa had the Community team under her purview, and for more than half of her tenure she also acted as Chief Technology Officer.<br>-- <a href=\"https://meta.stackexchange.com/q/388800\">Philippe</a></blockquote>",
       "classes": [
+        "featured-event",
         "tag-staff",
         "tag-resignation"
       ],
@@ -442,6 +446,9 @@
           "text": "commonmark",
           "url": "https://meta.stackexchange.com/questions/tagged/commonmark"
         }
+      ],
+      "classes": [
+        "featured-event"
       ]
     },
     {
@@ -1288,7 +1295,6 @@
     },
     {
       "classes": [
-        "featured-event",
         "tag-official",
         "tag-policy",
         "tag-coc"
@@ -2741,7 +2747,6 @@
     },
     {
       "classes": [
-        "featured-event",
         "tag-meta"
       ],
       "slug": "time-to-take-a-stand",
@@ -3028,7 +3033,6 @@
     },
     {
       "classes": [
-        "featured-event",
         "tag-feature",
         "tag-documentation"
       ],
@@ -3037,6 +3041,7 @@
       "date_str": "2015-08-31",
       "title": "Stack Overflow launches Documentation",
       "body": "<p><a href=\"https://meta.stackoverflow.com/q/303865\">Warlords of Documentation: A Proposed Expansion of Stack Overflow</a><br></p>",
+      "linkedEvent": "#stack-overflow-removes-documentation",
       "links": [],
       "tags": [
         {
@@ -3100,7 +3105,6 @@
     },
     {
       "classes": [
-        "featured-event",
         "tag-meta"
       ],
       "slug": "can-stack-overflow-and-metas-logos-be-changed-temporarily-to-the-loveoverflows-logo",
