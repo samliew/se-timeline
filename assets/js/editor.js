@@ -168,8 +168,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
 
     // Join tags (comma-separated manual field, allow spaces and hyphens in tag names)
     const tagValues = [...formData.getAll('tags')]
-      .flatMap(v => v.split(/,/))
-      .map(v => v.trim())
+      .flatMap(v => v.split(/\s*,\s*/))
       .filter(Boolean);
     data.tags = [...new Set(tagValues)];
 
