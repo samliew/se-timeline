@@ -232,7 +232,7 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
           otherField.value = '';
           const values = (typeof value === 'string' ? value.split(/\s+/) : Array.isArray(value) ? value : []).filter(Boolean);
           values.forEach(v => {
-            const checkbox = document.querySelector(`[name="type"][value="${v}"]`);
+            const checkbox = document.querySelector(`[name="type"][value="${CSS.escape(v)}"]`);
             if (checkbox) {
               checkbox.checked = true;
             }
