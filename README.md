@@ -1,6 +1,6 @@
 # The Stack Exchange Timeline
 
-[![Licence](https://img.shields.io/github/license/samliew/se-timeline?color=blue)](https://github.com/samliew/se-timeline/blob/main/LICENCE) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/samliew/se-timeline)](https://github.com/samliew/se-timeline/pulse)
+[![Deploy Info](https://github.com/samliew/se-timeline/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/samliew/se-timeline/actions/workflows/main.yml) [![Validate JSON](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml/badge.svg)](https://github.com/samliew/se-timeline/actions/workflows/validate-json.yml) [![Licence](https://img.shields.io/github/license/samliew/se-timeline?color=blue)](https://github.com/samliew/se-timeline/blob/main/LICENCE) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/samliew/se-timeline)](https://github.com/samliew/se-timeline/pulse)
 
 This is a static site deployed to [Vercel](https://vercel.com). Pushing to the `main` branch triggers an automatic deployment via Vercel's Git integration.
 
