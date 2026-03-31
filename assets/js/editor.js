@@ -157,6 +157,8 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       data[key] = values;
     };
     join('classes');
+    join('type');
+    data.type = data.type.join(' ');
 
     // Join links
     const linkText = [...form.querySelectorAll('.linkText')].map(v => v.value)
@@ -217,6 +219,25 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
             }
             else if (otherField.value.length) {
               otherField.value += `;${v}`;
+            }
+            else {
+              otherField.value = v;
+            }
+          });
+        }
+
+        // If type field, update checkboxes
+        if (key === 'type') {
+          const otherField = document.querySelector('#type_other');
+          otherField.value = '';
+          const values = (typeof value === 'string' ? value.split(/\s+/) : Array.isArray(value) ? value : []).filter(Boolean);
+          values.forEach(v => {
+            const checkbox = document.querySelector(`[name="type"][value="${v}"]`);
+            if (checkbox) {
+              checkbox.checked = true;
+            }
+            else if (otherField.value.length) {
+              otherField.value += ` ${v}`;
             }
             else {
               otherField.value = v;
