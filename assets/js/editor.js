@@ -157,6 +157,8 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       data[key] = values;
     };
     join('classes');
+    join('type');
+    data.type = data.type.join(' ');
 
     // Join links
     const linkText = [...form.querySelectorAll('.linkText')].map(v => v.value)
@@ -220,6 +222,25 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
             }
             else {
               otherField.value = v;
+            }
+          });
+        }
+
+        // If type field, update checkboxes and manual field
+        if (key === 'type') {
+          const manualField = document.querySelector('#type_manual');
+          manualField.value = '';
+          const values = (typeof value === 'string' ? value.split(/\s+/) : Array.isArray(value) ? value : []).filter(Boolean);
+          values.forEach(v => {
+            const checkbox = document.querySelector(`[name="type"][value="${CSS.escape(v)}"]`);
+            if (checkbox) {
+              checkbox.checked = true;
+            }
+            else if (manualField.value.length) {
+              manualField.value += `, ${v}`;
+            }
+            else {
+              manualField.value = v;
             }
           });
         }
@@ -293,6 +314,11 @@ const toSlug = str => str?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-
       if (slug !== linkedDropdown.value) {
         linkedDropdown.selectedIndex = 0;
       }
+    }
+
+    // If manual type field, remove disallowed characters
+    if (field.id === 'type_manual') {
+      field.value = field.value.replace(/[^a-z0-9, -]/gi, '').trim();
     }
 
     // If url field, and does not start with http, prepend with https://

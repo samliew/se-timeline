@@ -65,11 +65,6 @@
           <input class="w-input" type="text" name="slug" id="slug" maxlength="500" pattern="^([a-z0-9]|-)+$">
         </div>
         <div class="form-row">
-          <label class="w-label" for="type">Type</label>
-          <div class="info">describe the event using single words</div>
-          <input class="w-input" type="text" name="type" id="type" maxlength="140" placeholder="chat blog licensing moderators staff resignation company">
-        </div>
-        <div class="form-row">
           <label class="w-label" for="summary">Summary</label>
           <div class="info">a short summary, displayed in italics under the title</div>
           <input class="w-input" type="text" name="summary" id="summary" maxlength="500">
@@ -80,7 +75,158 @@
           <textarea class="w-input" type="text" name="body" id="body" rows="3" class="w-input" style="width: 100%; min-height: 150px; resize: vertical;" required></textarea>
         </div>
         <fieldset>
+          <legend class="w-label">Type</legend>
+          <div class="info">for grouping similar events, for easier browser page search</div>
+          <div class="form-row">
+            <label class="w-label" for="type_manual">Manual</label>
+            <input class="w-input" type="text" name="type" id="type_manual" placeholder="custom-type-1, custom-type-2">
+          </div>
+          <div class="type-grid">
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_advertising" value="advertising">
+              <label class="w-label" for="type_advertising">advertising</label>
+              <div class="info">advertising-related event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_april-fools" value="april-fools">
+              <label class="w-label" for="type_april-fools">april-fools</label>
+              <div class="info">April Fools' Day event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_blog" value="blog">
+              <label class="w-label" for="type_blog">blog</label>
+              <div class="info">related to a blog post</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_ceo" value="ceo">
+              <label class="w-label" for="type_ceo">ceo</label>
+              <div class="info">CEO-related event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_charity" value="charity">
+              <label class="w-label" for="type_charity">charity</label>
+              <div class="info">charity event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_community-event" value="community-event">
+              <label class="w-label" for="type_community-event">community-event</label>
+              <div class="info">community event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_company" value="company">
+              <label class="w-label" for="type_company">company</label>
+              <div class="info">company-related event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_data-dump" value="data-dump">
+              <label class="w-label" for="type_data-dump">data-dump</label>
+              <div class="info">data dump event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_design" value="design">
+              <label class="w-label" for="type_design">design</label>
+              <div class="info">design change</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_experiment" value="experiment">
+              <label class="w-label" for="type_experiment">experiment</label>
+              <div class="info">experimental feature</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_feature" value="feature">
+              <label class="w-label" for="type_feature">feature</label>
+              <div class="info">feature change or launch</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_fired" value="fired">
+              <label class="w-label" for="type_fired">fired</label>
+              <div class="info">termination event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_hired" value="hired">
+              <label class="w-label" for="type_hired">hired</label>
+              <div class="info">hiring event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_hosting" value="hosting">
+              <label class="w-label" for="type_hosting">hosting</label>
+              <div class="info">hosting-related event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_licensing" value="licensing">
+              <label class="w-label" for="type_licensing">licensing</label>
+              <div class="info">licensing change</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_meta" value="meta">
+              <label class="w-label" for="type_meta">meta</label>
+              <div class="info">Meta discussion</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_moderator" value="moderator">
+              <label class="w-label" for="type_moderator">moderator</label>
+              <div class="info">moderator-related event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_policy" value="policy">
+              <label class="w-label" for="type_policy">policy</label>
+              <div class="info">policy change</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_product" value="product">
+              <label class="w-label" for="type_product">product</label>
+              <div class="info">product update</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_reinstatement" value="reinstatement">
+              <label class="w-label" for="type_reinstatement">reinstatement</label>
+              <div class="info">reinstatement event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_reputation" value="reputation">
+              <label class="w-label" for="type_reputation">reputation</label>
+              <div class="info">reputation system change</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_resignation" value="resignation">
+              <label class="w-label" for="type_resignation">resignation</label>
+              <div class="info">resignation event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_security" value="security">
+              <label class="w-label" for="type_security">security</label>
+              <div class="info">security event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_site-graduation" value="site-graduation">
+              <label class="w-label" for="type_site-graduation">site-graduation</label>
+              <div class="info">site graduation</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_site-launch" value="site-launch">
+              <label class="w-label" for="type_site-launch">site-launch</label>
+              <div class="info">new site launch</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_staff" value="staff">
+              <label class="w-label" for="type_staff">staff</label>
+              <div class="info">staff-related event</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_statement" value="statement">
+              <label class="w-label" for="type_statement">statement</label>
+              <div class="info">official statement</div>
+            </div>
+            <div class="form-row-inline">
+              <input class="w-checkbox" type="checkbox" name="type" id="type_strike" value="strike">
+              <label class="w-label" for="type_strike">strike</label>
+              <div class="info">strike or protest</div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
           <legend class="w-label">Classes</legend>
+          <div class="info">for visual styling and filtering only; use Tags for textual labelling of events</div>
           <div class="class-grid">
             <div class="form-row-inline">
               <input class="w-checkbox" type="checkbox" name="classes" id="classes_featured-event" value="featured-event">
